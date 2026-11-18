@@ -93,3 +93,7 @@ python -X utf8 tools/check_game.py --godot 'C:/Tools/Godot/Godot_v4.3-stable_win
 ## 素材与许可记录
 
 第三方素材的作者、许可文件和具体使用范围统一保存在 [CREDITS](godot/CREDITS.md)。本仓库没有附小说全文；生成插画、第三方素材和原著设定分别记录来源。项目代码尚未指定统一开源许可证。
+
+## 联系方式
+
+联系邮箱：[3079231146@qq.com](mailto:3079231146@qq.com)。
