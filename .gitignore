@@ -1,0 +1,39 @@
+# Local history, generated checks and one-off patch scripts
+/_archive/
+/.test-runs/
+/_gen.py
+
+# Godot cache, exports and throwaway captures
+**/.godot/
+/godot/shot_*.png
+/godot/shot_*.png.import
+/godot/crop_*.png
+/godot/crop_*.png.import
+/build/
+/dist/
+/exports/
+*.pck
+*.exe
+*.tmp
+*.log
+
+# Player state and local credentials
+canon_save.json
+save.json
+test_save.sav
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+export_credentials.cfg
+
+# Editor / OS / Python output
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

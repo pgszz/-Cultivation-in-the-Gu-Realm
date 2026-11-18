@@ -1,0 +1,16 @@
+{
+  "author": "Pixel Boy and AAA",
+  "repository": "https://github.com/pixel-boy/NinjaAdventure",
+  "commit": "6ac78232d5aedcc85ce5f27d060ea92366f7c24a",
+  "pack_page": "https://pixel-boy.itch.io/ninja-adventure-asset-pack",
+  "files": [
+    "content/map/tileset_floor.png",
+    "content/map/tileset_interior_floor.png",
+    "content/map/tileset_village_abandoned.png",
+    "content/map/tileset_wall_simple.png",
+    "content/character/samurai_green/samurai_green.png",
+    "content/character/samurai_blue/sprite.png",
+    "content/destroyable/pot.png",
+    "content/destroyable/crate.png"
+  ]
+}

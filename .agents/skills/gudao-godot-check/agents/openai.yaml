@@ -1,0 +1,3 @@
+interface:
+  display_name: "蛊道 · 回归验证"
+  short_description: "隔离存档，执行蛊道 Godot 自测并判读日志、界面和性能"

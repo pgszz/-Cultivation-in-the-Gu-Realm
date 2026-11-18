@@ -1,0 +1,86 @@
+[
+  {
+    "date": "2026-11-18",
+    "original_run": "20261118-133703-bf08da",
+    "resolution": "1280x720",
+    "checks": [
+      {
+        "name": "import",
+        "passed": true
+      },
+      {
+        "name": "canontest",
+        "passed": true
+      },
+      {
+        "name": "shotcomp",
+        "passed": true
+      },
+      {
+        "name": "shotgujade",
+        "passed": true
+      },
+      {
+        "name": "shotguliquor",
+        "passed": true
+      }
+    ],
+    "log": "canontest-1280.txt"
+  },
+  {
+    "date": "2026-11-18",
+    "original_run": "20261118-133832-4da788",
+    "resolution": "960x540",
+    "checks": [
+      {
+        "name": "import",
+        "passed": true
+      },
+      {
+        "name": "canontest",
+        "passed": true
+      },
+      {
+        "name": "shotcomp",
+        "passed": true
+      },
+      {
+        "name": "shotgujade",
+        "passed": true
+      },
+      {
+        "name": "shotaperture",
+        "passed": true
+      },
+      {
+        "name": "shotbag",
+        "passed": true
+      },
+      {
+        "name": "shotrefine",
+        "passed": true
+      },
+      {
+        "name": "shotcommissions",
+        "passed": true
+      },
+      {
+        "name": "shotcamp",
+        "passed": true
+      },
+      {
+        "name": "shotnotes",
+        "passed": true
+      },
+      {
+        "name": "shotshop",
+        "passed": true
+      },
+      {
+        "name": "shotcave",
+        "passed": true
+      }
+    ],
+    "log": "canontest-960.txt"
+  }
+]

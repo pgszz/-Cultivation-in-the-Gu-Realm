@@ -1,0 +1,39 @@
+﻿; Engine configuration file.
+; 蛊道修仙 · 青茅山（Godot 4.3 迁移版）
+config_version=5
+
+[application]
+
+config/name="蛊道修仙：青茅山"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[autoload]
+
+Hunger="*res://scripts/HungerSystem.gd"
+Plants="*res://scripts/PlantSystem.gd"
+Animals="*res://scripts/AnimalSystem.gd"
+Monsters="*res://scripts/MonsterSystem.gd"
+Food="*res://scripts/FoodSystem.gd"
+Inv="*res://scripts/Inventory.gd"
+Gus="*res://scripts/GuManager.gd"
+
+[debug]
+
+gdscript/warnings/inference_on_variant=0
+gdscript/warnings/unsafe_property_access=0
+gdscript/warnings/unsafe_method_access=0
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.039, 0.059, 0.043, 1)
+textures/default_filters/use_nearest_mipmap_filter=false
