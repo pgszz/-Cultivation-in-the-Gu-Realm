@@ -56,4 +56,7 @@ python -X utf8 tools/check_game.py --godot 'C:/Tools/Godot/Godot_v4.3-stable_win
 
 第三方作者、许可与生成来源见 [CREDITS](godot/CREDITS.md)。仓库未附小说全文，项目代码尚未指定统一开源许可证。
 
-联系邮箱：[3079231146@qq.com](mailto:3079231146@qq.com)。
+## 交流与反馈
+
+- QQ 交流群：**568395119**，在 QQ 中搜索群号加入，交流玩法、反馈问题和提出建议。
+- 联系邮箱：[3079231146@qq.com](mailto:3079231146@qq.com)。
