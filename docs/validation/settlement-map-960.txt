@@ -1,0 +1,29 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=188; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+SETTLEMENT distance 古月山寨 / 白家寨 = 345.6 tiles
+SETTLEMENT distance 古月山寨 / 熊家寨 = 358.1 tiles
+SETTLEMENT distance 白家寨 / 熊家寨 = 264.8 tiles
+WORLD minimap ms=161; terrain cache limit=24
+WORLD minimap ms=165; terrain cache limit=24
+WORLD minimap ms=212; terrain cache limit=24
+WORLD minimap ms=150; terrain cache limit=24
+WORLD minimap ms=154; terrain cache limit=24
+WORLD minimap ms=154; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=156; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=151; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=151; terrain cache limit=24
+WORLD minimap ms=208; terrain cache limit=24
+WORLD minimap ms=149; terrain cache limit=24
+WORLD minimap ms=161; terrain cache limit=24
+WORLD minimap ms=160; terrain cache limit=24
+WORLD minimap ms=161; terrain cache limit=24
+MAPCONTROLS checked=111
+MAPTEST checked=166 failures=[]

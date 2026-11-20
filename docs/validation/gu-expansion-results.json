@@ -1,0 +1,154 @@
+[
+  {
+    "date": "2026-11-18",
+    "run": "20261118-150249-4821ce",
+    "resolution": "1280x720",
+    "canon_checks": 304,
+    "new_gu_checks": 45,
+    "checks": [
+      {
+        "check": "import",
+        "passed": true
+      },
+      {
+        "check": "canontest",
+        "passed": true
+      },
+      {
+        "check": "shotgulight",
+        "passed": true
+      },
+      {
+        "check": "shotguwhite",
+        "passed": true
+      },
+      {
+        "check": "shotgublack",
+        "passed": true
+      },
+      {
+        "check": "shotgushop",
+        "passed": true
+      },
+      {
+        "check": "shotgutraining",
+        "passed": true
+      },
+      {
+        "check": "shotrefine",
+        "passed": true
+      }
+    ],
+    "script_sha256": {
+      "GameData.gd": "cccd06ec4227b97b3581446a951cde999f0309476983dd7cf03526f258fcea3f",
+      "Main.gd": "5d056014a35751106e58a73e82b06b8130c3a170621176406fd48304fd07f465",
+      "Player.gd": "61baf2b217b0a8ee18e51a846fb68002b69232ca8e37437aeb7cbd5a16e298f4",
+      "BoarCultivation.gd": "7763326cd675722595abc8d7d8f24a84ec6a67eeb8c96f11f77cd14bc9fdcc84",
+      "GuArt.gd": "11adae2858d19c878a23829043c7d37c37a2db5882c0f5811a293c5bf38c266b",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "FoodSystem.gd": "c04af60092485c98d7a5ece898b2edb3ec4294da4b8022d00297203e86314e00",
+      "HungerSystem.gd": "009a28cb3540b6b552979b45a04c139d82751872050f1b611a1f6d27b4fad0cb",
+      "VillageUI.gd": "f34a046042176d8593d3545ac63247e35cbda4b171b88a8358ab27383e477535",
+      "CompendiumUI.gd": "612a2cd2099077accfe693434876dcc7dc03f51e2caaa8032990fdaf44d3efd1",
+      "CharacterUI.gd": "9673e3ac55da740cf428e33b1435476488f54806c841c4f83323b9c55d2ff45d",
+      "NewGuTests.gd": "8c6222a189b5ae9629e6a5638e08f2aabf4d6b22bbc5ac414a9d083226bc19e1",
+      "CanonTests.gd": "afc51e533f4d2d666ccf8e45458e7003af2e913f6f35f81e981217d34cdb7909"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "run": "20261118-150049-da67cd",
+    "resolution": "960x540",
+    "canon_checks": 304,
+    "new_gu_checks": 45,
+    "checks": [
+      {
+        "check": "import",
+        "passed": true
+      },
+      {
+        "check": "canontest",
+        "passed": true
+      },
+      {
+        "check": "shotgulight",
+        "passed": true
+      },
+      {
+        "check": "shotguwhite",
+        "passed": true
+      },
+      {
+        "check": "shotgublack",
+        "passed": true
+      },
+      {
+        "check": "shotgushop",
+        "passed": true
+      },
+      {
+        "check": "shotgutraining",
+        "passed": true
+      },
+      {
+        "check": "shotrefine",
+        "passed": true
+      }
+    ],
+    "script_sha256": {
+      "GameData.gd": "cccd06ec4227b97b3581446a951cde999f0309476983dd7cf03526f258fcea3f",
+      "Main.gd": "5d056014a35751106e58a73e82b06b8130c3a170621176406fd48304fd07f465",
+      "Player.gd": "61baf2b217b0a8ee18e51a846fb68002b69232ca8e37437aeb7cbd5a16e298f4",
+      "BoarCultivation.gd": "7763326cd675722595abc8d7d8f24a84ec6a67eeb8c96f11f77cd14bc9fdcc84",
+      "GuArt.gd": "11adae2858d19c878a23829043c7d37c37a2db5882c0f5811a293c5bf38c266b",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "FoodSystem.gd": "c04af60092485c98d7a5ece898b2edb3ec4294da4b8022d00297203e86314e00",
+      "HungerSystem.gd": "009a28cb3540b6b552979b45a04c139d82751872050f1b611a1f6d27b4fad0cb",
+      "VillageUI.gd": "f34a046042176d8593d3545ac63247e35cbda4b171b88a8358ab27383e477535",
+      "CompendiumUI.gd": "612a2cd2099077accfe693434876dcc7dc03f51e2caaa8032990fdaf44d3efd1",
+      "CharacterUI.gd": "9673e3ac55da740cf428e33b1435476488f54806c841c4f83323b9c55d2ff45d",
+      "NewGuTests.gd": "8c6222a189b5ae9629e6a5638e08f2aabf4d6b22bbc5ac414a9d083226bc19e1",
+      "CanonTests.gd": "afc51e533f4d2d666ccf8e45458e7003af2e913f6f35f81e981217d34cdb7909"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "run": "20261118-151741-1dc4f2",
+    "resolution": "1280x720",
+    "canon_checks": 338,
+    "new_gu_checks": 45,
+    "note": "Additional integration check after concurrent 240x180 map expansion and shop row height adjustment.",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true
+      },
+      {
+        "check": "canontest",
+        "passed": true
+      },
+      {
+        "check": "shotgushop",
+        "passed": true
+      }
+    ],
+    "script_sha256": {
+      "GameData.gd": "abef1e619896cabaf196b1e9f66da20ec7c2c2e6eb7a9158ff572d24f1d810d3",
+      "Main.gd": "5d056014a35751106e58a73e82b06b8130c3a170621176406fd48304fd07f465",
+      "Player.gd": "61baf2b217b0a8ee18e51a846fb68002b69232ca8e37437aeb7cbd5a16e298f4",
+      "BoarCultivation.gd": "7763326cd675722595abc8d7d8f24a84ec6a67eeb8c96f11f77cd14bc9fdcc84",
+      "GuArt.gd": "11adae2858d19c878a23829043c7d37c37a2db5882c0f5811a293c5bf38c266b",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "FoodSystem.gd": "c04af60092485c98d7a5ece898b2edb3ec4294da4b8022d00297203e86314e00",
+      "HungerSystem.gd": "009a28cb3540b6b552979b45a04c139d82751872050f1b611a1f6d27b4fad0cb",
+      "VillageUI.gd": "ebb7cf4c86bcce1856bfc4c76c2b9c8773c284651e7b752b9084f49564105f78",
+      "CompendiumUI.gd": "612a2cd2099077accfe693434876dcc7dc03f51e2caaa8032990fdaf44d3efd1",
+      "CharacterUI.gd": "9673e3ac55da740cf428e33b1435476488f54806c841c4f83323b9c55d2ff45d",
+      "NewGuTests.gd": "8c6222a189b5ae9629e6a5638e08f2aabf4d6b22bbc5ac414a9d083226bc19e1",
+      "CanonTests.gd": "f8b3d051978675699aa14bd2a0b523ccdd6123345a280e1f9fc42be55ccd8ae0"
+    }
+  }
+]

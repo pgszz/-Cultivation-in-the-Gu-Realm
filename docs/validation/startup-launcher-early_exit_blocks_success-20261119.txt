@@ -1,0 +1,4 @@
+Godot 4.3.stable.official.77dcf97d8
+Preparing scripts and resources...
+Import passed. Logs: G:\g\.launch-logs\20261119-025146-5d057c
+The game closed during startup. Log: G:\g\.launch-logs\20261119-025146-5d057c\game.log

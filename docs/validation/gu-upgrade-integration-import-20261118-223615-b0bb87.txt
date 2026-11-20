@@ -1,0 +1,154 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/HouseInterior.gd:-1)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/Enemy.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/WildlifeSystem.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/World.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/PopulationSystem.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/WorldPerson.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/GuEffects.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/Player.gd:-1)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/ApertureView.gd:-1)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/ApertureUI.gd:-1)
+ERROR: Failed to load script "res://scripts/ApertureUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/VillageUI.gd:-1)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/GuExpansionTests.gd:-1)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CanonTests.gd:-1)
+ERROR: Failed to load script "res://scripts/CanonTests.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CompendiumUI.gd:-1)
+ERROR: Failed to load script "res://scripts/CompendiumUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/ElementUI.gd:-1)
+ERROR: Failed to load script "res://scripts/ElementUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/RefinementUI.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/GuUpgradeTests.gd:-1)
+ERROR: Failed to load script "res://scripts/GuUpgradeTests.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/HUD.gd:-1)
+ERROR: Failed to load script "res://scripts/HUD.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/InventoryUI.gd:-1)
+ERROR: Failed to load script "res://scripts/InventoryUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/MiniMapUI.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/JournalUI.gd:-1)
+ERROR: Failed to load script "res://scripts/JournalUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/gravel_shell.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:16)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/bamboo_saw.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:17)
+SCRIPT ERROR: Parse Error: Preload file "res://assets/gu/painted/veil_leaf.png" does not exist.
+          at: GDScript::reload (res://scripts/GuArt.gd:18)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/Main.gd:-1)
+ERROR: Failed to load script "res://scripts/Main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)

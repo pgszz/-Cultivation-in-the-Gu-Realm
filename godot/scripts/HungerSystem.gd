@@ -3,7 +3,7 @@ extends Node
 
 const GAME_DAY_SECONDS := 1440.0
 const QUALITY_MULTIPLIER := {"normal":1.0}
-const FEED_DAYS := {"moon_petals":1.0,"bamboo_wine":4.0,"jade":10.0}
+const FEED_DAYS := {"moon_petals":1.0,"bamboo_wine":4.0,"jade":10.0,"pork_ration":5.0,"light_care":1.0,"copper_skin_care":1.0,"iron_skin_care":1.0,"stone_skin_care":1.0,"beast_skin_care":1.0,"brute_longhorn_care":1.0,"yellow_camel_care":1.0,"dragon_cricket_care":1.0}
 signal gu_hunger_changed(gu_id: String, hunger: float)
 signal gu_starving(gu_id: String)
 signal gu_dormant(gu_id: String, withered: bool) # 兼容接口，表示濒饿/死亡。
@@ -28,6 +28,7 @@ func register_gu(id: String, rank: int, _quality: String, preferred_food: String
 	d.rank=rank
 	d.preferred_food=preferred_food
 	d.hunger_rate=100.0/(GAME_DAY_SECONDS*float(FEED_DAYS.get(preferred_food,1.0)))
+	if preferred_food=="jade" and rank==2: d.hunger_rate=100.0/(GAME_DAY_SECONDS*20.0)
 	gu_data[id]=d
 
 func unregister_gu(id: String) -> void:

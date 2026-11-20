@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-18",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "environment": "Windows / GL Compatibility / NVIDIA GeForce GTX 1050 Ti",
+  "map_size": [
+    320,
+    240
+  ],
+  "sites": 23,
+  "camps": 6,
+  "maptest_each_resolution": 94,
+  "wildlifetest": 195,
+  "canontest": {
+    "checked": 561,
+    "passed": false,
+    "failures": [
+      "cricket rejects blocked wall leap before charging resources",
+      "save restores physical resources but not active Gu effects"
+    ]
+  },
+  "runs": [
+    {
+      "path": ".test-runs\\20261118-165520-574477",
+      "resolution": "1280x720",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "maptest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--maptest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "wildlifetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--wildlifetest"
+          ]
+        },
+        {
+          "check": "shotatlasfull",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotatlasfull"
+          ]
+        },
+        {
+          "check": "shotmapzoom",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmapzoom"
+          ]
+        },
+        {
+          "check": "shotmapguide",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmapguide"
+          ]
+        },
+        {
+          "check": "shotmaparrival",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmaparrival"
+          ]
+        },
+        {
+          "check": "shotmapexit",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmapexit"
+          ]
+        },
+        {
+          "check": "shotmapfrontier",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmapfrontier"
+          ]
+        },
+        {
+          "check": "shotworldmap",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165520-574477\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotworldmap"
+          ]
+        }
+      ],
+      "tested_source_sha256": {
+        "scripts/AtlasMap.gd": "beb08d2fc0d1b95d8985d58fb5121bf4e0d495c3dd83ca7fd181b551c1c386ac",
+        "scripts/MiniMapUI.gd": "0ca4fe639c7568389bf6b32e7abc22f2ef9c823fed21fb57b335260594d87a9f",
+        "scripts/World.gd": "9107c085e68e023fc19ef39660f89b6aa01d4265b416aa4515131c27e46c303f",
+        "scripts/Main.gd": "22e93f54e596d514d2b32b235ef01df9a80cb76b102d645415610dcbd8db25e6",
+        "scripts/HUD.gd": "7e0236ae4e7c42a268248c6945fadc0746b6fb7ca1e788d494cdf1045a51a10a",
+        "scripts/MapTests.gd": "cf058f211609be2cf369a8ae01c67c275df05c4503755294004f97dea2bb8f12",
+        "scripts/JournalUI.gd": "b6e9ce1ffcee6de23f05f8e11ea19a35203c4aa71e472e3fb269472f844d792a",
+        "scripts/WorldAtlas.gd": "98d049f51a1d45600f7a2426c9eb6fd8c018ff198058d3ed2b455d03778257fa"
+      }
+    },
+    {
+      "path": ".test-runs\\20261118-165640-5bb074",
+      "resolution": "960x540",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165640-5bb074\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "maptest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165640-5bb074\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--maptest"
+          ]
+        },
+        {
+          "check": "shotmapzoom",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165640-5bb074\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotmapzoom"
+          ]
+        },
+        {
+          "check": "shotmapguide",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165640-5bb074\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotmapguide"
+          ]
+        },
+        {
+          "check": "shotworldmap",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-165640-5bb074\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotworldmap"
+          ]
+        }
+      ],
+      "tested_source_sha256": {
+        "scripts/AtlasMap.gd": "beb08d2fc0d1b95d8985d58fb5121bf4e0d495c3dd83ca7fd181b551c1c386ac",
+        "scripts/MiniMapUI.gd": "0ca4fe639c7568389bf6b32e7abc22f2ef9c823fed21fb57b335260594d87a9f",
+        "scripts/World.gd": "9107c085e68e023fc19ef39660f89b6aa01d4265b416aa4515131c27e46c303f",
+        "scripts/Main.gd": "22e93f54e596d514d2b32b235ef01df9a80cb76b102d645415610dcbd8db25e6",
+        "scripts/HUD.gd": "7e0236ae4e7c42a268248c6945fadc0746b6fb7ca1e788d494cdf1045a51a10a",
+        "scripts/MapTests.gd": "cf058f211609be2cf369a8ae01c67c275df05c4503755294004f97dea2bb8f12",
+        "scripts/JournalUI.gd": "b6e9ce1ffcee6de23f05f8e11ea19a35203c4aa71e472e3fb269472f844d792a",
+        "scripts/WorldAtlas.gd": "98d049f51a1d45600f7a2426c9eb6fd8c018ff198058d3ed2b455d03778257fa"
+      }
+    }
+  ],
+  "workspace_source_sha256": {
+    "scripts/AtlasMap.gd": "beb08d2fc0d1b95d8985d58fb5121bf4e0d495c3dd83ca7fd181b551c1c386ac",
+    "scripts/MiniMapUI.gd": "0ca4fe639c7568389bf6b32e7abc22f2ef9c823fed21fb57b335260594d87a9f",
+    "scripts/World.gd": "9107c085e68e023fc19ef39660f89b6aa01d4265b416aa4515131c27e46c303f",
+    "scripts/Main.gd": "dd017833262e9a51a1326ffe17f4bd728943a750f9ae02edaea0faf1328ae541",
+    "scripts/HUD.gd": "7e0236ae4e7c42a268248c6945fadc0746b6fb7ca1e788d494cdf1045a51a10a",
+    "scripts/MapTests.gd": "cf058f211609be2cf369a8ae01c67c275df05c4503755294004f97dea2bb8f12",
+    "scripts/JournalUI.gd": "b6e9ce1ffcee6de23f05f8e11ea19a35203c4aa71e472e3fb269472f844d792a",
+    "scripts/WorldAtlas.gd": "98d049f51a1d45600f7a2426c9eb6fd8c018ff198058d3ed2b455d03778257fa"
+  },
+  "root_editor_import": "passed; no parse/script errors"
+}

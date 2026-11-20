@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-18",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "environment": "Windows / OpenGL 3.3 Compatibility / NVIDIA GTX 1050 Ti / driver 560.94",
+  "method": "Isolated project and user data. Engine keyboard/mouse input and native popup Window input, actual display mode/size checks, Main scene reload, rendered screenshots. No manual long-duration playtest.",
+  "snapshots": [
+    {
+      "run": "20261118-192923-68f26e",
+      "resolution": "1280x720",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-192923-68f26e\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "controltest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-192923-68f26e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--controltest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-192923-68f26e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "arttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-192923-68f26e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--arttest"
+          ]
+        }
+      ],
+      "runtime_sha256": {
+        "Main.gd": "c754589b84e87fb94a6fd593364517a57dd1ffaf075836a589ed79cde850c0cd",
+        "Player.gd": "e8ed0c61c67db970ad3cb47e0cbb3b0b68060d03b6f36df1068370a8324b82e8",
+        "ActorAnimation.gd": "c7c2eb8ba60b5e673aa6774532ceed4b9006efd08a9306895ed366d9386bcc07",
+        "World.gd": "380f03ab47ddb1e7b4d16c25f7e2a0ba9e98daee0fffa4d07d11ee2da4080d28",
+        "GameSettings.gd": "6f35a2dd352da0b5eeaf0f6986b7a7f16ea82bb6ea2c3bda12f282851ec88091",
+        "SettingsUI.gd": "735cba193c96948013afea1f5725f9226e41bfb415608d09b78d40e7134168bc",
+        "StartScreen.gd": "8137fd8b2968beec15f9d5cff335cb0b9a6e800c56ccd867c9331948f7e52399"
+      },
+      "runtime_matches_workspace": true,
+      "test_sha256": "9242fb2f899509baade899f68ae7ad7a4a0deb20242f5515c8b8227023290599"
+    },
+    {
+      "run": "20261118-193321-29d290",
+      "resolution": "960x540",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-193321-29d290\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "controltest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-193321-29d290\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--controltest"
+          ]
+        }
+      ],
+      "runtime_sha256": {
+        "Main.gd": "c754589b84e87fb94a6fd593364517a57dd1ffaf075836a589ed79cde850c0cd",
+        "Player.gd": "e8ed0c61c67db970ad3cb47e0cbb3b0b68060d03b6f36df1068370a8324b82e8",
+        "ActorAnimation.gd": "c7c2eb8ba60b5e673aa6774532ceed4b9006efd08a9306895ed366d9386bcc07",
+        "World.gd": "380f03ab47ddb1e7b4d16c25f7e2a0ba9e98daee0fffa4d07d11ee2da4080d28",
+        "GameSettings.gd": "6f35a2dd352da0b5eeaf0f6986b7a7f16ea82bb6ea2c3bda12f282851ec88091",
+        "SettingsUI.gd": "735cba193c96948013afea1f5725f9226e41bfb415608d09b78d40e7134168bc",
+        "StartScreen.gd": "8137fd8b2968beec15f9d5cff335cb0b9a6e800c56ccd867c9331948f7e52399"
+      },
+      "runtime_matches_workspace": true,
+      "test_sha256": "54b95aef1b7e6fbb2f7d0ba075c1adb28954681edc67854654c1224891b4a1d7"
+    }
+  ],
+  "initial_findings": [
+    "191758: fixed floating-point stride threshold; collision test now allows final approach before asserting a stationary blocked step.",
+    "192301 / 192512: PopupMenu requires native Window input; Viewport.push_input alone did not activate its menu item. Harness now targets InputEvent.window_id.",
+    "193145: reselecting the current 960x540 option correctly emits no item_selected signal. Harness now verifies popup closure and retained selection."
+  ],
+  "main_project_import": "Passed headless editor import after implementation."
+}

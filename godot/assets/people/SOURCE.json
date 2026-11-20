@@ -1,0 +1,83 @@
+{
+  "created": "2026-11-18",
+  "generator": "Built-in image_gen__imagegen",
+  "usage": "Original hand-painted 2D person animation atlases; game art, not official novel character depictions.",
+  "layout": {
+    "columns": 6,
+    "rows": 4,
+    "poses": [
+      "idle",
+      "walk_left",
+      "walk_right",
+      "unarmed_strike",
+      "hurt",
+      "dead"
+    ],
+    "facing": "three-quarter right; mirrored left in game"
+  },
+  "prompts": "PROMPTS.json; each record.prompt is the exact submitted prompt.",
+  "postprocessing": "None. Original generated PNG files are copied unchanged, preserving alpha.",
+  "retry_notes": "Guards succeeded on the third attempt, workers on the fourth. Earlier attempts returned no usable output or reported network/HTTP 502 errors. All retries used the same prompts and built-in tool.",
+  "assets": [
+    {
+      "file": "villagers.png",
+      "source": "C:/Users/ASD/.codex/generated_images/01a1ed54-d0c9-7c11-a50a-bdb93df6d615/exec-2b1c77b9-d2c5-4952-a540-a3f48b7fb612.png",
+      "sha256": "3a05bab949bf410905b7d3f61b2a196c8d27d069c3905e8b1fc8a2701d159b2c",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt_key": "villagers"
+    },
+    {
+      "file": "wayfarers.png",
+      "source": "C:/Users/ASD/.codex/generated_images/01a1ed54-d0c9-7c11-a50a-bdb93df6d615/exec-0f3e0607-3983-4bbc-a19a-76ce7241a8d2.png",
+      "sha256": "d6a49165fa5d485713f0da441ba6af8358215caf3a6a57a8dda1fdac79524a59",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt_key": "wayfarers"
+    },
+    {
+      "file": "guards.png",
+      "source": "C:/Users/ASD/.codex/generated_images/01a1ed54-d0c9-7c11-a50a-bdb93df6d615/exec-d365bc89-f0b3-4ffd-bbc7-b775319c7ef0.png",
+      "sha256": "96c504d43a64f3d788948fc2c91cea7516a47af865daf8aab12349b74b78db31",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt_key": "guards"
+    },
+    {
+      "file": "workers.png",
+      "source": "C:/Users/ASD/.codex/generated_images/01a1ed54-d0c9-7c11-a50a-bdb93df6d615/exec-134551cc-4d56-47e6-a5be-a62daae7ee88.png",
+      "sha256": "5d52ff48571c1239a8b536a912c31ac922aaf047370f861cc2a70e722cdf815d",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt_key": "workers"
+    }
+  ]
+}

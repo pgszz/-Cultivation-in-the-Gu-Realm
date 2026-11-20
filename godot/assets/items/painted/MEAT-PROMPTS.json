@@ -1,0 +1,86 @@
+[
+  {
+    "id": "rabbit_meat",
+    "item_id": "rabbit_meat",
+    "name": "兔肉",
+    "file": "rabbit_meat.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-51f948dc-d43e-4dfa-8570-d90329316ea1.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: One small, neatly trimmed raw rabbit hind-leg cut. Delicate light blush-pink meat in a compact teardrop shape, fine muscle grain, a very short clean ivory bone end at the tapered tip, almost no fat. The silhouette is a small slender leg, not a large ham. No fur or feet.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  },
+  {
+    "id": "deer_meat",
+    "item_id": "deer_meat",
+    "name": "鹿肉",
+    "file": "deer_meat.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-1ddfcad9-7878-42c9-a41b-fb829077f7e2.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: A long narrow boneless venison loin in rich muted ruby-red with two tidy oval slices slightly fanned in front. Very lean, fine tight grain, minimal thin silvery connective tissue. Elegant elongated silhouette, no white fat rim. Raw hunting ingredient.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  },
+  {
+    "id": "wolf_meat",
+    "item_id": "wolf_meat",
+    "name": "狼肉",
+    "file": "wolf_meat.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-c672d7f7-6744-4e95-8a32-f83340ccd67b.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: Three compact irregular boneless cuts of lean dark red wild game meat used as a wolf-meat game icon. Angular wedge shapes with visible but restrained coarse muscle fibers and a few thin pale sinew lines. Compact triangular pile, dark crimson and muted russet tones, almost no fat. Artistic species differentiation, no animal features.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  },
+  {
+    "id": "bear_meat",
+    "item_id": "bear_meat",
+    "name": "熊肉",
+    "file": "bear_meat.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-901c099e-0723-4c6b-8e41-b133bd721bfc.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: One broad thick block-like steak of wild game meat used as a bear-meat game icon. Deep burgundy-red lean muscle with a substantial creamy ivory fat band along one outer edge and restrained marbling. Heavy squared rounded silhouette and one visible cut side convey a large dense portion; clean raw ingredient, no bone.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  },
+  {
+    "id": "boar_meat",
+    "item_id": "boar_meat",
+    "name": "野猪肉",
+    "file": "boar_meat.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-7a81d2a1-3aa7-41fa-b3b1-7208f0757092.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: A single compact raw wild-boar rib chop: muted rose-red lean muscle, a narrow ivory fat cap, one short curved clean ivory rib extending beside the meat. Rustic irregular oval shape, subtly coarse fibers. Modest individual hunted portion, clearly different from a bundled full pork ration. No skin, hoof or carcass.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  },
+  {
+    "id": "pheasant_meat",
+    "item_id": "pheasant_meat",
+    "name": "雉肉",
+    "file": "pheasant_meat.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-f67176dd-8a2f-4176-9a0a-c74d1ce1795f.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: Two small raw pheasant breast fillets overlapping gently in a shallow V. Smooth slender tapered boneless forms, soft dusty pink with a warmer salmon center and thin ivory edges, delicate muscle grain. Small poultry portions, no feathers, wing, bone or skin; not chicken drumsticks.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  },
+  {
+    "id": "pork_ration",
+    "item_id": "pork_ration",
+    "name": "整猪肉",
+    "file": "pork_ration.png",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed54-d0c9-7c11-a50a-bdb93df6d615\\exec-83c59ab3-1c68-4c7c-ab6a-4d715a63a2e9.png",
+    "generator": "image_gen (built-in)",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt": "Use case: stylized-concept. Asset type: a single meat inventory item illustration for a Chinese mountain cultivation RPG. Match a polished semi-realistic hand-painted fantasy item set: sculptural painterly shading, tangible natural material detail, crisp silhouette, gentle upper-left light, subtle warm highlights. Square canvas; centered isolated subject occupying about 78% of the square with all edges safely inside, three-quarter view. TRUE transparent alpha background. Clean butchered food ingredient presentation: no blood pools, drips, gore, organs, wounds, living or dead animal body, head, skin with fur, knife, plate, scenery, floor, cast-shadow backdrop, frame, lettering, label, symbols, watermark, flames, or decorative effects. It must read clearly as RAW meat, not cooked or a gemstone. Distinct composition for one inventory item, not an icon sheet. Subject: A compact bundled supply of several large raw pork cuts representing an adult-pig meat ration in a game: one pink loin with cream fat edge, a folded layered belly cut and two substantial rose-pink chunks nestled in a simple folded unbleached tan linen wrapper with a single hemp cord around the outside. The wrapper stays low so the cuts are visible. Abundant multi-cut bundle distinct from an individual chop, no whole animal or carcass, no red liquid. The quantity is an inventory symbol, not a literal entire pig.",
+    "design_note": "肉块的色泽、部位和造型为游戏美术区分；整猪肉用多块肉的包裹示意一份供养物品，不改变实际供养数量与规则。"
+  }
+]

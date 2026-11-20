@@ -1,0 +1,91 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=202; terrain cache limit=24
+WORLD minimap ms=598; terrain cache limit=24
+WORLD minimap ms=589; terrain cache limit=24
+WORLD minimap ms=607; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=566; terrain cache limit=24
+WORLD minimap ms=641; terrain cache limit=24
+WORLD minimap ms=589; terrain cache limit=24
+WORLD minimap ms=605; terrain cache limit=24
+WORLD minimap ms=631; terrain cache limit=24
+WORLD minimap ms=582; terrain cache limit=24
+WORLD minimap ms=616; terrain cache limit=24
+WORLD minimap ms=588; terrain cache limit=24
+WORLD minimap ms=629; terrain cache limit=24
+WORLD minimap ms=593; terrain cache limit=24
+WORLD minimap ms=673; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=702; terrain cache limit=24
+WORLD minimap ms=666; terrain cache limit=24
+WORLD minimap ms=672; terrain cache limit=24
+WORLD minimap ms=889; terrain cache limit=24
+WORLD minimap ms=965; terrain cache limit=24
+NEWGUTEST checked=45 failures=0
+WORLD minimap ms=818; terrain cache limit=24
+WORLD minimap ms=599; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=603; terrain cache limit=24
+WORLD minimap ms=611; terrain cache limit=24
+GUEXPANSIONTEST checked=107 failures=0
+WORLD minimap ms=596; terrain cache limit=24
+SETTLEMENT distance 古月山寨 / 白家寨 = 345.6 tiles
+SETTLEMENT distance 古月山寨 / 熊家寨 = 358.1 tiles
+SETTLEMENT distance 白家寨 / 熊家寨 = 264.8 tiles
+WORLD minimap ms=621; terrain cache limit=24
+WORLD minimap ms=589; terrain cache limit=24
+WORLD minimap ms=595; terrain cache limit=24
+WORLD minimap ms=576; terrain cache limit=24
+WORLD minimap ms=593; terrain cache limit=24
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=616; terrain cache limit=24
+WORLD minimap ms=653; terrain cache limit=24
+WORLD minimap ms=600; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=596; terrain cache limit=24
+WORLD minimap ms=609; terrain cache limit=24
+WORLD minimap ms=591; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+WORLD minimap ms=577; terrain cache limit=24
+WORLD minimap ms=589; terrain cache limit=24
+WORLD minimap ms=611; terrain cache limit=24
+WORLD minimap ms=591; terrain cache limit=24
+WORLD minimap ms=627; terrain cache limit=24
+WORLD minimap ms=593; terrain cache limit=24
+WORLD minimap ms=595; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=612; terrain cache limit=24
+WORLD minimap ms=647; terrain cache limit=24
+WORLD minimap ms=591; terrain cache limit=24
+WORLD minimap ms=661; terrain cache limit=24
+WORLD minimap ms=664; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=633; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=585; terrain cache limit=24
+WORLD minimap ms=628; terrain cache limit=24
+WORLD minimap ms=652; terrain cache limit=24
+WORLD minimap ms=585; terrain cache limit=24
+WORLD minimap ms=586; terrain cache limit=24
+MAPCONTROLS checked=111
+WORLD minimap ms=605; terrain cache limit=24
+WORLD minimap ms=634; terrain cache limit=24
+WORLD minimap ms=597; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=637; terrain cache limit=24
+WORLD minimap ms=586; terrain cache limit=24
+WORLD minimap ms=618; terrain cache limit=24
+WORLD minimap ms=640; terrain cache limit=24
+WORLD minimap ms=610; terrain cache limit=24
+SETTLEMENTTEST checked=180
+CANONTEST checked=832 failures=[]
+WARNING: 蛊虫【月光蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【黑豕蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【石皮蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)

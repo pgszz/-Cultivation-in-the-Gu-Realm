@@ -102,7 +102,8 @@ func refresh() -> void:
 	var bleed := b.part_bleed_rate(selected_part)
 	detail.text = "[font_size=25][color=#d8bc7c]%s[/color][/font_size]  %s\n" % [part.name,b.part_status(selected_part)]
 	detail.text += "耐久  %d / %d    当前出血  %.1f / 秒\n护甲  %.1f（部位伤害减免 %.0f%%）\n\n" % [ceili(part.hp),int(part.max_hp),bleed,part.armor,part.armor*30.0]
-	detail.text += "[color=#76c2aa]部位作用与受伤后果[/color]\n%s" % b.part_description(selected_part)
+	detail.text += "\n\n[color=#76c2aa]身体改造与蛊效[/color]\n"+player.body_gu.part_description(selected_part)
+	detail.text += "\n\n[color=#76c2aa]部位作用与受伤后果[/color]\n%s" % b.part_description(selected_part)
 	advice.text = "处理建议：" + b.treatment_hint(selected_part)
 	if b.neck_timer >= 0.0:
 		detail.text += "\n[color=#df8775]颈部急救倒计时：%.1f 秒。立即止血！[/color]" % b.neck_timer

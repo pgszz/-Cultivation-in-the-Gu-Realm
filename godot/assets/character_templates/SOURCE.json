@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-18",
+  "source": "Procedural vector drawing in CharacterAppearance.sheet, rasterized by Godot 4.3. No third-party image inputs.",
+  "generator": "res://scripts/CharacterAppearance.gd",
+  "parameters": {
+    "style": 1,
+    "hair_style": 1,
+    "hem": 0.9,
+    "width": 1.1,
+    "cloth": "387e87"
+  },
+  "layout": {
+    "columns": 6,
+    "rows": 4,
+    "cell": 256,
+    "rows_order": [
+      "front",
+      "left",
+      "back",
+      "right"
+    ],
+    "columns_order": [
+      "idle",
+      "walk_left",
+      "walk_right",
+      "strike",
+      "cast",
+      "death"
+    ]
+  },
+  "files": {
+    "character.png": "c1d61fa6eae5766485360f6e228631274f9bc2c821e23e3235dfaa538296c99d",
+    "outfit.png": "604b2a1f2850b3d7da342ab1d5b032b0d4b65ffa7975ddb1ffca4e691b5f33b9"
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "date": "2026-11-18",
+  "scope": "16 new full-action NPC appearances, 20 total; assignment, live inspection, saved identity and death",
+  "environment": "Windows / Godot 4.3 stable / OpenGL 3.3 Compatibility / NVIDIA GeForce GTX 1050 Ti",
+  "isolation": "check_game.py isolated project and user data per check; no real player save accessed",
+  "initial_fixture_failure": "First appearance test tried opening inspection while paused. Production correctly refused; fixture now resumes before opening. Retests pass. Screenshot labels also separated from feet.",
+  "runs": [
+    {
+      "name": "baseline1280",
+      "directory": "G:\\g\\.test-runs\\20261118-230616-42205e",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "appearancetest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--appearancetest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--inspecttest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "populationtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--populationtest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "arttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--arttest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotpopulation"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravan"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230616-42205e\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbandits"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "assertions": {
+        "appearancetest": [
+          "APPEARANCETEST checked=412 failures=[\"inspection uses the same full-color appearance as the world actor\"]"
+        ],
+        "arttest": [
+          "ARTTEST checked=59 failures=[]"
+        ],
+        "import": [],
+        "inspecttest": [
+          "INSPECTTEST checked=114 failures=[]"
+        ],
+        "populationtest": [
+          "POPULATIONTEST checked=172 moved=29 routes=41 failures=[]"
+        ],
+        "shotbandits": [],
+        "shotcaravan": [],
+        "shotpopulation": []
+      },
+      "sha256": {
+        "project.godot": "2b0f9cc338462841e592adbd576eb77d3503081b5a747a68339e6f71fc60cfb0",
+        "scripts/NpcAppearance.gd": "ee251f53bd66e1a49893f0f0c1bc4a67840eb26baadf9b353a17428c11b15743",
+        "scripts/ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "scripts/Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+        "scripts/WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+        "scripts/NpcInspectUI.gd": "03ccc18ebb8ac5bfdd479117c4ba09513185d8f22321fecc4699be10b33b5d90",
+        "scripts/PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+        "scripts/Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "scripts/NpcAppearanceTests.gd": "d81924d52f9d256b38d16b4106ad71e7f60f613530b2dbd675c6a5c12078e11b",
+        "scripts/NpcInspectionTests.gd": "f50a5f6d253df3b417cdbfa0671a06f2980a5e658704527362ef302fc2c84e1e",
+        "scripts/PopulationTests.gd": "8013b0ca993b6a1e10d30bd50838857e267f3949aa663b83c0cf84c930a6ea51",
+        "scripts/ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "scripts/CharacterAppearance.gd": "3afd176901775a967a3dc8377c74ae42a93969bd8101d61c7752158ff5b9e151",
+        "scripts/CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "assets/people/villagers.png": "3a05bab949bf410905b7d3f61b2a196c8d27d069c3905e8b1fc8a2701d159b2c",
+        "assets/people/workers.png": "5d52ff48571c1239a8b536a912c31ac922aaf047370f861cc2a70e722cdf815d",
+        "assets/people/guards.png": "96c504d43a64f3d788948fc2c91cea7516a47af865daf8aab12349b74b78db31",
+        "assets/people/wayfarers.png": "d6a49165fa5d485713f0da441ba6af8358215caf3a6a57a8dda1fdac79524a59"
+      }
+    },
+    {
+      "name": "appearance1280",
+      "directory": "G:\\g\\.test-runs\\20261118-230932-5a89c0",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230932-5a89c0\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "appearancetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230932-5a89c0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--appearancetest"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "assertions": {
+        "appearancetest": [
+          "APPEARANCETEST checked=412 failures=[]"
+        ],
+        "import": []
+      },
+      "sha256": {
+        "project.godot": "205d766ecf500174e704b9284fe61dc1d48bdf5261d676da238ef063536bc651",
+        "scripts/NpcAppearance.gd": "ee251f53bd66e1a49893f0f0c1bc4a67840eb26baadf9b353a17428c11b15743",
+        "scripts/ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "scripts/Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+        "scripts/WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+        "scripts/NpcInspectUI.gd": "03ccc18ebb8ac5bfdd479117c4ba09513185d8f22321fecc4699be10b33b5d90",
+        "scripts/PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+        "scripts/Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "scripts/NpcAppearanceTests.gd": "c4fc178464a7204be503a46acb8fe4570051692c50d09ab089a7721dd59b90b0",
+        "scripts/NpcInspectionTests.gd": "f50a5f6d253df3b417cdbfa0671a06f2980a5e658704527362ef302fc2c84e1e",
+        "scripts/PopulationTests.gd": "8013b0ca993b6a1e10d30bd50838857e267f3949aa663b83c0cf84c930a6ea51",
+        "scripts/ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "scripts/CharacterAppearance.gd": "3afd176901775a967a3dc8377c74ae42a93969bd8101d61c7752158ff5b9e151",
+        "scripts/CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "assets/people/villagers.png": "3a05bab949bf410905b7d3f61b2a196c8d27d069c3905e8b1fc8a2701d159b2c",
+        "assets/people/workers.png": "5d52ff48571c1239a8b536a912c31ac922aaf047370f861cc2a70e722cdf815d",
+        "assets/people/guards.png": "96c504d43a64f3d788948fc2c91cea7516a47af865daf8aab12349b74b78db31",
+        "assets/people/wayfarers.png": "d6a49165fa5d485713f0da441ba6af8358215caf3a6a57a8dda1fdac79524a59"
+      }
+    },
+    {
+      "name": "small960",
+      "directory": "G:\\g\\.test-runs\\20261118-231046-57f572",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231046-57f572\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "appearancetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231046-57f572\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--appearancetest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231046-57f572\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--inspecttest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231046-57f572\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotpopulation"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231046-57f572\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotcaravan"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231046-57f572\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotbandits"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "assertions": {
+        "appearancetest": [
+          "APPEARANCETEST checked=412 failures=[]"
+        ],
+        "import": [],
+        "inspecttest": [
+          "INSPECTTEST checked=114 failures=[]"
+        ],
+        "shotbandits": [],
+        "shotcaravan": [],
+        "shotpopulation": []
+      },
+      "sha256": {
+        "project.godot": "5c0c9a73b771c48f8f8abae06ee002c91fd41a466a4499f10d197fce8c36369c",
+        "scripts/NpcAppearance.gd": "ee251f53bd66e1a49893f0f0c1bc4a67840eb26baadf9b353a17428c11b15743",
+        "scripts/ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "scripts/Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+        "scripts/WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+        "scripts/NpcInspectUI.gd": "03ccc18ebb8ac5bfdd479117c4ba09513185d8f22321fecc4699be10b33b5d90",
+        "scripts/PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+        "scripts/Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "scripts/NpcAppearanceTests.gd": "c4fc178464a7204be503a46acb8fe4570051692c50d09ab089a7721dd59b90b0",
+        "scripts/NpcInspectionTests.gd": "f50a5f6d253df3b417cdbfa0671a06f2980a5e658704527362ef302fc2c84e1e",
+        "scripts/PopulationTests.gd": "8013b0ca993b6a1e10d30bd50838857e267f3949aa663b83c0cf84c930a6ea51",
+        "scripts/ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "scripts/CharacterAppearance.gd": "3afd176901775a967a3dc8377c74ae42a93969bd8101d61c7752158ff5b9e151",
+        "scripts/CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "assets/people/villagers.png": "3a05bab949bf410905b7d3f61b2a196c8d27d069c3905e8b1fc8a2701d159b2c",
+        "assets/people/workers.png": "5d52ff48571c1239a8b536a912c31ac922aaf047370f861cc2a70e722cdf815d",
+        "assets/people/guards.png": "96c504d43a64f3d788948fc2c91cea7516a47af865daf8aab12349b74b78db31",
+        "assets/people/wayfarers.png": "d6a49165fa5d485713f0da441ba6af8358215caf3a6a57a8dda1fdac79524a59"
+      }
+    },
+    {
+      "name": "world1280_before_hud_hidden",
+      "directory": "G:\\g\\.test-runs\\20261118-231556-0acc36",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231556-0acc36\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231556-0acc36\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotpopulation"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231556-0acc36\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravan"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-231556-0acc36\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbandits"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "assertions": {
+        "import": [],
+        "shotbandits": [],
+        "shotcaravan": [],
+        "shotpopulation": []
+      },
+      "sha256": {
+        "project.godot": "4086e5e340c82a5596f30d6dac59bb6de7c58122d2e635064e783f4012bed308",
+        "scripts/NpcAppearance.gd": "ee251f53bd66e1a49893f0f0c1bc4a67840eb26baadf9b353a17428c11b15743",
+        "scripts/ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "scripts/Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+        "scripts/WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+        "scripts/NpcInspectUI.gd": "03ccc18ebb8ac5bfdd479117c4ba09513185d8f22321fecc4699be10b33b5d90",
+        "scripts/PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+        "scripts/Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "scripts/NpcAppearanceTests.gd": "c4fc178464a7204be503a46acb8fe4570051692c50d09ab089a7721dd59b90b0",
+        "scripts/NpcInspectionTests.gd": "f50a5f6d253df3b417cdbfa0671a06f2980a5e658704527362ef302fc2c84e1e",
+        "scripts/PopulationTests.gd": "d09ead1f8921aff6bc7146d673219e703b5562420ded6787590739ab87e9ca84",
+        "scripts/ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "scripts/CharacterAppearance.gd": "3afd176901775a967a3dc8377c74ae42a93969bd8101d61c7752158ff5b9e151",
+        "scripts/CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "assets/people/villagers.png": "3a05bab949bf410905b7d3f61b2a196c8d27d069c3905e8b1fc8a2701d159b2c",
+        "assets/people/workers.png": "5d52ff48571c1239a8b536a912c31ac922aaf047370f861cc2a70e722cdf815d",
+        "assets/people/guards.png": "96c504d43a64f3d788948fc2c91cea7516a47af865daf8aab12349b74b78db31",
+        "assets/people/wayfarers.png": "d6a49165fa5d485713f0da441ba6af8358215caf3a6a57a8dda1fdac79524a59"
+      }
+    },
+    {
+      "name": "world1280",
+      "directory": "G:\\g\\.test-runs\\20261118-235816-043117",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-235816-043117\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-235816-043117\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotpopulation"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-235816-043117\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravan"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-235816-043117\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbandits"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "assertions": {},
+      "sha256": {
+        "project.godot": "604b6d5a445e835fec9cd5fc4bb20cc24e67433c3080fc885fe9b69638fef436",
+        "scripts/NpcAppearance.gd": "ee251f53bd66e1a49893f0f0c1bc4a67840eb26baadf9b353a17428c11b15743",
+        "scripts/ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "scripts/Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+        "scripts/WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+        "scripts/NpcInspectUI.gd": "03ccc18ebb8ac5bfdd479117c4ba09513185d8f22321fecc4699be10b33b5d90",
+        "scripts/PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+        "scripts/Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "scripts/NpcAppearanceTests.gd": "c4fc178464a7204be503a46acb8fe4570051692c50d09ab089a7721dd59b90b0",
+        "scripts/NpcInspectionTests.gd": "f50a5f6d253df3b417cdbfa0671a06f2980a5e658704527362ef302fc2c84e1e",
+        "scripts/PopulationTests.gd": "ceb425bd60b748cf3cae1586c7f30dcdc534a467f252afce82d28adf14811f88",
+        "scripts/ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "scripts/CharacterAppearance.gd": "3afd176901775a967a3dc8377c74ae42a93969bd8101d61c7752158ff5b9e151",
+        "scripts/CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "assets/people/villagers.png": "3a05bab949bf410905b7d3f61b2a196c8d27d069c3905e8b1fc8a2701d159b2c",
+        "assets/people/workers.png": "5d52ff48571c1239a8b536a912c31ac922aaf047370f861cc2a70e722cdf815d",
+        "assets/people/guards.png": "96c504d43a64f3d788948fc2c91cea7516a47af865daf8aab12349b74b78db31",
+        "assets/people/wayfarers.png": "d6a49165fa5d485713f0da441ba6af8358215caf3a6a57a8dda1fdac79524a59"
+      }
+    }
+  ]
+}

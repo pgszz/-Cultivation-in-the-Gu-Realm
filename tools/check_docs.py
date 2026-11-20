@@ -96,7 +96,7 @@ def inspect(path: Path) -> tuple[list[str], list[tuple[int, str]], set[str]]:
     if not text.endswith("\n"):
         errors.append("missing final newline")
     if path.name == "SKILL.md":
-        header = text.split("---", 2)[1] if text.startswith("---\n") else ""
+        header = text.split("---", 2)[1] if lines and lines[0] == "---" else ""
         for key in ("name", "description"):
             if not re.search(rf"^{key}:\s*\S", header, re.M):
                 errors.append(f"skill frontmatter missing {key}")
@@ -126,7 +126,7 @@ def source_facts() -> list[str]:
         errors.append("source facts: could not locate GU_ORDER")
     else:
         for gu in re.findall(r'"([^"]+)"', order[1]):
-            if f'"{gu}":preload(' not in art:
+            if not re.search(r'"'+re.escape(gu)+r'"\s*:\s*preload\s*\(',art):
                 errors.append(f"GuArt missing formal Gu {gu}")
             if not (ROOT / f"godot/assets/gu/painted/{gu}.png").is_file():
                 errors.append(f"painted PNG missing for {gu}")

@@ -1,0 +1,4 @@
+Godot 4.3.stable.official.77dcf97d8
+Preparing scripts and resources...
+Import passed. Logs: G:\g\.launch-logs\20261119-025129-49b0ed
+Character selection ready. PID=14452 Log: G:\g\.launch-logs\20261119-025129-49b0ed\game.log

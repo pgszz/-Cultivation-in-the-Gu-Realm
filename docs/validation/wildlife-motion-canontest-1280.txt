@@ -1,0 +1,36 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD bake ms=970
+WORLD bake ms=1604
+WORLD bake ms=1472
+WORLD bake ms=987
+WORLD bake ms=964
+WORLD bake ms=980
+WORLD bake ms=967
+WORLD bake ms=972
+WORLD bake ms=969
+WORLD bake ms=965
+WORLD bake ms=973
+WORLD bake ms=957
+NEWGUTEST checked=45 failures=0
+WORLD bake ms=967
+GU LEAP BLOCK PRE pos=(12614, 1024) mouse=(12330.82, 749.3032) wall=true indoor=true house=shop
+GU LEAP BLOCK POST pos=(12556.58, 968.2981) essence=38 stamina=17 message=借蛐蛐蛊腾跃闪避；碰到障碍会停下。
+CANONTEST FAIL cricket rejects blocked wall leap before charging resources
+WORLD bake ms=971
+CANONTEST FAIL save restores physical resources but not active Gu effects
+WORLD bake ms=955
+GUEXPANSIONTEST checked=107 failures=2
+WORLD bake ms=938
+WORLD bake ms=956
+WORLD bake ms=957
+WORLD bake ms=948
+MAPCONTROLS checked=48
+CANONTEST checked=561 failures=["cricket rejects blocked wall leap before charging resources", "save restores physical resources but not active Gu effects"]
+WARNING: 蛊虫【月光蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【黑豕蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【石皮蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)

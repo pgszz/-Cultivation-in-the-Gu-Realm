@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-18",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "environment": "Windows / GL Compatibility / NVIDIA GeForce GTX 1050 Ti",
+  "map_size": [
+    480,
+    360
+  ],
+  "map_version": 5,
+  "sites": 32,
+  "camps": 9,
+  "terrain_logical_chunks": 180,
+  "terrain_cache_limit": 24,
+  "settlement_distances_tiles": {
+    "guyue_bai": 345.6,
+    "guyue_xiong": 358.1,
+    "bai_xiong": 264.8
+  },
+  "checks": {
+    "maptest_1280": 166,
+    "maptest_960": 166,
+    "wildlifetest": 195,
+    "canontest": {
+      "checked": 559,
+      "passed": false,
+      "failures": [
+        "cricket rejects blocked wall leap before charging resources",
+        "save restores physical resources but not active Gu effects"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "path": ".test-runs/20261118-173111-5768f2",
+      "resolution": "1280x720",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173111-5768f2\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "maptest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173111-5768f2\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--maptest"
+          ]
+        },
+        {
+          "check": "shotatlasfull",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173111-5768f2\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotatlasfull"
+          ]
+        },
+        {
+          "check": "shotbaivillage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173111-5768f2\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbaivillage"
+          ]
+        },
+        {
+          "check": "shotxiongvillage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173111-5768f2\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotxiongvillage"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".test-runs/20261118-173256-d82265",
+      "resolution": "1280x720",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173256-d82265\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173256-d82265\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "wildlifetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173256-d82265\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--wildlifetest"
+          ]
+        },
+        {
+          "check": "shotmapguide",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173256-d82265\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmapguide"
+          ]
+        },
+        {
+          "check": "shotmapzoom",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173256-d82265\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotmapzoom"
+          ]
+        }
+      ]
+    },
+    {
+      "path": ".test-runs/20261118-173644-509801",
+      "resolution": "960x540",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173644-509801\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "maptest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173644-509801\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--maptest"
+          ]
+        },
+        {
+          "check": "shotatlasfull",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173644-509801\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotatlasfull"
+          ]
+        },
+        {
+          "check": "shotmapzoom",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173644-509801\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotmapzoom"
+          ]
+        },
+        {
+          "check": "shotmapguide",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173644-509801\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotmapguide"
+          ]
+        },
+        {
+          "check": "shotxiongvillage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-173644-509801\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotxiongvillage"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "GameData.gd": {
+      "sha256": "13645d124016efc6880b0c37c34f75732156d3433841b6ffdadd16385d743ba3",
+      "matches_all_test_snapshots": true,
+      "matches_final_import_snapshot": true,
+      "current_sha256": "13645d124016efc6880b0c37c34f75732156d3433841b6ffdadd16385d743ba3"
+    },
+    "World.gd": {
+      "sha256": "f8cc45f1fee33093cc1af4d135002627bd55f4e913c950cc8c1cf6683998a694",
+      "matches_all_test_snapshots": true,
+      "matches_final_import_snapshot": true,
+      "current_sha256": "f8cc45f1fee33093cc1af4d135002627bd55f4e913c950cc8c1cf6683998a694"
+    },
+    "WorldLore.gd": {
+      "sha256": "688ce15d27c62c4aaa312c06759f7ca04c238d0201ebdf14c99148c9cc36a915",
+      "matches_all_test_snapshots": true,
+      "matches_final_import_snapshot": true,
+      "current_sha256": "688ce15d27c62c4aaa312c06759f7ca04c238d0201ebdf14c99148c9cc36a915"
+    },
+    "Main.gd": {
+      "sha256": "38c237393931e4a6a8f76b3abb7498efce695cb8be8e3b53755e8e241a5fb79d",
+      "matches_all_test_snapshots": false,
+      "later_shared_change": "ArtAnimationTests startup entry was added after behavioral snapshots; map functions are unchanged. Final isolated import verified the updated entry.",
+      "matches_final_import_snapshot": true,
+      "current_sha256": "38c237393931e4a6a8f76b3abb7498efce695cb8be8e3b53755e8e241a5fb79d"
+    },
+    "FogOfWar.gd": {
+      "sha256": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38",
+      "matches_all_test_snapshots": true,
+      "matches_final_import_snapshot": true,
+      "current_sha256": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+    },
+    "MapTests.gd": {
+      "sha256": "4f32f893b0f31e966f52a94f5e9c084a9b96f0cc85d8136558b5b9de43a46db4",
+      "matches_all_test_snapshots": true,
+      "matches_final_import_snapshot": true,
+      "current_sha256": "4f32f893b0f31e966f52a94f5e9c084a9b96f0cc85d8136558b5b9de43a46db4"
+    },
+    "CanonTests.gd": {
+      "sha256": "950993b6bbd9b3cc1b87a0cb7bd806332fc3a3b9efd854a2c61793568776da23",
+      "matches_all_test_snapshots": true,
+      "matches_final_import_snapshot": true,
+      "current_sha256": "950993b6bbd9b3cc1b87a0cb7bd806332fc3a3b9efd854a2c61793568776da23"
+    }
+  },
+  "limits": [
+    "Window screenshots and programmatic Viewport input; no manual long-play test.",
+    "No long-term performance conclusion.",
+    "Full canon regression retains two pre-existing GuExpansionTests failures."
+  ],
+  "final_import": {
+    "path": ".test-runs/20261118-174206-3bd7e6",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-174206-3bd7e6\\project",
+          "--headless",
+          "--import"
+        ]
+      }
+    ]
+  },
+  "docs_check": {
+    "checked_at": "2026-11-18T09:42:05+00:00",
+    "documents": 31,
+    "links": 445,
+    "external_urls": 34,
+    "errors": [],
+    "remote": []
+  }
+}

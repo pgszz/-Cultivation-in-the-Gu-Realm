@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-19",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "platform": "Windows",
+  "renderer": "OpenGL 3.3 Compatibility",
+  "gpu": "NVIDIA GeForce GTX 1050 Ti / 560.94",
+  "isolated_user_data": true,
+  "validation": "Engine GUI events and inspected rendered PNGs; no manual desktop play or performance benchmark.",
+  "final_runs": [
+    {
+      "run": "20261119-041200-f2c760",
+      "resolution": "1280",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-041200-f2c760\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "statustest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-041200-f2c760\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--statustest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "socialtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-041200-f2c760\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--socialtest"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "summaries": {
+        "statustest": [
+          "STATUSTEST checked=76 failures=[]"
+        ],
+        "socialtest": [
+          "SOCIALTEST checked=77 failures=[]"
+        ]
+      }
+    },
+    {
+      "run": "20261119-041246-834d70",
+      "resolution": "960",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-041246-834d70\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "statustest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-041246-834d70\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--statustest"
+          ],
+          "source_project": "G:\\g\\godot"
+        },
+        {
+          "check": "socialtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-041246-834d70\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--socialtest"
+          ],
+          "source_project": "G:\\g\\godot"
+        }
+      ],
+      "summaries": {
+        "statustest": [
+          "STATUSTEST checked=76 failures=[]"
+        ],
+        "socialtest": [
+          "SOCIALTEST checked=77 failures=[]"
+        ]
+      }
+    }
+  ],
+  "integration": {
+    "run": "20261119-040244-c6eeb4",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-040244-c6eeb4\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "statustest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-040244-c6eeb4\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--statustest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "controltest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-040244-c6eeb4\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--controltest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "customizetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-040244-c6eeb4\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--customizetest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "customizerestart",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-040244-c6eeb4\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--customizetest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-040244-c6eeb4\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canontest"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "note": "Followed by final status/portrait checks after labels, attribute scroll reset and complete wheel-event test fixtures were corrected."
+  },
+  "sha256": {
+    "PlayerStatus.gd": "10780acdb1be61757216efa93392a86e1c198ba9583c554ca6e912d9b8a35338",
+    "PlayerHUD.gd": "166e5753c34c5f7f0458f437ab6a003d9ee79b71f1dcefc64ca68b5e39e900a4",
+    "CharacterUI.gd": "fcde579a3cb2e5b46754196095e4cd1285b7a4b37ce538bb606490d9bf739509",
+    "HUD.gd": "32dcb55d7d5eb72b472b7cfc09f3562ebf44b20c01fcbbc66a705dff871345f0",
+    "CharacterPreview.gd": "d0078ac52efbd4f30163adb3ec4da22eecd9723b7ba41314c1cbd50ca187cc1d",
+    "PlayerStatusTests.gd": "c88ffd3577b367cafbc6ac5d00066359517509ebcffddcdc513ee298d11e0b0b",
+    "Main.gd": "e1f4aeaceeb90b00885352ccc19992d30281a54ec4d1a1a117e0a9e60d4ed69d",
+    "NpcSightUI.gd": "067a7d08718acdc6f8acb8d39fac159d8dc06bbecbb985a3e6bf8240bc226bfb",
+    "NpcSocialTests.gd": "d5519d619dbc5f9b50c2aa3347b091624af299e4a0b200cc45d1ceb6094d074d",
+    "CanonTests.gd": "5049abb87ff6a6361a5bb74f8b4bbb9d50745622b3d92daea757df691e6adffe"
+  }
+}

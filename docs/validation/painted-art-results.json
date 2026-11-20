@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-18",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "renderer": "OpenGL 3.3 Compatibility",
+  "device": "NVIDIA GeForce GTX 1050 Ti / driver 560.94 / Windows",
+  "method": "Isolated user data, real window rendering, automated inputs and fixed-time collapse presentation capture. No manual long-duration playtest.",
+  "snapshots": [
+    {
+      "run": "20261118-182444-020db6",
+      "resolution": "1280",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "arttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--arttest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotvillage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotvillage"
+          ]
+        },
+        {
+          "check": "shotinterior",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotinterior"
+          ]
+        },
+        {
+          "check": "shotworldmap",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotworldmap"
+          ]
+        },
+        {
+          "check": "shotcharacter",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcharacter"
+          ]
+        },
+        {
+          "check": "shotrepair",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotrepair"
+          ]
+        },
+        {
+          "check": "shotdamageinterior",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182444-020db6\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotdamageinterior"
+          ]
+        }
+      ],
+      "scripts_sha256": {
+        "PaintedArt.gd": "480206a84445f5594067475cb055429117f2ad010985e8db3d11e7df4f3560ae",
+        "ActorAnimation.gd": "21ae604cc01a511c4b2a9a16bda5c2b35e47de7a308d540b0b8e20033802c44d",
+        "CollapseAnimation.gd": "4a4efd96a4879b8a9e08a766140993636e4bba478d670f5d3c701a57ab6f3a07",
+        "InteriorFixtureVisual.gd": "37a6b970fb116822a82fd311756c32a82da830c8318ade3eb5c6f88ace3e11ab",
+        "ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "Player.gd": "64c8713ef4c23e9bf622fdcf57690f06b50aa2b1458f06d7a82a3d6c4008fa93",
+        "Npc.gd": "413350a9618e572e4851d705e4b7285331e1f3826afb4c7c847a3c0fa8c2df4d",
+        "WorldProp.gd": "68a44bbba44296636cde1813c0594a43efa3692ded25da82ba6f74a1feda312a",
+        "HouseInterior.gd": "59a053c0bc4cea7fad3036b0db2e4fc82a0dd2519769f41ddf7257f456d071c2",
+        "WorldAtlas.gd": "98d049f51a1d45600f7a2426c9eb6fd8c018ff198058d3ed2b455d03778257fa",
+        "AtlasMap.gd": "b16d72048551351602dcadd888979bed5b6b717e3d71e7ff6840310c6712aaac",
+        "CharacterUI.gd": "4931fc1b8e75a7cac0c20fdd19c9cdc8824a41a9bbeb5a078863ce0ecd80b5c1",
+        "DestructionSystem.gd": "6874f9ddc154060ef9312153d2d7d70e7c18a1216568fa06cfd1390b7b6af5f3",
+        "Main.gd": "242fd09b77b5d61f21b252985537c8d8730099cabc3955f931aa542d450e327f",
+        "World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a"
+      },
+      "art_sha256": {
+        "atlas.png": "43725f724fe4586cbbd3ac426ac8817d650c8add75347a86edd2c500250fda87",
+        "buildings.png": "f1950de2548d1f9cd2d062f5adcf79ebd1e1d9929d8c7f42c2a01ffc30d23d41",
+        "character.png": "c820f82c252a113eb44186b7bcc53125a25578c9b7dd648595b8fcb7c237aa1c",
+        "residents.png": "019964f3d3f7924fbf158753d8d4deb736689e6f068ef256ec4447805374dd1a",
+        "residents_clean.png": "2b8f5fb416135ed87216fdc531f8ee5a4089decaf1fd3b371e2b6b1a27fc924d",
+        "scenery.png": "f3b6c2c72f6cb9fd2b89231c528e8528649b7da00eb5f752052bc6af376c8e8f",
+        "terrain.png": "0ef5e0465a03efb1dc498f38490eb98704c9ecaef237d9dc2827692f2b44bfbe"
+      },
+      "art_assertions": "ARTTEST checked=59 failures=[]",
+      "canon_assertions": "CANONTEST checked=773 failures=[]"
+    },
+    {
+      "run": "20261118-183344-7b9e8e",
+      "resolution": "960",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "arttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--arttest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotvillage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotvillage"
+          ]
+        },
+        {
+          "check": "shotinterior",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotinterior"
+          ]
+        },
+        {
+          "check": "shotworldmap",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotworldmap"
+          ]
+        },
+        {
+          "check": "shotcharacter",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotcharacter"
+          ]
+        },
+        {
+          "check": "shotrepair",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotrepair"
+          ]
+        },
+        {
+          "check": "shotdamageinterior",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183344-7b9e8e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotdamageinterior"
+          ]
+        }
+      ],
+      "scripts_sha256": {
+        "PaintedArt.gd": "480206a84445f5594067475cb055429117f2ad010985e8db3d11e7df4f3560ae",
+        "ActorAnimation.gd": "21ae604cc01a511c4b2a9a16bda5c2b35e47de7a308d540b0b8e20033802c44d",
+        "CollapseAnimation.gd": "4a4efd96a4879b8a9e08a766140993636e4bba478d670f5d3c701a57ab6f3a07",
+        "InteriorFixtureVisual.gd": "37a6b970fb116822a82fd311756c32a82da830c8318ade3eb5c6f88ace3e11ab",
+        "ArtAnimationTests.gd": "400af4c0cf02f6e5558c732be5a36c8e103bb702e1a926cc65e648dc9d406274",
+        "Player.gd": "64c8713ef4c23e9bf622fdcf57690f06b50aa2b1458f06d7a82a3d6c4008fa93",
+        "Npc.gd": "413350a9618e572e4851d705e4b7285331e1f3826afb4c7c847a3c0fa8c2df4d",
+        "WorldProp.gd": "68a44bbba44296636cde1813c0594a43efa3692ded25da82ba6f74a1feda312a",
+        "HouseInterior.gd": "59a053c0bc4cea7fad3036b0db2e4fc82a0dd2519769f41ddf7257f456d071c2",
+        "WorldAtlas.gd": "98d049f51a1d45600f7a2426c9eb6fd8c018ff198058d3ed2b455d03778257fa",
+        "AtlasMap.gd": "b16d72048551351602dcadd888979bed5b6b717e3d71e7ff6840310c6712aaac",
+        "CharacterUI.gd": "4931fc1b8e75a7cac0c20fdd19c9cdc8824a41a9bbeb5a078863ce0ecd80b5c1",
+        "DestructionSystem.gd": "6874f9ddc154060ef9312153d2d7d70e7c18a1216568fa06cfd1390b7b6af5f3",
+        "Main.gd": "6521db2bd03ab331a020c7fdd87326ba9c6f659fed489b8d74ee876084a7007c",
+        "World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a"
+      },
+      "art_sha256": {
+        "atlas.png": "43725f724fe4586cbbd3ac426ac8817d650c8add75347a86edd2c500250fda87",
+        "buildings.png": "f1950de2548d1f9cd2d062f5adcf79ebd1e1d9929d8c7f42c2a01ffc30d23d41",
+        "character.png": "c820f82c252a113eb44186b7bcc53125a25578c9b7dd648595b8fcb7c237aa1c",
+        "residents.png": "019964f3d3f7924fbf158753d8d4deb736689e6f068ef256ec4447805374dd1a",
+        "residents_clean.png": "2b8f5fb416135ed87216fdc531f8ee5a4089decaf1fd3b371e2b6b1a27fc924d",
+        "scenery.png": "f3b6c2c72f6cb9fd2b89231c528e8528649b7da00eb5f752052bc6af376c8e8f",
+        "terrain.png": "0ef5e0465a03efb1dc498f38490eb98704c9ecaef237d9dc2827692f2b44bfbe"
+      },
+      "art_assertions": "ARTTEST checked=59 failures=[]",
+      "canon_assertions": "CANONTEST checked=777 failures=[]"
+    }
+  ]
+}

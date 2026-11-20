@@ -38,7 +38,7 @@ func _ready()->void:
 	var nav:=HBoxContainer.new()
 	nav.add_theme_constant_override("separation",8)
 	layout.add_child(nav)
-	for item in [["character","人物 / C"],["aperture","空窍 / Q"],["body","身体 / B"],["inventory","背包 / I"],["map","山志 / M"],["elements","蛊术 / V"]]:
+	for item in [["character","人物 / C"],["aperture","空窍 / Q"],["refinement","炼蛊"],["body","身体 / B"],["inventory","背包 / I"],["map","山志 / M"],["elements","蛊术 / V"]]:
 		var button:=UIStyle.button(item[1],open_page.bind(item[0]))
 		button.size_flags_horizontal=SIZE_EXPAND_FILL
 		nav.add_child(button)
@@ -60,7 +60,9 @@ func _ready()->void:
 	map.game=game
 	var elements:=ElementUI.new()
 	elements.game=game
-	pages={"aperture":aperture,"character":character,"body":body,"inventory":inventory,"map":map,"elements":elements}
+	var refinement:=RefinementUI.new()
+	refinement.game=game
+	pages={"aperture":aperture,"character":character,"body":body,"inventory":inventory,"map":map,"elements":elements,"refinement":refinement}
 	for key in pages:
 		var page:Control=pages[key]
 		page.visible=false
@@ -77,16 +79,20 @@ func _ready()->void:
 
 func _layout_panel() -> void:
 	if panel==null: return
-	var margin_x:=maxf(18,(size.x-1080)*0.5)
-	var margin_y:=maxf(18,(size.y-580)*0.5)
+	var margin_x:=maxf(18,(size.x-(1220 if active_page=="map" else 1080))*0.5)
+	var margin_y:=maxf(18,(size.y-(680 if active_page=="map" else 580))*0.5)
 	panel.offset_left=margin_x
 	panel.offset_right=-margin_x
 	panel.offset_top=margin_y
 	panel.offset_bottom=-margin_y
 
 func open_page(key:String)->void:
+	if key=="map" and game.shang_city!=null and game.shang_city.active:
+		game.shang_city.ui.open("travel")
+		return
 	if not pages.has(key): return
 	active_page=key
+	_layout_panel()
 	visible=true
 	game.paused=true
 	for name in pages:

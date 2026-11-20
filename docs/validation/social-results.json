@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-19",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "platform": "Windows / OpenGL 3.3 Compatibility / GTX 1050 Ti / 560.94",
+  "isolation": "Independent copied projects and user namespaces; no real player saves used",
+  "checks": [
+    {
+      "run": "20261119-041102-867d88",
+      "log": "social-1280-import.txt",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-041102-867d88\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-041102-867d88",
+      "log": "social-1280-socialtest.txt",
+      "check": "socialtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-041102-867d88\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--socialtest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-041228-dc95d6",
+      "log": "social-960-import.txt",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-041228-dc95d6\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-041228-dc95d6",
+      "log": "social-960-socialtest.txt",
+      "check": "socialtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-041228-dc95d6\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--socialtest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-041228-dc95d6",
+      "log": "social-960-inspecttest.txt",
+      "check": "inspecttest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-041228-dc95d6\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--inspecttest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-040851-a05e09",
+      "log": "social-inspection1280-inspecttest.txt",
+      "check": "inspecttest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-040851-a05e09\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--inspecttest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-035643-70d694",
+      "log": "social-integration-populationtest.txt",
+      "check": "populationtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035643-70d694\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--populationtest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-035643-70d694",
+      "log": "social-integration-adventuretest.txt",
+      "check": "adventuretest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035643-70d694\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--adventuretest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-035643-70d694",
+      "log": "social-integration-charactertest.txt",
+      "check": "charactertest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035643-70d694\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--charactertest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-035643-70d694",
+      "log": "social-integration-characterrestart.txt",
+      "check": "characterrestart",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035643-70d694\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--charactertest"
+      ],
+      "source_project": "G:\\g\\godot"
+    }
+  ],
+  "notes": [
+    "1280 social test included temporary input diagnostics; these were removed before the passing 960 run without changing behavior.",
+    "The integration and inspection1280 runs include an earlier failed social input fixture; only named passing checks are accepted here.",
+    "The final input fixture supplies mouse global coordinates and button masks, including wheel release; portrait overflow uses pages."
+  ],
+  "current_sha256": {
+    "Main.gd": "e1f4aeaceeb90b00885352ccc19992d30281a54ec4d1a1a117e0a9e60d4ed69d",
+    "Npc.gd": "258bd1f3975b34052831cf40b27fbb5f62e3c3413615b30c2ae8d88ea9da5c4e",
+    "WorldPerson.gd": "dcd5581ec7c92fdb3ce0afa1bc0d8b1a8557a5dafb6aad5be9321af75a6d69a0",
+    "NpcSocial.gd": "db695281fed08470bb43322aa0cbe596b294fab50af3ecc6269c0bf234cca7e9",
+    "NpcConversation.gd": "fef6b39cf88efcf9da1189be2f24dcc2919fc4d39311586a5f2e41b948ff1218",
+    "PersonExchange.gd": "d43dd3d657c044822aae315b7d0845a8e0067e5017d841811c652216777a7e5c",
+    "PopulationSystem.gd": "76634297cb04f126be2589ae73b7e6c2a5a3770ad3b60a049c3c2b65bbab015b",
+    "NpcSightCard.gd": "a995f2b8b7fd60d4961f721d137eac64ce6d5630032fd156b3211048a70258a7",
+    "NpcSightUI.gd": "067a7d08718acdc6f8acb8d39fac159d8dc06bbecbb985a3e6bf8240bc226bfb",
+    "NpcInspectUI.gd": "c31d83a3887dd2e6a062a30c0ebad404dd63cf2d9c581479d21330b019c40eb0",
+    "NpcAppearance.gd": "d2a61374c613e64e66de58cc2f5ecd1335cc14736c846e2555be45e75025c00f",
+    "VillageUI.gd": "e59c4c352087f1b7021b31eb63b7fc36f8fde182bb918c5e20ff433e23aa2a68",
+    "CharacterSaves.gd": "61ce9f0c34f3331f274b30ccd228db96f7d94912adc95591dc31f40bab414387",
+    "NpcSocialTests.gd": "d5519d619dbc5f9b50c2aa3347b091624af299e4a0b200cc45d1ceb6094d074d"
+  },
+  "differences_from_final_960": []
+}

@@ -1,0 +1,150 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/ActorAnimation.gd:-1)
+ERROR: Failed to load script "res://scripts/ActorAnimation.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/Player.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/ApertureView.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/ApertureUI.gd:-1)
+ERROR: Failed to load script "res://scripts/ApertureUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CharacterPreview.gd:-1)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/AppearanceEditor.gd:-1)
+ERROR: Failed to load script "res://scripts/AppearanceEditor.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CharacterArtStore.gd:-1)
+ERROR: Failed to load script "res://scripts/CharacterArtStore.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CharacterSaves.gd:-1)
+ERROR: Failed to load script "res://scripts/CharacterSaves.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/StartScreen.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CharacterSaveTests.gd:-1)
+ERROR: Failed to load script "res://scripts/CharacterSaveTests.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CharacterUI.gd:-1)
+ERROR: Failed to load script "res://scripts/CharacterUI.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "skin" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:134)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "hair" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:135)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "pants" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:136)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "trim" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:137)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "sash" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:138)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "flare" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/CharacterAppearance.gd:172)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/Main.gd:-1)
+ERROR: Failed to load script "res://scripts/Main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)

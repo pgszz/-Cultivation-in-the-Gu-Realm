@@ -1,0 +1,572 @@
+[
+  {
+    "resolution": "960",
+    "scope": {
+      "reason": "Shared workspace references pending unrelated Gu artwork. Only missing portrait entries omitted in validation copy; gameplay and terrain code unchanged. Full integration is separate.",
+      "omitted_preloads": [
+        "assets/gu/painted/stream_gu.png",
+        "assets/gu/painted/ember_moth.png",
+        "assets/gu/painted/frost_midge.png",
+        "assets/gu/painted/vine_spider.png",
+        "assets/gu/painted/mending_silk.png",
+        "assets/gu/painted/resin_beetle.png",
+        "assets/gu/painted/dew_moth.png",
+        "assets/gu/painted/wind_moth.png",
+        "assets/gu/painted/night_firefly.png",
+        "assets/gu/painted/echo_cicada.png",
+        "assets/gu/painted/gravel_shell.png",
+        "assets/gu/painted/bamboo_saw.png",
+        "assets/gu/painted/veil_leaf.png"
+      ],
+      "npc_visual_fallback": "Missing pending NPC sheets use existing PaintedArt.RESIDENTS in validation copy only. No terrain, collision, input or gameplay alterations."
+    },
+    "source_run": ".test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "terraintest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--terraintest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "maptest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--maptest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "controltest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--controltest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "inspecttest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--inspecttest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotblockmountain",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotblockmountain"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotunderground",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotunderground"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotdeepcave",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotdeepcave"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotlayermap",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotlayermap"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotblockimpact",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223431-84ee40\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotblockimpact"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      }
+    ],
+    "sha256": {
+      "Main.gd": "7a0405321c82e8b56dc32e84596fbee0e4d1d35dc04818a210d53ff5383b2973",
+      "World.gd": "31e376e6550a764a6062fb7695b42dd51f23a3c1cbe74b0783b53f24a5ddbbd5",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018",
+      "TerrainTests.gd": "78c7c8c6f1e8916e9e6607d93804d192fecf6970e1547595494371e72e33d1ae",
+      "FogOfWar.gd": "9394d3e29f79902b8976365f6d9f906c35b57420381f0b4704e90a5d6f15062d",
+      "AtlasMap.gd": "90181df9843a9e1cf4c38435926f3ddf82c1b3d71d2edb10f46ec4f9ba557c1b",
+      "MiniMapUI.gd": "a0b81763b0fb19caad2ee4c92db60b0cc42d853474f0acdc6a19950c8731e03e",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "DestructionSystem.gd": "b149f931a80a691f05dd8c7faf00e37ed52563b3f7229e00265d39fddfea0858",
+      "Fx.gd": "05345fdb2a38aab69fe40065586c268879dcf180911aec660ed12f22d6869826",
+      "Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+      "PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+      "WildlifeSystem.gd": "bf6e6063f0fa3b22bdffb7a222e84dad4e83c5c2917b0ef95ab89a9f1a1684b1",
+      "VillageUI.gd": "4cf03e4ba337219aa47675fb64fb2da707cc12ccd6f09c296663548edd842cb0",
+      "GameData.gd": "f40578943a8dc50bab94e0e375a7867bd7b18086fe4c59a80644d75888daa675",
+      "CanonTests.gd": "4f2a42e961bded5ccf1b52ae621655a9c1b14c4b813bbe7c5e49b00a2405701b"
+    }
+  },
+  {
+    "resolution": "1280",
+    "scope": {
+      "reason": "Shared workspace references pending unrelated Gu artwork. Only missing portrait entries omitted in validation copy; gameplay and terrain code unchanged. Full integration is separate.",
+      "omitted_preloads": [
+        "assets/gu/painted/stream_gu.png",
+        "assets/gu/painted/ember_moth.png",
+        "assets/gu/painted/frost_midge.png",
+        "assets/gu/painted/vine_spider.png",
+        "assets/gu/painted/mending_silk.png",
+        "assets/gu/painted/resin_beetle.png",
+        "assets/gu/painted/dew_moth.png",
+        "assets/gu/painted/wind_moth.png",
+        "assets/gu/painted/night_firefly.png",
+        "assets/gu/painted/echo_cicada.png",
+        "assets/gu/painted/gravel_shell.png",
+        "assets/gu/painted/bamboo_saw.png",
+        "assets/gu/painted/veil_leaf.png"
+      ],
+      "npc_visual_fallback": "Missing pending NPC sheets use existing PaintedArt.RESIDENTS in validation copy only. No terrain, collision, input or gameplay alterations."
+    },
+    "source_run": ".test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "terraintest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--terraintest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotblockmountain",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotblockmountain"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotunderground",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotunderground"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotdeepcave",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotdeepcave"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotlayermap",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotlayermap"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotblockimpact",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-223949-5ba89d\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotblockimpact"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      }
+    ],
+    "sha256": {
+      "Main.gd": "7a0405321c82e8b56dc32e84596fbee0e4d1d35dc04818a210d53ff5383b2973",
+      "World.gd": "31e376e6550a764a6062fb7695b42dd51f23a3c1cbe74b0783b53f24a5ddbbd5",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018",
+      "TerrainTests.gd": "08d7210aa04f64b85452aa7b97d1ceb63acd434610c125ff8eda5651d7ec8319",
+      "FogOfWar.gd": "9394d3e29f79902b8976365f6d9f906c35b57420381f0b4704e90a5d6f15062d",
+      "AtlasMap.gd": "90181df9843a9e1cf4c38435926f3ddf82c1b3d71d2edb10f46ec4f9ba557c1b",
+      "MiniMapUI.gd": "a0b81763b0fb19caad2ee4c92db60b0cc42d853474f0acdc6a19950c8731e03e",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "DestructionSystem.gd": "b149f931a80a691f05dd8c7faf00e37ed52563b3f7229e00265d39fddfea0858",
+      "Fx.gd": "05345fdb2a38aab69fe40065586c268879dcf180911aec660ed12f22d6869826",
+      "Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+      "PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+      "WildlifeSystem.gd": "bf6e6063f0fa3b22bdffb7a222e84dad4e83c5c2917b0ef95ab89a9f1a1684b1",
+      "VillageUI.gd": "4cf03e4ba337219aa47675fb64fb2da707cc12ccd6f09c296663548edd842cb0",
+      "GameData.gd": "f40578943a8dc50bab94e0e375a7867bd7b18086fe4c59a80644d75888daa675",
+      "CanonTests.gd": "4f2a42e961bded5ccf1b52ae621655a9c1b14c4b813bbe7c5e49b00a2405701b"
+    }
+  },
+  {
+    "kind": "map screenshot mouse moved out of atlas to avoid covering content with tooltip",
+    "source_run": ".test-runs\\terrain-validation-scope\\.test-runs\\20261118-224256-18a951",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-224256-18a951\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      },
+      {
+        "check": "shotlayermap",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\terrain-validation-scope\\.test-runs\\20261118-224256-18a951\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotlayermap"
+        ],
+        "source_project": "G:\\g\\.test-runs\\terrain-validation-scope\\godot"
+      }
+    ]
+  },
+  {
+    "kind": "integration attempt before concurrent assets/type annotations finished",
+    "source_run": ".test-runs\\20261118-224513-acc61f",
+    "checks": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-224513-acc61f\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ]
+  },
+  {
+    "kind": "integration attempt before concurrent assets/type annotations finished",
+    "source_run": ".test-runs\\20261118-225048-dd10dc",
+    "checks": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225048-dd10dc\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ]
+  },
+  {
+    "kind": "full workspace integration; no validation substitutions",
+    "source_run": ".test-runs\\20261118-225239-0a3de3",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225239-0a3de3\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "terraintest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225239-0a3de3\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--terraintest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225239-0a3de3\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canontest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "shotblockmountain",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225239-0a3de3\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotblockmountain"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "shotlayermap",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225239-0a3de3\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotlayermap"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "sha256": {
+      "Main.gd": "0eecd7d508372738c8c86c0b1518ce3147a46c6c2578e4da0bfc65a1432e6c10",
+      "World.gd": "31e376e6550a764a6062fb7695b42dd51f23a3c1cbe74b0783b53f24a5ddbbd5",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018",
+      "TerrainTests.gd": "c34b84883ba92151dd4d58edbce859052d9e71d3b8855cf4cf3143ba319c8713",
+      "FogOfWar.gd": "9394d3e29f79902b8976365f6d9f906c35b57420381f0b4704e90a5d6f15062d",
+      "AtlasMap.gd": "90181df9843a9e1cf4c38435926f3ddf82c1b3d71d2edb10f46ec4f9ba557c1b",
+      "MiniMapUI.gd": "a0b81763b0fb19caad2ee4c92db60b0cc42d853474f0acdc6a19950c8731e03e",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "DestructionSystem.gd": "b149f931a80a691f05dd8c7faf00e37ed52563b3f7229e00265d39fddfea0858",
+      "Fx.gd": "ed5f6bf4d128cec37fff0e5ce1e8e0b20c237ce92af4a8d5e2b7d09e71a7f74d",
+      "Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+      "PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+      "WildlifeSystem.gd": "4060f529e85c36b8163717ae7fbba51903e38f53f9c165f8c701d707a7c70ea2",
+      "VillageUI.gd": "4c5c99cb7bdf86760a9ce112bfe69f7ad0a924d2076298857409496c5393a196",
+      "NpcAppearance.gd": "1552b23cd71138bba41c0cb376e08ff5f69ae05e2bd954eede19aed7eff6076e"
+    }
+  },
+  {
+    "kind": "final 960 full workspace; terrain inspection hotkey and actor-vs-floor regression",
+    "source_run": ".test-runs\\20261118-225711-e48454",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225711-e48454\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "terraintest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225711-e48454\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--terraintest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "shotunderground",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225711-e48454\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotunderground"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "shotdeepcave",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225711-e48454\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotdeepcave"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "shotblockimpact",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225711-e48454\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotblockimpact"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "sha256": {
+      "Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+      "World.gd": "31e376e6550a764a6062fb7695b42dd51f23a3c1cbe74b0783b53f24a5ddbbd5",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018",
+      "TerrainTests.gd": "4ad84126b47421e82b5dca21269c56376e4546587d01080120bee768338d43e1",
+      "FogOfWar.gd": "9394d3e29f79902b8976365f6d9f906c35b57420381f0b4704e90a5d6f15062d",
+      "AtlasMap.gd": "90181df9843a9e1cf4c38435926f3ddf82c1b3d71d2edb10f46ec4f9ba557c1b",
+      "MiniMapUI.gd": "a0b81763b0fb19caad2ee4c92db60b0cc42d853474f0acdc6a19950c8731e03e",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "DestructionSystem.gd": "b149f931a80a691f05dd8c7faf00e37ed52563b3f7229e00265d39fddfea0858",
+      "Fx.gd": "ed5f6bf4d128cec37fff0e5ce1e8e0b20c237ce92af4a8d5e2b7d09e71a7f74d",
+      "Npc.gd": "e7e898aebf24a1098e30d3065b99f3782d87a672fa746a696e0d6fab5eb05597",
+      "PopulationSystem.gd": "0b78992f3f74b148f123ba5da9f5d9f25ce9a3a94b8b9f7f33150d8e9114885e",
+      "WildlifeSystem.gd": "4060f529e85c36b8163717ae7fbba51903e38f53f9c165f8c701d707a7c70ea2",
+      "VillageUI.gd": "4c5c99cb7bdf86760a9ce112bfe69f7ad0a924d2076298857409496c5393a196",
+      "NpcAppearance.gd": "1552b23cd71138bba41c0cb376e08ff5f69ae05e2bd954eede19aed7eff6076e"
+    }
+  }
+]

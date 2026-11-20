@@ -1,0 +1,23 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=197; terrain cache limit=24
+WORLD minimap ms=558; terrain cache limit=24
+CARD INPUT requested=aqing point=(458.5, 115) hovered=@Button@10477:<Button#366145977517>
+CARD RECEIVED id=aqing local=(54, 44) global=(458.5, 115) pressed=true rect=[P: (404.5, 71), S: (108, 88)]
+CARD RECEIVED id=aqing local=(54, 44) global=(458.5, 115) pressed=false rect=[P: (404.5, 71), S: (108, 88)]
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=564; terrain cache limit=24
+CARD INPUT requested=caravan_merchant point=(910.5, 115) hovered=@Button@10654:<Button#443690270724>
+CARD RECEIVED id=caravan_merchant local=(54, 44) global=(910.5, 115) pressed=true rect=[P: (856.5, 71), S: (108, 88)]
+CARD RECEIVED id=caravan_merchant local=(54, 44) global=(910.5, 115) pressed=false rect=[P: (856.5, 71), S: (108, 88)]
+WORLD minimap ms=567; terrain cache limit=24
+WORLD minimap ms=566; terrain cache limit=24
+CARD INPUT requested=caravan_merchant point=(910.5, 115) hovered=@Button@10750:<Button#481271234659>
+CARD RECEIVED id=caravan_merchant local=(54, 44) global=(910.5, 115) pressed=true rect=[P: (856.5, 71), S: (108, 88)]
+CARD RECEIVED id=caravan_merchant local=(54, 44) global=(910.5, 115) pressed=false rect=[P: (856.5, 71), S: (108, 88)]
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=194; terrain cache limit=24
+WORLD minimap ms=576; terrain cache limit=24
+SOCIALTEST checked=77 failures=[]

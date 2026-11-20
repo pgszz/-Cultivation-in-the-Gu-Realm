@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-19",
+  "cause": "Direct launch used a stale local Godot class cache missing CharacterSaves, TerrainLayers, GuProgression and other new class_name scripts.",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "environment": "Windows / OpenGL 3.3 Compatibility / NVIDIA GTX 1050 Ti / driver 560.94",
+  "source_project": "G:\\g\\godot",
+  "source_sha256": {
+    "tools/start_game.ps1": "8d14c01c93e9febed561141143f860d10ae689814aa2faf4e7cf70a8d1c104f1",
+    "start_game.cmd": "5e5b952420e53a25234c85d373b7411cb804532a3829d4c9f40e4fddfee320ad",
+    "tools/test_start_game.py": "90fb0a06e2a6269dfb10ac893029f4756b2ee7551b5c822edcfd67466fb4de93",
+    "godot/scripts/Main.gd": "1244e6d0dec003a97e607c7b6eae365fcd15cbb5a9e28eeb454aa36b21e9f86e"
+  },
+  "game_checks": [
+    {
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "check": "charactertest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--charactertest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "check": "characterrestart",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--charactertest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "check": "customizetest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--customizetest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "check": "customizerestart",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--customizetest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "check": "canontest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--canontest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "check": "shotmenu",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-024809-4c0676\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--shotmenu"
+      ],
+      "source_project": "G:\\g\\godot"
+    }
+  ],
+  "launcher_checks": [
+    {
+      "case": "clean_import",
+      "passed": true,
+      "exit_code": 0,
+      "command": [
+        "powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "G:\\g\\tools\\start_game.ps1",
+        "-GodotPath",
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "-ProjectPath",
+        "G:\\g\\.test-runs\\startup-20261119-025125-4cbd5d\\project with spaces & 山路",
+        "-PrepareOnly"
+      ]
+    },
+    {
+      "case": "new_class_after_cached_import",
+      "passed": true,
+      "exit_code": 0,
+      "command": [
+        "powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "G:\\g\\tools\\start_game.ps1",
+        "-GodotPath",
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "-ProjectPath",
+        "G:\\g\\.test-runs\\startup-20261119-025125-4cbd5d\\project with spaces & 山路"
+      ]
+    },
+    {
+      "case": "parse_error_blocks_launch",
+      "passed": true,
+      "exit_code": 1,
+      "command": [
+        "powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "G:\\g\\tools\\start_game.ps1",
+        "-GodotPath",
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "-ProjectPath",
+        "G:\\g\\.test-runs\\startup-20261119-025125-4cbd5d\\project with spaces & 山路"
+      ]
+    },
+    {
+      "case": "runtime_error_blocks_success",
+      "passed": true,
+      "exit_code": 1,
+      "command": [
+        "powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "G:\\g\\tools\\start_game.ps1",
+        "-GodotPath",
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "-ProjectPath",
+        "G:\\g\\.test-runs\\startup-20261119-025125-4cbd5d\\project with spaces & 山路"
+      ]
+    },
+    {
+      "case": "early_exit_blocks_success",
+      "passed": true,
+      "exit_code": 1,
+      "command": [
+        "powershell.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "G:\\g\\tools\\start_game.ps1",
+        "-GodotPath",
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "-ProjectPath",
+        "G:\\g\\.test-runs\\startup-20261119-025125-4cbd5d\\project with spaces & 山路"
+      ]
+    }
+  ],
+  "assertions": {
+    "canontest": 832,
+    "charactertest_first_process": 88,
+    "charactertest_after_restart_cumulative": 93,
+    "customizetest_first_process": 85,
+    "customizetest_after_restart_cumulative": 96
+  },
+  "scope": "Regression tests use isolated projects and user data. Inspected rendered startup/selection/custom-selection screenshots; desktop Computer Use unavailable; no long gameplay/performance test.",
+  "live_launch": {
+    "entry": "start_game.cmd",
+    "log": ".launch-logs/20261119-025220-1c7190/game.log",
+    "pid": 31780,
+    "ready": true,
+    "character_selected_by_agent": false
+  }
+}

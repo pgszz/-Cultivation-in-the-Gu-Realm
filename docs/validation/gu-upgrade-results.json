@@ -1,0 +1,471 @@
+[
+  {
+    "label": "1280",
+    "source_run": ".test-runs\\20261118-224439-3b58e7",
+    "scope": "Pinned pre-utility-expansion project with the three rank-two Gu and current upgrade tests. Later utility_gu references omitted only in this validation copy because its Player predates that independent system. This is not the complete live workspace.",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-224439-3b58e7\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      },
+      {
+        "check": "guupgradetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-224439-3b58e7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guupgradetest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-224439-3b58e7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canontest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      }
+    ],
+    "sha256": {
+      "GameData.gd": "bc4eda7e84aca8b887479068ec6049cddbf5c771a0b6b2f2c021518b56c654f3",
+      "GuProgression.gd": "88dce42502d1e0a5adb5686eb1f4e62f23ca79caa538ce1d2b591f6b0777eecb",
+      "GuRefinement.gd": "59233d8311ef8139016cd2f1e05d3a9e7aeadd48a366dfc87e2f0a9100172e02",
+      "RefinementUI.gd": "97a9ef7372d1d6780cd4b9af139f774e8823dbc047f72bc693fcfd38c4b6caeb",
+      "GuUpgradeTests.gd": "d9f242ec8a38ea9d432cee2454b0206e19d96ee95d193386182080fe916667a9",
+      "ApertureState.gd": "347ca4e6f84c632291a018ac1fbb4e293b058f3084136f336a3f50e0093d9aa8",
+      "Main.gd": "7c17b40479329c8fe319ee86dc222a58087609c52bc4d7bcdcea74202599f180",
+      "GuEffects.gd": "0d26fc613704886134e7516ae3a806bb60611745a40db24634dcf55e5228fcc3",
+      "GuVfx.gd": "3d7e4eb3faf6e2afc149ba3bcd6155f231eeaf952cba836769e8ec069bcec9f1",
+      "GuVfxTests.gd": "a0ab64e7f325cce3d1d92033f8debfb716ba7d1f115a028e6e5256776f290d4f",
+      "GuArt.gd": "dd019228b9edcfcb85a16d8067b5549a92b4139c325f4dd5973ad423f5613d4d",
+      "FoodSystem.gd": "0555d47495828a93d1865aae5e398853c4535a41c7e5e5e1a6f23889d82cdaed",
+      "HungerSystem.gd": "41c87550f54239923664a3c7df28aa356c3e370adef8dec82b52f32dff36cbbd",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "Player.gd": "a25e5a5d21bd183de3cc372665b3484735df84b7767399d8596ad7e773f14de9",
+      "WorldPerson.gd": "d9d7b930b11af779efdc49bab53032432ff480a6b176b8bc0aecaa977cd3ec59",
+      "CompendiumUI.gd": "619ab5d9289fbc912f8fda4e2d87831543225eecf7b20321308bad45441f69af",
+      "ApertureUI.gd": "efeb8d0565291b47308728230d756b638a1a4f322618592518d2ecc48dce59a5",
+      "InventoryUI.gd": "61fce5a41cf1329dcbd108b67a45a65eb13a18f3118e01bc3583ff7e82cd26b7",
+      "VillageUI.gd": "4cf03e4ba337219aa47675fb64fb2da707cc12ccd6f09c296663548edd842cb0",
+      "HUD.gd": "1b88f6e81ac52c99b49bf6f942e077a2771102628f51f945d07cb9fc4ddfbd90",
+      "JournalUI.gd": "12f3d490244125fe2dc0073ed4c3d61d2761ba9ba1c5ebf9b7dc3a8ff57c1228"
+    }
+  },
+  {
+    "label": "vfx-1280",
+    "source_run": ".test-runs\\20261118-223905-62a6e1",
+    "scope": "Pinned pre-utility-expansion project with the three rank-two Gu and current upgrade tests. Later utility_gu references omitted only in this validation copy because its Player predates that independent system. This is not the complete live workspace.",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-223905-62a6e1\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      },
+      {
+        "check": "guupgradetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-223905-62a6e1\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guupgradetest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      },
+      {
+        "check": "guvfxtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-223905-62a6e1\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guvfxtest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      }
+    ],
+    "sha256": {
+      "GameData.gd": "bc4eda7e84aca8b887479068ec6049cddbf5c771a0b6b2f2c021518b56c654f3",
+      "GuProgression.gd": "88dce42502d1e0a5adb5686eb1f4e62f23ca79caa538ce1d2b591f6b0777eecb",
+      "GuRefinement.gd": "59233d8311ef8139016cd2f1e05d3a9e7aeadd48a366dfc87e2f0a9100172e02",
+      "RefinementUI.gd": "97a9ef7372d1d6780cd4b9af139f774e8823dbc047f72bc693fcfd38c4b6caeb",
+      "GuUpgradeTests.gd": "875196d89e643b9a6b7fba3ac0713e7ac61bc8bd28993ff9f07c7a9f88ffc68d",
+      "ApertureState.gd": "347ca4e6f84c632291a018ac1fbb4e293b058f3084136f336a3f50e0093d9aa8",
+      "Main.gd": "7c17b40479329c8fe319ee86dc222a58087609c52bc4d7bcdcea74202599f180",
+      "GuEffects.gd": "a7879dd48525ee2faf1e1c5086c3dbf72be9a77a51f73e4c21823f883c7ab158",
+      "GuVfx.gd": "3d7e4eb3faf6e2afc149ba3bcd6155f231eeaf952cba836769e8ec069bcec9f1",
+      "GuVfxTests.gd": "a0ab64e7f325cce3d1d92033f8debfb716ba7d1f115a028e6e5256776f290d4f",
+      "GuArt.gd": "dd019228b9edcfcb85a16d8067b5549a92b4139c325f4dd5973ad423f5613d4d",
+      "FoodSystem.gd": "0555d47495828a93d1865aae5e398853c4535a41c7e5e5e1a6f23889d82cdaed",
+      "HungerSystem.gd": "41c87550f54239923664a3c7df28aa356c3e370adef8dec82b52f32dff36cbbd",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "Player.gd": "a25e5a5d21bd183de3cc372665b3484735df84b7767399d8596ad7e773f14de9",
+      "WorldPerson.gd": "d9d7b930b11af779efdc49bab53032432ff480a6b176b8bc0aecaa977cd3ec59",
+      "CompendiumUI.gd": "619ab5d9289fbc912f8fda4e2d87831543225eecf7b20321308bad45441f69af",
+      "ApertureUI.gd": "efeb8d0565291b47308728230d756b638a1a4f322618592518d2ecc48dce59a5",
+      "InventoryUI.gd": "61fce5a41cf1329dcbd108b67a45a65eb13a18f3118e01bc3583ff7e82cd26b7",
+      "VillageUI.gd": "4cf03e4ba337219aa47675fb64fb2da707cc12ccd6f09c296663548edd842cb0",
+      "HUD.gd": "1b88f6e81ac52c99b49bf6f942e077a2771102628f51f945d07cb9fc4ddfbd90",
+      "JournalUI.gd": "12f3d490244125fe2dc0073ed4c3d61d2761ba9ba1c5ebf9b7dc3a8ff57c1228"
+    }
+  },
+  {
+    "label": "full workspace import blocked by pending independent assets",
+    "source_run": ".test-runs\\20261118-222529-1f79a9",
+    "report": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-222529-1f79a9\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ]
+  },
+  {
+    "label": "full workspace import blocked by pending independent assets",
+    "source_run": ".test-runs\\20261118-223615-b0bb87",
+    "report": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-223615-b0bb87\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ]
+  },
+  {
+    "label": "960",
+    "source_run": ".test-runs\\20261118-224915-f336a7",
+    "scope": "Pinned pre-utility-expansion project with the three rank-two Gu and current upgrade tests. Later utility_gu references omitted only in this validation copy because its Player predates that independent system. This is not the complete live workspace.",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-224915-f336a7\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      },
+      {
+        "check": "guupgradetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-224915-f336a7\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--guupgradetest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-222216-ebfcb9\\project"
+      }
+    ],
+    "sha256": {
+      "GameData.gd": "bc4eda7e84aca8b887479068ec6049cddbf5c771a0b6b2f2c021518b56c654f3",
+      "GuProgression.gd": "88dce42502d1e0a5adb5686eb1f4e62f23ca79caa538ce1d2b591f6b0777eecb",
+      "GuRefinement.gd": "59233d8311ef8139016cd2f1e05d3a9e7aeadd48a366dfc87e2f0a9100172e02",
+      "RefinementUI.gd": "97a9ef7372d1d6780cd4b9af139f774e8823dbc047f72bc693fcfd38c4b6caeb",
+      "GuUpgradeTests.gd": "d9f242ec8a38ea9d432cee2454b0206e19d96ee95d193386182080fe916667a9",
+      "ApertureState.gd": "347ca4e6f84c632291a018ac1fbb4e293b058f3084136f336a3f50e0093d9aa8",
+      "Main.gd": "7c17b40479329c8fe319ee86dc222a58087609c52bc4d7bcdcea74202599f180",
+      "GuEffects.gd": "0d26fc613704886134e7516ae3a806bb60611745a40db24634dcf55e5228fcc3",
+      "GuVfx.gd": "3d7e4eb3faf6e2afc149ba3bcd6155f231eeaf952cba836769e8ec069bcec9f1",
+      "GuVfxTests.gd": "a0ab64e7f325cce3d1d92033f8debfb716ba7d1f115a028e6e5256776f290d4f",
+      "GuArt.gd": "dd019228b9edcfcb85a16d8067b5549a92b4139c325f4dd5973ad423f5613d4d",
+      "FoodSystem.gd": "0555d47495828a93d1865aae5e398853c4535a41c7e5e5e1a6f23889d82cdaed",
+      "HungerSystem.gd": "41c87550f54239923664a3c7df28aa356c3e370adef8dec82b52f32dff36cbbd",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "Player.gd": "a25e5a5d21bd183de3cc372665b3484735df84b7767399d8596ad7e773f14de9",
+      "WorldPerson.gd": "d9d7b930b11af779efdc49bab53032432ff480a6b176b8bc0aecaa977cd3ec59",
+      "CompendiumUI.gd": "619ab5d9289fbc912f8fda4e2d87831543225eecf7b20321308bad45441f69af",
+      "ApertureUI.gd": "efeb8d0565291b47308728230d756b638a1a4f322618592518d2ecc48dce59a5",
+      "InventoryUI.gd": "61fce5a41cf1329dcbd108b67a45a65eb13a18f3118e01bc3583ff7e82cd26b7",
+      "VillageUI.gd": "4cf03e4ba337219aa47675fb64fb2da707cc12ccd6f09c296663548edd842cb0",
+      "HUD.gd": "1b88f6e81ac52c99b49bf6f942e077a2771102628f51f945d07cb9fc4ddfbd90",
+      "JournalUI.gd": "12f3d490244125fe2dc0073ed4c3d61d2761ba9ba1c5ebf9b7dc3a8ff57c1228"
+    }
+  },
+  {
+    "label": "integration-1280",
+    "source_run": ".test-runs\\20261118-225340-aa1603",
+    "scope": "Complete shared workspace snapshot including all 29 Gu portraits, terrain layers and version 8 characters. All import, upgrade, VFX and canon checks passed; before the persistent ward redraw fix.",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225340-aa1603\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "guupgradetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225340-aa1603\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guupgradetest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "guvfxtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225340-aa1603\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guvfxtest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225340-aa1603\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canontest"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "sha256": {
+      "GameData.gd": "da2df500f549236cd9279e11044bd25e5e15b1ddbecbf43b57ef51011290d9c2",
+      "GuProgression.gd": "88dce42502d1e0a5adb5686eb1f4e62f23ca79caa538ce1d2b591f6b0777eecb",
+      "GuRefinement.gd": "59233d8311ef8139016cd2f1e05d3a9e7aeadd48a366dfc87e2f0a9100172e02",
+      "RefinementUI.gd": "97a9ef7372d1d6780cd4b9af139f774e8823dbc047f72bc693fcfd38c4b6caeb",
+      "GuUpgradeTests.gd": "9435a1122ec0ddf7b71d82a8cab13ddbd320f9b148fffe8e1eb5d4cafa241098",
+      "ApertureState.gd": "347ca4e6f84c632291a018ac1fbb4e293b058f3084136f336a3f50e0093d9aa8",
+      "Main.gd": "0eecd7d508372738c8c86c0b1518ce3147a46c6c2578e4da0bfc65a1432e6c10",
+      "GuEffects.gd": "eaa6e57618299f972ad9514d458058f0edc27276417b9bb4c52846ecd93fd793",
+      "GuVfx.gd": "3d7e4eb3faf6e2afc149ba3bcd6155f231eeaf952cba836769e8ec069bcec9f1",
+      "GuVfxTests.gd": "a0ab64e7f325cce3d1d92033f8debfb716ba7d1f115a028e6e5256776f290d4f",
+      "GuArt.gd": "72c7a57ad4d88a58848197d2da483c84a7a54ec880005970616d583c5d0ee574",
+      "FoodSystem.gd": "955ef663b334d8567cb36b5a1a6243909d19338209d9019432208af05772c69b",
+      "HungerSystem.gd": "41c87550f54239923664a3c7df28aa356c3e370adef8dec82b52f32dff36cbbd",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "Player.gd": "51d5390142ac038092d961f9323889c742a97e520bb85d94035ff978cdd57fed",
+      "WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+      "CompendiumUI.gd": "af76870b81866901fbabe1de5bc9da6f09ba279597570af533f956abed2f9d42",
+      "ApertureUI.gd": "efeb8d0565291b47308728230d756b638a1a4f322618592518d2ecc48dce59a5",
+      "InventoryUI.gd": "61fce5a41cf1329dcbd108b67a45a65eb13a18f3118e01bc3583ff7e82cd26b7",
+      "VillageUI.gd": "4c5c99cb7bdf86760a9ce112bfe69f7ad0a924d2076298857409496c5393a196",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "JournalUI.gd": "12f3d490244125fe2dc0073ed4c3d61d2761ba9ba1c5ebf9b7dc3a8ff57c1228",
+      "Fx.gd": "ed5f6bf4d128cec37fff0e5ce1e8e0b20c237ce92af4a8d5e2b7d09e71a7f74d",
+      "UtilityGuEffects.gd": "9d9fc18e2bef5b6d62f14eefac37f9854bf956bb56a98dda368b1427ec868d0c",
+      "CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+      "CharacterAppearance.gd": "5d46f8d9b4c905909f341d6df01e194aeb21ea00ac9b66df1d4ced29e0559618",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018"
+    }
+  },
+  {
+    "label": "final-1280",
+    "source_run": ".test-runs\\20261118-225915-5f31ac",
+    "scope": "Complete shared workspace snapshot including all 29 Gu portraits, plus persistent allied ward redraw fix and regression check. Import, 70 upgrade checks and 135 VFX checks passed.",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225915-5f31ac\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "guupgradetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225915-5f31ac\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guupgradetest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "guvfxtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-225915-5f31ac\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--guvfxtest"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "sha256": {
+      "GameData.gd": "da2df500f549236cd9279e11044bd25e5e15b1ddbecbf43b57ef51011290d9c2",
+      "GuProgression.gd": "88dce42502d1e0a5adb5686eb1f4e62f23ca79caa538ce1d2b591f6b0777eecb",
+      "GuRefinement.gd": "59233d8311ef8139016cd2f1e05d3a9e7aeadd48a366dfc87e2f0a9100172e02",
+      "RefinementUI.gd": "97a9ef7372d1d6780cd4b9af139f774e8823dbc047f72bc693fcfd38c4b6caeb",
+      "GuUpgradeTests.gd": "de332517797b8b45b22f8b6c8d98ec5cec7da072d3f4c36d99a9436ce538971b",
+      "ApertureState.gd": "347ca4e6f84c632291a018ac1fbb4e293b058f3084136f336a3f50e0093d9aa8",
+      "Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+      "GuEffects.gd": "eaa6e57618299f972ad9514d458058f0edc27276417b9bb4c52846ecd93fd793",
+      "GuVfx.gd": "3d7e4eb3faf6e2afc149ba3bcd6155f231eeaf952cba836769e8ec069bcec9f1",
+      "GuVfxTests.gd": "a0ab64e7f325cce3d1d92033f8debfb716ba7d1f115a028e6e5256776f290d4f",
+      "GuArt.gd": "72c7a57ad4d88a58848197d2da483c84a7a54ec880005970616d583c5d0ee574",
+      "FoodSystem.gd": "955ef663b334d8567cb36b5a1a6243909d19338209d9019432208af05772c69b",
+      "HungerSystem.gd": "41c87550f54239923664a3c7df28aa356c3e370adef8dec82b52f32dff36cbbd",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "Player.gd": "51d5390142ac038092d961f9323889c742a97e520bb85d94035ff978cdd57fed",
+      "WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+      "CompendiumUI.gd": "af76870b81866901fbabe1de5bc9da6f09ba279597570af533f956abed2f9d42",
+      "ApertureUI.gd": "efeb8d0565291b47308728230d756b638a1a4f322618592518d2ecc48dce59a5",
+      "InventoryUI.gd": "61fce5a41cf1329dcbd108b67a45a65eb13a18f3118e01bc3583ff7e82cd26b7",
+      "VillageUI.gd": "4c5c99cb7bdf86760a9ce112bfe69f7ad0a924d2076298857409496c5393a196",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "JournalUI.gd": "12f3d490244125fe2dc0073ed4c3d61d2761ba9ba1c5ebf9b7dc3a8ff57c1228",
+      "Fx.gd": "1fd6c9f2ef9183472054d3084f9d62ab98d66f77cde4c692cbb9a22deca828f8",
+      "UtilityGuEffects.gd": "9d9fc18e2bef5b6d62f14eefac37f9854bf956bb56a98dda368b1427ec868d0c",
+      "CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+      "CharacterAppearance.gd": "c1132df59d96e14e973ac49bb98ca9a019b32c4a2ac7f6d4d7338cbd05661772",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018"
+    }
+  },
+  {
+    "label": "final-960",
+    "source_run": ".test-runs\\20261118-230032-8fdef6",
+    "scope": "Unmodified copy of complete workspace snapshot 20261118-225915-5f31ac/project, tested at 960x540. Import and 70 upgrade checks passed. No resource substitutions.",
+    "report": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-230032-8fdef6\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-225915-5f31ac\\project"
+      },
+      {
+        "check": "guupgradetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-230032-8fdef6\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--guupgradetest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261118-225915-5f31ac\\project"
+      }
+    ],
+    "sha256": {
+      "GameData.gd": "da2df500f549236cd9279e11044bd25e5e15b1ddbecbf43b57ef51011290d9c2",
+      "GuProgression.gd": "88dce42502d1e0a5adb5686eb1f4e62f23ca79caa538ce1d2b591f6b0777eecb",
+      "GuRefinement.gd": "59233d8311ef8139016cd2f1e05d3a9e7aeadd48a366dfc87e2f0a9100172e02",
+      "RefinementUI.gd": "97a9ef7372d1d6780cd4b9af139f774e8823dbc047f72bc693fcfd38c4b6caeb",
+      "GuUpgradeTests.gd": "de332517797b8b45b22f8b6c8d98ec5cec7da072d3f4c36d99a9436ce538971b",
+      "ApertureState.gd": "347ca4e6f84c632291a018ac1fbb4e293b058f3084136f336a3f50e0093d9aa8",
+      "Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+      "GuEffects.gd": "eaa6e57618299f972ad9514d458058f0edc27276417b9bb4c52846ecd93fd793",
+      "GuVfx.gd": "3d7e4eb3faf6e2afc149ba3bcd6155f231eeaf952cba836769e8ec069bcec9f1",
+      "GuVfxTests.gd": "a0ab64e7f325cce3d1d92033f8debfb716ba7d1f115a028e6e5256776f290d4f",
+      "GuArt.gd": "72c7a57ad4d88a58848197d2da483c84a7a54ec880005970616d583c5d0ee574",
+      "FoodSystem.gd": "955ef663b334d8567cb36b5a1a6243909d19338209d9019432208af05772c69b",
+      "HungerSystem.gd": "41c87550f54239923664a3c7df28aa356c3e370adef8dec82b52f32dff36cbbd",
+      "GuVirtual.gd": "ce0edf51d16e2b6c5c0843d00c4c77ae9697672b00f0c81cf955e5cc2ff5e4da",
+      "GuManager.gd": "aad76cbcab34a098212c583a60f5c8eb4bc742c80672386a015a3612ed37f29b",
+      "Player.gd": "51d5390142ac038092d961f9323889c742a97e520bb85d94035ff978cdd57fed",
+      "WorldPerson.gd": "58a3c5258b0bdcb51c15f3bc045748657625e125cb216efd2850dbb8ad0fd1d6",
+      "CompendiumUI.gd": "af76870b81866901fbabe1de5bc9da6f09ba279597570af533f956abed2f9d42",
+      "ApertureUI.gd": "efeb8d0565291b47308728230d756b638a1a4f322618592518d2ecc48dce59a5",
+      "InventoryUI.gd": "61fce5a41cf1329dcbd108b67a45a65eb13a18f3118e01bc3583ff7e82cd26b7",
+      "VillageUI.gd": "4c5c99cb7bdf86760a9ce112bfe69f7ad0a924d2076298857409496c5393a196",
+      "HUD.gd": "15c921fe4f54b06e6224d7bf58115f298a0dec959b6c6c93a9aa150dbd1ab6b7",
+      "JournalUI.gd": "12f3d490244125fe2dc0073ed4c3d61d2761ba9ba1c5ebf9b7dc3a8ff57c1228",
+      "Fx.gd": "1fd6c9f2ef9183472054d3084f9d62ab98d66f77cde4c692cbb9a22deca828f8",
+      "UtilityGuEffects.gd": "9d9fc18e2bef5b6d62f14eefac37f9854bf956bb56a98dda368b1427ec868d0c",
+      "CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+      "CharacterAppearance.gd": "c1132df59d96e14e973ac49bb98ca9a019b32c4a2ac7f6d4d7338cbd05661772",
+      "TerrainLayers.gd": "5425f81b3fb26c3ffa7ba465caef60ce1600ce60fa62100773e080c630ee6018"
+    }
+  }
+]

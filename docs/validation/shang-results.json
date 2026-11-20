@@ -1,0 +1,349 @@
+{
+  "date": "2026-11-19",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "environment": "Windows, GL Compatibility / OpenGL 3.3, NVIDIA GTX 1050 Ti, driver 560.94",
+  "primary_snapshot": "20261119-174120-e3ae99",
+  "small_window_snapshot": "20261119-174445-bca056",
+  "notes": [
+    "Both final resolutions use the same source snapshot with isolated user data; windows are driven by actual viewport input events.",
+    "Not a manual long-duration playthrough or performance benchmark.",
+    "162625 shangtest timed out after collapse capture. Later full runs completed without reproducing the timeout; no unverified root cause is claimed.",
+    "155943 canontest had the undiscovered default Gu illustration failure; 162625 canontest passed 1311 checks after the fix.",
+    "172919 maptest expected the retired universal grass texture; the fixture now checks the local substrate after real off-screen destruction. Final maptest passed.",
+    "Terrain 128 checks were run before the last visual soil-opacity adjustment; they were not repeated as terrain mechanics did not change.",
+    "All 24 collapse frames come from the running game and are exported as an animated GIF. Menus pause, so the fixture advances collapse time explicitly."
+  ],
+  "checks": [
+    {
+      "run": "20261119-174120-e3ae99",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-174120-e3ae99\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-174120-e3ae99-import.txt"
+    },
+    {
+      "run": "20261119-174120-e3ae99",
+      "check": "shangtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-174120-e3ae99\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--shangtest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-174120-e3ae99-shangtest.txt"
+    },
+    {
+      "run": "20261119-174120-e3ae99",
+      "check": "maptest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-174120-e3ae99\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--maptest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-174120-e3ae99-maptest.txt"
+    },
+    {
+      "run": "20261119-174445-bca056",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-174445-bca056\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\.test-runs\\20261119-174120-e3ae99\\project",
+      "log": "shang-20261119-174445-bca056-import.txt"
+    },
+    {
+      "run": "20261119-174445-bca056",
+      "check": "shangtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-174445-bca056\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--shangtest"
+      ],
+      "source_project": "G:\\g\\.test-runs\\20261119-174120-e3ae99\\project",
+      "log": "shang-20261119-174445-bca056-shangtest.txt"
+    },
+    {
+      "run": "20261119-174445-bca056",
+      "check": "statustest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-174445-bca056\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--statustest"
+      ],
+      "source_project": "G:\\g\\.test-runs\\20261119-174120-e3ae99\\project",
+      "log": "shang-20261119-174445-bca056-statustest.txt"
+    },
+    {
+      "run": "20261119-172919-ff2366",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-172919-ff2366\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-172919-ff2366-import.txt"
+    },
+    {
+      "run": "20261119-172919-ff2366",
+      "check": "shangtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-172919-ff2366\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--shangtest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-172919-ff2366-shangtest.txt"
+    },
+    {
+      "run": "20261119-172919-ff2366",
+      "check": "terraintest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-172919-ff2366\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--terraintest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-172919-ff2366-terraintest.txt"
+    },
+    {
+      "run": "20261119-172919-ff2366",
+      "check": "maptest",
+      "passed": false,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-172919-ff2366\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--maptest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-172919-ff2366-maptest.txt"
+    },
+    {
+      "run": "20261119-171021-647abd",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-171021-647abd\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-171021-647abd-import.txt"
+    },
+    {
+      "run": "20261119-171021-647abd",
+      "check": "shangtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-171021-647abd\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--shangtest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-171021-647abd-shangtest.txt"
+    },
+    {
+      "run": "20261119-162625-9f5c51",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-162625-9f5c51\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-162625-9f5c51-import.txt"
+    },
+    {
+      "run": "20261119-162625-9f5c51",
+      "check": "shangtest",
+      "passed": false,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-162625-9f5c51\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--shangtest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-162625-9f5c51-shangtest.txt"
+    },
+    {
+      "run": "20261119-162625-9f5c51",
+      "check": "canontest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-162625-9f5c51\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--canontest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-162625-9f5c51-canontest.txt"
+    },
+    {
+      "run": "20261119-155943-aae68c",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-155943-aae68c\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-155943-aae68c-import.txt"
+    },
+    {
+      "run": "20261119-155943-aae68c",
+      "check": "shangtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-155943-aae68c\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--shangtest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-155943-aae68c-shangtest.txt"
+    },
+    {
+      "run": "20261119-155943-aae68c",
+      "check": "maptest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-155943-aae68c\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--maptest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-155943-aae68c-maptest.txt"
+    },
+    {
+      "run": "20261119-155943-aae68c",
+      "check": "statustest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-155943-aae68c\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--statustest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-155943-aae68c-statustest.txt"
+    },
+    {
+      "run": "20261119-155943-aae68c",
+      "check": "canontest",
+      "passed": false,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-155943-aae68c\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--canontest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "shang-20261119-155943-aae68c-canontest.txt"
+    }
+  ],
+  "script_sha256": {
+    "scripts/Main.gd": "b51db27e81ffbc8f3a146329147d4e1d6409a1c762c38f5e2198abc7bf21a657",
+    "scripts/World.gd": "78849fca1db9c715630a307b41005fdc85c61be884a6b855b5286a2c110ad859",
+    "scripts/WorldProp.gd": "e6bb0952e7a11579d737216aca2e7ec81ca40ba76db95eb6d0297f868dc87af0",
+    "scripts/PaintedArt.gd": "4afcd53240aefe09926addae48779645c636bce29d62802950b7fe8afbbf3cf5",
+    "scripts/DestructionSystem.gd": "a8e34bdc3616edddc39f49985a85d53c9cde69d7482aa394f0c027b195122ad2",
+    "scripts/HUD.gd": "c00b3ff00a2e6f552a331ffd4e6eb812eefb8212d1b6d1936664c411f6978d31",
+    "scripts/FogOfWar.gd": "e2a229556d31a7fa31771a7b4e8a7164460b8975e3f96c3ad9b4ae8b959bfcc5",
+    "scripts/JournalUI.gd": "6ead2f766dcb1f7c25eb687e64bd7200a147e8e0d896ccb2700888013f8d450f",
+    "scripts/SouthernBorderUI.gd": "eeca7ddd5e3ddf2060aa6a475a0689904bc79c0199ef609484b5f9e9a61a4f09",
+    "scripts/SouthernBorderData.gd": "3b9102145e8ebc8a83b59574db27ef9ddf880176188a8255e0a5d2d9e44d59c3",
+    "scripts/CharacterSaves.gd": "6b87b93a862a44b170402311d062504ae4031a87653b3097d94b50874c0c1e2c",
+    "scripts/CompendiumUI.gd": "e0c8bc94e62213a9666f39887e4540afeed1454a1460739ce883adefd5487786",
+    "scripts/MapTests.gd": "e47b8c821582eaa274695ec240a0e777f20027dac88302e68ae2b96fa57aa63f",
+    "scripts/ShangCity.gd": "660fa7baa2d22de9a8c1c49aafeb26e0119c677cc4f4cc9e394272e2b1b86ccb",
+    "scripts/ShangCityData.gd": "41653158121e4147e676bbd2ed74ca1576d655bf1f23e75d6738ce465b46d52f",
+    "scripts/ShangCityUI.gd": "55499f6ca06b6cf025cabd9f7db70f43bcf223215fe9fc0442e1a2e9ccb9a563",
+    "scripts/ShangStoneView.gd": "6b7e234c330a7d68a6c29e19146a98c5091f5dec3fcc1bde30a33b1ec2579e65",
+    "scripts/ShangOpponent.gd": "714454a907e45706cfdb354c04fcf2edafd544a717c6debdc6fc8421ff81819a",
+    "scripts/ShangCityTests.gd": "40ee18b60b8ae6777015134957cb89723251875ecd8e980645b25f7ad221f474"
+  },
+  "art_source": "../../godot/assets/shang_city/SOURCE.json",
+  "screenshots": "../../godot/screenshots/README.md"
+}

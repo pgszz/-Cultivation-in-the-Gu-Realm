@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-18",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "renderer": "OpenGL 3.3 Compatibility",
+  "device": "Windows / NVIDIA GTX 1050 Ti / driver 560.94",
+  "scope": "Complete shared workspace copied independently by check_game.py, isolated user directories. Automated window input; no manual desktop playthrough or performance measurement.",
+  "runs": [
+    {
+      "run": "20261118-225754-d0fc3f",
+      "resolution": "1280",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "docs/validation/customization-import-1280.txt"
+        },
+        {
+          "check": "customizetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--customizetest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 85,
+          "log": "docs/validation/customization-customizetest-1280.txt"
+        },
+        {
+          "check": "customizerestart",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--customizetest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 96,
+          "log": "docs/validation/customization-customizerestart-1280.txt"
+        },
+        {
+          "check": "charactertest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--charactertest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 88,
+          "log": "docs/validation/customization-charactertest-1280.txt"
+        },
+        {
+          "check": "characterrestart",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--charactertest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 93,
+          "log": "docs/validation/customization-characterrestart-1280.txt"
+        },
+        {
+          "check": "controltest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--controltest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 73,
+          "log": "docs/validation/customization-controltest-1280.txt"
+        },
+        {
+          "check": "arttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--arttest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 59,
+          "log": "docs/validation/customization-arttest-1280.txt"
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-225754-d0fc3f\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 832,
+          "log": "docs/validation/customization-canontest-1280.txt"
+        }
+      ],
+      "sources": {
+        "CharacterAppearance.gd": "c1132df59d96e14e973ac49bb98ca9a019b32c4a2ac7f6d4d7338cbd05661772",
+        "CharacterArtStore.gd": "d5a4347985d47e0c7fd74b328d1d93e7bbd21acec3d28bbbd027ca5f325280a4",
+        "AppearanceEditor.gd": "74ed220a56d05c0c217ddb6c86347421e8c9a153e04f8b5b10464536454f2192",
+        "CharacterPreview.gd": "974b38f4272e3e4f6a1d9f0e6519038118ccd5db4d17bf6b205ed48fcafbc9f5",
+        "CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "CharacterUI.gd": "25afeea77e8f875ea834e9447a80e4397d284afe506ef3401d524bd834b82055",
+        "StartScreen.gd": "ddc50c2f864295134396fe739b145322ad57331fa464f0c6a7b2ad62846ce686",
+        "ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "Player.gd": "51d5390142ac038092d961f9323889c742a97e520bb85d94035ff978cdd57fed",
+        "Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "CharacterCustomizationTests.gd": "f2cb1a6c3486aa21784f5d1adb5b962d55eb74838ee0a224823034339a2d588e"
+      }
+    },
+    {
+      "run": "20261118-230217-8ff63e",
+      "resolution": "960",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230217-8ff63e\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "docs/validation/customization-import-960.txt"
+        },
+        {
+          "check": "customizetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230217-8ff63e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--customizetest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 85,
+          "log": "docs/validation/customization-customizetest-960.txt"
+        },
+        {
+          "check": "customizerestart",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-230217-8ff63e\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--customizetest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "checked": 96,
+          "log": "docs/validation/customization-customizerestart-960.txt"
+        }
+      ],
+      "sources": {
+        "CharacterAppearance.gd": "3afd176901775a967a3dc8377c74ae42a93969bd8101d61c7752158ff5b9e151",
+        "CharacterArtStore.gd": "d5a4347985d47e0c7fd74b328d1d93e7bbd21acec3d28bbbd027ca5f325280a4",
+        "AppearanceEditor.gd": "74ed220a56d05c0c217ddb6c86347421e8c9a153e04f8b5b10464536454f2192",
+        "CharacterPreview.gd": "974b38f4272e3e4f6a1d9f0e6519038118ccd5db4d17bf6b205ed48fcafbc9f5",
+        "CharacterSaves.gd": "f46b6d3aeba467dd4a6f96a3a83edc464cb1bbdd7f9a07ff45d5b091435c4956",
+        "CharacterUI.gd": "25afeea77e8f875ea834e9447a80e4397d284afe506ef3401d524bd834b82055",
+        "StartScreen.gd": "ddc50c2f864295134396fe739b145322ad57331fa464f0c6a7b2ad62846ce686",
+        "ActorAnimation.gd": "426563ab411a069eeb8a58179df695a6a27b430f728f39123a9f09b40de4ef94",
+        "Player.gd": "51d5390142ac038092d961f9323889c742a97e520bb85d94035ff978cdd57fed",
+        "Main.gd": "3bcace5c3906d9d541aab493b0e97f0652fa9235366cce747cd854fd3b105341",
+        "CharacterCustomizationTests.gd": "f2cb1a6c3486aa21784f5d1adb5b962d55eb74838ee0a224823034339a2d588e"
+      }
+    }
+  ],
+  "current_source_comparison": {
+    "CharacterAppearance.gd": true,
+    "CharacterArtStore.gd": true,
+    "AppearanceEditor.gd": true,
+    "CharacterPreview.gd": true,
+    "CharacterSaves.gd": true,
+    "CharacterUI.gd": true,
+    "StartScreen.gd": true,
+    "ActorAnimation.gd": true,
+    "Player.gd": true,
+    "Main.gd": true,
+    "CharacterCustomizationTests.gd": true
+  }
+}

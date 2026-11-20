@@ -1,0 +1,122 @@
+
+=== import ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+
+
+=== arttest ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=204; terrain cache limit=24
+WORLD minimap ms=169; terrain cache limit=24
+WORLD minimap ms=186; terrain cache limit=24
+ARTTEST checked=59 failures=[]
+
+
+=== canontest ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=187; terrain cache limit=24
+WORLD minimap ms=151; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=149; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=150; terrain cache limit=24
+WORLD minimap ms=155; terrain cache limit=24
+WORLD minimap ms=146; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=146; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+NEWGUTEST checked=45 failures=0
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+GUEXPANSIONTEST checked=107 failures=0
+WORLD minimap ms=148; terrain cache limit=24
+SETTLEMENT distance 古月山寨 / 白家寨 = 345.6 tiles
+SETTLEMENT distance 古月山寨 / 熊家寨 = 358.1 tiles
+SETTLEMENT distance 白家寨 / 熊家寨 = 264.8 tiles
+WORLD minimap ms=154; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=150; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=146; terrain cache limit=24
+WORLD minimap ms=149; terrain cache limit=24
+WORLD minimap ms=160; terrain cache limit=24
+WORLD minimap ms=150; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=151; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=149; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=149; terrain cache limit=24
+MAPCONTROLS checked=111
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=154; terrain cache limit=24
+WORLD minimap ms=147; terrain cache limit=24
+WORLD minimap ms=153; terrain cache limit=24
+WORLD minimap ms=153; terrain cache limit=24
+SETTLEMENTTEST checked=154
+CANONTEST checked=777 failures=[]
+WARNING: 蛊虫【月光蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【黑豕蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【石皮蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+
+
+=== shotvillage ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=299; terrain cache limit=24
+POLISHSHOT scenario=village err=0 path=G:/g/.test-runs/20261118-183344-7b9e8e/project/shot_village.png
+
+
+=== shotinterior ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=206; terrain cache limit=24
+POLISHSHOT scenario=interior err=0 path=G:/g/.test-runs/20261118-183344-7b9e8e/project/shot_interior.png
+
+
+=== shotworldmap ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=206; terrain cache limit=24
+POLISHSHOT scenario=worldmap err=0 path=G:/g/.test-runs/20261118-183344-7b9e8e/project/shot_worldmap.png
+
+
+=== shotcharacter ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=193; terrain cache limit=24
+POLISHSHOT scenario=character err=0 path=G:/g/.test-runs/20261118-183344-7b9e8e/project/shot_character.png
+
+
+=== shotrepair ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=218; terrain cache limit=24
+POLISHSHOT scenario=repair err=0 path=G:/g/.test-runs/20261118-183344-7b9e8e/project/shot_repair.png
+
+
+=== shotdamageinterior ===
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=191; terrain cache limit=24
+POLISHSHOT scenario=damageinterior err=0 path=G:/g/.test-runs/20261118-183344-7b9e8e/project/shot_damageinterior.png

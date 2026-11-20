@@ -25,5 +25,1471 @@
     "date": "2026-11-18",
     "treatment": "Original transparent output copied without pixel edits",
     "design": "Moonlight: blue crystal crescent. Liquor: pearl white plump silkworm. Jade skin: flattened broad jade bug, an art interpretation based on skin Gu family and green protection glow."
+  },
+  {
+    "id": "little_light",
+    "original": "exec-a88ed6d0-7c16-46ce-8604-851d2254a809.png",
+    "sha256": "3cb9f6d5a667e22bb4d37d8c6ac3d03b5e62c48680417ff820d77f324fc818f3",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "EXPANSION-PROMPTS.json",
+    "design": "Primary descriptions: chapters 62/63/70; black boar appearance is a family-based art interpretation."
+  },
+  {
+    "id": "white_boar",
+    "original": "exec-4a80e1ba-60ab-4d79-8fb5-cf3724049c06.png",
+    "sha256": "9875e31c7877d58d5d099bde3e8c5c13f892881128d19d21eebae00fa83d90ef",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "EXPANSION-PROMPTS.json",
+    "design": "Primary descriptions: chapters 62/63/70; black boar appearance is a family-based art interpretation."
+  },
+  {
+    "id": "black_boar",
+    "original": "exec-68bac540-710c-4380-9a24-dc6135e60251.png",
+    "sha256": "1d5127462b9a3e150abf956873ed0720483181f88ba2862a2fc768ad1119f858",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "EXPANSION-PROMPTS.json",
+    "design": "Primary descriptions: chapters 62/63/70; black boar appearance is a family-based art interpretation."
+  },
+  {
+    "id": "copper_skin",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-f290920e-7c62-410b-ba83-af0b1c9a4f60.png",
+    "sha256": "81700fb9a31e5ceb2434e334b6828de5a0a1f923db34e9e1257e712b8e6b08a7",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "design": "Volume 1 chapters 62 and 63. Beast skin and dragon cricket use explicitly labeled artistic interpretation."
+  },
+  {
+    "id": "iron_skin",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-26097d74-e60c-455d-861d-e183315515be.png",
+    "sha256": "1aca35d2264c1432883b959862ffcc80110c94d3410339cb5d9fbe0fb86a970d",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "design": "Volume 1 chapters 62 and 63. Beast skin and dragon cricket use explicitly labeled artistic interpretation."
+  },
+  {
+    "id": "stone_skin",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-70e9b439-e610-413d-8162-df5725fb8358.png",
+    "sha256": "8c365b898bb83028e81c84f651dcd9e96a026c276ffff540de822d6c01853384",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "design": "Volume 1 chapters 62 and 63. Beast skin and dragon cricket use explicitly labeled artistic interpretation."
+  },
+  {
+    "id": "beast_skin",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-63b522bb-87fb-48e9-afc3-93aa9103b216.png",
+    "sha256": "ca224602dbc7934ccabbdc187b4fc90c61632a8fafa56eab120d8e03eb2f51ca",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "design": "Volume 1 chapters 62 and 63. Beast skin and dragon cricket use explicitly labeled artistic interpretation."
+  },
+  {
+    "id": "yellow_camel",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-1b51f80b-1fea-4d59-952b-15a47641fe74.png",
+    "sha256": "5812b89a082adc8561324354b2e2dedf657fdcc3acb9916402d024b083c459ba",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "design": "Volume 1 chapters 62 and 63. Beast skin and dragon cricket use explicitly labeled artistic interpretation."
+  },
+  {
+    "id": "dragon_cricket",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-eff970b5-a7de-48a2-846c-3e10e010eb4d.png",
+    "sha256": "2fc849c153ac9d862d1cd2444d0734c3c7ad52b6fb7d14a2f0a83893fe9bc7cf",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1312,
+      1199
+    ],
+    "design": "Volume 1 chapters 62 and 63. Beast skin and dragon cricket use explicitly labeled artistic interpretation."
+  },
+  {
+    "id": "brute_longhorn",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-f76b8c3e-317f-462e-b67e-8569db0a2047.png",
+    "sha256": "cf8efb14cb6485e2c4ff9a030c127f7d9500a509a79bdfea020e5ed4e1af415d",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "WAVE2-PROMPTS.json",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "design": "Volume 1 chapter 62: rust-red longhorn beetle, long thick antennae with bamboo-like nodes. Surface detailing is original art."
+  },
+  {
+    "id": "moon_glow",
+    "original": "exec-c4978329-b787-4e69-92d7-2cc517d3f17f.png",
+    "sha256": "51f79bd66fb5e40735be5a855482e60c539596a94a9ee89252c762f1118d8a20",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UPGRADE-PROMPTS.json",
+    "design": "Moon Glow: chapter 106 blue crystal crescent. White Jade: chapter 99 oval white jade pebble. Moon Raiment: art interpretation of chapter 104 mist and ribbons, not a verified description of its body.",
+    "width": 1254,
+    "height": 1254,
+    "png_color_type": 6
+  },
+  {
+    "id": "white_jade",
+    "original": "exec-6f0004b1-1dc3-4271-9d3b-fd48edb5a3d1.png",
+    "sha256": "2d4c61ffffb51883d22124412da4dfdabd3d8fdf0fb7912b7160c40129f951f5",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UPGRADE-PROMPTS.json",
+    "design": "Moon Glow: chapter 106 blue crystal crescent. White Jade: chapter 99 oval white jade pebble. Moon Raiment: art interpretation of chapter 104 mist and ribbons, not a verified description of its body.",
+    "width": 1254,
+    "height": 1254,
+    "png_color_type": 6
+  },
+  {
+    "id": "moon_raiment",
+    "original": "exec-fb8c5d8c-d0f3-438f-b4df-df1b93da886f.png",
+    "sha256": "b22b282d679147f4efda99955e05b5492df2724a00c1b56601565b6be52d41e7",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UPGRADE-PROMPTS.json",
+    "design": "Moon Glow: chapter 106 blue crystal crescent. White Jade: chapter 99 oval white jade pebble. Moon Raiment: art interpretation of chapter 104 mist and ribbons, not a verified description of its body.",
+    "width": 1254,
+    "height": 1254,
+    "png_color_type": 6
+  },
+  {
+    "id": "stream_gu",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-62abd79b-cbfe-4df6-905f-3636070a2f13.png",
+    "sha256": "a1c153e4f1d78623bfc3c08bf05d91ea419df22ec0c9a9a0f6f622f718e8b7cd",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "ember_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-73bdb7b0-3fac-4520-b6bb-118b90a6f9cb.png",
+    "sha256": "f5c42a0d27b073b69e17f9740ceeb1e02752367c5d44fcf367d75c5429e77e14",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "frost_midge",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-e22ec624-cfdb-43e9-b951-e6d70e9f0344.png",
+    "sha256": "02c0ee8778bb32e0e7d65a7cb6d54b676bdd293b649c6d3773e24b5125062336",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "vine_spider",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-d1b898a8-4fe4-468c-80c5-6ba05579d5eb.png",
+    "sha256": "d2526fe4755ac8f0065d94fa7c9dcec62b68396def1cacf2de6c061cf303204e",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "mending_silk",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-ec83c05e-211b-4a4f-857f-99d6718caf77.png",
+    "sha256": "10538d73be63800cf1c3acd92835d803e735d94380210b89e0916d47a8c0e822",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "resin_beetle",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-7e4916a4-45f0-4220-94a3-447af6c3a5f3.png",
+    "sha256": "5a5b33b31ddaf0ceb457c12b82ff79d918687391a5085527413d1c7d5857276c",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "dew_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-4d70bc1f-d24a-4ef0-8095-6dc9baf9c854.png",
+    "sha256": "5c0a7563508df4817bf778a9191d4d6af6955a8077dc5188a48ff8db06da4147",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "wind_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-65b4dc85-77c3-48db-be12-4a8e52ed0134.png",
+    "sha256": "472dcc8c2742f398cf8762002889b445acd225b58e214fd18ee3ca44d983f3aa",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "night_firefly",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-6a2acfcb-e997-427a-961f-6880c3d7fb75.png",
+    "sha256": "1830f3eb6916441c106f4fe29a621e89b10e62a803090692507f5d0c9a76554a",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "echo_cicada",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-2ec816c3-afd9-4bee-ba75-1c965f4cbf1d.png",
+    "sha256": "ac0bec70879425cf940e13b712771a9ec71769c03b97229f08fe2f54a8bef19f",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "gravel_shell",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-8804a2d2-cca9-439a-a809-ba2d918f9761.png",
+    "sha256": "922a9db1c846927c20525290fbb250dcdcb4d1fe62c0dec197ac09060e7c23b7",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "bamboo_saw",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-ec6aa08e-ef2d-4011-b97c-b677f9b48b65.png",
+    "sha256": "b25ed0af55f6c5d2e4e0ac92f4093790be4e49a57ecb19453a569bd972621562",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "veil_leaf",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-da3bcffa-fe35-4b85-b1a2-331db24eab98.png",
+    "sha256": "d9b117ab280013261f19163a4cfeb7503c63345522b1143f4e7651ad21fc20ed",
+    "generator": "image_gen",
+    "date": "2026-11-18",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "UTILITY-PROMPTS.json",
+    "design": "Original game art; stream_gu name is canon, appearance and all other new Gu are original designs."
+  },
+  {
+    "id": "golden_splinter",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-75065a79-c6ea-4217-b891-b3d9b76f9c4f.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "9970bdded873407f39dc32d5ba672d774653cf5d04dab754e43ccddb97263da9",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "stone_pellet",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-3e0a1378-2615-4f41-8e62-16a2cc211213.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "6910bdb964b688d545562f7e615efd08a8e5e501f0a0e1b9320fa407c7621dd5",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "wind_shear",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-9f243173-38fc-45f6-8102-7ea8f6eda9d5.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "d1b5fdac3d2705914e7d209531a2dab760e0c29d7bb7fa06f32ca79b8d90021c",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "venom_gnat",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-15eaa74a-76c3-4e23-b635-9ad18556dc8f.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "faaeae688b7da44c49b27c35a71c5b90518334701515bca52b082d7fd1537007",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "red_lotus_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-5a86b223-52ed-48cc-b59f-37c5f430608e.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "461a17a6b19d2feafc72a3a065280fc90ad7433ea55d8cf6223a9c269ea18a60",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "ice_lance",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-1a61482f-e8b2-473b-ae7c-b64802d3e37f.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "1f6fa5ae6ee29fdb8cfa1e7216f4b88920b9ca44ac0f2e570e6d66d17e559fdc",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "thunder_pupa",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-810cd2e5-baba-468e-9eeb-543a7f005b7e.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "48fe662142e234183ff6251f19dbb833b69b88a8c49dd7890dae086ec83c4bde",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "thorn_seed",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-dc1c6208-9d19-4cce-b5bd-a52129417eca.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "087b37ae5efe7b49a4c35b41ec85e6ca0953a9c85810a42301bcc5e2d0b43714",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "iron_drill",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-5c26a5ce-d271-4a52-a0c4-373ea3830c56.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "4f03d65dd2e0a6f6610e19c46cc7b299d820961b50638f1be3d6ced5ad51649f",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "rime_wing",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-3d648710-ad3a-4c4d-bd95-3f0ad6d67276.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "2acfad562e77cd64b4c07bff43e62ef3352ae0c1fd6b4fb4487c6623503c8985",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "blood_suture",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-5112a60a-416d-4e43-9feb-8adb66639f1a.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "df13605bf7a3bea9eaedfd3dd3e5d0b8b12e5b8e8820b5f8188263e7d19dc01c",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "warm_pupa",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-047b6a56-bc1a-4a1a-90db-0a05978938c2.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "2e49be5ba7f23049b33f4dc2572813ea141bf6f466af3da184f20d553b07c486",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "rain_pearl",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-7c862766-74e4-4256-a9ff-bf4833aa5593.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "14adde02ee1ebb68eb7192e040ef50903b295b9538e5e705e3472046ffb00861",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "vigor_grub",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-77a0f052-c176-4bc9-b338-8d120f394714.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "3cc3692ef7e7301c29add54deb748064405fa30eff2d4ced3312b1841a699adc",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "spring_cocoon",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-a3e25686-2d93-4f78-9180-781655cfa659.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "d8131659420397aa6399356d8f40f6b324d0d1afd6d786dd858583e7dae6cf26",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "reed_armor",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-a8590fd3-5add-4e9c-b4a5-83d9c3bdd931.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "0958e41f46e3876f5da358809e6d20a0d3bcb1864c0ebf758a56edf1a038e997",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "mirror_scale",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-318b770c-6686-41f0-b691-3405a576dcf5.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "716f5b9ddf9093ab875002b78cf954a1043f32756f39109d6e19f94f63336a76",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "cinder_coat",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-05d14dd1-1b6a-4d9d-b1dd-8107990bafc1.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "f60a23dc9b9a5348db47c06361aa7d9b52335b92f421077fa5e402568c2f764e",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "frost_ward",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-c8145cdb-8c55-42d6-84d9-4fdc44c4c391.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "780e0ed6dc1f7c9bfd90913655646c342b6e6f08b5fb51a777e677e2529ffd03",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "quick_cricket",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-b4122c78-e119-4020-92b1-c7332860b3d6.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "17c4ddf0f089f1bdf5a4316865e76362d7693e37c48ee71fe8d48341492dd1ff",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "cloud_locust",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-38a95064-66b8-4e79-96f0-72a2a6e8d807.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "108f7793949c58a350e679aa33401fa226e0a43b21b251d0343f4969c2405243",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "water_skater",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-e357f6cd-8154-4e24-8f9e-a5236d303cf0.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "dcc6e7fec9baf3360b2ffb5ae06b98bcad9d8ff41442df5b0b4bd47d8e33baa3",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "mist_butterfly",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-b6d34b76-8aad-4c8f-b848-d13b5f369597.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "654e0cb982aeb903854a5b41b50ace4d12fd5c46cc4f751bbc245c911e219e4a",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "far_sight",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-0d69040b-919b-46c3-b50a-33396122eebf.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "00e02a6929b735570be787e49c9fde548bbe0eefe92b30fe8a3810c6afbd17d7",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "earth_cicada",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-5e2c8495-5c83-494e-96dd-dcd1d2b0ed62.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "ffd61f64b6908bb6d4d148451596d2a62e2d71978095aad7b73c42d87b05a67f",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "scent_ant",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-1f47e5ee-2c60-4265-a859-364bc9af68bc.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "4cb82421d915196a3699ef45f62e814e0d29c28427d9d3298298fcf0a70893d4",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "ore_mandible",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-0b437d4c-9558-430e-a9ea-33150e12916e.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "110d48c1b30ebc3e094fc9cb568c00cec807869167a5698558ffe01de0514d1d",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "timber_mantis",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-c1ca2e7c-a1fc-4473-bf3e-42ac4d3b6c2a.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "fe91a8a72d40bb8502bade852bec2966303cc2f3db8bebc91be3437991c753ea",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "gather_scarab",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-8fe081bf-cc3c-4879-8829-41cc82143ba1.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "8c137bda031d105c72ea86c7684373dca809bf2dcb344643a8518b9ad0438e21",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "burrow_grub",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-6337fa93-1e5c-4bd0-a5b0-70e6c90b0a56.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "a6654023b5f35c8ef3436c49a4fac13acfe3ae4bf8186b94e8d6edda1d6e9569",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "soothing_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-c1e9ee43-20cb-4f23-aba2-66abac63c641.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "prompt_file": "SIXTY-PROMPTS.json",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Original sandbox Gu; not a canon claim.",
+    "sha256": "44a8d86e419b2cbde956a40ae6f210ef502627a279d993c22f2d1db84f25c06a",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "id": "hope_gu",
+    "original": "C:/Users/ASD/.codex/generated_images/01a1ec48-fb5d-7da2-837d-06716e85b044/exec-7d79586b-219d-4452-b533-769d49389430.png",
+    "sha256": "86d54070b065fd55a000816fe026a6e890dccc518c79a62fb4925497a65587a1",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "treatment": "Original transparent output copied without pixel edits",
+    "design": "Weak white point of light, chapter 5; painterly halo is visual interpretation. Ceremony-consumed Gu, not a permanent equipped companion.",
+    "prompt_file": "HOPE-PROMPT.json"
+  },
+  {
+    "id": "clear_origin_silkworm",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-fd999806-2543-43dc-8357-26449af6b7ad.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "950728486e0ac41897e9c62d2d007852a7acf86e4a6844af85ff6c306f058ba4",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a translucent pale jade silkworm curled around a luminous tiny pearl, finely layered glass abdomen, no leaves"
+  },
+  {
+    "id": "deep_spring_butterfly",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-00692d93-f5b7-4a93-8ddc-f8d8fd43daa4.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "0d1a87e2ebbd7df80b29e6b79bb797c3c60335a33b0bfec06aa893ece5c6df51",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a slender midnight teal butterfly, asymmetrical flowing wing veins resembling underground springs, silver abdomen"
+  },
+  {
+    "id": "marrow_lotus_beetle",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-a5bff84e-1ba6-40b3-8e8d-3f092f390268.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "19e9baabd41cfda19b5903826470c76cbed08027800e89d47185e19c03ac103f",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a pearl white armored beetle with overlapping lotus petal carapace, restrained rose gold veins and tiny jade antennae"
+  },
+  {
+    "id": "nine_aurora_cocoon",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-e2d64619-9c2d-47ba-b3a9-fda2c0720682.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "113ab4fb25954aa4d1ad1c21f565e3fedaa46fcb6df7023c272b871bf2f86408",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "one elongated silken cocoon with nine thin iridescent bands, violet and warm gold thread, soft inner glow"
+  },
+  {
+    "id": "bronze_relic",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-90bf05eb-97a1-420f-876b-8a086213d236.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "9f9945dafdefcbc7eb550f1695908948b2f1becc3504c5c644759c04ee842867",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a fingertip-sized round bronze sphere, organic Gu relic, verdigris speckles and softly glowing bronze surface, absolutely no legs"
+  },
+  {
+    "id": "red_iron_relic",
+    "original": "C:/Users/ASD/.codex/generated_images/01a1ec48-fb5d-7da2-837d-06716e85b044/exec-1e80be4a-e724-40ef-8db2-62e9a7acc824.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "10e30015e2e694944527b7fe25948338b6d7104e11a3e0f169d3799c99238911",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a small round red iron organic relic sphere, deep rust red metallic finish, subtle grain, no legs"
+  },
+  {
+    "id": "silver_relic",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-eda8928f-5b75-45fd-96b4-c273d0de72e9.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "fdfeed2de15721d87a98beb627f06e20940f1d6b5f80982262c52519aa116c63",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a small round white silver organic relic sphere, softly brushed silver metal, subtle pale radiance, no legs"
+  },
+  {
+    "id": "gold_relic",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-45846893-d033-45b9-8231-002b2f1df87d.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "e6e7634e514268e0d0daa8346fb4e46f57782956bf25a7120fed83cde4f29b40",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a small round golden organic relic sphere, warm heavy gold metallic shell, subtle radiance, no legs"
+  },
+  {
+    "id": "purple_relic",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-ff3080d1-16de-4655-bb15-2c7bf6541935.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "230c025a664d707cb5b68abd5295d50a7829a95ff8b2a8dba3d0f1d24a136aa7",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a small rounded purple crystal organic relic, faceted amethyst sphere with translucent internal violet light, no legs"
+  },
+  {
+    "id": "quiet_incense_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-e55a4ab3-3f78-4e8b-acf0-c38f64b9cf7f.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "f395162e1ef2176257fc222229d0c295c5466a1af36e1bd5061e4dd59cbe4112",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a soft beige moth with broad folded wings shaped like incense leaves, cinnamon feelers, delicate powder texture"
+  },
+  {
+    "id": "wall_polish_snail",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-abc450b4-26da-4b32-86dc-2a4f3c9f60e4.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "aab0bcd2cae4d752705515c98644b85b56270adfaebbf9ae6a5de0c81046ce73",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a tiny spiral snail with dark jade shell and ivory grinding ridge, pearl body, visible small feelers"
+  },
+  {
+    "id": "copper_fletch",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-d6f7b08f-1c1c-4d5e-a225-941da1e8cf65.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "5d4c3d66d649b98fcda1c864a46a73c8427fdaab9e6636839228c37b6143828b",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a narrow copper winged beetle with long feather-like blade elytra and sharp green antennae"
+  },
+  {
+    "id": "sand_fang",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-3615f869-e2ab-44f2-a223-26c672626190.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "eff139af745eb17a7e4a39df2d5d215afe99bca3dc22c023c0a9eef55343557a",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a tan desert antlion larva with large amber crescent jaws and coarse sandy segmented armor"
+  },
+  {
+    "id": "rain_needle",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-8842a8b7-8518-4bff-a689-0d374ed467f6.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "e85b688f062a73f800c8b049d0e0e6cc68f22a514e81c418bece1e8bc9856a05",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a turquoise damselfly with long needle abdomen, four clear droplet patterned wings, elegant slender silhouette"
+  },
+  {
+    "id": "obsidian_mantis",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-a317a23c-32b9-4fae-b54a-d556a1ac53eb.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "0f512fe43f5f942b39b0af45127eef8c87897983d0e495562cade2a2965d8f96",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a black obsidian mantis with broad crescent forearms, polished angular plates and indigo edge gleam"
+  },
+  {
+    "id": "storm_hornet",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-c9f18884-4961-4c2e-af78-2f9271a546fa.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "d113b7282a1c9fca17b1fec4aa2ec0a8296296e1ee14cc3776ed58b613dea931",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a storm blue hornet with curved ivory stinger, broad smoky wings, small lightning shaped natural markings"
+  },
+  {
+    "id": "sun_ember_scarab",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-8f93a3a9-fedc-447e-90e8-2edf8010551f.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "d494afc0688a61937d27555a3a376307cb698d483dc33887c7f10b62a57429a2",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a domed gold and ember beetle with radial red cracks in carapace, six stout legs, heat shimmer close to body"
+  },
+  {
+    "id": "glacier_centipede",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-68f23175-bb53-47f8-8e05-063c65e60a38.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "68d9fc096803d3f3f3e974f5dc5448166940d9bae66d6c017826372c2aa99112",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a curved ice blue centipede with translucent crystal armored segments and many fine white legs, frosted mandibles"
+  },
+  {
+    "id": "bark_bastion",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-583f95b8-896d-421f-816f-9263756185a2.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "07bf3f652b756bc8d967431ecdefb843c255ddb3d43c44b75689910f476947a0",
+    "width": 1312,
+    "height": 1199,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a broad shield beetle with layered dark oak bark carapace, moss green seams, squat sturdy body"
+  },
+  {
+    "id": "quartz_tortoise",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-c9d7e1ce-ae44-4557-80ae-16d33bb821fd.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "219adf5c77621bb7ea82139ee37852176209559553bb08a01a272010e0a9ce54",
+    "width": 1262,
+    "height": 1246,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a domed beetle with a clear quartz fortress-shaped shell, lavender facets, six tiny charcoal feet"
+  },
+  {
+    "id": "thunder_insulator",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-f24f24dd-aa02-4969-8994-a4a0a55d85d2.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "142cf1859640d42e93c2edca6d3dc0bf5521e59e7ba0174b98290f85bc059a39",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a dense fluffy indigo caterpillar with silvery insulating hairs and golden bead eyes, curled shape"
+  },
+  {
+    "id": "basalt_heart",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-25d9a6ba-25b1-462a-8104-eb270114e0df.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "995fdb8f68332ece7797dcccc1992a036abbef9b3dcc3dae3781a288adabcc7f",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a dark basalt pill bug curled around a warm amber mineral core, heavy hexagonal plates"
+  },
+  {
+    "id": "prism_aegis",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-7971b2ea-f825-480a-99f4-2f563a2abfd0.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "e1ec3260edb83b9906e637270459b5e97ad4273568554c4f41b1f9f549e5f6ac",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a slender iridescent shield bug with layered prism wings and white gold edges, jewel-like but organic"
+  },
+  {
+    "id": "scar_stitch",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-6c3b3dca-2336-48d0-a580-744509ad2301.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "b7221dd50ffa1e5494e361ad5a495564b775e0f2ecef9912745a82e6d59d7b65",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a pale mint silkworm spinning one delicate curved thread, green leaf-shaped head, satin segments"
+  },
+  {
+    "id": "red_dew_tick",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-bbaec0d2-ecd9-455b-972f-05cfac50b796.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "18d27c666a675e899ad6029647b697ce9af6105dde687b127c8bf873a7dfadfa",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a small ruby-red plump tick with pearly segmented belly and eight delicate dark legs, no blood or gore"
+  },
+  {
+    "id": "calm_bell_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-9b829a3b-f082-413d-aea0-062c0bcf9ea2.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "8e88ca5a2e2cb270406541db06f7ab854a7f8d3a12fe9b8bde7afcd99e1e056a",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a lavender moth with bell-shaped closed wings, pale gold fringe, long fine feelers"
+  },
+  {
+    "id": "purifying_lacewing",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-4098f989-9e38-4b26-9d27-90ef3c806b2c.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "8e4fe6cc6fb41e12dfe46e8eb50371e159d67d426e9cba307ce0055de95a9fe0",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a silver green lacewing with four translucent mesh wings, dew beads held near thorax"
+  },
+  {
+    "id": "return_spring_silk",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-8a66ad35-4301-4d10-b807-8b7cc338d70b.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "da919446085326fb2f48970774f06dc52a83c0b8c7c89ca1052a02382fe98eed",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a long ivory silk larva wrapped in flowing pale rose ribbons of its own silk, jade head, not a human accessory"
+  },
+  {
+    "id": "grass_skipper",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-e58ec372-09db-4131-b843-d95033fee96a.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "9e66d91a0d055a5fc30a67fbe906e0c2dc70829dcaf6525d90bee462a388434a",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a lime green leafhopper with exceptionally long folded hind legs, yellow angular wing tips"
+  },
+  {
+    "id": "river_fin",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-5276bd00-4031-405e-a6a8-67dc932f6d94.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "d324b7c4ccf0304f8846b10993d76eaf2c2faa366e16d7a1f3e7712147e74787",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a turquoise diving beetle with translucent fin-shaped back legs and glossy river-blue shell"
+  },
+  {
+    "id": "gale_kite_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-83ced8cb-32d5-49e6-be0f-da2bf16b5952.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "11eb9aeeb0a94084e0a0da42e4356fcc267d4cc7914991e4125f4562bb941dda",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a cream and sky blue kite-shaped moth with long split wing tails and charcoal antennae"
+  },
+  {
+    "id": "shadow_step_spider",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-d2b5112a-a30b-4417-8615-33f137837d70.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "fc4a60089afc0779dff6bd105dfe69fe84044a3608a7f83ea9e94e9fe6ce2cea",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a small midnight purple spider with eight long graceful legs and smoky silver abdomen markings"
+  },
+  {
+    "id": "lantern_antenna",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-50b6e8f1-0c25-41f3-8384-7b500f130539.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "284b4c8917cd38ec72b0bf292c993e21dc9708fdb0061834a8e85eda31500c49",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a warm amber firefly with two unusually long softly luminous antennae and a charcoal shell"
+  },
+  {
+    "id": "ore_echo_cicada",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-3ab6f459-71cd-42dd-9fc8-154bcf77bdde.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "1381fc7d950fc93bac220300afd66a1c9ce916ac080652ac704c0cffe9cef7df",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a copper brown cicada with translucent wings containing quartz vein patterns and broad pale eyes"
+  },
+  {
+    "id": "horizon_owl_moth",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-c417f145-4476-4fda-9112-34856ac81277.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "b86049b990d0af97ef307ea2bfbdb62493895fb17b9488b44199ae470c6c3798",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a tawny owl moth with two distinct large emerald eyespots on wings, soft cream body"
+  },
+  {
+    "id": "deep_resonance_beetle",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-11574565-3906-4563-a61d-ee4ae2184a0e.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "93b6f28989699d78388a3ec933cf8dcbd54c54b9b475b044657e49f1d01d6417",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a slate blue longhorn beetle with tuning fork shaped antenna tips, silver ring patterns on armored abdomen"
+  },
+  {
+    "id": "reed_cutter",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-e66bd0da-27b6-4fd9-91b7-577d286d577e.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "0a3cea7c863b6e7369643d846cf87cc5bd7d003ce87c3d97b478273b00514341",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a reed green mantis with thin serrated forearms and straw gold joints, elegant vertical silhouette"
+  },
+  {
+    "id": "flint_mason",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-87bcd234-0a2a-4ff2-80fb-a65cf689422e.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "e8888f56b9a461439f444bc78adcfa9d382c18c5f1deb70b597204c63f7b780a",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a squat slate gray stag beetle with chisel-shaped flint jaws, tiny orange sparks near mandibles"
+  },
+  {
+    "id": "amber_resin_ant",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-48c8e047-4b1c-470d-bd05-bf441f5b5026.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "8d510434ebfe18de7c99f334d1c44980c69bd703015b6c95f62405ffe17865a5",
+    "width": 1278,
+    "height": 1230,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a honey amber carpenter ant with a large transparent resin abdomen and dark brown jointed legs"
+  },
+  {
+    "id": "mountain_borer",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-91c68941-e3fb-4391-8d06-90a307a1f74a.png",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "sha256": "0a6eb8b8de7ab506e4c8162099c17c4c9d25ad61f7fa06c60e311abdf767eb3e",
+    "width": 1254,
+    "height": 1254,
+    "prompt_source": "HUNDRED-PROMPTS.json",
+    "design": "a powerful copper and basalt weevil with a spiral drill-shaped snout, segmented jade armored back"
+  },
+  {
+    "id": "iron_bone",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-d52030a6-1f1f-4354-a78e-1fd7b247267b.png",
+    "sha256": "56c79ee2cfb8dd873eee0cec092821e7e32e74af9b92ebab7f8a924cb42469f8",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原著蛊虫·规则改编；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "jade_bone",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-a32dd1a5-cf0e-45f9-8fe1-ce329d86a7b5.png",
+    "sha256": "d8a2b6fff7a02320ad55060faabd502074e494d950509ba9844c0a3edf9d1d46",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原著蛊虫·规则改编；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "vitality_leaf",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-a4feaa11-2c4c-4345-8f30-47b26ae1bc00.png",
+    "sha256": "a95388b7648e2fb2e1f69d86e5c34cdff1200bc88434bf7c1db95821f74309c4",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原著蛊虫·规则改编；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "self_reliance",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-a9732467-e1cb-4374-b130-85614e4edc31.png",
+    "sha256": "24016c48eab6f2399a493f5a0f16b1ffd07481db8dfcac0e933a059c89607f49",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原著蛊虫·规则改编；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "tempered_sinew",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-d77698ac-5440-4b1f-a2b6-8374b034290d.png",
+    "sha256": "dc27fe0e52b6e907e89f17b05eb161fedd97c9053e89ff042df0afc0e0b61674",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "clot_thread",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-c8b1c11c-f1a9-4149-8774-66ffad6191d9.png",
+    "sha256": "59f2076be9026d856772207f80959895407e97949eae29b861bc5a9864111323",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "numb_ant",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-cc6e67da-69e9-48b3-933d-3d5f13c50ca0.png",
+    "sha256": "32f7bb15df95876dbe3c750daafbf558efc9859e6321e16b74ff19f603240bca",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "lucid_larva",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-56bf4301-ce0d-427f-8f6a-c3a867f67cd0.png",
+    "sha256": "638b8200768efcb7aac7f5d93d6f1a57e4214d540d7bbc8eb104e3a3c14b40c4",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "sinew_spring",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-e603a15d-ae7a-4944-892f-9c40ab3fd980.png",
+    "sha256": "2472556baeceffb7123f316a8d6acfe95f397009c7e01572ad6c2a918d6a41b4",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "feather_marrow",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-5f378d77-113f-42ce-9ebc-2088265397f0.png",
+    "sha256": "7d4d2db8a366405d6dfc149914300d33a8c5f9b2075504378af8770fbfdc0277",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "ballast_bone",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-47240624-72ec-4b9a-8c22-8d2f35c1bcf4.png",
+    "sha256": "061b1d861a2125849d9138f45281fef59c5eb2a0a51f4b90c94a6295a989b76b",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "scar_crust",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-1dc88383-f57f-41b6-8acc-9f10345596f2.png",
+    "sha256": "a81b75d2ad9aeab60f9722d9373094f00c0a19cce651a069f19bc01f643b46cf",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "red_pulse",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-4cfb6fbe-0c22-4f88-aa8c-7f0a14c8b743.png",
+    "sha256": "3a4568e9f1d1b43fd9134cb22d037ff12c4d4a6f527f8a9cd0b1d64a3b627a20",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "lung_bell",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-30cc5232-18be-4fd4-83f2-fd2087150eb2.png",
+    "sha256": "c0e1cc53bb0a7b647ef25cfed2fd3a095e5189e798dc9cbf140595c9e743d043",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "bitter_liver",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-44690aec-0253-4c02-9d9d-557873c13783.png",
+    "sha256": "12150aa0485664b9d7a1d6c4a639dc8c412dde9ddc10ef177b202bd8394e41f1",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "warm_muscle",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-08e1b2eb-850e-4d2a-a8ba-85cc2516a36b.png",
+    "sha256": "1861bfb9d8fed664e7ced12e2383d283f89b8ef09a6db078fb3a3eccd920a084",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "nerve_lantern",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-3e7e7947-3b12-4c28-bca5-bd78d647e327.png",
+    "sha256": "e72ff3315e904adb92d9b08bec375ec060ed915b0fcb95652841a2d818811ab3",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "clear_cornea",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-e256d91d-2f23-4afe-b5a0-85295988d8ea.png",
+    "sha256": "21b81e2ee25a1ad2279c13715e834a0db0f54dcfa6fbedded2f2e88173790e2f",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "ear_suture",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-37ee7bc8-5bfd-48c7-8fec-7115418f42f1.png",
+    "sha256": "e5ca8b0acbd2af8d115627a30691ab251222b200eecb95b28685268fb481adf4",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
+  },
+  {
+    "id": "joint_mender",
+    "original": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ec48-fb5d-7da2-837d-06716e85b044\\exec-546b2c14-7ec0-446a-88d4-dd4a499d12d8.png",
+    "sha256": "5b85b1ac14a1c3495044f247b587aeb47e740851e93aa2228060d3b905ac48fb",
+    "generator": "image_gen",
+    "date": "2026-11-19",
+    "treatment": "Original transparent output copied without pixel edits",
+    "prompt_file": "BODY-PROMPTS.json",
+    "width": 1254,
+    "height": 1254,
+    "design": "原创蛊虫；原著外形依据与艺术解释见肉身状态蛊.md"
   }
 ]

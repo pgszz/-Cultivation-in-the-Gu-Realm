@@ -5,15 +5,15 @@ extends RefCounted
 ## 坐标仅用于示意，不代表原著距离或精确边界。
 const REGIONS := {
 	"central":{"name":"中洲","pos":Vector2(0.50,0.46),"color":Color("98a87b"),"text":"五域中央。门派制度与十大古派是重要格局；不使用旧文档虚构的书院、剑宗、符宗联盟。"},
-	"south":{"name":"南疆","pos":Vector2(0.49,0.76),"color":Color("568c76"),"text":"十万大山，家族山寨散布其间。青茅山位于南疆；当前可实际游历的区域是青茅山缩尺场景。"},
+	"south":{"name":"南疆","pos":Vector2(0.49,0.76),"color":Color("568c76"),"text":"三江贯穿群山，家族与山寨散布其间。点击南疆展开山川、商路推演与家族目录；实际游玩区域仍为青茅山。"},
 	"north":{"name":"北原","pos":Vector2(0.49,0.16),"color":Color("bbc6aa"),"text":"草原与黄金血脉势力。属于五域之一，并非高转专属练级区。"},
 	"west":{"name":"西漠","pos":Vector2(0.18,0.45),"color":Color("c5a366"),"text":"沙漠与绿洲。属于五域之一；当前只有地理志，没有开放可游历场景。"},
 	"east":{"name":"东海","pos":Vector2(0.82,0.45),"color":Color("689da6"),"text":"海域与群岛。属于五域之一；当前只有地理志，没有开放可游历场景。"},
 }
 const SETTLEMENTS := [
 	{"name":"古月山寨","pos":Vector2(512,1000),"text":"古月一族；月光蛊为家族标志。"},
-	{"name":"白家寨","pos":Vector2(2048,672),"text":"白家；溪流蛊为家族标志。此处朝向是示意安排。"},
-	{"name":"熊家寨","pos":Vector2(1664,1664),"text":"熊家；三寨位置最低，在山脚。熊力蛊为家族标志。"},
+	{"name":"白家寨","pos":GameData.BAI_VILLAGE,"text":"白家；溪流蛊为家族标志。沿东岭、云脊越过溪谷抵达；朝向与距离为游戏布局。"},
+	{"name":"熊家寨","pos":GameData.XIONG_VILLAGE,"text":"熊家；三寨位置最低，在山脚。沿南泽古道下山抵达；熊力蛊为家族标志。"},
 ]
 const DIMENSIONS := [
 	["五域","地面主世界。各域分隔于界壁；不凭固定转数解锁整域。"],

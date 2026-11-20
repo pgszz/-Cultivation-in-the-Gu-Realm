@@ -1,0 +1,34 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD bake ms=1020
+WORLD bake ms=1338
+WORLD bake ms=1302
+WORLD bake ms=1144
+WORLD bake ms=1876
+WORLD bake ms=1522
+WORLD bake ms=1098
+WORLD bake ms=1017
+WORLD bake ms=1036
+WORLD bake ms=1053
+WORLD bake ms=1045
+WORLD bake ms=1054
+NEWGUTEST checked=45 failures=0
+WORLD bake ms=1016
+CANONTEST FAIL cricket rejects blocked wall leap before charging resources
+WORLD bake ms=1087
+CANONTEST FAIL save restores physical resources but not active Gu effects
+WORLD bake ms=1055
+GUEXPANSIONTEST checked=107 failures=2
+WORLD bake ms=1015
+WORLD bake ms=1051
+WORLD bake ms=1078
+WORLD bake ms=1091
+MAPCONTROLS checked=48
+CANONTEST checked=561 failures=["cricket rejects blocked wall leap before charging resources", "save restores physical resources but not active Gu effects"]
+WARNING: 蛊虫【月光蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【黑豕蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【石皮蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)

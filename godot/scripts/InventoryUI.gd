@@ -7,6 +7,9 @@ var inventory: Inventory
 var food_system: FoodSystem
 var current_category := Category.ALL
 var slots: Array = []
+var slot_pictures: Array[TextureRect] = []
+var slot_names: Array[Label] = []
+var slot_counts: Array[Label] = []
 var status_label: Label
 var detail_name: Label
 var portrait: TextureRect
@@ -48,18 +51,38 @@ func _ready() -> void:
 	scroll.add_child(grid)
 	for i in 48:
 		var slot := UIStyle.button("",_select_index.bind(i))
-		slot.custom_minimum_size=Vector2(58,60)
+		slot.custom_minimum_size=Vector2(58,76)
 		slot.add_theme_font_size_override("font_size",12)
 		slot.text_overrun_behavior=TextServer.OVERRUN_TRIM_ELLIPSIS
 		grid.add_child(slot)
 		slots.append(slot)
+		var picture:=GuArt.portrait(0)
+		picture.position=Vector2(7,4)
+		picture.size=Vector2(44,44)
+		slot.add_child(picture)
+		slot_pictures.append(picture)
+		var caption:=UIStyle.label("",12)
+		caption.position=Vector2(3,50)
+		caption.size=Vector2(52,20)
+		caption.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+		caption.text_overrun_behavior=TextServer.OVERRUN_TRIM_ELLIPSIS
+		slot.add_child(caption)
+		slot_names.append(caption)
+		var count:=UIStyle.label("",11,UIStyle.GOLD)
+		count.position=Vector2(2,30)
+		count.size=Vector2(52,18)
+		count.horizontal_alignment=HORIZONTAL_ALIGNMENT_RIGHT
+		count.add_theme_color_override("font_shadow_color",Color("07100f"))
+		count.add_theme_constant_override("shadow_outline_size",3)
+		slot.add_child(count)
+		slot_counts.append(count)
 	status_label=UIStyle.label("选择物品查看用途。",14,UIStyle.DIM)
 	status_label.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
 	left.add_child(status_label)
 	var right:=UIStyle.card(columns,290)
 	detail_name=UIStyle.label("物品详情",24,UIStyle.GOLD)
 	right.add_child(detail_name)
-	portrait=GuArt.portrait(78)
+	portrait=GuArt.portrait(112)
 	right.add_child(portrait)
 	detail_info=UIStyle.rich(16)
 	right.add_child(detail_info)
@@ -112,19 +135,28 @@ func refresh_inventory() -> void:
 	for i in slots.size():
 		var slot: Button=slots[i]
 		slot.icon=null
+		slot_pictures[i].texture=null
+		slot_names[i].text=""
+		slot_counts[i].text=""
 		if i<_entries.size():
 			var item: Dictionary=_entries[i]
 			slot.text="%s\n× %d" % [String(item.name).left(4),int(item.count)]
-			slot.tooltip_text=item.name
-			if item.has("gu"):
-				GuArt.decorate(slot,item.gu,36)
+			slot.tooltip_text="%s × %d" % [item.name,int(item.count)]
+			if item.has("gu"): slot.tooltip_text=GuProgression.title(item.gu)+"\n"+GuProgression.power(item.gu)
+			var picture:Texture2D=GuArt.texture(item.gu) if item.has("gu") else ItemArt.texture(item.id)
+			if picture!=null:
+				slot_pictures[i].texture=picture
+				slot_names[i].text=String(item.name).get_slice("（",0).left(4)
+				slot_counts[i].text="×%d" % int(item.count)
+				if item.has("gu"): slot_counts[i].text="%d转" % int(GameData.GU[item.gu].rank)
 				slot.text=""
 			slot.disabled=false
-			slot.modulate=UIStyle.GOLD if item.id==selected_id else Color.WHITE
+			slot.self_modulate=UIStyle.GOLD if item.id==selected_id else Color.WHITE
 		else:
 			slot.text="·"
+			slot.tooltip_text=""
 			slot.disabled=true
-			slot.modulate=Color(0.6,0.7,0.65,0.45)
+			slot.self_modulate=Color(0.6,0.7,0.65,0.45)
 	title_label.text="外部行囊 · %d 类携带物" % _entries.size()
 	var gus:=get_node_or_null("/root/Gus")
 	feed_target.clear()
@@ -155,11 +187,11 @@ func _select_index(index: int) -> void:
 	refresh_inventory()
 
 func _update_detail() -> void:
-	portrait.texture=null
-	portrait.visible=false
-	detail_sell.visible=game!=null and game.world.in_interior and game.current_house_id=="shop" and Inventory.SELL_PRICES.has(selected_id)
+	portrait.texture=ItemArt.texture(selected_id)
+	portrait.visible=portrait.texture!=null
+	detail_sell.visible=game!=null and game.world.in_interior and SettlementData.can_sell(game.current_house_id,selected_id) and Inventory.SELL_PRICES.has(selected_id)
 	detail_sell.text="售出 1 份 · %d 元石" % int(Inventory.SELL_PRICES.get(selected_id,0))
-	detail_sell.disabled=not inventory.has_item(selected_id) or not game.service_available("shop")
+	detail_sell.disabled=not inventory.has_item(selected_id) or not game.service_available(game.current_house_id)
 	if selected_id=="":
 		detail_name.text="物品详情"
 		detail_info.text="在左侧选择物品。\n\n绷带可直接处理身体页选中的部位。\n蛊食需匹配蛊虫的具体食性。已收入空窍的蛊不在此物品格中。\n\n[color=#93a99f]属性、伤势和背包共享同一份角色数据。[/color]"
@@ -184,7 +216,7 @@ func _update_detail() -> void:
 		detail_name.text=gu.name
 		portrait.texture=GuArt.texture(gu.template_id)
 		portrait.visible=true
-		detail_info.text="已炼化 · 外部携带\n尚未收入空窍，也未寄居身体。\n收入后在 Q 空窍页管理；不会作为普通材料叠放。"
+		detail_info.text="已炼化 · 外部携带\n收入空窍后可催动或参与合炼。\n\n"+GuProgression.detail(gu.template_id,game.player.aperture.stage,game.player.aperture.rank)
 		detail_use.text="收入空窍"
 		detail_use.disabled=gu.dead
 		detail_drop.disabled=true
@@ -202,6 +234,7 @@ func _update_detail() -> void:
 		portrait.texture=GuArt.texture(gu.id)
 		portrait.visible=true
 		detail_info.text="外部携带 · 未炼化\n\n%d 转 · 意志磨合 %.1f%%\n用真元逐步磨去蛊虫意志。炼化后才能收入空窍；不占普通物品堆叠。" % [gu.rank,float(gu.get("progress",0))]
+		detail_info.text+="\n\n"+GuProgression.detail(gu.id,game.player.aperture.stage,game.player.aperture.rank)
 		detail_use.text="前往炼化"
 		detail_use.disabled=false
 		detail_drop.disabled=true

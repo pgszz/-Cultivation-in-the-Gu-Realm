@@ -1,0 +1,39 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-11-19",
+  "asset": "qing_mao.png",
+  "original": "exec-27d207ce-2e06-4ed8-81ab-fbadbf30831b.png",
+  "layout": {
+    "columns": 6,
+    "rows": 4,
+    "cell": [
+      256,
+      256
+    ],
+    "people": [
+      "古月方源",
+      "古月方正",
+      "白凝冰",
+      "古月青书"
+    ],
+    "actions": [
+      "idle",
+      "walk_left",
+      "walk_right",
+      "strike",
+      "hurt",
+      "death"
+    ]
+  },
+  "prompt": "Use case: stylized-concept\nAsset type: production transparent 2D character animation atlas for a Chinese mountain village exploration game in Godot.\nCreate ONE 1536x1024 PNG with true alpha transparency, EXACTLY SIX equal 256x256 columns and FOUR equal 256x256 rows. No grid lines, labels, typography, backdrop, ground or shadows. Exactly 24 separate full body figures. Every sprite entirely inside its own cell with transparent margins. Feet of standing figures aligned at y=230 within each cell, heads near y=30, consistent scale in all six cells. Painterly ink and restrained gouache, fine clean readable outlines, natural stylized proportions about 5 heads tall, NOT superdeformed toddlers, NOT photorealistic. Camera lightly elevated front three-quarter view, facing right, suitable small game sprites and detailed portrait zoom.\nRows are four specific people from the EARLY Qing Mao Mountain chapters of Reverend Insanity (Gu Zhen Ren). Do not depict later immortal forms.\nROW 1: Gu Yue Fang Yuan. East Asian teenage boy, plain youthful face, black eyes, long black hair, calm unreadable unsmiling gaze. Slender, practical charcoal-black cross-collar cloth robe with a narrow dark sash, simple cloth shoes. Straight poised posture, composed and economical movement. No ornate crown, armor, scars, red eyes, demonic horns or magic halo.\nROW 2: Gu Yue Fang Zheng, Fang Yuan's younger IDENTICAL TWIN. EXACT SAME facial structure, black hair, eye shape and skin tone as row 1, slightly shorter and slimmer. More hesitant earnest expression and slightly lowered chin, shoulders a little less relaxed. Modest slate-indigo cross-collar cloth robe, narrow pale sash and same simple shoes. This clothing palette is an artistic choice to distinguish the twins; no luxury armor.\nROW 3: Bai Ning Bing as a HUMAN MALE youth before any gender transformation. Slim youthful male anatomy, pale skin, distinctive straight white/silver hair falling loose behind shoulders, white cross-collar long robe with very subtle icy-gray folds and simple sash. Haughty cool, slightly bored expression. NORMAL eyes dark; only the attack pose (column 4) has vivid icy blue eyes. No female chest, dragon horns, dragon scales, jewelry crown, cleavage or later reincarnation imagery.\nROW 4: Gu Yue Qing Shu. Adult male team leader, mature gentle face with soft features and fair skin, LONG DEEP GREEN HAIR hanging down his back, warm reassuring small smile. Leaf-green layered practical cloth robe and restrained beige sash (artistic costume interpretation). A slightly taller mature figure than the twins. Human rounded ears, human skin, no tree bark, roots, elven ears or leaf antlers. Poised open and welcoming hands.\nCOLUMNS from left to right, ALL FOUR ROWS follow precisely:\n1 full-body standing idle showing face clearly, both feet planted.\n2 walking step left foot forward and right arm forward, hem responds.\n3 opposite walking step right foot forward and left arm forward, clearly distinct from column 2.\n4 unarmed forward palm strike in a low balanced stance, face and identity maintained; no weapon, projectile or detachable magic effect.\n5 recoiling from an impact, arms close to torso, pained but restrained expression, still standing.\n6 lying motionless on side horizontally near bottom of cell, same clothes and hair, full body visible, non-graphic, no blood.\nLock identity and costume across each row. Fang Yuan and Fang Zheng must unmistakably be twins, distinguished mainly by expression, posture and clothing. Four rows only. No background color, no checkerboard baked into pixels, transparent all around.",
+  "policy": "AI-produced visual interpretation based on the novel, not official art. Original pixels preserved; no offline pixel editing. Canon sources and artistic additions in CanonPeople.gd and 青茅山关键人物.md.",
+  "sha256": "601d1831dc3017d2aeba5d7a0fa2adc06f64891f57bf55b6c5a8d30b0be324a6",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha_range": [
+    0,
+    254
+  ]
+}

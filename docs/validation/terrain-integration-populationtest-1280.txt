@@ -1,0 +1,30 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=214; terrain cache limit=24
+WORLD minimap ms=633; terrain cache limit=24
+WORLD minimap ms=647; terrain cache limit=24
+WORLD minimap ms=597; terrain cache limit=24
+WORLD minimap ms=597; terrain cache limit=24
+WORLD minimap ms=581; terrain cache limit=24
+WORLD minimap ms=600; terrain cache limit=24
+WORLD minimap ms=576; terrain cache limit=24
+WORLD minimap ms=607; terrain cache limit=24
+WORLD minimap ms=578; terrain cache limit=24
+POPULATION journey seconds=0 next=1 activity=停驻交易 position=(784, 944)
+POPULATION journey seconds=120 next=2 activity=等候队伍 position=(2959.601, 688)
+POPULATION member=caravan_merchant position=(2959.601, 688) goal=(10640, 1680) path=26/353 blocked=0.20 activity=等候队伍
+POPULATION member=caravan_porter position=(2251.904, 816) goal=(2896, 688) path=3/28 blocked=0.20 activity=挑担随行
+POPULATION member=caravan_guard_a position=(2845, 752) goal=(2864, 752) path=5/6 blocked=0.00 activity=随队护送
+POPULATION member=caravan_guard_b position=(2817, 784) goal=(2832, 784) path=3/4 blocked=0.00 activity=随队护送
+POPULATION journey seconds=240 next=2 activity=结队赶路 position=(6680.398, 880)
+POPULATION journey seconds=360 next=3 activity=结队赶路 position=(10800, 1973.599)
+POPULATION journey seconds=480 next=4 activity=结队赶路 position=(13744, 4233.599)
+POPULATION journey seconds=600 next=5 activity=结队赶路 position=(11830, 7408)
+POPULATION journey seconds=720 next=6 activity=停驻交易 position=(7795.601, 9808)
+POPULATION journey seconds=840 next=6 activity=结队赶路 position=(3792.001, 7358.8)
+POPULATION journey seconds=960 next=7 activity=结队赶路 position=(1104, 5217.603)
+POPULATION journey seconds=1080 next=0 activity=结队赶路 position=(2160, 2643.199)
+WORLD minimap ms=617; terrain cache limit=24
+WORLD minimap ms=570; terrain cache limit=24
+POPULATIONTEST checked=172 moved=29 routes=41 failures=[]

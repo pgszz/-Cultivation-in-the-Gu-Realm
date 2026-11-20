@@ -18,10 +18,11 @@ description: 对齐《蛊道修仙》的玩法设计文档与 Godot 实现，定
 | 饥饿、食性、断粮死亡 | `蛊虫饥饿度系统设计.md` | `HungerSystem.gd`、`FoodSystem.gd`、`GuManager.gd`、`GuVirtual.gd`、`Inventory.gd` |
 | 植物、动物、妖兽、宿主 | `植物系统设计.md`、`动物系统设计.md`、`妖兽系统设计.md` | 对应 `*System.gd`，以及 `Main.gd` 的宿主生成、催蛊、捕获与掉落 |
 | 人体伤害 | `人体结构系统设计.md` | `BodyComponent.gd`、`Main.gd`、`BodyUI.gd` |
-| 地图、五域、世界维度 | `地图设计.md`、`世界维度系统设计.md` | `World.gd`、`GameData.gd`、`Main.gd` |
-| 元素与可破坏环境 | `元素碰撞反应.md`、`环境破坏系统设计.md`、`环境破坏系统+元素反应整合.md` | `Main.gd` 的元素处理；检查 `ElementSystem.gd`、`DestructibleTerrain.gd` 是否实际接入 |
+| 移动人员、商队与强盗 | `人员活动系统设计.md` | `PopulationSystem.gd`、`WorldPerson.gd`、`Main.gd`、`VillageUI.gd` |
+| 地图、五域、世界维度 | `地图设计.md`、`世界维度系统设计.md` | `World.gd`、`GameData.gd`、`Main.gd`、`SouthernBorder*`、`ShangCity*` |
+| 元素与可破坏环境 | `元素碰撞反应.md`、`环境破坏系统设计.md` | `Main.gd`、`TerrainLayers`、`DestructionSystem`、`EnvironmentInteractions`；旧 `ElementSystem/DestructibleTerrain` 不等于正式入口 |
 | 联机与部署 | `多人联机详细设计.md`、`服务器部署指南.md`、`技术方案.md` | 当前是未实现目标；未来修改先搜索真实网络调用及运行入口 |
-| 上手、进度与资源 | `快速上手指南.md`、`开发检查清单.md`、`免费资源清单.md`、`资源获取实操指南.md` | `godot/README.md`、实际文件与验证结果 |
+| 上手、进度与资源 | `快速上手指南.md`、`开发检查清单.md`、`godot/CREDITS.md`、`资源获取实操指南.md` | `godot/README.md`、实际文件与验证结果 |
 
 ## 区分事实与目标
 

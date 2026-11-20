@@ -1,0 +1,49 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=389; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=560; terrain cache limit=24
+SETTLEMENT distance 古月山寨 / 白家寨 = 345.6 tiles
+SETTLEMENT distance 古月山寨 / 熊家寨 = 358.1 tiles
+SETTLEMENT distance 白家寨 / 熊家寨 = 264.8 tiles
+WORLD minimap ms=569; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=590; terrain cache limit=24
+WORLD minimap ms=566; terrain cache limit=24
+WORLD minimap ms=577; terrain cache limit=24
+WORLD minimap ms=567; terrain cache limit=24
+WORLD minimap ms=588; terrain cache limit=24
+WORLD minimap ms=566; terrain cache limit=24
+WORLD minimap ms=564; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=567; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=566; terrain cache limit=24
+WORLD minimap ms=600; terrain cache limit=24
+WORLD minimap ms=564; terrain cache limit=24
+WORLD minimap ms=570; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+WORLD minimap ms=567; terrain cache limit=24
+WORLD minimap ms=570; terrain cache limit=24
+WORLD minimap ms=613; terrain cache limit=24
+WORLD minimap ms=569; terrain cache limit=24
+WORLD minimap ms=561; terrain cache limit=24
+WORLD minimap ms=567; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=564; terrain cache limit=24
+WORLD minimap ms=598; terrain cache limit=24
+WORLD minimap ms=563; terrain cache limit=24
+WORLD minimap ms=569; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=566; terrain cache limit=24
+WORLD minimap ms=565; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=563; terrain cache limit=24
+WORLD minimap ms=564; terrain cache limit=24
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=576; terrain cache limit=24
+MAPCONTROLS checked=111
+SOUTHBORDER checked=110
+MAPTEST checked=292 failures=[]

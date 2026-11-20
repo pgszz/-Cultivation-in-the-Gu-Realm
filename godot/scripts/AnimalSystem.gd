@@ -8,6 +8,9 @@ signal animal_killed(animal_id: String, drops: Array)
 signal animal_tamed(animal_id: String)
 
 const ANIMALS := {
+	"boar": {"name":"野猪","type":"omnivore","hp":85,"atk":24,"drops":["boar_meat","boar_tusk"]},
+	"fox": {"name":"赤狐","type":"carnivore","hp":28,"atk":8,"drops":["fox_pelt"]},
+	"pheasant": {"name":"山雉","type":"herbivore","hp":16,"atk":3,"drops":["pheasant_meat","pheasant_feather"]},
 	# 普通动物
 	"rabbit": {"name": "野兔", "type": "herbivore", "hp": 20, "atk": 5, "meat_restore": 15, "drops": ["rabbit_meat", "rabbit_skin"]},
 	"deer": {"name": "野鹿", "type": "herbivore", "hp": 40, "atk": 10, "meat_restore": 25, "drops": ["deer_meat", "deer_horn"]},

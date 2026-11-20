@@ -1,0 +1,92 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=485; terrain cache limit=24
+WORLD minimap ms=675; terrain cache limit=24
+WORLD minimap ms=618; terrain cache limit=24
+WORLD minimap ms=729; terrain cache limit=24
+WORLD minimap ms=1001; terrain cache limit=24
+WORLD minimap ms=830; terrain cache limit=24
+WORLD minimap ms=942; terrain cache limit=24
+WORLD minimap ms=827; terrain cache limit=24
+WORLD minimap ms=601; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+WORLD minimap ms=572; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=592; terrain cache limit=24
+WORLD minimap ms=589; terrain cache limit=24
+WORLD minimap ms=582; terrain cache limit=24
+WORLD minimap ms=638; terrain cache limit=24
+WORLD minimap ms=572; terrain cache limit=24
+WORLD minimap ms=630; terrain cache limit=24
+WORLD minimap ms=635; terrain cache limit=24
+WORLD minimap ms=698; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+NEWGUTEST checked=45 failures=0
+WORLD minimap ms=599; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+WORLD minimap ms=643; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=596; terrain cache limit=24
+GUEXPANSIONTEST checked=108 failures=0
+WORLD minimap ms=617; terrain cache limit=24
+SETTLEMENT distance 古月山寨 / 白家寨 = 345.6 tiles
+SETTLEMENT distance 古月山寨 / 熊家寨 = 358.1 tiles
+SETTLEMENT distance 白家寨 / 熊家寨 = 264.8 tiles
+WORLD minimap ms=636; terrain cache limit=24
+WORLD minimap ms=602; terrain cache limit=24
+WORLD minimap ms=576; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+WORLD minimap ms=567; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=583; terrain cache limit=24
+WORLD minimap ms=592; terrain cache limit=24
+WORLD minimap ms=583; terrain cache limit=24
+WORLD minimap ms=563; terrain cache limit=24
+WORLD minimap ms=565; terrain cache limit=24
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=575; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+WORLD minimap ms=591; terrain cache limit=24
+WORLD minimap ms=583; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+WORLD minimap ms=577; terrain cache limit=24
+WORLD minimap ms=581; terrain cache limit=24
+WORLD minimap ms=581; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=590; terrain cache limit=24
+WORLD minimap ms=575; terrain cache limit=24
+WORLD minimap ms=577; terrain cache limit=24
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=600; terrain cache limit=24
+WORLD minimap ms=582; terrain cache limit=24
+WORLD minimap ms=581; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+WORLD minimap ms=582; terrain cache limit=24
+WORLD minimap ms=583; terrain cache limit=24
+WORLD minimap ms=575; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+MAPCONTROLS checked=111
+SOUTHBORDER checked=110
+WORLD minimap ms=855; terrain cache limit=24
+WORLD minimap ms=619; terrain cache limit=24
+WORLD minimap ms=588; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+WORLD minimap ms=594; terrain cache limit=24
+WORLD minimap ms=611; terrain cache limit=24
+WORLD minimap ms=647; terrain cache limit=24
+WORLD minimap ms=715; terrain cache limit=24
+WORLD minimap ms=746; terrain cache limit=24
+SETTLEMENTTEST checked=366
+CANONTEST checked=1311 failures=[]
+WARNING: 蛊虫【月光蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【黑豕蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【石皮蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)

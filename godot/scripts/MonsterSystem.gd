@@ -8,6 +8,12 @@ signal monster_dialogue_started(monster_id: String)
 signal monster_relationship_changed(monster_id: String, relationship: int)
 signal monster_recruited(monster_id: String)
 
+# 用户要求的沙盒妖兽；独立于下方退役妖将/妖王表，不宣称原著分级。
+const WILDLIFE := {
+	"green_wolf":{"name":"青狼妖","hp":130,"atk":22,"drops":["wolf_meat","green_wolf_fur"]},
+	"iron_bear":{"name":"铁背妖熊","hp":210,"atk":30,"drops":["bear_meat","iron_back"]},
+}
+
 const MONSTERS := {
 	# 初级妖兽
 	"green_wolf": {

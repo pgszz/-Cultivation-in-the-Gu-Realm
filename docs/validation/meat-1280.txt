@@ -1,0 +1,38 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD bake ms=437
+WORLD bake ms=442
+WORLD bake ms=452
+WORLD bake ms=443
+WORLD bake ms=437
+WORLD bake ms=442
+WORLD bake ms=439
+WORLD bake ms=446
+WORLD bake ms=446
+WORLD bake ms=456
+WORLD bake ms=454
+WORLD bake ms=447
+NEWGUTEST checked=45 failures=0
+WORLD bake ms=441
+CANONTEST FAIL actual supply button delivers dedicated ration: brute_longhorn
+CANONTEST FAIL matching ration consumed exactly once for brute_longhorn
+CANONTEST FAIL actual supply button delivers dedicated ration: yellow_camel
+CANONTEST FAIL matching ration consumed exactly once for yellow_camel
+CANONTEST FAIL actual supply button delivers dedicated ration: dragon_cricket
+CANONTEST FAIL matching ration consumed exactly once for dragon_cricket
+WORLD bake ms=462
+WORLD bake ms=442
+GUEXPANSIONTEST checked=99 failures=6
+WORLD bake ms=444
+WORLD bake ms=445
+WORLD bake ms=438
+WORLD bake ms=441
+MAPCONTROLS checked=48
+CANONTEST checked=553 failures=["actual supply button delivers dedicated ration: brute_longhorn", "matching ration consumed exactly once for brute_longhorn", "actual supply button delivers dedicated ration: yellow_camel", "matching ration consumed exactly once for yellow_camel", "actual supply button delivers dedicated ration: dragon_cricket", "matching ration consumed exactly once for dragon_cricket"]
+WARNING: 蛊虫【月光蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【黑豕蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)
+WARNING: 蛊虫【石皮蛊】已经饿死
+     at: push_warning (core/variant/variant_utility.cpp:1112)

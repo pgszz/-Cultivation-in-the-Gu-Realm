@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-19",
+  "tool": "built-in image_gen",
+  "note": "Original generated game interpretation, not official novel artwork. Original files copied without image editing.",
+  "assets": [
+    {
+      "file": "panorama.png",
+      "prompt": "Use case: stylized-concept. Original game environment illustration for a Chinese dark cultivation fantasy 2D game, Shang clan city on Shang Liang mountain. A vast merchant mountain city with an outer terraced town, monumental stone gates, teal ceramic roofs, warm lanterns and multiple concentric inner districts embedded in the towering mountain, arched rock entrances, busy tiny market stalls and an open martial arena terrace. Wide panoramic establishing illustration, hand-painted ink and gouache, muted jade green and sandstone with warm amber lights, richly detailed architecture, misty southern mountains. No text, no lettering, no logos, no UI. High quality standalone landscape illustration, suitable as town travel and service screen background. Broad clear foreground plaza. Fictional visual interpretation, no copying existing game art.",
+      "hint": "Generated images are saved to C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200 as C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-6ea0d1de-da87-41ec-8b5d-c52246cbdb93.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "1374e4b4b72420a0d09280212c8607f0c4ed193e91c9c376fd1df4da4fccea67"
+    },
+    {
+      "file": "merchant_hall.png",
+      "prompt": "Use case: stylized-concept. A single original 2D Chinese cultivation fantasy merchant hall building game sprite for Shang clan mountain city. Hand-painted ink and gouache with detailed aged wood, warm stone foundation, wide two-story teal ceramic tiled roof with elegant swept eaves, amber lanterns, open shopfront and two closed wooden side doors, a few baskets of sealed rough stones at front. 3/4 front elevated view matching an orthographic top-down RPG, centered complete freestanding building, all edges and eaves visible, generous transparent margin. No people, no lettering, no text, no logos, no landscape, no background, no surrounding ground plane, no cast shadow. Truly transparent RGBA alpha background. This single intact building will be split into falling roof/wall pieces at runtime for destruction, keep silhouette crisp. Landscape canvas.",
+      "hint": "Generated images are saved to C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200 as C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-cc5e10ff-7546-4b8a-b653-cd69f519f400.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "sha256": "66dbb2801d46265cc74cec660fd07fae649a7860ffe117eec8454e202ecd9ec0"
+    },
+    {
+      "file": "paving.png",
+      "prompt": "Use case: stylized-concept. Original seamless square top-down RPG ground texture, only flat horizontal Chinese old city blue-grey stone paving, irregular rectangular flagstones in staggered rows, fine warm-beige grout, lightly worn edges, subtle cracks and mineral color variation, hand-painted detailed ink and gouache game style matching Chinese cultivation fantasy architecture. Calm desaturated teal gray and warm stone, low visual noise, soft even ambient light, no shadows or objects, no buildings, no vegetation except tiny hints at seams. Perfect straight overhead orthographic view, no horizon, no perspective. Tileable on all four edges. 1024x1024 square. No text or borders.",
+      "hint": "Generated images are saved to C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200 as C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-de0b8fb3-d0be-42cd-bd90-401e9065b901.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "c4490069b642db9b7b02c27289b5ccbd7368d6eec159c32ab113cb37ceff7b66"
+    },
+    {
+      "file": "earth.png",
+      "prompt": "Use case: stylized-concept. Original seamless square top-down RPG ground texture for old Chinese mountain city side lanes. Flat compacted warm ochre earth and fine sand, subtle foot-worn patches, small embedded pebbles and faint shallow wagon ruts, softly varied ochre and sandy brown, detailed hand painted gouache game art. Even lighting, restrained contrast, no large stones, no vegetation, no objects, no buildings, no shadows, no horizon, no perspective. Straight overhead orthographic flat surface. Tileable across four edges. 1024x1024 square. No text or border.",
+      "hint": "Generated images are saved to C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200 as C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-35a9dc3b-0b1d-4161-99dc-5b90b346c9af.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "43e4553fe0d7835dcd52a074f58ad99cd4bde9c6a0c5dd5c9f89580c6e39c3ca"
+    },
+    {
+      "file": "arena_floor.png",
+      "prompt": "Use case: stylized-concept. Original seamless square overhead RPG ground texture for a Chinese martial arts stone arena. Large pale warm limestone and sandstone square tiles, carefully laid regular offset grid, thin dark joints, gently worn matte surfaces, subtle impact chips and hairline cracks, lightly varied warm gray-beige. Fine hand-painted gouache game environment texture, crisp but not noisy. Perfect straight overhead flat orthographic view, evenly lit, no perspective, no horizon, no objects, no symbols, no circular motifs, no borders. Tileable on all four sides. 1024x1024 square. No text.",
+      "hint": "Generated images are saved to C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200 as C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-1a2154c3-b163-4e23-87fc-dc87194a34c6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "e83883f96f2b6753ee12aa6e903389d22a78d9a8bb4e175eb8d8f243ea34996f"
+    },
+    {
+      "file": "courtyard.png",
+      "prompt": "Use case: stylized-concept. Original seamless square overhead RPG ground texture of an old Chinese mountain courtyard. Small weathered dark grey paving stones in an understated herringbone pattern, thin soft moss-green growth between some joints, muted gray green and warm gray, slightly uneven wear and small cracks, hand-painted ink and gouache game art. Flat straight top-down orthographic view. Uniform soft light, low contrast, no shadow, no perspective, no objects, no trees, no large plants, no horizon. Seamless four-edge tileable texture, 1024x1024 square. No text or border.",
+      "hint": "Generated images are saved to C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200 as C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-2d4a4116-e3e1-4354-9ab7-c08e6889dbc2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "70501d841c5901c2e8a4401a78cb38e1ffa633cbf05d23914ced646d94d441d5"
+    },
+    {
+      "file": "meadow.png",
+      "prompt": "Use case: stylized-concept. Original seamless ground material texture for a top-down Chinese cultivation fantasy 2D RPG. Detailed painterly gouache with fine natural material detail, muted colors and restrained contrast so characters remain clear. Flat orthographic view from directly overhead, uniform diffuse lighting. No objects, buildings, trees, horizon, perspective, shadow, lettering, border or vignette. Full bleed square 1024x1024, tileable on all four edges. Short dense meadow grass, sage green and subdued olive, sparse tiny clover leaves, delicate dry blades and glimpses of warm earth, soft irregular patches. No flowers, no recognizable repeated dominant clumps.",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-31cf41f0-66eb-479d-b482-702861a1cf49.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "f5f1c98681c71e7b92ac8cec333be1b70b263c7899572c0bdfdda9a72ef1f6a4"
+    },
+    {
+      "file": "forest.png",
+      "prompt": "Use case: stylized-concept. Original seamless ground material texture for a top-down Chinese cultivation fantasy 2D RPG. Detailed painterly gouache with fine natural material detail, muted colors and restrained contrast so characters remain clear. Flat orthographic view from directly overhead, uniform diffuse lighting. No objects, buildings, trees, horizon, perspective, shadow, lettering, border or vignette. Full bleed square 1024x1024, tileable on all four edges. Bamboo woodland floor covered with scattered slender dry bamboo leaves, small muted ochre and brown leaf litter on deep umber earth, fine green moss patches, sparse delicate root threads. No big roots, no plants rising above the ground, no giant leaves.",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-18920eeb-8357-40e7-92ad-78e217f8705c.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "157d76af037b37312e5edc5b426d0fa57cf490ac0f5ebdef51dea30efac8ad74"
+    },
+    {
+      "file": "moss.png",
+      "prompt": "Use case: stylized-concept. Original seamless ground material texture for a top-down Chinese cultivation fantasy 2D RPG. Detailed painterly gouache with fine natural material detail, muted colors and restrained contrast so characters remain clear. Flat orthographic view from directly overhead, uniform diffuse lighting. No objects, buildings, trees, horizon, perspective, shadow, lettering, border or vignette. Full bleed square 1024x1024, tileable on all four edges. Moist green moss carpet with subtle blue gray earthy patches, tiny ferns and scattered small flat slate flakes embedded in soft ground, subtle dampness without glossy highlights. Desaturated dark sage and gray green. No puddles, no large stones.",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-8524e9b0-568f-4133-813c-da1116f07ca1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "ca1afcbe3fc98b9cb66e013ba992c40a9ec05503aeafa795fc4eaed2e2841524"
+    },
+    {
+      "file": "gravel.png",
+      "prompt": "Use case: stylized-concept. Original seamless ground material texture for a top-down Chinese cultivation fantasy 2D RPG. Detailed painterly gouache with fine natural material detail, muted colors and restrained contrast so characters remain clear. Flat orthographic view from directly overhead, uniform diffuse lighting. No objects, buildings, trees, horizon, perspective, shadow, lettering, border or vignette. Full bleed square 1024x1024, tileable on all four edges. Stream bank of small rounded gray pebbles and warm gray fine sand, occasional muted tan stones and sparse green moss in crevices, varying fine pebble sizes, no boulders and no water. Calm cool-gray palette.",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-8a97d725-e454-4faf-9540-00e7075e75d6.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "alpha_range": null,
+      "sha256": "885b887019060ea929ad9e4dd05c289c8ab9ab9e2fce4b50b01a02c77ae357b0"
+    }
+  ]
+}

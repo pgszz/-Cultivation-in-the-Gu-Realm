@@ -7,7 +7,7 @@ const ORDERS := {
 	"rubble":{"name":"山路补石","desc":"为寨外山路筹集石料。","items":{"rubble":6},"stones":10,"reward":{"bandage":2},"cooldown":300.0},
 	"east_trail":{"name":"东麓踏查","desc":"亲自到三处地点按 E，带回山路见闻。","sites":["bamboo_hollow","river_ford","central_camp"],"stones":45,"reward":{"bamboo_wine":2},"cooldown":0.0},
 	"south_trail":{"name":"南麓访踪","desc":"踏查南麓竹坡、歇脚棚与南山石径。","sites":["south_bamboo","old_camp","south_pass"],"stones":50,"reward":{"bandage":3},"cooldown":0.0},
-	"mountain_notes":{"name":"青茅山行记","desc":"记录全部九处野外探索点。","sites":["bamboo_hollow","river_ford","high_ridge","stone_gully","south_bamboo","old_camp","cedar_pool","south_pass","central_camp"],"stones":120,"reward":{"jade":2},"cooldown":0.0},
+	"mountain_notes":{"name":"青茅山行记","desc":"记录原山路的九处探索点，东岭与南荒新地点不计入本项。","sites":["bamboo_hollow","river_ford","high_ridge","stone_gully","south_bamboo","old_camp","cedar_pool","south_pass","central_camp"],"stones":120,"reward":{"jade":2},"cooldown":0.0},
 }
 var states: Dictionary = {}
 

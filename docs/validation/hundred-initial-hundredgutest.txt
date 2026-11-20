@@ -1,0 +1,11 @@
+TIMEOUT
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=201; terrain cache limit=24
+WORLD minimap ms=564; terrain cache limit=24
+UTILITYGUTEST FAIL failed save rolls back complete relic transaction
+WORLD minimap ms=559; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+SCRIPT ERROR: Invalid access to property or key 'compendium' on a base object of type 'Node2D (Main.gd)'.
+          at: HundredGuTests.run (res://scripts/HundredGuTests.gd:127)

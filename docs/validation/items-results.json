@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-18",
+  "scope": "Seven generated item illustrations and inventory/service UI. Results apply to these isolated snapshots; concurrent world changes are separate.",
+  "runs": {
+    "1280": {
+      "run": "20261118-151147-65f12d",
+      "canontest": "CANONTEST checked=304 failures=[]",
+      "map_cells": [
+        160,
+        120
+      ],
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotbag",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbag"
+          ]
+        },
+        {
+          "check": "shotitemtimber",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotitemtimber"
+          ]
+        },
+        {
+          "check": "shotitemcurrency",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotitemcurrency"
+          ]
+        },
+        {
+          "check": "shotitembandage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotitembandage"
+          ]
+        },
+        {
+          "check": "shotshop",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotshop"
+          ]
+        },
+        {
+          "check": "shotcamp",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-151147-65f12d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcamp"
+          ]
+        }
+      ],
+      "art_code_sha256": {
+        "ItemArt.gd": "e673160376a8725da0b1dcd4e610060ef3cee02e7841f312f91abba8b7a8815a",
+        "InventoryUI.gd": "690bffa3eee52ab0dec6370f5f2e461ccf4a3fc19b7e021d75de35f40e9fae3b"
+      }
+    },
+    "960": {
+      "run": "20261118-150825-a90437",
+      "canontest": "CANONTEST checked=304 failures=[]",
+      "map_cells": [
+        160,
+        120
+      ],
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotbag",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotbag"
+          ]
+        },
+        {
+          "check": "shotitemtimber",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotitemtimber"
+          ]
+        },
+        {
+          "check": "shotitemcurrency",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotitemcurrency"
+          ]
+        },
+        {
+          "check": "shotitembandage",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotitembandage"
+          ]
+        },
+        {
+          "check": "shotshop",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotshop"
+          ]
+        },
+        {
+          "check": "shotcamp",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-150825-a90437\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotcamp"
+          ]
+        }
+      ],
+      "art_code_sha256": {
+        "ItemArt.gd": "e673160376a8725da0b1dcd4e610060ef3cee02e7841f312f91abba8b7a8815a",
+        "InventoryUI.gd": "690bffa3eee52ab0dec6370f5f2e461ccf4a3fc19b7e021d75de35f40e9fae3b"
+      }
+    }
+  }
+}

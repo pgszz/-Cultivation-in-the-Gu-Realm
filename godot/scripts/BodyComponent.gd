@@ -37,6 +37,7 @@ var unconscious_timer := 0.0
 var rank := 1
 var physique := 0
 var recovery_delay := 0.0
+var gu_changes: BodyGuEffects
 
 var _rng := RandomNumberGenerator.new()
 
@@ -103,6 +104,7 @@ func apply_hit(region: String, damage: float, element: String = "none") -> Dicti
 		part_damage *= 1.2
 	elif element == "thunder" and id == "head":
 		part_damage *= 1.1
+	if gu_changes!=null: part_damage*=gu_changes.modifier("part_damage",id)
 	var destroyed_now := false
 	var was_destroyed: bool = bool(p["destroyed"])
 	if not was_destroyed:
@@ -111,7 +113,7 @@ func apply_hit(region: String, damage: float, element: String = "none") -> Dicti
 		if float(p["hp"]) <= 0.0:
 			destroyed_now = true
 			_destroy(id)
-	pain = minf(100.0, pain + float(p["pain"]) * 0.7)
+	pain = minf(100.0, pain + float(p["pain"]) * 0.7 * (gu_changes.modifier("pain_taken") if gu_changes!=null else 1.0))
 	consciousness = maxf(0.0, consciousness - part_damage * 0.08)
 	if pain >= 100.0 or consciousness <= 0.0:
 		unconscious = true
@@ -152,7 +154,7 @@ func _destroy(id: String) -> void:
 		"neck":
 			neck_timer = 3.0
 		"groin":
-			pain = minf(100.0, pain + 30.0)
+			pain = minf(100.0, pain + 30.0 * (gu_changes.modifier("pain_taken") if gu_changes!=null else 1.0))
 
 
 func _die(reason: String) -> void:
@@ -202,8 +204,9 @@ func part_bleed_rate(id: String) -> float:
 	if not parts.has(id): return 0.0
 	var p: Dictionary = parts[id]
 	if bool(p.get("bandaged", false)): return 0.0
-	if bool(p["destroyed"]): return float(p["bleed"])
-	if float(p["hp"]) <= float(p["max_hp"]) * 0.3: return float(p["bleed"]) * 0.3
+	var factor:=gu_changes.modifier("bleed") if gu_changes!=null else 1.0
+	if bool(p["destroyed"]): return float(p["bleed"])*factor
+	if float(p["hp"]) <= float(p["max_hp"]) * 0.3: return float(p["bleed"]) * 0.3 * factor
 	return 0.0
 
 
@@ -264,7 +267,7 @@ func get_attack_speed_multiplier() -> float:
 			m *= 0.9
 	if unconscious:
 		m *= 0.6
-	return clampf(m, 0.3, 1.0)
+	return clampf(m, 0.3, 1.0)*(gu_changes.modifier("attack_speed") if gu_changes!=null else 1.0)
 
 
 func get_accuracy() -> float:

@@ -4,20 +4,27 @@ extends Node2D
 ## 画在最上层：弹道、捕获进度环。
 
 var game: Node
+var _had_content := false
 
 
 func _process(_delta: float) -> void:
 	if game == null:
 		return
-	if game.projectiles.is_empty() and game.player.capture_target == null:
-		return
-	queue_redraw()
+	var has_content:bool=not game.projectiles.is_empty() or game.player.capture_target!=null
+	if has_content or _had_content: queue_redraw()
+	_had_content=has_content
 
 
 func _draw() -> void:
 	if game == null:
 		return
 	for pr in game.projectiles:
+		if GameData.is_utility_gu(pr.get("gu_id","")):
+			UtilityGuEffects.draw_projectile(self,pr)
+			continue
+		if pr.get("gu_id","") in ["moon_blade","moon_glow"]:
+			GuVfx.draw_moon(self,pr,game.low_quality)
+			continue
 		var col: Color = pr["color"]
 		var a: float = clampf(pr["life"] / pr["max_life"] + 0.3, 0.0, 1.0)
 		draw_circle(pr["pos"], pr["r"], Color(col, a))

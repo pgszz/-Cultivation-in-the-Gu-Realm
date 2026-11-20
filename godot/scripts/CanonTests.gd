@@ -20,20 +20,39 @@ func key(code: int) -> void:
 	await game.get_tree().process_frame
 
 func click(button: Control) -> void:
-	await game.get_tree().process_frame
-	await game.get_tree().process_frame
+	var tree:=game.get_tree()
+	var viewport:=game.get_viewport()
+	await tree.process_frame
+	await tree.process_frame
+	var position:=button.get_global_rect().get_center()
 	for pressed in [true,false]:
 		var e:=InputEventMouseButton.new()
-		e.position=button.get_global_rect().get_center()
+		e.position=position
 		e.button_index=MOUSE_BUTTON_LEFT
 		e.pressed=pressed
-		game.get_viewport().push_input(e,true)
-	await game.get_tree().process_frame
+		viewport.push_input(e,true)
+	if is_instance_valid(game) and game.is_inside_tree(): await tree.process_frame
+
+static func prepare_cultivator(main: Node) -> void:
+	# 已有蛊师玩法的显式测试夹具；正常创建路径及开窍专项不调用。
+	if main.player.aperture.is_open(): return
+	main.player.aperture.potential=44
+	main.player.aperture.awaken()
+	main.player.captured.append({"id":"moon_blade","rank":1,"quality":"normal","progress":0.0})
+	if not main.player.discovered.has("moon_blade"): main.player.discovered.append("moon_blade")
+
+func start_character(cultivator: bool = true) -> void:
+	if game.character_saves.entries().is_empty():
+		await click(game.start_screen.create_button)
+		game.start_screen.name_input.text="回归游子"
+		await click(game.start_screen.create_confirm)
+	await click(game.start_btn)
+	if cultivator: prepare_cultivator(game)
 
 func run(main: Node) -> void:
 	game=main
 	game.set_process(false)
-	await click(game.start_btn)
+	await start_character()
 	expect(game.running,"real GUI start click")
 	await key(KEY_Q)
 	expect(game.journal.active_page=="aperture" and game.journal.visible,"Q opens independent aperture page")
@@ -204,6 +223,11 @@ func run(main: Node) -> void:
 	await key(KEY_ESCAPE)
 	await _check_exploration()
 	await _check_commissions_and_camps()
+	await _check_destruction_repairs()
+	await NewGuTests.new().run(self)
+	await GuExpansionTests.new().run(self)
+	await MapTests.new().run(self)
+	await SettlementTests.new().run(self)
 	print("CANONTEST checked=%d failures=%s" % [checked,str(failures)])
 	game.get_tree().quit(0 if failures.is_empty() else 1)
 
@@ -404,12 +428,14 @@ func _check_routes() -> void:
 		expect(visited.has(door),"walkable route to "+h.id)
 	for site in World.EXPLORATION_SITES:
 		expect(visited.has(site.pos),"walkable route to wilderness "+site.id)
+	for habitat in WildlifeSystem.HABITATS:
+		expect(visited.has(habitat.tile),"walkable route to wildlife habitat "+habitat.id)
 	expect(visited.size()>9000,"expanded world has substantial traversable area")
 
 func _check_exploration() -> void:
 	var p:Player=game.player
 	var inv:Inventory=game.get_node("/root/Inv")
-	expect(GameData.MAP_W*GameData.MAP_H==19200,"world area expanded to four times 80x60")
+	expect(GameData.MAP_W*GameData.MAP_H==172800,"world area expanded to 480x360")
 	expect(HouseInterior.ORIGIN.x-HouseInterior.BOUNDS.size.x>GameData.MAP_W*32,"interiors stay outside enlarged outdoor world")
 	for chunk in game.world.terrain_chunks.values():
 		expect(chunk.texture.get_width()<=1024 and chunk.texture.get_height()<=1024,"terrain textures fit 1024 pixel chunks")
@@ -417,10 +443,12 @@ func _check_exploration() -> void:
 	expect(game.fog.discovered(Vector2(14*32+16,30*32+16)) and game.fog.discovered(Vector2(78*32+16,59*32+16)),"old fog indices migrate with legacy width")
 	expect(not game.fog.discovered(Vector2(94*32+16,14*32+16)),"migration does not reveal wrong columns")
 	expect(not game.fog.discovered(Vector2(-1,32)),"fog rejects positions outside map")
+	game.fog.load_data([100*160+140],160)
+	expect(game.fog.discovered(Vector2(140*32+16,100*32+16)) and not game.fog.discovered(Vector2(60*32+16,67*32+16)),"160-wide exploration migrates without wrong columns")
 	for id in GameData.GU_ORDER:
 		expect(GuArt.texture(id)!=null and GuArt.texture(id).get_width()>=512 and GuArt.texture(id).resource_path.ends_with(".png"),"painted portrait for "+id)
 	await key(KEY_F1)
-	expect(game.hud.minimal and not game.hud.quickbar.visible,"F1 hides HUD navigation")
+	expect(game.hud.minimal and game.hud.quickbar.is_visible_in_tree(),"F1 keeps compact HUD navigation accessible")
 	await key(KEY_F1)
 	expect(not game.hud.minimal and game.hud.quickbar.visible,"F1 restores HUD")
 	var site:Dictionary=World.EXPLORATION_SITES[0]
@@ -474,6 +502,8 @@ func _check_exploration() -> void:
 		if not p.discovered.has(id): p.discovered.append(id)
 	game.compendium_ui.refresh()
 	for id in GameData.GU_ORDER:
+		await game.get_tree().process_frame
+		game.compendium_ui.list_scroll.ensure_control_visible(game.compendium_ui._buttons[id])
 		await click(game.compendium_ui._buttons[id])
 		expect(game.compendium_ui.portrait.texture==GuArt.texture(id) and game.compendium_ui.detail.text.contains("供养与取得"),"compendium button shows portrait and care for "+id)
 	await key(KEY_ESCAPE)
@@ -594,3 +624,162 @@ func _check_commissions_and_camps() -> void:
 	var legacy:=CommissionLedger.new()
 	legacy.load_data({})
 	expect(not legacy.state("timber").accepted and legacy.state("timber").completed==0,"older saves initialize an empty optional ledger")
+
+func _check_destruction_repairs() -> void:
+	var p:Player=game.player
+	var inv:Inventory=game.get_node("/root/Inv")
+	var destruct:DestructionSystem=game.world.destruction
+	var ui:VillageUI=game.village_ui
+	game.exit_house(false)
+	destruct.load_data({})
+	p.body.reset_full()
+	inv.items={"timber":100,"rubble":100}
+	var cell:Vector2i=game.world.blocks.mountain_cells["0"][0]
+	var mountain:Dictionary=game.world.blocks.info(cell,0)
+	var hp:float=mountain.hp
+	var result:Dictionary=game.hit_terrain(cell,1,Vector2.RIGHT)
+	expect(result.blocked and result.hp==hp,"rock block hardness rejects insufficient force")
+	expect(game.world.blocks.hit(cell,0,-20).is_empty(),"negative block damage cannot heal or create loot")
+	expect(not destruct.repairable(mountain.id) and not destruct.repairable("house:flower_cave") and not destruct.repairable("interior:flower_cave:wall_n"),"natural blocks and caves cannot be rebuilt as wooden houses")
+	game.enter_house(World.HOUSE_DATA[2])
+	var storage_id:="interior:home:storage"
+	var storage:Rect2=destruct.objects[storage_id].rect
+	var initial_timber:=inv.get_item_count("timber")
+	game.strike_world(storage.get_center(),1,9999,"none",Vector2.ZERO,-1,false)
+	expect(destruct.broken(storage_id) and inv.get_item_count("timber")==initial_timber+2,"furniture collapse grants its material-specific salvage once")
+	expect(not game.world.collides(storage.get_center().x,storage.get_center().y,1),"broken furniture clears its collision")
+	game.strike_world(storage.get_center(),1,9999,"none",Vector2.ZERO,-1,false)
+	expect(inv.get_item_count("timber")==initial_timber+2,"repeated strikes on rubble grant no salvage")
+	p.position=storage.get_center()
+	var wood:=inv.get_item_count("timber")
+	expect(not game.repair_world_object(storage_id) and inv.get_item_count("timber")==wood and destruct.broken(storage_id),"rebuilding cannot embed the player in furniture or charge materials")
+	p.position=HouseInterior.ORIGIN+Vector2(190,165)
+	inv.items.timber=0
+	expect(not game.repair_world_object(storage_id) and destruct.broken(storage_id),"repair rejects insufficient inventory")
+	inv.items.timber=wood
+	game.paused=false
+	await key(KEY_F)
+	expect(ui.visible and ui.mode=="destruction" and game.paused,"F opens nearby inspection and pauses gameplay")
+	expect(ui.description.text.contains("储物箱") and ui.repair_button!=null and not ui.repair_button.disabled,"inspection selects nearby destroyed furniture and exposes repair")
+	var wall_progress:=p.aperture.wall_progress
+	p.atk_cd=0.5
+	game._process(1)
+	expect(p.aperture.wall_progress==wall_progress and p.atk_cd==0.5,"repair menu does not advance attack cooldown or cultivation")
+	await click(ui.repair_button)
+	expect(destruct.health(storage_id)==60 and inv.get_item_count("timber")==wood-4,"real repair button charges four timber and restores furniture")
+	expect(game.world.collides(storage.get_center().x,storage.get_center().y,1) and ui.repair_button.disabled,"repair restores collision and disables duplicate action")
+	wood=inv.get_item_count("timber")
+	expect(not game.repair_world_object(storage_id) and inv.get_item_count("timber")==wood,"already repaired object cannot be charged again")
+	await game.get_tree().process_frame
+	ui.action_scroll.ensure_control_visible(ui.object_buttons["interior:home:wall_s_right"])
+	await click(ui.object_buttons["interior:home:wall_s_right"])
+	expect(ui.description.text.contains("南墙右段"),"nearby object button selects the actual fixture for inspection")
+	await key(KEY_F)
+	expect(not ui.visible and not game.paused,"F closes inspection and resumes play")
+	game.save_game()
+	var saved:Dictionary=JSON.parse_string(FileAccess.get_file_as_string(game.SAVE_PATH))
+	expect(saved.world_salvaged.has(storage_id) and not saved.world_damage.has(storage_id),"fully repaired object's salvage history is saved independently of damage")
+	destruct.salvaged.clear()
+	game._load_save()
+	expect(destruct.health(storage_id)==60 and destruct.salvaged.has(storage_id),"save/load retains repaired health and spent salvage")
+	wood=inv.get_item_count("timber")
+	game.strike_world(storage.get_center(),1,9999,"none",Vector2.ZERO,-1,false)
+	expect(destruct.broken(storage_id) and inv.get_item_count("timber")==wood,"repair then reload then demolish cannot farm materials")
+	# Damage-scaled repair costs and room isolation use actual world objects.
+	var desk_id:="interior:home:desk"
+	var desk:Rect2=destruct.objects[desk_id].rect
+	game.strike_world(desk.get_center(),1,15,"none",Vector2.ZERO,-1,false)
+	p.position=HouseInterior.ORIGIN+Vector2(180,-40)
+	expect(destruct.repair_cost(desk_id)=={"timber":1},"partial furniture repair costs scale with missing durability")
+	wood=inv.get_item_count("timber")
+	expect(game.repair_world_object(desk_id) and inv.get_item_count("timber")==wood-1,"partial repair pays rounded cost exactly")
+	expect(not destruct.salvaged.has(desk_id),"repairing before first collapse does not consume initial salvage")
+	expect(not game.repair_world_object("interior:shop:storage"),"room identity prevents repairing another house at shared coordinates")
+	var wall_id:="interior:home:wall_w"
+	var wall:Rect2=destruct.objects[wall_id].rect
+	game.strike_world(wall.get_center(),1,9999,"none",Vector2.ZERO,-1,false)
+	p.position=HouseInterior.ORIGIN+Vector2(-300,100)
+	inv.items.rubble=0
+	wood=inv.get_item_count("timber")
+	expect(not game.repair_world_object(wall_id) and inv.get_item_count("timber")==wood and destruct.broken(wall_id),"missing stone does not partially charge the wall's timber cost")
+	inv.items.rubble=100
+	expect(game.repair_world_object(wall_id) and inv.get_item_count("timber")==wood-2 and inv.get_item_count("rubble")==94,"wall rebuild charges both material types exactly")
+	expect(game.world.collides(wall.get_center().x,wall.get_center().y,1) and destruct.health("interior:shop:wall_w")==200,"wall collision returns without changing another room")
+	game.projectiles.clear()
+	game.spawn_projectile(HouseInterior.ORIGIN+Vector2(-300,150),Vector2(-460,0),26,"none","player",{})
+	game._update_projectiles(0.2)
+	expect(game.projectiles.is_empty() and is_equal_approx(destruct.health(wall_id),187),"fast projectile hits thin wall once instead of tunnelling through")
+	# A resident occupying rubble blocks rebuilding without resurrecting anyone.
+	game.exit_house(false)
+	game.enter_house(World.HOUSE_DATA[1])
+	var shop_storage:="interior:shop:storage"
+	game.strike_world(storage.get_center(),1,9999,"none",Vector2.ZERO,-1,false)
+	p.position=HouseInterior.ORIGIN+Vector2(190,165)
+	var resident:Npc=game.residents.shop
+	resident.load_data({})
+	var resident_pos:=resident.position
+	resident.position=storage.get_center()
+	wood=inv.get_item_count("timber")
+	expect(not game.repair_world_object(shop_storage) and inv.get_item_count("timber")==wood,"resident on rubble blocks restoration without consuming materials")
+	resident.position=resident_pos
+	expect(game.repair_world_object(shop_storage),"moving resident away allows restoration")
+	game.exit_house(false)
+	var shop_pos:Vector2=World.HOUSE_DATA[1].pos
+	game.strike_world(shop_pos+Vector2(0,-20),1,9999,"none",Vector2.ZERO,-1,false)
+	expect(not game.service_available("shop") and game.world.house_at(shop_pos+Vector2(0,40)).is_empty(),"demolishing shop closes services and entry")
+	p.position=shop_pos+Vector2(0,180)
+	wood=inv.get_item_count("timber")
+	expect(not game.repair_world_object("house:shop") and inv.get_item_count("timber")==wood,"remote building repair is rejected without cost")
+	p.position=shop_pos+Vector2(0,50)
+	var enemy:Enemy=game.enemies[0]
+	var enemy_pos:=enemy.position
+	enemy.position=shop_pos+Vector2(0,-20)
+	expect(not game.repair_world_object("house:shop"),"outdoor creature occupying a ruin blocks rebuilding")
+	enemy.position=enemy_pos
+	expect(game.world.interaction_prompt(p.position).contains("F"),"ruined building advertises its repair interaction")
+	var stones:=inv.get_item_count("rubble")
+	expect(game.repair_world_object("house:shop") and inv.get_item_count("timber")==wood-12 and inv.get_item_count("rubble")==stones-8,"full house rebuild consumes its construction materials")
+	expect(game.service_available("shop") and not game.world.house_at(p.position).is_empty(),"rebuilding restores shop entry and a living peaceful resident's service")
+	await key(KEY_E)
+	expect(game.world.in_interior and game.current_house_id=="shop","E still enters a rebuilt house")
+	game.exit_house(false)
+	resident.hostile=true
+	game.strike_world(shop_pos+Vector2(0,-20),1,20,"none",Vector2.ZERO,-1,false)
+	expect(game.repair_world_object("house:shop") and resident.hostile and not game.service_available("shop"),"repair does not erase resident hostility")
+	resident.dead=true
+	resident.hp=0
+	game.strike_world(shop_pos+Vector2(0,-20),1,20,"none",Vector2.ZERO,-1,false)
+	expect(game.repair_world_object("house:shop") and resident.dead and not game.service_available("shop"),"repair cannot resurrect a dead service resident")
+	# Old version 6 saves have numeric damage entries but no salvage ledger.
+	game.strike_world(shop_pos+Vector2(0,-20),1,9999,"none",Vector2.ZERO,-1,false)
+	game.save_game()
+	saved=JSON.parse_string(FileAccess.get_file_as_string(game.SAVE_PATH))
+	saved.erase("world_salvaged")
+	saved.version=6
+	var file:=FileAccess.open(game.SAVE_PATH,FileAccess.WRITE)
+	file.store_string(JSON.stringify(saved))
+	file.close()
+	game._load_save()
+	expect(destruct.broken("house:shop") and destruct.salvaged.has("house:shop"),"legacy destroyed objects infer spent salvage without an optional ledger")
+	expect(game.repair_world_object("house:shop"),"legacy ruin can be rebuilt")
+	wood=inv.get_item_count("timber")
+	stones=inv.get_item_count("rubble")
+	game.strike_world(shop_pos+Vector2(0,-20),1,9999,"none",Vector2.ZERO,-1,false)
+	expect(inv.get_item_count("timber")==wood and inv.get_item_count("rubble")==stones,"legacy migration does not re-award old collapse loot")
+	# Inspection uses the same strength and active support as live combat.
+	game.enter_house(World.HOUSE_DATA[2])
+	p.position=HouseInterior.ORIGIN+Vector2(180,-40)
+	var strength_before:=p.boar_cultivation.progress
+	p.boar_cultivation.progress=0.5
+	ui.show_destruction(desk_id)
+	expect(ui.description.text.contains("普攻 16.5"),"destruction preview includes permanent trained strength")
+	var support:GuVirtual=game.get_node("/root/Gus").add_gu("little_light")
+	p.light_support_id=support.id
+	ui.show_destruction(desk_id)
+	expect(ui.description.text.contains("辅光月刃 52.0"),"destruction preview includes active light support")
+	support.location="bag"
+	ui.show_destruction(desk_id)
+	expect(ui.description.text.contains("月刃 26.0") and not ui.description.text.contains("辅光月刃"),"unavailable support is excluded from destruction preview")
+	p.boar_cultivation.progress=strength_before
+	p.light_support_id=""
+	ui.close()

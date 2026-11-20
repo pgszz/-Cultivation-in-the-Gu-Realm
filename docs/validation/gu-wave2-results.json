@@ -1,0 +1,191 @@
+[
+  {
+    "date": "2026-11-18",
+    "run": ".test-runs/gu-wave2-scope-20261118/.test-runs/20261118-170458-00985f",
+    "scope": "Frozen project from 20261118-162014-68b26b with final Gu test fixture and food screenshot overlays; all Gu behavior code is from the live implementation.",
+    "resolution": "1280x720",
+    "canon_checks": 561,
+    "new_gu_checks": 107,
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\gu-wave2-scope-20261118\\.test-runs\\20261118-170458-00985f\\project",
+          "--headless",
+          "--import"
+        ]
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\gu-wave2-scope-20261118\\.test-runs\\20261118-170458-00985f\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canontest"
+        ]
+      },
+      {
+        "check": "shotguwave2",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\gu-wave2-scope-20261118\\.test-runs\\20261118-170458-00985f\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotguwave2"
+        ]
+      },
+      {
+        "check": "shotguwave2food",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\gu-wave2-scope-20261118\\.test-runs\\20261118-170458-00985f\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--shotguwave2food"
+        ]
+      }
+    ],
+    "script_sha256": {
+      "GameData.gd": "612eca7446f077a790ddb6c783de9a7d2daaaae82da3a493422664c31d0d0f2c",
+      "GuEffects.gd": "133b9de124121a024b1eb42eed13e1dee88c5494b2fa6a4c683c569db52525e8",
+      "GuExpansionTests.gd": "131d69aec5244cf4d37210e396fe10088679937224fc27dc5b6461f9b08f7d03",
+      "NewGuTests.gd": "a626bbb1c6ea7dbb6bc8ce5b15ec3e1ce0889b386c5b48df17b847486eba3547",
+      "GuArt.gd": "7f50b0b769a1eb8a2fa82fd296a2ff808533ea9482840a108f1fd757a83b32b5",
+      "FoodSystem.gd": "164a0eae48aa75794c4c77e79a9fccc4afebc88fcfa041e689859caf97013ea9",
+      "HungerSystem.gd": "289e91e903c2bfadd00d5c06c6ba33bd5680ad276cf7b52cc005d4bce96eff18",
+      "VillageUI.gd": "d3a5bf75edef2966d4baecc74a9a0a641951126a5b4a5c5fee9e7350750a9a8a",
+      "CompendiumUI.gd": "3642d5fc81b3a510aa58f6c9216c7c49e958315472e33cc43b45afb7b34f1503",
+      "CharacterUI.gd": "ccc2ab7fb8663b32576b5a5b7e782e90341323272b10f63cc65d04f60b330529",
+      "HUD.gd": "7e0236ae4e7c42a268248c6945fadc0746b6fb7ca1e788d494cdf1045a51a10a",
+      "Main.gd": "120c67dc678037fd136aee089bb06bfd0d1d97f3d557bc78f6e84f75be79070b",
+      "Player.gd": "ce32d62f0f76d0bfdc19fb1f1e32b957121ab14aa262589d250deb00f8c1fe7c"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "run": ".test-runs/20261118-173745-a8169a",
+    "scope": "Complete live workspace snapshot including concurrent map, art and animation changes; conclusions limited to covered checks.",
+    "resolution": "960x540",
+    "canon_checks": 557,
+    "new_gu_checks": 107,
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--headless",
+          "--import"
+        ]
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--canontest"
+        ]
+      },
+      {
+        "check": "shotguwave2",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotguwave2"
+        ]
+      },
+      {
+        "check": "shotguwave2shop",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotguwave2shop"
+        ]
+      },
+      {
+        "check": "shotguwave2food",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotguwave2food"
+        ]
+      },
+      {
+        "check": "shotgucombat",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotgucombat"
+        ]
+      },
+      {
+        "check": "shotrefine",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-173745-a8169a\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--shotrefine"
+        ]
+      }
+    ],
+    "script_sha256": {
+      "GameData.gd": "13645d124016efc6880b0c37c34f75732156d3433841b6ffdadd16385d743ba3",
+      "GuEffects.gd": "133b9de124121a024b1eb42eed13e1dee88c5494b2fa6a4c683c569db52525e8",
+      "GuExpansionTests.gd": "c7f3dde38a2b536c6b0638a6ae99ceb5d38b7c535211f67b1b80ab64c16f72b6",
+      "NewGuTests.gd": "a626bbb1c6ea7dbb6bc8ce5b15ec3e1ce0889b386c5b48df17b847486eba3547",
+      "GuArt.gd": "7f50b0b769a1eb8a2fa82fd296a2ff808533ea9482840a108f1fd757a83b32b5",
+      "FoodSystem.gd": "164a0eae48aa75794c4c77e79a9fccc4afebc88fcfa041e689859caf97013ea9",
+      "HungerSystem.gd": "289e91e903c2bfadd00d5c06c6ba33bd5680ad276cf7b52cc005d4bce96eff18",
+      "VillageUI.gd": "84d78196e28218027f81982846fd8f480ce22f419b207cef9d72a96058783dda",
+      "CompendiumUI.gd": "3642d5fc81b3a510aa58f6c9216c7c49e958315472e33cc43b45afb7b34f1503",
+      "CharacterUI.gd": "ccc2ab7fb8663b32576b5a5b7e782e90341323272b10f63cc65d04f60b330529",
+      "HUD.gd": "7e0236ae4e7c42a268248c6945fadc0746b6fb7ca1e788d494cdf1045a51a10a",
+      "Main.gd": "38c237393931e4a6a8f76b3abb7498efce695cb8be8e3b53755e8e241a5fb79d",
+      "Player.gd": "ce32d62f0f76d0bfdc19fb1f1e32b957121ab14aa262589d250deb00f8c1fe7c"
+    }
+  }
+]

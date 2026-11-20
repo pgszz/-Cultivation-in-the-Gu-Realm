@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-18",
+  "scope": "Wildlife and 240x180 map; final behavior snapshot at 1280 and frozen equivalent at 960, plus updated screenshot fixture. Shared workspace later Gu/world-art additions are outside this scope.",
+  "runs": [
+    {
+      "id": "20261118-153010-b15d1d",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "wildlifetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--wildlifetest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotwildlife",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotwildlife"
+          ]
+        },
+        {
+          "check": "shotwildlifebeasts",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotwildlifebeasts"
+          ]
+        },
+        {
+          "check": "shotwildlifefield",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotwildlifefield"
+          ]
+        },
+        {
+          "check": "shotwildlifecultivate",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotwildlifecultivate"
+          ]
+        },
+        {
+          "check": "shotatlasfull",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotatlasfull"
+          ]
+        },
+        {
+          "check": "shotexploration",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-153010-b15d1d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotexploration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20261118-152359-f36d24",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-152359-f36d24\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "wildlifetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-152359-f36d24\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--wildlifetest"
+          ]
+        },
+        {
+          "check": "shotwildlife",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-152359-f36d24\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotwildlife"
+          ]
+        },
+        {
+          "check": "shotwildlifebeasts",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-152359-f36d24\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotwildlifebeasts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20261118-155329-b81d84",
+      "frozen_scope": "wildlife-final-scope-20261118",
+      "baseline": "20261118-153010-b15d1d/project, with only the final wildlife screenshot fixture copied from Main.gd",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "wildlifetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--wildlifetest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotwildlife",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotwildlife"
+          ]
+        },
+        {
+          "check": "shotwildlifebeasts",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotwildlifebeasts"
+          ]
+        },
+        {
+          "check": "shotwildlifefield",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotwildlifefield"
+          ]
+        },
+        {
+          "check": "shotwildlifecultivate",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotwildlifecultivate"
+          ]
+        },
+        {
+          "check": "shotatlasfull",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\wildlife-final-scope-20261118\\.test-runs\\20261118-155329-b81d84\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotatlasfull"
+          ]
+        }
+      ],
+      "script_sha256": {
+        "scripts/WildlifeSystem.gd": "b1ffb5e1919ab160f1c51d927773d6a2d3ef26bc9d64f23840219fb3f816e511",
+        "scripts/WildlifeTests.gd": "e097d4709c426ddee974f5e69b72ef9a30664c38ee5432640eadf16f5fa803d0",
+        "scripts/Enemy.gd": "f046c88ccb92e655cb3b92568e6f5aa198c5b341abf032a1c654c88532eddd1d",
+        "scripts/World.gd": "9fca129195d6d330b4411ddbf24cfdd9b11468c3f99f2cc1fb528388ff97e323",
+        "scripts/CanonTests.gd": "eaa5e398b19a3a913dc80eb6b66609e03febbbc6e4d0ca298469b4954c9cc98c",
+        "scripts/Main.gd": "f086e131b912d3eb7010fb6f5ab3609366812f0782cfb8c9332efa68fa995aa9",
+        "scripts/MiniMapUI.gd": "a9e0d594f8664ea52f150bc6a376b52c7ffe0088edbe92184306ca0065b44b53",
+        "scripts/AtlasMap.gd": "65fdd9fdc0a59f62f02e6d13b70a1e9006f8fbf878e077b7db6a38f18e9eb836",
+        "scripts/WildlifeArt.gd": "84c88ff0e94d3b45f56e69ea2a4b2fc56bcc551710b4ae509e0d75c4e51f2a71",
+        "scripts/GameData.gd": "abef1e619896cabaf196b1e9f66da20ec7c2c2e6eb7a9158ff572d24f1d810d3"
+      }
+    }
+  ],
+  "tested_script_sha256": {
+    "scripts/WildlifeSystem.gd": "b1ffb5e1919ab160f1c51d927773d6a2d3ef26bc9d64f23840219fb3f816e511",
+    "scripts/WildlifeTests.gd": "e097d4709c426ddee974f5e69b72ef9a30664c38ee5432640eadf16f5fa803d0",
+    "scripts/Enemy.gd": "f046c88ccb92e655cb3b92568e6f5aa198c5b341abf032a1c654c88532eddd1d",
+    "scripts/World.gd": "9fca129195d6d330b4411ddbf24cfdd9b11468c3f99f2cc1fb528388ff97e323",
+    "scripts/CanonTests.gd": "eaa5e398b19a3a913dc80eb6b66609e03febbbc6e4d0ca298469b4954c9cc98c",
+    "scripts/Main.gd": "2e0462c1b46bfb0240617d7277d9f7f68ba60b8b4327620e210a04260ee54c8b",
+    "scripts/MiniMapUI.gd": "a9e0d594f8664ea52f150bc6a376b52c7ffe0088edbe92184306ca0065b44b53",
+    "scripts/AtlasMap.gd": "65fdd9fdc0a59f62f02e6d13b70a1e9006f8fbf878e077b7db6a38f18e9eb836",
+    "scripts/WildlifeArt.gd": "84c88ff0e94d3b45f56e69ea2a4b2fc56bcc551710b4ae509e0d75c4e51f2a71",
+    "scripts/GameData.gd": "abef1e619896cabaf196b1e9f66da20ec7c2c2e6eb7a9158ff572d24f1d810d3"
+  },
+  "integration_attempts": [
+    {
+      "id": "20261118-154732-f1f5fc",
+      "report": [
+        {
+          "check": "import",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-154732-f1f5fc\\project",
+            "--headless",
+            "--import"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20261118-155240-13ed3a",
+      "report": [
+        {
+          "check": "import",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-155240-13ed3a\\project",
+            "--headless",
+            "--import"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "created": "2026-11-18",
+  "style": "Original ink-and-gouache game art; architecture, costumes and atlas geography are game art interpretations, not official or exact novel reconstructions.",
+  "files": [
+    {
+      "file": "character.png",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-3b5ee28e-74cd-4307-9c1c-d071ee28a541.png",
+      "method": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: production 2D game character animation sprite atlas, transparent PNG. Create an ORIGINAL Chinese mountain-clan young adult male martial cultivator, black hair in a simple tied topknot, muted jade-green cross-collar cloth tunic, dark trousers, cloth shoes, ochre sash, empty hands. Elegant hand-painted gouache and ink, crisp silhouette, small readable facial details, grounded human proportions slightly stylized, no pixel art. Camera: fixed elevated three-quarter top-down RPG view. EXACT GRID: 6 columns by 4 rows, canvas 1536 by 1024, each cell 256 by 256. All cells same scale, feet baseline at y=226 within each cell, centered x=128. Transparent 18px padding around every pose; no borders, labels, writing, grid lines or background. EACH ROW same character, different direction: row1 facing camera/down; row2 facing left; row3 facing away/up; row4 facing right. EACH COLUMN animation pose: col1 relaxed standing; col2 walking left foot forward arms counter-swing; col3 walking right foot forward; col4 forceful barehand forward strike extended arm and torso twist; col5 casting palm raised with no drawn magic; col6 collapsed on ground lying sideways with limbs folded naturally, no gore. Consistent identity, costume, lighting, scale in all 24 cells. Draw exactly 24 separate complete full-body sprites, one per cell, no cropping or overlapping.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "c820f82c252a113eb44186b7bcc53125a25578c9b7dd648595b8fcb7c237aa1c",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha_zero_pixels": 987746
+    },
+    {
+      "file": "residents_clean.png",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-5fd5b38f-d409-4fe3-90ec-c8a7b5abf2d3.png",
+      "method": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: original Chinese mountain village RPG resident animation atlas, actual transparent background. Match elegant ink and gouache muted jade, indigo, ochre hand-painted sprites. EXACT 6 columns x 4 rows, 1536x1024, each cell256x256, a complete isolated adult person per cell, feet aligned at cell y=226, cell center x128, all same scale. Fixed elevated three-quarter camera. Row1 young male village guard in indigo cloth tunic, topknot; row2 older female herbal physician in ivory sage robes, gray tied hair, medicine pouch; row3 middle-aged male merchant in ochre brown robes, cloth cap; row4 older male scholar in gray blue robes, graying beard. EACH row repeats same identity and clothes in six full-body poses. Column1 idle standing facing slightly right towards viewer, col2 walking left foot forward, col3 walking right foot forward, col4 barehand defensive punch to right with torso twist, col5 recoil from impact with bent knees and torso leaning away, col6 fallen on ground sideways without gore. No labels, text, borders, cast shadows, grid lines, weapons or background. Consistent identities, crisp alpha silhouettes, recognizable different roles. All sprites must stay within their own cell.\nBackground-extraction edit: remove all white/off-white/gray background and halos; preserve the exact 6×4 grid, identity, poses, scale, and actual alpha.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "2b8f5fb416135ed87216fdc531f8ee5a4089decaf1fd3b371e2b6b1a27fc924d",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha_zero_pixels": 1085821,
+      "generation_prompt": "Use case: stylized-concept. Asset type: original Chinese mountain village RPG resident animation atlas, actual transparent background. Match elegant ink and gouache muted jade, indigo, ochre hand-painted sprites. EXACT 6 columns x 4 rows, 1536x1024, each cell256x256, a complete isolated adult person per cell, feet aligned at cell y=226, cell center x128, all same scale. Fixed elevated three-quarter camera. Row1 young male village guard in indigo cloth tunic, topknot; row2 older female herbal physician in ivory sage robes, gray tied hair, medicine pouch; row3 middle-aged male merchant in ochre brown robes, cloth cap; row4 older male scholar in gray blue robes, graying beard. EACH row repeats same identity and clothes in six full-body poses. Column1 idle standing facing slightly right towards viewer, col2 walking left foot forward, col3 walking right foot forward, col4 barehand defensive punch to right with torso twist, col5 recoil from impact with bent knees and torso leaning away, col6 fallen on ground sideways without gore. No labels, text, borders, cast shadows, grid lines, weapons or background. Consistent identities, crisp alpha silhouettes, recognizable different roles. All sprites must stay within their own cell.",
+      "edit_prompt": "Use case: background-extraction. Edit target: this exact resident sprite atlas. Remove ALL of the white, off-white and gray background and any soft halo between all 24 people. Make every empty pixel genuinely transparent alpha=0, not translucent white. Keep every person, facial identity, garment, pose, location, scale and the EXACT 1536x1024 six-column four-row grid intact. Do not move or redraw sprites, do not add shadows, checkerboard or a solid colored background. Opaque painted people, crisp smooth alpha edges. Only remove the background."
+    },
+    {
+      "file": "buildings.png",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-a4dec15e-7c97-46c7-a0f5-e8b48f190c8b.png",
+      "method": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: ORIGINAL painted architecture atlas for a top-down Chinese mountain-village 2D RPG. EXACT 4 columns x 3 rows evenly spaced grid, canvas 1536 x 1152, each cell384x384. Each cell has ONE isolated complete building or ruin centered within its cell with 26px transparent margins, ground contact baseline y=342. Elevated 3/4 RPG camera, south-facing door centered at bottom, visible front facade and gray-green tiled roof. Refined ink-and-gouache painterly textures, muted jade, warm aged timber, lichen stone, bamboo, readable silhouette, coherent scale. No perspective landscape, no ground square, no background, no text or signs with writing. Row1 col1 humble wooden house; col2 herb clinic with hanging herb bundles; col3 village shop with jars under awning; col4 archive reading hall with scroll shelves glimpsed in doorway. Row2 col1 ancestral hall with layered tile roof and red-brown posts; col2 pale stone and timber clan hall; col3 sturdy dark timber clan hall; col4 hidden vine-covered rocky cave entrance. Row3 col1 pale limestone spring cave mouth with small blue pool; col2 low rubble heap of BROKEN roof tiles and splintered timber from a demolished house, no standing house; col3 broken stone and boulder rubble pile; col4 fallen bamboo stems and wood splinters pile. All 12 cells equally aligned, isolated, transparent background with actual alpha. Original art, not borrowed game assets, no labels, no grid lines, no watermark.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "f1950de2548d1f9cd2d062f5adcf79ebd1e1d9929d8c7f42c2a01ffc30d23d41",
+      "alpha_range": [
+        1,
+        253
+      ],
+      "alpha_zero_pixels": 0
+    },
+    {
+      "file": "scenery.png",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-b1fa00f7-3c3e-4ce3-8525-db2a2c69f8f4.png",
+      "method": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: original top-down RPG scenery and interior prop atlas. Actual transparent background. EXACT 4 columns x 2 rows, canvas1536x1024, each cell384x512, isolated complete asset centered with 35px empty margins; object base at y465 in each cell. Consistent elevated three-quarter overhead RPG perspective, elegant Chinese ink-and-gouache hand-painted style, muted mountain jade, limestone gray, warm old timber. Row1 col1 tall cluster of green bamboo stems and leafy crown; col2 leafy mountain tree with curved trunk; col3 jagged green limestone mountain peak with visible rocky foothills; col4 isolated small mossy boulder. Row2 col1 Chinese wooden bed with simple teal blanket and ivory pillow; col2 timber writing desk with paper scrolls and small ceramic pot; col3 closed old wood storage chest with brass fittings; col4 three-level wooden herb and scroll shelf. No floor squares, landscape backgrounds, words, grid, border or labels. Complete separated sprites with readable silhouettes and finely painted material textures.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "f3b6c2c72f6cb9fd2b89231c528e8528649b7da00eb5f752052bc6af376c8e8f",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "alpha_zero_pixels": 388111
+    },
+    {
+      "file": "terrain.png",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-98b1cc55-b20c-486c-9f62-9941cb561699.png",
+      "method": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: original seamless material texture atlas for a hand-painted top-down Chinese mountain RPG map. EXACT 3 columns x 2 rows equally sized square panels, 1536x1024 total. Orthographic straight-down, no perspective or objects, each panel edge-to-edge and individually tileable, no gutters borders labels or text. Row1 col1 soft jade moss and fine meadow grass with sparse tiny blades; col2 warm ochre packed earth footpath with fine gravel; col3 muted turquoise shallow water with soft flowing ripples. Row2 col1 gray green weathered limestone ground; col2 warm brown aged wooden floor planks running vertically; col3 darker forest humus and scattered small bamboo leaves. Subtle low contrast ink and gouache brushwork, coherent natural palette, richly painted but not busy, flat even diffuse daylight, no hard shadows or large features. Intended to repeat across actual playable map tiles.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "0ef5e0465a03efb1dc498f38490eb98704c9ecaef237d9dc2827692f2b44bfbe"
+    },
+    {
+      "file": "atlas.png",
+      "source": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed52-b950-79b2-866f-c05aaaa4e200\\exec-650ed849-cea6-4cc0-81af-8e614cff8fcc.png",
+      "method": "built-in image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: original illustrated fantasy world atlas background for a Chinese cultivation RPG, wide landscape1536x1024. A beautiful hand-painted ink and mineral-pigment map on aged pale warm rice paper, viewed perfectly flat from above, no perspective book. Five evocative geographic regions seamlessly form one stylized world: northern grasslands and low snowy ridges at top center, western golden desert and dunes at left, central mountains and river plains in center, eastern blue-green ocean and scattered islands at right, southern lush jade karst peaks and bamboo valleys at bottom center. Fine serpentine rivers and delicately brushed contour ridges, mountain shapes small and repeated like classical Chinese painted cartography, subtle ochre coastlines, spacious low-contrast negative areas suitable for UI overlays. Keep all features within12% margins, paper edges softly weathered. No labels, text, invented names, routes, compass letters, frames, title, legend, interface or characters. This is an illustrative region schematic, not a precise geographic map.",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "43725f724fe4586cbbd3ac426ac8817d650c8add75347a86edd2c500250fda87"
+    }
+  ],
+  "animation": "Original GDScript pose timing, recoil, dash trails, fall transition and twelve-piece facade collapse. Generation sources copied without pixel editing. Runtime atlas regions, filtering and scaling only.",
+  "discarded": "residents.png was superseded by residents_clean.png because its white background was partly opaque."
+}

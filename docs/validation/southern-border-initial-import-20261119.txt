@@ -1,0 +1,12 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "valid_sources" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/SouthernBorderTests.gd:11)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/MapTests.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/CanonTests.gd:-1)
+SCRIPT ERROR: Compile Error: 
+          at: GDScript::reload (res://scripts/AdventureTests.gd:-1)
+ERROR: Failed to load script "res://scripts/AdventureTests.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)

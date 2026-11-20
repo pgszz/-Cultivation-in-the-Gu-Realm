@@ -1,0 +1,20 @@
+[
+  {
+    "id": "little_light",
+    "prompt": "Use case: stylized-concept. Asset type: high-quality transparent inventory and compendium portrait for a Chinese cultivation fantasy game. Create ONE standalone square portrait. Subject: Little Light Gu (小光蛊): a tiny living milk-white FIVE-POINTED STAR shaped Gu, five softly tapered symmetrical points around a slightly domed pearlescent organic center, subtle ivory membrane with delicate veins, a restrained soft white inner light. It is a single star-shaped living magical organism, not a jewelry pendant, not an ordinary insect, no legs, no face. Style: finely painted semi-realistic fantasy natural-history illustration, tactile organic surface, crisp silhouette, restrained magical atmosphere, not cartoon. Composition: centered complete organism in a three-quarter overhead view, occupies about 75% of square canvas with safe margins on every side, clear at 48 pixel thumbnail size. Soft upper-left light. Background MUST be genuinely transparent RGBA, no scenery, no ground plane, no card, no frame, no labels, no text, no watermark, no additional objects. Preserve transparent alpha at edges.",
+    "generator": "image_gen",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "white_boar",
+    "prompt": "Use case: stylized-concept. Asset type: high-quality transparent inventory and compendium portrait for a Chinese cultivation fantasy game. Create ONE standalone square portrait. Subject: White Boar Gu (白豕蛊): a tiny immaculate MILKY WHITE LADYBIRD beetle, almost perfectly circular viewed from above, plump glossy round abdomen, tiny head occupying only a small part of the silhouette, SIX short milk-white legs tucked beneath the abdomen. Smooth pearl-white wing covers with a fine central seam. No black spots. This Gu is a beetle, NEVER a pig or boar animal, no snout or tusks. Style: finely painted semi-realistic fantasy natural-history illustration, tactile organic surface, crisp silhouette, restrained magical atmosphere, not cartoon. Composition: centered complete organism in a three-quarter overhead view, occupies about 75% of square canvas with safe margins on every side, clear at 48 pixel thumbnail size. Soft upper-left light. Background MUST be genuinely transparent RGBA, no scenery, no ground plane, no card, no frame, no labels, no text, no watermark, no additional objects. Preserve transparent alpha at edges.",
+    "generator": "image_gen",
+    "date": "2026-11-18"
+  },
+  {
+    "id": "black_boar",
+    "prompt": "Use case: stylized-concept. Asset type: high-quality transparent inventory and compendium portrait for a Chinese cultivation fantasy game. Create ONE standalone square portrait. Subject: Black Boar Gu (黑豕蛊): a tiny jet-black LADYBIRD-like Gu beetle, rounded domed glossy dark wing covers and plump body, a very small head, SIX short legs underneath, delicate antennae. Obsidian sheen and subtle charcoal highlights make the dark silhouette clearly readable. An artistic interpretation of the dark boar Gu family. It is a beetle, NEVER a pig or boar animal, no snout or tusks, no colored spots. Style: finely painted semi-realistic fantasy natural-history illustration, tactile organic surface, crisp silhouette, restrained magical atmosphere, not cartoon. Composition: centered complete organism in a three-quarter overhead view, occupies about 75% of square canvas with safe margins on every side, clear at 48 pixel thumbnail size. Soft upper-left light. Background MUST be genuinely transparent RGBA, no scenery, no ground plane, no card, no frame, no labels, no text, no watermark, no additional objects. Preserve transparent alpha at edges.",
+    "generator": "image_gen",
+    "date": "2026-11-18"
+  }
+]

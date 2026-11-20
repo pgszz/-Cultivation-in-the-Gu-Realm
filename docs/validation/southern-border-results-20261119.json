@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-19",
+  "scope": "南疆地图与家族；两种尺寸采用相同完整工程隔离快照，自动窗口输入及截图复核。收尾当前完整工程导入通过；其他任务新增素材已补齐，文档检查 40 份零错误。后续新增功能的行为不以旧地图快照替代验证。",
+  "records": [
+    {
+      "run": "20261119-115219-f5efb0",
+      "label": "initial",
+      "check": "import",
+      "passed": false,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115219-f5efb0\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "docs/validation/southern-border-initial-import-20261119.txt",
+      "assertions": []
+    },
+    {
+      "run": "20261119-115320-b10b9b",
+      "label": "initial1280",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115320-b10b9b\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "docs/validation/southern-border-initial1280-import-20261119.txt",
+      "assertions": []
+    },
+    {
+      "run": "20261119-115320-b10b9b",
+      "label": "initial1280",
+      "check": "maptest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115320-b10b9b\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--maptest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "docs/validation/southern-border-initial1280-maptest-20261119.txt",
+      "assertions": [
+        "SOUTHBORDER checked=107",
+        "MAPTEST checked=289 failures=[]"
+      ]
+    },
+    {
+      "run": "20261119-115708-b1604e",
+      "label": "960",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115708-b1604e\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "docs/validation/southern-border-960-import-20261119.txt",
+      "assertions": []
+    },
+    {
+      "run": "20261119-115708-b1604e",
+      "label": "960",
+      "check": "maptest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115708-b1604e\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--maptest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "docs/validation/southern-border-960-maptest-20261119.txt",
+      "assertions": [
+        "SOUTHBORDER checked=110",
+        "MAPTEST checked=292 failures=[]"
+      ]
+    },
+    {
+      "run": "20261119-115920-62f068",
+      "label": "1280",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115920-62f068\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\.test-runs\\20261119-115708-b1604e\\project",
+      "log": "docs/validation/southern-border-1280-import-20261119.txt",
+      "assertions": []
+    },
+    {
+      "run": "20261119-115920-62f068",
+      "label": "1280",
+      "check": "maptest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-115920-62f068\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--maptest"
+      ],
+      "source_project": "G:\\g\\.test-runs\\20261119-115708-b1604e\\project",
+      "log": "docs/validation/southern-border-1280-maptest-20261119.txt",
+      "assertions": [
+        "SOUTHBORDER checked=110",
+        "MAPTEST checked=292 failures=[]"
+      ]
+    },
+    {
+      "run": "20261119-120854-84e6c4",
+      "label": "current",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-120854-84e6c4\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "log": "docs/validation/southern-border-current-import-20261119.txt",
+      "assertions": []
+    }
+  ],
+  "fingerprints": [
+    {
+      "path": "godot/scripts/SouthernBorderData.gd",
+      "validated_sha256": "f89c07ee276be3990189eb6a727d227710dcfffd9b5ed23531ea385caac9c05c",
+      "current_sha256": "f89c07ee276be3990189eb6a727d227710dcfffd9b5ed23531ea385caac9c05c",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/SouthernBorderMap.gd",
+      "validated_sha256": "f43680736134eebdba3e2bd18cf5c0a14a460506c8d924475037613909a16634",
+      "current_sha256": "f43680736134eebdba3e2bd18cf5c0a14a460506c8d924475037613909a16634",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/SouthernBorderUI.gd",
+      "validated_sha256": "866d0fc3383ec1cf22f665eab0eeba73dff0bba139c4132bafd275649e967144",
+      "current_sha256": "866d0fc3383ec1cf22f665eab0eeba73dff0bba139c4132bafd275649e967144",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/SouthernBorderTests.gd",
+      "validated_sha256": "ff021eb1fdf04803393445587f241c350f843301945986c98776376143eed353",
+      "current_sha256": "ff021eb1fdf04803393445587f241c350f843301945986c98776376143eed353",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/MiniMapUI.gd",
+      "validated_sha256": "0e00fc9b4e65e57a7abee211ce192c19410779c1378b554f8e715e9e36943f3e",
+      "current_sha256": "0e00fc9b4e65e57a7abee211ce192c19410779c1378b554f8e715e9e36943f3e",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/WorldAtlas.gd",
+      "validated_sha256": "a3cc7a82305fcc74d633ce89e83db4f8c8c79d884dd895b3968e8723bda8857b",
+      "current_sha256": "a3cc7a82305fcc74d633ce89e83db4f8c8c79d884dd895b3968e8723bda8857b",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/WorldLore.gd",
+      "validated_sha256": "67890c4e7be30dabe3ef4044a1f75207f8a3f01d8a66fab54a308aca668f5aa7",
+      "current_sha256": "67890c4e7be30dabe3ef4044a1f75207f8a3f01d8a66fab54a308aca668f5aa7",
+      "matches": true
+    },
+    {
+      "path": "godot/scripts/MapTests.gd",
+      "validated_sha256": "ad83d3c2d387b2c323977e3560be59eac4f7afccaa7c6831699bf7d734193cf1",
+      "current_sha256": "ad83d3c2d387b2c323977e3560be59eac4f7afccaa7c6831699bf7d734193cf1",
+      "matches": true
+    }
+  ]
+}

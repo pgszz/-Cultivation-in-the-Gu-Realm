@@ -1,0 +1,400 @@
+{
+  "date": "2026-11-19",
+  "latest_snapshot": "20261119-035210-30ae31",
+  "runs": [
+    {
+      "run": "20261119-033503-4ded60",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033503-4ded60\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [],
+      "log": "docs/validation/adventure-20261119-033503-4ded60-import.txt"
+    },
+    {
+      "run": "20261119-033503-4ded60",
+      "check": "canontest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033503-4ded60\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--canontest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "CANONTEST checked=836 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-033503-4ded60-canontest.txt"
+    },
+    {
+      "run": "20261119-033503-4ded60",
+      "check": "utilitygutest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033503-4ded60\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--utilitygutest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "UTILITYGUTEST checked=235 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-033503-4ded60-utilitygutest.txt"
+    },
+    {
+      "run": "20261119-033503-4ded60",
+      "check": "populationtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033503-4ded60\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--populationtest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "POPULATIONTEST checked=172 moved=29 routes=41 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-033503-4ded60-populationtest.txt"
+    },
+    {
+      "run": "20261119-033503-4ded60",
+      "check": "terraintest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033503-4ded60\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--terraintest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "TERRAINTEST checked=128 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-033503-4ded60-terraintest.txt"
+    },
+    {
+      "run": "20261119-033951-f6ab47",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033951-f6ab47\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [],
+      "log": "docs/validation/adventure-20261119-033951-f6ab47-import.txt"
+    },
+    {
+      "run": "20261119-033951-f6ab47",
+      "check": "adventuretest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-033951-f6ab47\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--adventuretest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "ADVENTURETEST checked=78 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-033951-f6ab47-adventuretest.txt"
+    },
+    {
+      "run": "20261119-034458-c7f259",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-034458-c7f259\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [],
+      "log": "docs/validation/adventure-20261119-034458-c7f259-import.txt"
+    },
+    {
+      "run": "20261119-034458-c7f259",
+      "check": "adventuretest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-034458-c7f259\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--adventuretest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "ADVENTURETEST checked=80 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-034458-c7f259-adventuretest.txt"
+    },
+    {
+      "run": "20261119-034458-c7f259",
+      "check": "wildlifetest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-034458-c7f259\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--wildlifetest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "WILDLIFETEST checked=195 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-034458-c7f259-wildlifetest.txt"
+    },
+    {
+      "run": "20261119-035210-30ae31",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035210-30ae31\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [],
+      "log": "docs/validation/adventure-20261119-035210-30ae31-import.txt"
+    },
+    {
+      "run": "20261119-035210-30ae31",
+      "check": "adventuretest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035210-30ae31\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--adventuretest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "ADVENTURETEST checked=80 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-035210-30ae31-adventuretest.txt"
+    },
+    {
+      "run": "20261119-035210-30ae31",
+      "check": "inspecttest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-035210-30ae31\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--inspecttest"
+      ],
+      "source_project": "G:\\g\\godot",
+      "assertions": [
+        "INSPECTTEST checked=114 failures=[]"
+      ],
+      "log": "docs/validation/adventure-20261119-035210-30ae31-inspecttest.txt"
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "file": "godot/scripts/Main.gd",
+      "snapshot_sha256": "e1f4aeaceeb90b00885352ccc19992d30281a54ec4d1a1a117e0a9e60d4ed69d",
+      "workspace_sha256": "e1f4aeaceeb90b00885352ccc19992d30281a54ec4d1a1a117e0a9e60d4ed69d",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/AdventureTests.gd",
+      "snapshot_sha256": "17396ea2ba15c7f1dab71cae322458a12dbfd3ffbe1c872789e19d7ce3f18b64",
+      "workspace_sha256": "17396ea2ba15c7f1dab71cae322458a12dbfd3ffbe1c872789e19d7ce3f18b64",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/EnvironmentInteractions.gd",
+      "snapshot_sha256": "2413d6890363fcf266e32601f00591c8702d9488b61011c6be3b4db844065fcc",
+      "workspace_sha256": "2413d6890363fcf266e32601f00591c8702d9488b61011c6be3b4db844065fcc",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/TerrainLayers.gd",
+      "snapshot_sha256": "eee5d779f8516f4beb997b3f813ae0571bb0ba02ffb5f34ef6016e5245ff8f8d",
+      "workspace_sha256": "eee5d779f8516f4beb997b3f813ae0571bb0ba02ffb5f34ef6016e5245ff8f8d",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/World.gd",
+      "snapshot_sha256": "87b10729c9fbb4ee9731c29c900113855edcc8493e05a5060878c05061c57270",
+      "workspace_sha256": "87b10729c9fbb4ee9731c29c900113855edcc8493e05a5060878c05061c57270",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/Fx.gd",
+      "snapshot_sha256": "043175f1365c6c06d77d984856435bfa989ffe9c8d1696e0a11dd6fe26e71c07",
+      "workspace_sha256": "043175f1365c6c06d77d984856435bfa989ffe9c8d1696e0a11dd6fe26e71c07",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/Player.gd",
+      "snapshot_sha256": "28fe046f19f4ce1c24c6fc61a12adf6dc0581e809095b532a720694e1997f8b9",
+      "workspace_sha256": "28fe046f19f4ce1c24c6fc61a12adf6dc0581e809095b532a720694e1997f8b9",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/Enemy.gd",
+      "snapshot_sha256": "76ae915f15bc7cc7845aac3191f45f8d6067c1e4a98d7e4b49e4bcb06ff5a65c",
+      "workspace_sha256": "76ae915f15bc7cc7845aac3191f45f8d6067c1e4a98d7e4b49e4bcb06ff5a65c",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/GuEffects.gd",
+      "snapshot_sha256": "090617d157414962fa033ba3e2273b6425c3121c2fc6948265facdd68135e9a4",
+      "workspace_sha256": "090617d157414962fa033ba3e2273b6425c3121c2fc6948265facdd68135e9a4",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/UtilityGuEffects.gd",
+      "snapshot_sha256": "537adff49b436b455a0d2d72ef89ae77a1a125e1aab0387b250b65c7bbd62fe1",
+      "workspace_sha256": "537adff49b436b455a0d2d72ef89ae77a1a125e1aab0387b250b65c7bbd62fe1",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/NpcConversation.gd",
+      "snapshot_sha256": "fef6b39cf88efcf9da1189be2f24dcc2919fc4d39311586a5f2e41b948ff1218",
+      "workspace_sha256": "fef6b39cf88efcf9da1189be2f24dcc2919fc4d39311586a5f2e41b948ff1218",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/VillageUI.gd",
+      "snapshot_sha256": "e59c4c352087f1b7021b31eb63b7fc36f8fde182bb918c5e20ff433e23aa2a68",
+      "workspace_sha256": "e59c4c352087f1b7021b31eb63b7fc36f8fde182bb918c5e20ff433e23aa2a68",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/Npc.gd",
+      "snapshot_sha256": "258bd1f3975b34052831cf40b27fbb5f62e3c3413615b30c2ae8d88ea9da5c4e",
+      "workspace_sha256": "258bd1f3975b34052831cf40b27fbb5f62e3c3413615b30c2ae8d88ea9da5c4e",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/WorldPerson.gd",
+      "snapshot_sha256": "dcd5581ec7c92fdb3ce0afa1bc0d8b1a8557a5dafb6aad5be9321af75a6d69a0",
+      "workspace_sha256": "dcd5581ec7c92fdb3ce0afa1bc0d8b1a8557a5dafb6aad5be9321af75a6d69a0",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/ApertureState.gd",
+      "snapshot_sha256": "87915e556522a7b88b1787e358505b6f045eba4b4deedeeb2978f3bb31db2cc0",
+      "workspace_sha256": "87915e556522a7b88b1787e358505b6f045eba4b4deedeeb2978f3bb31db2cc0",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/ApertureUI.gd",
+      "snapshot_sha256": "8fb744e1c72298fb26ce0bf0bce9aadb6799c4ec55154813a3bdd387f3c1b22e",
+      "workspace_sha256": "8fb744e1c72298fb26ce0bf0bce9aadb6799c4ec55154813a3bdd387f3c1b22e",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/ApertureView.gd",
+      "snapshot_sha256": "4afcb78f439b7b6182f9a5d8d41918c0f72a99410ca09a42b5268e5790c7b2d5",
+      "workspace_sha256": "4afcb78f439b7b6182f9a5d8d41918c0f72a99410ca09a42b5268e5790c7b2d5",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/PlayerHUD.gd",
+      "snapshot_sha256": "9c497299b468c245950b7c89a80b08729ea7bd969bc4abc2be993c24e489c753",
+      "workspace_sha256": "166e5753c34c5f7f0458f437ab6a003d9ee79b71f1dcefc64ca68b5e39e900a4",
+      "matches": false
+    },
+    {
+      "file": "godot/scripts/PlayerStatus.gd",
+      "snapshot_sha256": "feece019adaa5bc69e63169d9708b62409de587e4f2db5c76ce52fd17b046dde",
+      "workspace_sha256": "38f575abe0ee63ababde1789b2f78387209fe3dcde37823d91d6d5c1488d8c5d",
+      "matches": false
+    },
+    {
+      "file": "godot/scripts/HUD.gd",
+      "snapshot_sha256": "32dcb55d7d5eb72b472b7cfc09f3562ebf44b20c01fcbbc66a705dff871345f0",
+      "workspace_sha256": "32dcb55d7d5eb72b472b7cfc09f3562ebf44b20c01fcbbc66a705dff871345f0",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/ElementUI.gd",
+      "snapshot_sha256": "eac4f8101d65854a5a8f19b3cfba517f216c703890153d014758d15f3e7c25e4",
+      "workspace_sha256": "eac4f8101d65854a5a8f19b3cfba517f216c703890153d014758d15f3e7c25e4",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/RefinementUI.gd",
+      "snapshot_sha256": "a9c33797dd5c8f0062cc13667d5a12feb6cf2b6870c2f313de60ed77d95cedcc",
+      "workspace_sha256": "a9c33797dd5c8f0062cc13667d5a12feb6cf2b6870c2f313de60ed77d95cedcc",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/NpcInspectionTests.gd",
+      "snapshot_sha256": "12849dcb4a7248f5e3dc121f4e07a141a2e509cfe0d58a91dceadaa39f972117",
+      "workspace_sha256": "12849dcb4a7248f5e3dc121f4e07a141a2e509cfe0d58a91dceadaa39f972117",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/PopulationTests.gd",
+      "snapshot_sha256": "0ab17747b0f3cd9c9880cede944f36b17c27f08f7ee9a0f249eb49862f14d548",
+      "workspace_sha256": "0ab17747b0f3cd9c9880cede944f36b17c27f08f7ee9a0f249eb49862f14d548",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/SettlementTests.gd",
+      "snapshot_sha256": "cdf8ee02d8766a039f120416432928467c2308be88d36eb6bf9f28b0d14d366c",
+      "workspace_sha256": "cdf8ee02d8766a039f120416432928467c2308be88d36eb6bf9f28b0d14d366c",
+      "matches": true
+    },
+    {
+      "file": "godot/scripts/UtilityGuTests.gd",
+      "snapshot_sha256": "3fa37f6c932fc1cd1e17e7f38309c35a444eb4f822ac2e3680451aad3fbb55de",
+      "workspace_sha256": "3fa37f6c932fc1cd1e17e7f38309c35a444eb4f822ac2e3680451aad3fbb55de",
+      "matches": true
+    }
+  ],
+  "screenshots": {
+    "1280x720": "20261119-033951-f6ab47",
+    "960x540": "20261119-035210-30ae31"
+  },
+  "scope": "隔离工程和 user://；自动窗口输入与截图检查，不等于长时人工试玩，未作性能测量。每批次结果仅对应各自固定源码快照。"
+}

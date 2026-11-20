@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-18",
+  "method": "Built-in image_gen, transparent_background=true; original PNG copied without pixel edits.",
+  "setting": "Original sandbox wildlife art, not official novel illustrations.",
+  "assets": [
+    {
+      "id": "rabbit",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-65ac9159-199f-4b85-8b82-eb687545c4f5.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body Chinese mountain hare with long upright ears, mottled warm gray fur and white belly, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "249eedbb0c20085765cec5eaf2fa11fd73735a489e049ddd31e38e114264bb10",
+      "file": "rabbit.png"
+    },
+    {
+      "id": "deer",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-b532a7ff-7e2d-47e8-9555-7c62077c56ba.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body sika deer with small branching antlers, warm brown coat and pale spots, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "7846a5b0b8f0ce54a5fc17025c9b9778c1385fef22607144f652da00f5aebace",
+      "file": "deer.png"
+    },
+    {
+      "id": "wolf",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-fc91cf64-9b91-4b5a-97bd-278ce37c62fe.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body gray mountain wolf with thick slate gray fur, alert eyes and natural proportions, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "21e350791139c919a39c97b288443221f3a48d9f6e2d93f0eb63bd51df1c2208",
+      "file": "wolf.png"
+    },
+    {
+      "id": "bear",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-1b9aa980-ef3e-45d6-8798-a8ba5212a433.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body Asiatic black bear with black fur and a pale crescent chest marking, sturdy natural quadrupedal stance, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "36763aefcc91fc825a5afe5b447da73d3c8b59e58ec18b6988650536a8e24371",
+      "file": "bear.png"
+    },
+    {
+      "id": "boar",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-7e5b25bd-8ecc-4c71-a1bf-b76f3cd48d3b.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body wild boar with bristly dark brown fur, short curved tusks and a strong low body, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "7c5116785e16a4b2e11083485184858042f436ac2eb8aac41496b0f38805066c",
+      "file": "boar.png"
+    },
+    {
+      "id": "fox",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-66338d7a-a882-4d1a-9112-3b9763428387.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body red fox with russet fur, dark legs and a full white-tipped bushy tail, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "eb06aceec01536e24b29ea3a13583d8d43b8957e0617ac2018266886438097f4",
+      "file": "fox.png"
+    },
+    {
+      "id": "pheasant",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-c8e4fa10-cc18-42cf-8860-db95b50f33da.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body male ring-necked pheasant with green head, warm copper plumage, long patterned tail and two visible feet, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "3231fe368a402cc27ac4c253c79d6139e345ac7efe942fcd67941b392db13a82",
+      "file": "pheasant.png"
+    },
+    {
+      "id": "green_wolf",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-76f3689a-bffd-4de1-b5ea-b5427672f683.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body fantasy spirit wolf with dark moss-green and teal fur, subtle jade wisps along shoulders and alert amber eyes, believable wolf anatomy, no horns, no jewelry, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "c31ec5bd187a74eb977a3d796438299516f97f6ef77ed9afd346e8e0fb8ab275",
+      "file": "green_wolf.png"
+    },
+    {
+      "id": "iron_bear",
+      "path": "C:\\Users\\ASD\\.codex\\generated_images\\01a1ed58-2d5b-7663-82fe-50c85b1aff18\\exec-48a68996-82b2-4c97-ae2b-d768b9bccbc5.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D game creature sprite and bestiary illustration for a Chinese mountain exploration game. Single full-body fantasy iron-backed bear with dark brown fur, natural rugged silver-gray armored ridges along its back and shoulders, subtle bronze energy, believable quadrupedal bear anatomy, no clothing, facing right in a three-quarter side view, slightly viewed from above, all feet visible, standing naturally. Painterly hand-painted fantasy game art, readable silhouette, finely painted fur or feathers, muted natural colors, crisp edge detail, coherent soft light. Centered isolated subject fills 80 percent of a square canvas with generous safe margins. No text, no border, no landscape, no pedestal, no ground plane, no drop shadow, no extra creatures. Actual transparent background. Creature anatomy must be believable.",
+      "sha256": "b421993bd604619cf83492b9346047272324428602de411424ce64438a0f2ea8",
+      "file": "iron_bear.png"
+    }
+  ]
+}

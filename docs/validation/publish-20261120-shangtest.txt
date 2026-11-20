@@ -1,0 +1,53 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=664; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+SHANGTEST render street
+SHANGTEST render guide
+SHANGTEST render stones
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+SHANGTEST render opened
+SHANGTEST render collapse_00
+SHANGTEST render collapse_01
+SHANGTEST render collapse_02
+SHANGTEST render collapse_03
+SHANGTEST render collapse_04
+SHANGTEST render collapse_05
+SHANGTEST render collapse_06
+SHANGTEST render collapse_07
+SHANGTEST render collapse_08
+SHANGTEST render collapse_09
+SHANGTEST render collapse_10
+SHANGTEST render collapse_11
+SHANGTEST render collapse_12
+SHANGTEST render collapse_13
+SHANGTEST render collapse_14
+SHANGTEST render collapse_15
+SHANGTEST render collapse_16
+SHANGTEST render collapse_17
+SHANGTEST render collapse_18
+SHANGTEST render collapse_19
+SHANGTEST render collapse_20
+SHANGTEST render collapse_21
+SHANGTEST render collapse_22
+SHANGTEST render collapse_23
+SHANGTEST restore collapsed city
+WORLD minimap ms=569; terrain cache limit=24
+WORLD minimap ms=569; terrain cache limit=24
+SHANGTEST repair and services
+SHANGTEST arena
+SHANGTEST render arena_menu
+SHANGTEST render arena_combat
+WORLD minimap ms=576; terrain cache limit=24
+WORLD minimap ms=581; terrain cache limit=24
+WORLD minimap ms=572; terrain cache limit=24
+WORLD minimap ms=569; terrain cache limit=24
+WORLD minimap ms=571; terrain cache limit=24
+WORLD minimap ms=574; terrain cache limit=24
+SHANGTEST render qingmao_ground
+SHANGTEST render forest_ground
+SHANGTEST render moss_ground
+SHANGTEST render gravel_ground
+SHANGTEST checked=86 failures=[]

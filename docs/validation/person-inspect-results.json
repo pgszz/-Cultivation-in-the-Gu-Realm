@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-18",
+  "scope": "Clickable person inspection; attributes, relationship, current state and existing talk services.",
+  "runs": [
+    {
+      "resolution": "1280x720",
+      "run": "20261118-182054-a94824",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182054-a94824\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182054-a94824\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--inspecttest"
+          ]
+        },
+        {
+          "check": "shotnpcinspect",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182054-a94824\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotnpcinspect"
+          ]
+        },
+        {
+          "check": "shotnpcrelations",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182054-a94824\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotnpcrelations"
+          ]
+        },
+        {
+          "check": "shotnpcstatus",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182054-a94824\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotnpcstatus"
+          ]
+        },
+        {
+          "check": "shotnpcdead",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182054-a94824\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotnpcdead"
+          ]
+        }
+      ],
+      "snapshot_sha256": {
+        "scripts/Npc.gd": "413350a9618e572e4851d705e4b7285331e1f3826afb4c7c847a3c0fa8c2df4d",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+        "scripts/Main.gd": "8e94a3d256684cd818ecdcd5ce216de87c54cac63d1a279c9200a48c0492cd37",
+        "scripts/WorldPerson.gd": "ae4fb2af4de3ff79f5fb5fc67349c88bc097237598e44dc7c6a02934b7100a47",
+        "scripts/PopulationSystem.gd": "db9ab40175b4ec0b4fac3defa5056ccfe31d20d3ea10c62792fc509c4ede17a2",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a"
+      }
+    },
+    {
+      "resolution": "960x540",
+      "run": "20261118-181810-301005",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--inspecttest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotnpcinspect",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotnpcinspect"
+          ]
+        },
+        {
+          "check": "shotnpcrelations",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotnpcrelations"
+          ]
+        },
+        {
+          "check": "shotnpcstatus",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotnpcstatus"
+          ]
+        },
+        {
+          "check": "shotnpcdead",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181810-301005\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotnpcdead"
+          ]
+        }
+      ],
+      "snapshot_sha256": {
+        "scripts/Npc.gd": "413350a9618e572e4851d705e4b7285331e1f3826afb4c7c847a3c0fa8c2df4d",
+        "scripts/NpcInspectUI.gd": "418276cc20d54ed82864b414d3a143eb9c72b65b5f1f6c2a8783313cafc7b9a6",
+        "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+        "scripts/Main.gd": "7755da0651a1e445c138b890c0312858a816412739bfc800f58b5fb0d7591332",
+        "scripts/WorldPerson.gd": "ae4fb2af4de3ff79f5fb5fc67349c88bc097237598e44dc7c6a02934b7100a47",
+        "scripts/PopulationSystem.gd": "db9ab40175b4ec0b4fac3defa5056ccfe31d20d3ea10c62792fc509c4ede17a2",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a"
+      }
+    }
+  ],
+  "current_matches_1280": {
+    "scripts/Npc.gd": true,
+    "scripts/NpcInspectUI.gd": true,
+    "scripts/NpcInspectionTests.gd": true,
+    "scripts/Main.gd": false,
+    "scripts/WorldPerson.gd": true,
+    "scripts/PopulationSystem.gd": false,
+    "scripts/World.gd": true
+  },
+  "limitations": [
+    "Initial 960 canontest had four settlement interaction failures and a SettlementTests xiong_spring error; retained in person-canon-960.txt. Shared integration recheck 20261118-182155-8668e5 passes CANONTEST checked=773 failures=[] with no script errors.",
+    "Current inspection modules match the final inspection and shared integration snapshots. Later Main changes only add cast animation calls and adjust the whole-district screenshot fixture; those later changes are outside this UI verification.",
+    "Viewport input and captured windows; no long manual play session or performance claim.",
+    "960 snapshot predates text-only change from affiliation label 所属山寨 to 所属势力, with outdoor 活动范围."
+  ],
+  "integration_recheck": {
+    "source": "Completed shared workspace isolated validation, reviewed in this task",
+    "run": "20261118-182155-8668e5",
+    "checks": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-182155-8668e5\\project",
+          "--headless",
+          "--import"
+        ]
+      },
+      {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-182155-8668e5\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canontest"
+        ]
+      }
+    ],
+    "snapshot_sha256": {
+      "scripts/Npc.gd": "413350a9618e572e4851d705e4b7285331e1f3826afb4c7c847a3c0fa8c2df4d",
+      "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+      "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+      "scripts/Main.gd": "81bd4fcde8016ecc093b606e4e69c8d6bf630e010686305702be0a0daaf5ca11",
+      "scripts/WorldPerson.gd": "ae4fb2af4de3ff79f5fb5fc67349c88bc097237598e44dc7c6a02934b7100a47",
+      "scripts/PopulationSystem.gd": "d207f6c825bea946d595cde900a9145888e3ac50bbaf2af8821500bd606fbeeb",
+      "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a"
+    },
+    "current_matches": {
+      "scripts/Npc.gd": true,
+      "scripts/NpcInspectUI.gd": true,
+      "scripts/NpcInspectionTests.gd": true,
+      "scripts/Main.gd": false,
+      "scripts/WorldPerson.gd": true,
+      "scripts/PopulationSystem.gd": true,
+      "scripts/World.gd": true
+    }
+  }
+}

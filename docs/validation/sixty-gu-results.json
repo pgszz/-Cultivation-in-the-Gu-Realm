@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-19",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "renderer": "OpenGL Compatibility / NVIDIA GTX 1050 Ti / driver 560.94",
+  "scope": "31 original Gu added to 29 existing templates; 60 formal templates; all new artwork is original RGBA output.",
+  "art_manifest_sha256": "270f842b74e423bfea4dd91d08e4dfdef740b287aee757cc225f26a3ea2d510a",
+  "successful_checks": [
+    {
+      "run": "20261119-104947-8844f0",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-import.txt",
+          "markers": []
+        },
+        {
+          "check": "sixtygutest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--sixtygutest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-sixtygutest.txt",
+          "markers": [
+            "SIXTYGUTEST checked=606 failures=[]"
+          ]
+        },
+        {
+          "check": "utilitygutest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--utilitygutest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-utilitygutest.txt",
+          "markers": [
+            "UTILITYGUTEST checked=328 failures=[]"
+          ]
+        },
+        {
+          "check": "statustest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--statustest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-statustest.txt",
+          "markers": [
+            "STATUSTEST checked=76 failures=[]"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-canontest.txt",
+          "markers": [
+            "NEWGUTEST checked=45 failures=0",
+            "GUEXPANSIONTEST checked=107 failures=0",
+            "SETTLEMENTTEST checked=246",
+            "CANONTEST checked=960 failures=[]"
+          ]
+        },
+        {
+          "check": "adventuretest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--adventuretest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-adventuretest.txt",
+          "markers": [
+            "ADVENTURETEST checked=80 failures=[]"
+          ]
+        },
+        {
+          "check": "charactertest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--charactertest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-charactertest.txt",
+          "markers": [
+            "CHARACTERTEST checked=89 failures=[]"
+          ]
+        },
+        {
+          "check": "characterrestart",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104947-8844f0\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--charactertest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-104947-8844f0-characterrestart.txt",
+          "markers": [
+            "CHARACTERTEST checked=94 failures=[]"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/GameData.gd": "53c735c65d1cadf76a1ee132017e2d393040e6f8c7f035b2f6be0dbad43e1cf0",
+        "scripts/UtilityGuEffects.gd": "3c3cf87f1c5dfe8db8d684d8c1ea1df81f335d302493046d10ba1ae0a73f19af",
+        "scripts/Main.gd": "bdfa333dbfd053d91f0359d59a84aff37b36d79606f370f49f61806be3a79953",
+        "scripts/EnvironmentInteractions.gd": "433d92d189d41c9ea0fe33f2656a245b63adb90cc3f71be39f2c5d71d91f53d1",
+        "scripts/PlayerStatus.gd": "f0f5b0362e0baba22b0041cc1363f9d9a4982a39caefc82bbda6d77bc34e8593",
+        "scripts/FoodSystem.gd": "a50e495a3bd63090db4f6566d88ab3de052f8afdc7e506329224439216253c68",
+        "scripts/GuArt.gd": "c13337c39bba945f00cc2ee064e35cebd2848ccb50e7ebe87a07cf32821833c0",
+        "scripts/Enemy.gd": "d55e82b3f09fc83022729a368c3f171b1b602f72d18cabccf9344a96807b3a27",
+        "scripts/SixtyGuTests.gd": "85ad599ac73050e6c6f2f3bb8855de457141b725852cbc709560ba50308d914c",
+        "scripts/GuUpgradeTests.gd": "79050a60abfe549f171d1163579ca34bc907fc84e41e90f7e01f0b1a353e8cab",
+        "scripts/CanonTests.gd": "95f9cc98c285c560ee540f172d3ba8bbb4d8a11c276f5e22f6da335bff7bf150",
+        "scripts/ApertureState.gd": "a7bd5694ebbd0cd072bc36e085c2db4e6dd17c43f8f9b230a17dd0234d73280e"
+      }
+    },
+    {
+      "run": "20261119-105701-674523",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-105701-674523\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-105701-674523-import.txt",
+          "markers": []
+        },
+        {
+          "check": "sixtygutest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-105701-674523\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--sixtygutest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-105701-674523-sixtygutest.txt",
+          "markers": [
+            "SIXTYGUTEST checked=606 failures=[]"
+          ]
+        },
+        {
+          "check": "guupgradetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-105701-674523\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--guupgradetest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-105701-674523-guupgradetest.txt",
+          "markers": [
+            "GUUPGRADETEST checked=70 failures=[]"
+          ]
+        },
+        {
+          "check": "statustest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-105701-674523\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--statustest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-105701-674523-statustest.txt",
+          "markers": [
+            "STATUSTEST checked=76 failures=[]"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/GameData.gd": "53c735c65d1cadf76a1ee132017e2d393040e6f8c7f035b2f6be0dbad43e1cf0",
+        "scripts/UtilityGuEffects.gd": "3c3cf87f1c5dfe8db8d684d8c1ea1df81f335d302493046d10ba1ae0a73f19af",
+        "scripts/Main.gd": "bdfa333dbfd053d91f0359d59a84aff37b36d79606f370f49f61806be3a79953",
+        "scripts/EnvironmentInteractions.gd": "433d92d189d41c9ea0fe33f2656a245b63adb90cc3f71be39f2c5d71d91f53d1",
+        "scripts/PlayerStatus.gd": "f0f5b0362e0baba22b0041cc1363f9d9a4982a39caefc82bbda6d77bc34e8593",
+        "scripts/FoodSystem.gd": "a50e495a3bd63090db4f6566d88ab3de052f8afdc7e506329224439216253c68",
+        "scripts/GuArt.gd": "c13337c39bba945f00cc2ee064e35cebd2848ccb50e7ebe87a07cf32821833c0",
+        "scripts/Enemy.gd": "d55e82b3f09fc83022729a368c3f171b1b602f72d18cabccf9344a96807b3a27",
+        "scripts/SixtyGuTests.gd": "85ad599ac73050e6c6f2f3bb8855de457141b725852cbc709560ba50308d914c",
+        "scripts/GuUpgradeTests.gd": "e8d249cb2189c65e65ae4add2cd60f39d34b77b8437d50524851f712712fe543",
+        "scripts/CanonTests.gd": "95f9cc98c285c560ee540f172d3ba8bbb4d8a11c276f5e22f6da335bff7bf150",
+        "scripts/ApertureState.gd": "a7bd5694ebbd0cd072bc36e085c2db4e6dd17c43f8f9b230a17dd0234d73280e"
+      }
+    },
+    {
+      "run": "20261119-110204-a2e8ed",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-110204-a2e8ed\\project",
+            "--headless",
+            "--import"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-110204-a2e8ed-import.txt",
+          "markers": []
+        },
+        {
+          "check": "guupgradetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-110204-a2e8ed\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--guupgradetest"
+          ],
+          "source_project": "G:\\g\\godot",
+          "log": "sixty-20261119-110204-a2e8ed-guupgradetest.txt",
+          "markers": [
+            "GUUPGRADETEST checked=70 failures=[]"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/GameData.gd": "53c735c65d1cadf76a1ee132017e2d393040e6f8c7f035b2f6be0dbad43e1cf0",
+        "scripts/UtilityGuEffects.gd": "3c3cf87f1c5dfe8db8d684d8c1ea1df81f335d302493046d10ba1ae0a73f19af",
+        "scripts/Main.gd": "bdfa333dbfd053d91f0359d59a84aff37b36d79606f370f49f61806be3a79953",
+        "scripts/EnvironmentInteractions.gd": "433d92d189d41c9ea0fe33f2656a245b63adb90cc3f71be39f2c5d71d91f53d1",
+        "scripts/PlayerStatus.gd": "f0f5b0362e0baba22b0041cc1363f9d9a4982a39caefc82bbda6d77bc34e8593",
+        "scripts/FoodSystem.gd": "a50e495a3bd63090db4f6566d88ab3de052f8afdc7e506329224439216253c68",
+        "scripts/GuArt.gd": "c13337c39bba945f00cc2ee064e35cebd2848ccb50e7ebe87a07cf32821833c0",
+        "scripts/Enemy.gd": "d55e82b3f09fc83022729a368c3f171b1b602f72d18cabccf9344a96807b3a27",
+        "scripts/SixtyGuTests.gd": "85ad599ac73050e6c6f2f3bb8855de457141b725852cbc709560ba50308d914c",
+        "scripts/GuUpgradeTests.gd": "072edda90b83d22a19c80756167005f025e5f24d4cb2690ecb133428393bccec",
+        "scripts/CanonTests.gd": "95f9cc98c285c560ee540f172d3ba8bbb4d8a11c276f5e22f6da335bff7bf150",
+        "scripts/ApertureState.gd": "a7bd5694ebbd0cd072bc36e085c2db4e6dd17c43f8f9b230a17dd0234d73280e"
+      }
+    },
+    {
+      "run": "20261119-104336-5aa635",
+      "checks": [
+        {
+          "check": "populationtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104336-5aa635\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--populationtest"
+          ],
+          "source_project": "G:\\g\\.test-runs\\sixty-fixed-source-1043",
+          "log": "sixty-20261119-104336-5aa635-populationtest.txt",
+          "markers": [
+            "POPULATIONTEST checked=172 moved=29 routes=41 failures=[]"
+          ]
+        },
+        {
+          "check": "wildlifetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261119-104336-5aa635\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--wildlifetest"
+          ],
+          "source_project": "G:\\g\\.test-runs\\sixty-fixed-source-1043",
+          "log": "sixty-20261119-104336-5aa635-wildlifetest.txt",
+          "markers": [
+            "WILDLIFETEST checked=195 failures=[]"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/GameData.gd": "53c735c65d1cadf76a1ee132017e2d393040e6f8c7f035b2f6be0dbad43e1cf0",
+        "scripts/UtilityGuEffects.gd": "3c3cf87f1c5dfe8db8d684d8c1ea1df81f335d302493046d10ba1ae0a73f19af",
+        "scripts/Main.gd": "b757fd2c2d595aad2e98643e63ac030017e5f11f6824c4cedd1b15ba4dac8955",
+        "scripts/EnvironmentInteractions.gd": "433d92d189d41c9ea0fe33f2656a245b63adb90cc3f71be39f2c5d71d91f53d1",
+        "scripts/PlayerStatus.gd": "fee98b8acb2a58ec6c13654d0c3cf8d97d8e3da957aef44df884174b1b03cc76",
+        "scripts/FoodSystem.gd": "a50e495a3bd63090db4f6566d88ab3de052f8afdc7e506329224439216253c68",
+        "scripts/GuArt.gd": "c13337c39bba945f00cc2ee064e35cebd2848ccb50e7ebe87a07cf32821833c0",
+        "scripts/Enemy.gd": "d55e82b3f09fc83022729a368c3f171b1b602f72d18cabccf9344a96807b3a27",
+        "scripts/SixtyGuTests.gd": "9c6bb685d9c72e494f234186f992e7861a7b02a697074375d7aea7589110a08f",
+        "scripts/GuUpgradeTests.gd": "de332517797b8b45b22f8b6c8d98ec5cec7da072d3f4c36d99a9436ce538971b",
+        "scripts/CanonTests.gd": "5049abb87ff6a6361a5bb74f8b4bbb9d50745622b3d92daea757df691e6adffe",
+        "scripts/ApertureState.gd": "a7bd5694ebbd0cd072bc36e085c2db4e6dd17c43f8f9b230a17dd0234d73280e"
+      }
+    }
+  ],
+  "earlier_attempts": [
+    {
+      "run": "20261119-103629-793335",
+      "reason": "New test fixture overlapped obstacles or other actors; typo _update_enemy instead of update_enemy."
+    },
+    {
+      "run": "20261119-103859-5c7bd8",
+      "reason": "Wildlife growth recalculated fixture HP; status panel read missing status keys."
+    },
+    {
+      "run": "20261119-104108-0ec620",
+      "reason": "Shared workspace Awakening UI/test files were not all present during snapshot import."
+    },
+    {
+      "run": "20261119-104336-5aa635",
+      "reason": "New sixty suite passed 604; upgrade runner found empty-state access and percent formatting errors in status panel."
+    },
+    {
+      "run": "20261119-104819-9acac2",
+      "reason": "Copied test used new awakening fixture helper missing from old pinned CanonTests; switched back to complete merged project."
+    },
+    {
+      "run": "20261119-104947-8844f0",
+      "reason": "Three mouse-target ward assertions failed; other listed checks passed."
+    },
+    {
+      "run": "20261119-105944-d3fb3a",
+      "reason": "Ward mouse-target assertions intermittently failed at 1280; final 110204 window run passed all 70 with no errors."
+    }
+  ],
+  "limits": "Isolated window tests and inspected screenshots, not manual long-duration gameplay or a performance benchmark."
+}

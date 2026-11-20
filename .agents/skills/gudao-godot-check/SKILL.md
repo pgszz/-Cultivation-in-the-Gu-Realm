@@ -16,9 +16,9 @@ python -X utf8 tools/check_game.py --checks canontest
 python -X utf8 tools/check_game.py --checks canontest --screenshots aperture bag journal map worldmap --resolution 1280x720
 ```
 
-上述省略引擎路径的命令仅适用于脚本默认路径可用的环境。其他机器传 `--godot` 指定实际 Godot 4.3 可执行文件；先确认版本。每个进程只有一个测试入口。`canontest` 用窗口和 Viewport 真实输入事件；`perftest` 用窗口采样；导入使用无头模式。
+上述省略引擎路径的命令仅适用于脚本默认路径可用的环境。其他机器传 `--godot` 指定实际 Godot 4.3 可执行文件；先确认版本。每个进程只有一个测试入口。共享工作区有并行改动时，可用 `--source-project <隔离快照工程目录>` 验证固定快照，必须记录来源并区分当前工作区结果。`canontest` 用窗口和 Viewport 真实输入事件；`perftest` 用窗口采样；导入使用无头模式。
 
-正式玩家存档是 `user://canon_save.json`。旧 `save.json` 不自动迁移或覆盖。不要直接在真实玩家目录执行会保存的测试；需要复现存档时只复制到独立测试命名空间。
+正式玩家存档是 `user://characters/<角色ID>.json` version 8，死亡 `.dead` 与删除 `.deleted` 标记优先于快照。旧 `canon_save.json` 一次导入且保留原文件，旧 `save.json` 不自动迁移或覆盖。角色行为使用 `charactertest` 验证；运行器随后以同一隔离目录重启引擎检查永久死亡与关窗保存。不要直接在真实玩家目录执行会保存的测试；需要复现存档时只复制到独立测试命名空间。
 
 ## 判读与补充
 

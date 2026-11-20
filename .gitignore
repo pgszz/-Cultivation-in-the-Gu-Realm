@@ -1,6 +1,7 @@
 # Local history, generated checks and one-off patch scripts
 /_archive/
 /.test-runs/
+/.launch-logs/
 /_gen.py
 
 # Godot cache, exports and throwaway captures
@@ -18,6 +19,11 @@
 *.log
 
 # Player state and local credentials
+**/characters/*.json
+**/characters/selection.cfg
+**/characters/*_art/
+*.dead
+*.deleted
 canon_save.json
 save.json
 test_save.sav

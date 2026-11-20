@@ -1,0 +1,59 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+USER SCRIPT ERROR: Parse Error: Identifier "CharacterSaves" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:6)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "character_saves" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:6)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "data" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:563)
+USER SCRIPT ERROR: Parse Error: Identifier "NpcAppearanceTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:622)
+USER SCRIPT ERROR: Parse Error: Could not resolve external class member "utility_gu".
+   at: GDScript::reload (res://scripts/Main.gd:735)
+USER SCRIPT ERROR: Parse Error: Could not resolve external class member "blocks".
+   at: GDScript::reload (res://scripts/Main.gd:1067)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainLayers" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:1686)
+USER SCRIPT ERROR: Parse Error: Identifier "GuProgression" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:1944)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "saved" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:1974)
+USER SCRIPT ERROR: Parse Error: Could not resolve external class member "appearance".
+   at: GDScript::reload (res://scripts/Main.gd:1981)
+USER SCRIPT ERROR: Parse Error: Identifier "GuProgression" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:2358)
+USER SCRIPT ERROR: Parse Error: Identifier "GuProgression" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:2372)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainLayers" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3245)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainLayers" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3246)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainLayers" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3253)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "portal" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:3258)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "site" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:3262)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "result" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:3278)
+USER SCRIPT ERROR: Parse Error: Identifier "CharacterSaveTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3617)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "test" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:3617)
+USER SCRIPT ERROR: Parse Error: Identifier "CharacterCustomizationTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3621)
+USER SCRIPT ERROR: Parse Error: Identifier "UtilityGuTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3630)
+USER SCRIPT ERROR: Parse Error: Identifier "GuUpgradeTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3633)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainLayers" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3657)
+USER SCRIPT ERROR: Parse Error: Cannot infer the type of "portal" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/Main.gd:3678)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3739)
+USER SCRIPT ERROR: Parse Error: Identifier "TerrainTests" not declared in the current scope.
+   at: GDScript::reload (res://scripts/Main.gd:3742)
+ERROR: Failed to load script "res://scripts/Main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)

@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-19",
+  "feature": "Qing Mao canon characters",
+  "engine": "4.3.stable.official.77dcf97d8",
+  "renderer": "OpenGL 3.3 Compatibility",
+  "gpu": "NVIDIA GeForce GTX 1050 Ti / 560.94",
+  "runs": {
+    "20261119-150823-48d44e": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-150823-48d44e\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "20261119-152221-3f54d0": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-152221-3f54d0\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261119-150823-48d44e\\project"
+      }
+    ],
+    "20261119-153835-6fb3a7": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "canonpeopletest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--canonpeopletest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "appearancetest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--appearancetest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "populationtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--populationtest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "inspecttest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--inspecttest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "socialtest",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--socialtest"
+        ],
+        "source_project": "G:\\g\\godot"
+      },
+      {
+        "check": "maptest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--maptest"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ],
+    "20261119-154815-714594": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-154815-714594\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project"
+      },
+      {
+        "check": "socialtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-154815-714594\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--socialtest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project"
+      },
+      {
+        "check": "canonpeopletest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-154815-714594\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--canonpeopletest"
+        ],
+        "source_project": "G:\\g\\.test-runs\\20261119-153835-6fb3a7\\project"
+      }
+    ],
+    "20261119-155605-899a46": [
+      {
+        "check": "import",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261119-155605-899a46\\project",
+          "--headless",
+          "--import"
+        ],
+        "source_project": "G:\\g\\godot"
+      }
+    ]
+  },
+  "source_hashes": {
+    "CanonPeople.gd": {
+      "sha256": "1c746a1b77cee46a7c60e6457b1992723570c09c0dd3ae61b7be57b92f8cf2d0",
+      "matches_final_snapshot": true
+    },
+    "CanonPeopleTests.gd": {
+      "sha256": "f6e32cdcdafff73d492638f243430cf92ab3e6654be5aabec4f99bcf8b95def0",
+      "matches_final_snapshot": true
+    },
+    "NpcAppearance.gd": {
+      "sha256": "50a54fa9c28722c50642c86546f933808df9ffb213466c47b480c964d2aa34d9",
+      "matches_final_snapshot": true
+    },
+    "ActorAnimation.gd": {
+      "sha256": "54a2acf8732cda1427acfc27b1882aa3a78b6c77cb5e148bddb8ede0add367b7",
+      "matches_final_snapshot": true
+    },
+    "PopulationSystem.gd": {
+      "sha256": "9f0fc0430b23e73f297bf1ca437ce41f50ea6f4631dcba43f9f6af85626334f7",
+      "matches_final_snapshot": true
+    },
+    "PopulationTests.gd": {
+      "sha256": "db3235ef60fc2bc0ec5eecd01882ae54529b1c3090a36d392d3365840061d8e4",
+      "matches_final_snapshot": true
+    },
+    "WorldPerson.gd": {
+      "sha256": "cab0ac83f9166246b590c1a21b73f4c0f1943d265f85745b9f48a0e27fc852cc",
+      "matches_final_snapshot": true
+    },
+    "Npc.gd": {
+      "sha256": "f42a0c1bffeeba5e11268611b3c371a13948296461ed0756daef5cfb7f120b1b",
+      "matches_final_snapshot": true
+    },
+    "NpcSocial.gd": {
+      "sha256": "0db1246120d3dc618500677750abf092a7a87fd56deda8976d25d7892e5118e2",
+      "matches_final_snapshot": true
+    },
+    "NpcConversation.gd": {
+      "sha256": "d857cba7fec96638d4dfc4486950bd8d27a10ee927b4be0305885b02f7505449",
+      "matches_final_snapshot": true
+    },
+    "NpcInspectUI.gd": {
+      "sha256": "e433e08cbe4ab682ec79a4348667dbab9edb9fa5771dbd5d0ca608868433b884",
+      "matches_final_snapshot": true
+    },
+    "MiniMapUI.gd": {
+      "sha256": "928e463d98fed9ada293555aa102bd70edefb0e522b67ade2b6c9fa27f600395",
+      "matches_final_snapshot": true
+    },
+    "NpcAppearanceTests.gd": {
+      "sha256": "75bc34dc869d1edad5b2c18c4f3c9dc5e92b298060ee4c4d890d9589f74c0205",
+      "matches_final_snapshot": true
+    },
+    "NpcSocialTests.gd": {
+      "sha256": "076544be1b66e3739bb2c9dd254f5f098d12b477aa40c08ba5058915dcf5034e",
+      "matches_final_snapshot": true
+    },
+    "Main.gd": {
+      "sha256": "b51db27e81ffbc8f3a146329147d4e1d6409a1c762c38f5e2198abc7bf21a657",
+      "matches_final_snapshot": true
+    }
+  },
+  "notes": [
+    "The early debug snapshot omitted a missing unrelated nerve_lantern preload; those diagnostic runs are not final acceptance.",
+    "20261119-153835-6fb3a7 imported the complete real project, including nerve_lantern art. All requested checks except two social pagination fixture assumptions passed.",
+    "20261119-154815-714594 pins that complete snapshot with NpcSocialTests updated to use real page buttons. Social and named-character checks passed at 960x540. No runtime code changed after the 1280 acceptance run.",
+    "Viewport input and screenshots, not a long manual gameplay or performance evaluation."
+  ],
+  "unused_generation": {
+    "id": "nerve_lantern",
+    "original": "exec-abeeca2c-6e81-4019-8ffe-3d7db64dd2f5.png",
+    "adopted": false,
+    "reason": "The missing dependency arrived from concurrent work before this generation returned; existing project artwork was preserved."
+  }
+}

@@ -1,0 +1,16 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=418; terrain cache limit=24
+WORLD minimap ms=653; terrain cache limit=24
+WORLD minimap ms=578; terrain cache limit=24
+WORLD minimap ms=583; terrain cache limit=24
+CANONTEST FAIL visible corpse retains an inspectable card for looting
+WORLD minimap ms=592; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+WORLD minimap ms=631; terrain cache limit=24
+WORLD minimap ms=618; terrain cache limit=24
+CANONTEST FAIL reloading replaces stale card instances with new world actors
+WORLD minimap ms=415; terrain cache limit=24
+WORLD minimap ms=586; terrain cache limit=24
+SOCIALTEST checked=77 failures=["visible corpse retains an inspectable card for looting","reloading replaces stale card instances with new world actors"]

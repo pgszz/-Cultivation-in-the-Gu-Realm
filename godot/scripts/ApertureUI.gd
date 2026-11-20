@@ -9,9 +9,12 @@ var detail: RichTextLabel
 var selected_id := ""
 var selected_slot := 0
 var target: OptionButton
+var cols: HBoxContainer
+var mortal_panel: VBoxContainer
+var awaken_button: Button
 
 func _ready() -> void:
-	var cols:=HBoxContainer.new()
+	cols=HBoxContainer.new()
 	UIStyle.fill(cols)
 	cols.add_theme_constant_override("separation",16)
 	add_child(cols)
@@ -67,6 +70,21 @@ func _ready() -> void:
 	for row in [["收入空窍","aperture"],["取出携带","bag"],["寄居掌心","body"]]:
 		moves.add_child(UIStyle.button(row[0],_move.bind(row[1])))
 	right.add_child(UIStyle.button("去背包取食物喂养 →",func(): game.open_journal("inventory")))
+	right.add_child(UIStyle.button("查看升炼蛊方与威力变化 →",func(): game.open_journal("refinement")))
+	mortal_panel=VBoxContainer.new()
+	UIStyle.fill(mortal_panel)
+	mortal_panel.add_theme_constant_override("separation",18)
+	add_child(mortal_panel)
+	mortal_panel.add_child(UIStyle.label("凡人 · 空窍尚未开辟",24,UIStyle.GOLD))
+	var hope:=GuArt.portrait(125)
+	hope.texture=GuArt.texture("hope_gu")
+	mortal_panel.add_child(hope)
+	var explanation:=UIStyle.label("希望蛊是花海中的微弱白色光点。\n借希望蛊开辟空窍，形成光膜与青铜元海，才可成为蛊师。\n\n当前资质：未觉醒 · 无真元 · 无窍壁\n你仍可行走、探索、采集、交易与使用普通物品。",16)
+	explanation.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
+	mortal_panel.add_child(explanation)
+	awaken_button=UIStyle.button("标记地下溶洞 · 寻找希望蛊",func(): game.guide_awakening())
+	mortal_panel.add_child(awaken_button)
+	mortal_panel.add_child(UIStyle.label("进入洞口后走近月兰花海，按 E 开始。资质揭晓前不显示等第。",13,UIStyle.DIM))
 	visibility_changed.connect(refresh)
 	refresh()
 
@@ -96,9 +114,15 @@ func refresh() -> void:
 	if summary==null: return
 	var p:Player=game.player
 	var a:=p.aperture
+	cols.visible=a.is_open()
+	mortal_panel.visible=not a.is_open()
+	if not a.is_open():
+		awaken_button.text="引动花海中的希望蛊" if game.world.in_interior and game.current_house_id=="spring_cave" and game.world.interior.interaction_at(p.position)=="spring_cave" else "标记地下溶洞 · 寻找希望蛊"
+		return
 	view.queue_redraw()
-	summary.text="[color=#d8bc7c]%s · %s资质[/color]\n元海上限：整个空窍的 %.0f%%\n%s：%.1f%%\n高一小阶真元：%.1f%%\n窍壁温养：%.1f%%\n元石待吸收余量：%.1f\n" % [a.realm(),a.aptitude(),a.capacity,a.essence_name(),a.essence,a.refined_essence,a.wall_progress,a.stone_reserve]
-	summary.text+="[color=#93a99f]金虚线是元海上限；空窍不存放元石、药物等普通物品。[/color]"
+	summary.text="[color=#d8bc7c]%s · %s资质[/color]\n当前真元：%s（剩余 %.0f%%）\n资质容量：占整个空窍 %.1f%%\n%s：%.1f 点\n高一小阶真元：%.1f 点\n窍壁温养：%.1f%%\n元石待吸收余量：%.1f\n" % [a.realm(),a.aptitude(),a.amount_text(),a.fill_ratio()*100,a.capacity,a.essence_name(),a.essence,a.refined_essence,a.wall_progress,a.stone_reserve]
+	summary.text+="先天潜力：%.0f%% · 后天增长：%.2f / 20 点\n"%[a.potential,a.aptitude_gain]
+	summary.text+="[color=#93a99f]1 点真元等于空窍容积的 1%；金虚线是元海上限。资质蛊只扩大容量，舍利蛊只提升对应转数的小阶。普通物品放背包。[/color]"
 	for child in list.get_children():
 		list.remove_child(child)
 		child.queue_free()
@@ -106,7 +130,7 @@ func refresh() -> void:
 	if selected_id=="" and gus.active_gu!=null: selected_id=gus.active_gu.id
 	for gu in gus.owned_gus:
 		var location: String={"aperture":"空窍中","body":"掌心寄居","bag":"外部携带"}[gu.location]
-		var text:=gu.name+" · "+location+(" · 本命" if gu.id==p.vital_gu_id else "")+(" · 已死亡" if gu.dead else "")
+		var text:="%s · %d转 · %s\n%s%s%s" % [gu.name,gu.rank,GuProgression.rarity(gu.template_id),location," · 本命" if gu.id==p.vital_gu_id else ""," · 已死亡" if gu.dead else ""]
 		var button:=UIStyle.button(text,select_gu.bind(gu.id))
 		GuArt.decorate(button,gu.template_id,28)
 		button.alignment=HORIZONTAL_ALIGNMENT_LEFT
@@ -114,8 +138,10 @@ func refresh() -> void:
 		list.add_child(button)
 	var selected:=gus.get_gu_by_id(selected_id)
 	if selected==null:
-		detail.text="选择蛊虫查看居处。\n空窍不是三个技能槽，已炼化蛊虫可超过三只。\n外部携带的蛊在背包中；月光蛊也可寄居掌心。"
+		detail.text="选择蛊虫查看居处。\n空窍不是三个技能槽，已炼化蛊虫可超过三只。\n外部携带的蛊在背包中；月光蛊、小光蛊也可寄居掌心。"
 	else:
-		detail.text="[color=#76c2aa]%s[/color]\n%s\n食物：%s · %s\n" % [selected.name,GameData.activation_hint(selected.template_id,a.stage),FoodSystem.GRAINS[selected.preferred_food].name,game.get_node("/root/Hunger").get_hunger_status(selected.id)]
+		var effect_text:=GameData.activation_hint(selected.template_id,a.stage,a.rank)
+		if not GameData.GU[selected.template_id].has("hint"): effect_text=GuProgression.power(selected.template_id)+"\n"+effect_text
+		detail.text="[color=#d8bc7c]%s[/color]\n%s\n食物：%s · %s\n" % [GuProgression.title(selected.template_id),effect_text,FoodSystem.GRAINS[selected.preferred_food].name,game.get_node("/root/Hunger").get_hunger_status(selected.id)]
 		for i in 3:
 			if p.skill_slots[i]==selected.id: detail.text+="已绑定快捷位 %d\n"%(i+1)

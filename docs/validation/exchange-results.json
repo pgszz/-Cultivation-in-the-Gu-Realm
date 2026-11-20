@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-19",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "platform": "Windows / OpenGL 3.3 Compatibility / GTX 1050 Ti / NVIDIA 560.94",
+  "isolation": "Copied projects and independent user namespaces; no player saves used",
+  "checks": [
+    {
+      "run": "20261119-090337-9d619b",
+      "log": "exchange-1280-import.txt",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090337-9d619b\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090337-9d619b",
+      "log": "exchange-1280-exchangetest.txt",
+      "check": "exchangetest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090337-9d619b\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--exchangetest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090143-d1dba6",
+      "log": "exchange-960-import.txt",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090143-d1dba6\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090143-d1dba6",
+      "log": "exchange-960-exchangetest.txt",
+      "check": "exchangetest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090143-d1dba6\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--exchangetest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090642-77032c",
+      "log": "exchange-inspect1280-import.txt",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090642-77032c\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090642-77032c",
+      "log": "exchange-inspect1280-inspecttest.txt",
+      "check": "inspecttest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090642-77032c\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--inspecttest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090831-265422",
+      "log": "exchange-inspect960-import.txt",
+      "check": "import",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090831-265422\\project",
+        "--headless",
+        "--import"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-090831-265422",
+      "log": "exchange-inspect960-inspecttest.txt",
+      "check": "inspecttest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-090831-265422\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--inspecttest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-085136-c16c79",
+      "log": "exchange-integration-socialtest.txt",
+      "check": "socialtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-085136-c16c79\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--socialtest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-085136-c16c79",
+      "log": "exchange-integration-populationtest.txt",
+      "check": "populationtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-085136-c16c79\\project",
+        "--resolution",
+        "1280x720",
+        "--",
+        "--populationtest"
+      ],
+      "source_project": "G:\\g\\godot"
+    },
+    {
+      "run": "20261119-085704-f0b079",
+      "log": "exchange-social960-socialtest.txt",
+      "check": "socialtest",
+      "passed": true,
+      "command": [
+        "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+        "--path",
+        "G:\\g\\.test-runs\\20261119-085704-f0b079\\project",
+        "--resolution",
+        "960x540",
+        "--",
+        "--socialtest"
+      ],
+      "source_project": "G:\\g\\godot"
+    }
+  ],
+  "fingerprints": {
+    "20261119-090337-9d619b": {
+      "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+      "NpcInspectUI.gd": "26853d8bd8841a9a0d415c332a57f8e1ded5a76ef2ab52b09f2b8a85dc153cc2",
+      "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+      "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+      "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+      "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+      "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+      "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+      "NpcExchangeTests.gd": "7bff9182b59adeb8853d517bf95d1678378c31831227f89dea8908471de7aa9d",
+      "NpcInspectionTests.gd": "a697d23c43ce5cd479e54ec167d64157af24bcfcafafb7deee5536921817a70e"
+    },
+    "20261119-090143-d1dba6": {
+      "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+      "NpcInspectUI.gd": "26853d8bd8841a9a0d415c332a57f8e1ded5a76ef2ab52b09f2b8a85dc153cc2",
+      "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+      "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+      "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+      "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+      "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+      "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+      "NpcExchangeTests.gd": "7bff9182b59adeb8853d517bf95d1678378c31831227f89dea8908471de7aa9d",
+      "NpcInspectionTests.gd": "a697d23c43ce5cd479e54ec167d64157af24bcfcafafb7deee5536921817a70e"
+    },
+    "20261119-090642-77032c": {
+      "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+      "NpcInspectUI.gd": "26853d8bd8841a9a0d415c332a57f8e1ded5a76ef2ab52b09f2b8a85dc153cc2",
+      "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+      "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+      "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+      "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+      "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+      "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+      "NpcExchangeTests.gd": "7bff9182b59adeb8853d517bf95d1678378c31831227f89dea8908471de7aa9d",
+      "NpcInspectionTests.gd": "dc9e0af7b44da00f72f514c4999cde4a3a5cfd59409616005b4008c4355b38d4"
+    },
+    "20261119-090831-265422": {
+      "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+      "NpcInspectUI.gd": "26853d8bd8841a9a0d415c332a57f8e1ded5a76ef2ab52b09f2b8a85dc153cc2",
+      "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+      "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+      "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+      "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+      "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+      "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+      "NpcExchangeTests.gd": "7bff9182b59adeb8853d517bf95d1678378c31831227f89dea8908471de7aa9d",
+      "NpcInspectionTests.gd": "dc9e0af7b44da00f72f514c4999cde4a3a5cfd59409616005b4008c4355b38d4"
+    },
+    "20261119-085136-c16c79": {
+      "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+      "NpcInspectUI.gd": "39eb4e9a0119953bad8211d66f9f94b0909d30082b7ff41996f508b317fc967a",
+      "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+      "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+      "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+      "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+      "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+      "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+      "NpcExchangeTests.gd": "5ae5199e0aa37cb70db2b8a8af2def82ee6a7d4f649f2243fb2ccc6e45410a4b",
+      "NpcInspectionTests.gd": "12849dcb4a7248f5e3dc121f4e07a141a2e509cfe0d58a91dceadaa39f972117"
+    },
+    "20261119-085704-f0b079": {
+      "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+      "NpcInspectUI.gd": "d346f8a24c51ec30ed6c2f66c859b42521fd8996d7495726e7a3f60b9401547c",
+      "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+      "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+      "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+      "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+      "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+      "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+      "NpcExchangeTests.gd": "7bff9182b59adeb8853d517bf95d1678378c31831227f89dea8908471de7aa9d",
+      "NpcInspectionTests.gd": "12849dcb4a7248f5e3dc121f4e07a141a2e509cfe0d58a91dceadaa39f972117"
+    }
+  },
+  "limitations": [
+    "Window rendering and injected input; no long manual play or performance claim",
+    "Only selected passing checks are included from partially failed runs",
+    "Rare retaliation branches use fixed RNG seeds; normal chances are 2% / 5%"
+  ],
+  "earlier_failures": {
+    "20261119-084831-613db2": "Test type inference parse error, corrected before window tests",
+    "20261119-085136-c16c79": "Exchange fixture compared JSON float counts against int Variants; fixed combat fixture retained invulnerability from previous test hit",
+    "20261119-085704-f0b079": "Legacy inspection cursor-position assertion failed; other assertions passed",
+    "20261119-085947-e73350": "Legacy inspection cursor-position assertion failed",
+    "20261119-090337-9d619b": "Legacy inspection cursor-position assertion failed; final helper warps OS cursor after awaited frame, preserving original assertion"
+  },
+  "workspace_fingerprints": {
+    "Main.gd": "5bab6ee6000c74eb5ada372c2d374119b8a2f5b3f75c3611a2fbc14323f87bf1",
+    "NpcInspectUI.gd": "26853d8bd8841a9a0d415c332a57f8e1ded5a76ef2ab52b09f2b8a85dc153cc2",
+    "NpcGiftRules.gd": "6d77983e9987e47dd3a7290b159dc29738b29a31ad7421b6c071aef97e5920e6",
+    "PersonExchange.gd": "3f2bb98023ad929522584394818058af4c00fe97c40afc1ac3300a9c889119f8",
+    "NpcSocial.gd": "55dea455e242898469a1495cb08e42495c8e4118f4b57d549aec24cccb194917",
+    "Npc.gd": "55be06225c77f43d9dc32991a34676d16da72aa71c9cd41891af5c3866621704",
+    "WorldPerson.gd": "2b3877b1de16eb6e28b620afc476abf6581e146a3e77bbf868303061d62ca8b9",
+    "PopulationSystem.gd": "a0cbe2875741ddb17aeab50091a6bf7ddd8fdbb8ddd15e4fe16a6f00f9d96ea9",
+    "NpcExchangeTests.gd": "7bff9182b59adeb8853d517bf95d1678378c31831227f89dea8908471de7aa9d",
+    "NpcInspectionTests.gd": "dc9e0af7b44da00f72f514c4999cde4a3a5cfd59409616005b4008c4355b38d4"
+  },
+  "runner_sha256": "63da9e7e62d77a592cf31461f3baedbc90559bb6b9f8c359aec358689ce91a0f"
+}

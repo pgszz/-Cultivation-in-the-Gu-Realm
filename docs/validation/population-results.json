@@ -1,0 +1,520 @@
+{
+  "date": "2026-11-18",
+  "environment": "Godot 4.3 stable / Windows / OpenGL 3.3 Compatibility / NVIDIA GTX 1050 Ti, driver 560.94",
+  "final_checks": {
+    "population_1280": 172,
+    "population_960": 172,
+    "canon_1280": 777,
+    "village_1280": 225,
+    "inspect_1280": 76,
+    "inspect_960": 76
+  },
+  "animation": {
+    "path": "godot/screenshots/population_motion.mp4",
+    "width": 960,
+    "height": 540,
+    "fps": 15,
+    "frames": 90,
+    "duration_seconds": 6,
+    "capture": "Fixed-step PopulationSystem AI and ActorAnimation; other outdoor simulation paused."
+  },
+  "snapshots": [
+    {
+      "snapshot": "20261118-183042-a69832",
+      "note": "商队长程失败；山寨和查看专项通过",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "populationtest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--populationtest"
+          ]
+        },
+        {
+          "check": "villagetest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--villagetest"
+          ]
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--inspecttest"
+          ]
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotpopulation"
+          ]
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravan"
+          ]
+        },
+        {
+          "check": "shotcaravantrade",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravantrade"
+          ]
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183042-a69832\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbandits"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/PopulationSystem.gd": "8da01748a267fea87d409168d434b8718b87afccebe626fda10069ec2ae18f7f",
+        "scripts/WorldPerson.gd": "e15abddcac6bd339b2ee0467a24ae22ad65350fb7d5129512f20bfe2b57b5284",
+        "scripts/PopulationTests.gd": "0af8680837e4c894ccd41758e64f12ee20f6d35516640fa9d9e84806ee93479a",
+        "scripts/Main.gd": "6521db2bd03ab331a020c7fdd87326ba9c6f659fed489b8d74ee876084a7007c",
+        "scripts/VillageUI.gd": "08cef09ea59fef0393823a44d774435fed4b3ac5d384869f9677e75d84380548",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+        "scripts/SettlementTests.gd": "aa65e8091c07678a4ec791526b56c05216b7175878786ac486210395a3bdfb90",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a",
+        "scripts/SettlementData.gd": "9d5cfce56a6d57771f98111eac8ab628a3ce0529313f8319e29dddb488b5b2ba",
+        "scripts/FogOfWar.gd": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+      }
+    },
+    {
+      "snapshot": "20261118-183247-ba97ef",
+      "note": "固定距离采样修复前，商队长程失败",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183247-ba97ef\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "populationtest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183247-ba97ef\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--populationtest"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/PopulationSystem.gd": "8da01748a267fea87d409168d434b8718b87afccebe626fda10069ec2ae18f7f",
+        "scripts/WorldPerson.gd": "e15abddcac6bd339b2ee0467a24ae22ad65350fb7d5129512f20bfe2b57b5284",
+        "scripts/PopulationTests.gd": "7be4f2b897e7c93ae271a916ac33628b0e9a2b5c8134078a9cdbe7788b914b61",
+        "scripts/Main.gd": "6521db2bd03ab331a020c7fdd87326ba9c6f659fed489b8d74ee876084a7007c",
+        "scripts/VillageUI.gd": "08cef09ea59fef0393823a44d774435fed4b3ac5d384869f9677e75d84380548",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+        "scripts/SettlementTests.gd": "aa65e8091c07678a4ec791526b56c05216b7175878786ac486210395a3bdfb90",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a",
+        "scripts/SettlementData.gd": "9d5cfce56a6d57771f98111eac8ab628a3ce0529313f8319e29dddb488b5b2ba",
+        "scripts/FogOfWar.gd": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+      }
+    },
+    {
+      "snapshot": "20261118-183514-8ba653",
+      "note": "人员与完整回归通过，1280 截图通过",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "populationtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--populationtest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotpopulation"
+          ]
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravan"
+          ]
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotbandits"
+          ]
+        },
+        {
+          "check": "shotcaravantrade",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183514-8ba653\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravantrade"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/PopulationSystem.gd": "68eaa8e0c94f5b143e107779d94613516494462aa48e564c699e58f14ae72e97",
+        "scripts/WorldPerson.gd": "e15abddcac6bd339b2ee0467a24ae22ad65350fb7d5129512f20bfe2b57b5284",
+        "scripts/PopulationTests.gd": "7be4f2b897e7c93ae271a916ac33628b0e9a2b5c8134078a9cdbe7788b914b61",
+        "scripts/Main.gd": "6521db2bd03ab331a020c7fdd87326ba9c6f659fed489b8d74ee876084a7007c",
+        "scripts/VillageUI.gd": "08cef09ea59fef0393823a44d774435fed4b3ac5d384869f9677e75d84380548",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+        "scripts/SettlementTests.gd": "aa65e8091c07678a4ec791526b56c05216b7175878786ac486210395a3bdfb90",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a",
+        "scripts/SettlementData.gd": "9d5cfce56a6d57771f98111eac8ab628a3ce0529313f8319e29dddb488b5b2ba",
+        "scripts/FogOfWar.gd": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+      }
+    },
+    {
+      "snapshot": "20261118-183949-821e64",
+      "note": "人员与录像通过，960 查看瞄准夹具失败",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "populationtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--populationtest"
+          ]
+        },
+        {
+          "check": "inspecttest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--inspecttest"
+          ]
+        },
+        {
+          "check": "shotpopulation",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotpopulation"
+          ]
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotcaravan"
+          ]
+        },
+        {
+          "check": "shotbandits",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotbandits"
+          ]
+        },
+        {
+          "check": "shotcaravantrade",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotcaravantrade"
+          ]
+        },
+        {
+          "check": "shotpopulationmotion",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-183949-821e64\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotpopulationmotion"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/PopulationSystem.gd": "68eaa8e0c94f5b143e107779d94613516494462aa48e564c699e58f14ae72e97",
+        "scripts/WorldPerson.gd": "e15abddcac6bd339b2ee0467a24ae22ad65350fb7d5129512f20bfe2b57b5284",
+        "scripts/PopulationTests.gd": "8013b0ca993b6a1e10d30bd50838857e267f3949aa663b83c0cf84c930a6ea51",
+        "scripts/Main.gd": "e32de9812d71b280ae364a46c96f5e9b31004a9ecb3500b522dd622b2943aed5",
+        "scripts/VillageUI.gd": "08cef09ea59fef0393823a44d774435fed4b3ac5d384869f9677e75d84380548",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "05acaded2389d4e238657ade6f9f3361e1de1b69d56bc37cf198e7f9a5792263",
+        "scripts/SettlementTests.gd": "aa65e8091c07678a4ec791526b56c05216b7175878786ac486210395a3bdfb90",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a",
+        "scripts/SettlementData.gd": "9d5cfce56a6d57771f98111eac8ab628a3ce0529313f8319e29dddb488b5b2ba",
+        "scripts/FogOfWar.gd": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+      }
+    },
+    {
+      "snapshot": "20261118-184601-a2b6f5",
+      "note": "960 查看瞄准夹具修复后通过",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-184601-a2b6f5\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-184601-a2b6f5\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--inspecttest"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/PopulationSystem.gd": "68eaa8e0c94f5b143e107779d94613516494462aa48e564c699e58f14ae72e97",
+        "scripts/WorldPerson.gd": "e15abddcac6bd339b2ee0467a24ae22ad65350fb7d5129512f20bfe2b57b5284",
+        "scripts/PopulationTests.gd": "8013b0ca993b6a1e10d30bd50838857e267f3949aa663b83c0cf84c930a6ea51",
+        "scripts/Main.gd": "e32de9812d71b280ae364a46c96f5e9b31004a9ecb3500b522dd622b2943aed5",
+        "scripts/VillageUI.gd": "08cef09ea59fef0393823a44d774435fed4b3ac5d384869f9677e75d84380548",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "d4c00ef7bf7ca4915a3900a08e0ed6baa2ab9a3fe4559f4377dfac6bb80d01db",
+        "scripts/SettlementTests.gd": "aa65e8091c07678a4ec791526b56c05216b7175878786ac486210395a3bdfb90",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a",
+        "scripts/SettlementData.gd": "9d5cfce56a6d57771f98111eac8ab628a3ce0529313f8319e29dddb488b5b2ba",
+        "scripts/FogOfWar.gd": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+      }
+    },
+    {
+      "snapshot": "20261118-184724-1b237d",
+      "note": "1280 查看复测与更新商队截图通过",
+      "results": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-184724-1b237d\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "inspecttest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-184724-1b237d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--inspecttest"
+          ]
+        },
+        {
+          "check": "shotcaravan",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-184724-1b237d\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotcaravan"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "scripts/PopulationSystem.gd": "68eaa8e0c94f5b143e107779d94613516494462aa48e564c699e58f14ae72e97",
+        "scripts/WorldPerson.gd": "e15abddcac6bd339b2ee0467a24ae22ad65350fb7d5129512f20bfe2b57b5284",
+        "scripts/PopulationTests.gd": "8013b0ca993b6a1e10d30bd50838857e267f3949aa663b83c0cf84c930a6ea51",
+        "scripts/Main.gd": "e32de9812d71b280ae364a46c96f5e9b31004a9ecb3500b522dd622b2943aed5",
+        "scripts/VillageUI.gd": "08cef09ea59fef0393823a44d774435fed4b3ac5d384869f9677e75d84380548",
+        "scripts/NpcInspectUI.gd": "59167cd851ed7ec443d6ff38d4bb935a606b201fc4b164787a15f599ab920f2b",
+        "scripts/NpcInspectionTests.gd": "d4c00ef7bf7ca4915a3900a08e0ed6baa2ab9a3fe4559f4377dfac6bb80d01db",
+        "scripts/SettlementTests.gd": "aa65e8091c07678a4ec791526b56c05216b7175878786ac486210395a3bdfb90",
+        "scripts/World.gd": "6b41525904ce1c14f8ae52f117d5d1c3f105e33d98ebb1a361166c7283917c5a",
+        "scripts/SettlementData.gd": "9d5cfce56a6d57771f98111eac8ab628a3ce0529313f8319e29dddb488b5b2ba",
+        "scripts/FogOfWar.gd": "192aefa647ed1c91b1e3b469a80f4c67168e4eb586c846a1f4d2162aad864d38"
+      }
+    }
+  ],
+  "limits": [
+    "Automated window input and screenshots; no manual long play session.",
+    "1200-second journey is fixed-step simulation, not a performance measurement.",
+    "Earlier failing snapshots retained; only the listed final scopes passed."
+  ]
+}

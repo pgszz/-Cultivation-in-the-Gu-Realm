@@ -1,0 +1,10 @@
+Godot 4.3.stable.official.77dcf97d8
+Preparing scripts and resources...
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Expected expression for variable initial value after "=".
+          at: GDScript::reload (res://main.gd:2)
+ERROR: Failed to load script "res://main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:2936)
+
+import failed. Logs: G:\g\.launch-logs\20261119-025135-1a1aef

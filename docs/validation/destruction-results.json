@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-18",
+  "scope": "Destruction, repair and merged canontest regression",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "renderer": "GL Compatibility / OpenGL 3.3",
+  "os": "Windows",
+  "gpu": "NVIDIA GeForce GTX 1050 Ti",
+  "driver": "560.94",
+  "isolated_user_data": true,
+  "desktop_manual_playtest": false,
+  "long_duration_performance_test": false,
+  "runs": [
+    {
+      "run": "20261118-145248-3f8049",
+      "resolution": "1280x720",
+      "checked": 302,
+      "failures": [],
+      "checks": [
+        {
+          "check": "import",
+          "passed": true
+        },
+        {
+          "check": "canontest",
+          "passed": true
+        },
+        {
+          "check": "shotrepair",
+          "passed": true
+        },
+        {
+          "check": "shotdestruction",
+          "passed": true
+        },
+        {
+          "check": "shotdamageinterior",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "run": "20261118-145358-f58c8e",
+      "resolution": "960x540",
+      "checked": 302,
+      "failures": [],
+      "checks": [
+        {
+          "check": "import",
+          "passed": true
+        },
+        {
+          "check": "canontest",
+          "passed": true
+        },
+        {
+          "check": "shotrepair",
+          "passed": true
+        },
+        {
+          "check": "shotdamageinterior",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "snapshot_sha256": {
+    "1280": {
+      "DestructionSystem.gd": "47ba6f32132e636ae1cd61259c18d9da513f7e7a4d87046de208031f332d5a76",
+      "VillageUI.gd": "f34a046042176d8593d3545ac63247e35cbda4b171b88a8358ab27383e477535",
+      "Main.gd": "d93b1b23c6ecc759e1add863c534e0b2df258d089863bb28bca24c34000e4594",
+      "World.gd": "518c3ce05fbd17a80a15a284a7414f14f9fbd138c1c58ee7e1bddc750ce36f6e",
+      "WorldProp.gd": "e499fee0b291d970610f96fa3639f010c482a491e348d1d774fac28b322525fc",
+      "HouseInterior.gd": "489e8d26ad990134edd78bee50245469896c6eef6cf6a6ccd5fe67b94332baf7",
+      "CanonTests.gd": "afc51e533f4d2d666ccf8e45458e7003af2e913f6f35f81e981217d34cdb7909",
+      "Player.gd": "61baf2b217b0a8ee18e51a846fb68002b69232ca8e37437aeb7cbd5a16e298f4"
+    },
+    "960": {
+      "DestructionSystem.gd": "47ba6f32132e636ae1cd61259c18d9da513f7e7a4d87046de208031f332d5a76",
+      "VillageUI.gd": "f34a046042176d8593d3545ac63247e35cbda4b171b88a8358ab27383e477535",
+      "Main.gd": "595b4ae2a612a00304e967b2e0c80fa06cb2b58310b65dfbe1e43ab9a10deeb7",
+      "World.gd": "518c3ce05fbd17a80a15a284a7414f14f9fbd138c1c58ee7e1bddc750ce36f6e",
+      "WorldProp.gd": "e499fee0b291d970610f96fa3639f010c482a491e348d1d774fac28b322525fc",
+      "HouseInterior.gd": "489e8d26ad990134edd78bee50245469896c6eef6cf6a6ccd5fe67b94332baf7",
+      "CanonTests.gd": "afc51e533f4d2d666ccf8e45458e7003af2e913f6f35f81e981217d34cdb7909",
+      "Player.gd": "61baf2b217b0a8ee18e51a846fb68002b69232ca8e37437aeb7cbd5a16e298f4"
+    }
+  }
+}

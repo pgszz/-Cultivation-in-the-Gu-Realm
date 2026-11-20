@@ -1,0 +1,11 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=201; terrain cache limit=24
+WORLD minimap ms=156; terrain cache limit=24
+WORLD minimap ms=165; terrain cache limit=24
+WORLD minimap ms=148; terrain cache limit=24
+WORLD minimap ms=163; terrain cache limit=24
+WORLD minimap ms=170; terrain cache limit=24
+SETTLEMENTTEST checked=152
+VILLAGETEST checked=223 failures=[]

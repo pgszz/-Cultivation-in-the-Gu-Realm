@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-18",
+  "scope": "Personal inventories, Alt-click inspection, two-way trade and corpse looting. The version 7 baseline uses the original start-button fixture; the version 8 character snapshot uses actual create/select character input. Subsequent terrain and Gu expansions are outside these snapshots.",
+  "runs": [
+    {
+      "run": ".test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-220950-e9f112",
+      "check": "inspecttest",
+      "result": {
+        "check": "inspecttest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-220950-e9f112\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--inspecttest"
+        ]
+      },
+      "log": "person-exchange-inspect-960.txt",
+      "sha256": {
+        "Main.gd": "365b57e56d4f509b90efaab5e69d6d60e1ef8a1f579562f6fdeedd87ac6000d1",
+        "Npc.gd": "cca304a6daab0bf7393bcce10770c0e28e152f309a9f928f4de162009675905d",
+        "WorldPerson.gd": "607f0ef37e220c56f674dffc9450e7002479e5397816645378be48e947306cf3",
+        "NpcInspectUI.gd": "c6528cea11cdd4687070660c0c8feb66c3c39708afb48a1b1889d1952f16bbd4",
+        "PersonExchange.gd": "82b655a3aeaca420e7713189251fdad369ada9d8889de164aec42f77cf11a768",
+        "PopulationSystem.gd": "19589959b823541661185871840573ba6f8a3e9dc0a267bb2a74b62a7156276a",
+        "VillageUI.gd": "d6bcf3ffc0214614ec2d846d40fa6cc3f3e8ce5da06f949030dc4e6cf8eeb361",
+        "NpcInspectionTests.gd": "4e67533d6bed238b428c621d0dc2313929b1c5bf933e8b12531775cc3a94ddd2",
+        "Inventory.gd": "eb6e52207458c9725978f99c51bcb618a4bf6e7a250fe5c827b726e358cedcef",
+        "CharacterSaves.gd": "beef905c20ecf9ab39d78ff6c200dfee334e210362408858d6e4266a7c54f670",
+        "CanonTests.gd": "26f22d8d0bf7e92029c33ffb8fd645fcc97de290599d267b1d7a640e37f31545"
+      }
+    },
+    {
+      "run": ".test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-221014-dd576c",
+      "check": "inspecttest",
+      "result": {
+        "check": "inspecttest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-221014-dd576c\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--inspecttest"
+        ]
+      },
+      "log": "person-exchange-inspect-1280.txt",
+      "sha256": {
+        "Main.gd": "365b57e56d4f509b90efaab5e69d6d60e1ef8a1f579562f6fdeedd87ac6000d1",
+        "Npc.gd": "cca304a6daab0bf7393bcce10770c0e28e152f309a9f928f4de162009675905d",
+        "WorldPerson.gd": "607f0ef37e220c56f674dffc9450e7002479e5397816645378be48e947306cf3",
+        "NpcInspectUI.gd": "c6528cea11cdd4687070660c0c8feb66c3c39708afb48a1b1889d1952f16bbd4",
+        "PersonExchange.gd": "82b655a3aeaca420e7713189251fdad369ada9d8889de164aec42f77cf11a768",
+        "PopulationSystem.gd": "19589959b823541661185871840573ba6f8a3e9dc0a267bb2a74b62a7156276a",
+        "VillageUI.gd": "d6bcf3ffc0214614ec2d846d40fa6cc3f3e8ce5da06f949030dc4e6cf8eeb361",
+        "NpcInspectionTests.gd": "4e67533d6bed238b428c621d0dc2313929b1c5bf933e8b12531775cc3a94ddd2",
+        "Inventory.gd": "eb6e52207458c9725978f99c51bcb618a4bf6e7a250fe5c827b726e358cedcef",
+        "CharacterSaves.gd": "beef905c20ecf9ab39d78ff6c200dfee334e210362408858d6e4266a7c54f670",
+        "CanonTests.gd": "26f22d8d0bf7e92029c33ffb8fd645fcc97de290599d267b1d7a640e37f31545"
+      }
+    },
+    {
+      "run": ".test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-220155-40928c",
+      "check": "populationtest",
+      "result": {
+        "check": "populationtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-220155-40928c\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--populationtest"
+        ]
+      },
+      "log": "person-exchange-population-960.txt",
+      "sha256": {
+        "Main.gd": "365b57e56d4f509b90efaab5e69d6d60e1ef8a1f579562f6fdeedd87ac6000d1",
+        "Npc.gd": "cca304a6daab0bf7393bcce10770c0e28e152f309a9f928f4de162009675905d",
+        "WorldPerson.gd": "607f0ef37e220c56f674dffc9450e7002479e5397816645378be48e947306cf3",
+        "NpcInspectUI.gd": "c6528cea11cdd4687070660c0c8feb66c3c39708afb48a1b1889d1952f16bbd4",
+        "PersonExchange.gd": "82b655a3aeaca420e7713189251fdad369ada9d8889de164aec42f77cf11a768",
+        "PopulationSystem.gd": "19589959b823541661185871840573ba6f8a3e9dc0a267bb2a74b62a7156276a",
+        "VillageUI.gd": "d6bcf3ffc0214614ec2d846d40fa6cc3f3e8ce5da06f949030dc4e6cf8eeb361",
+        "NpcInspectionTests.gd": "81f059a035ef4faaa771d62cafd58774c30ca0a7ff36d78eabb25ffff5abaa03",
+        "Inventory.gd": "eb6e52207458c9725978f99c51bcb618a4bf6e7a250fe5c827b726e358cedcef",
+        "CharacterSaves.gd": "beef905c20ecf9ab39d78ff6c200dfee334e210362408858d6e4266a7c54f670",
+        "CanonTests.gd": "26f22d8d0bf7e92029c33ffb8fd645fcc97de290599d267b1d7a640e37f31545"
+      }
+    },
+    {
+      "run": ".test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-220155-40928c",
+      "check": "canontest",
+      "result": {
+        "check": "canontest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\person-exchange-scope-20261118\\.test-runs\\20261118-220155-40928c\\project",
+          "--resolution",
+          "960x540",
+          "--",
+          "--canontest"
+        ]
+      },
+      "log": "person-exchange-canon-960.txt",
+      "sha256": {
+        "Main.gd": "365b57e56d4f509b90efaab5e69d6d60e1ef8a1f579562f6fdeedd87ac6000d1",
+        "Npc.gd": "cca304a6daab0bf7393bcce10770c0e28e152f309a9f928f4de162009675905d",
+        "WorldPerson.gd": "607f0ef37e220c56f674dffc9450e7002479e5397816645378be48e947306cf3",
+        "NpcInspectUI.gd": "c6528cea11cdd4687070660c0c8feb66c3c39708afb48a1b1889d1952f16bbd4",
+        "PersonExchange.gd": "82b655a3aeaca420e7713189251fdad369ada9d8889de164aec42f77cf11a768",
+        "PopulationSystem.gd": "19589959b823541661185871840573ba6f8a3e9dc0a267bb2a74b62a7156276a",
+        "VillageUI.gd": "d6bcf3ffc0214614ec2d846d40fa6cc3f3e8ce5da06f949030dc4e6cf8eeb361",
+        "NpcInspectionTests.gd": "81f059a035ef4faaa771d62cafd58774c30ca0a7ff36d78eabb25ffff5abaa03",
+        "Inventory.gd": "eb6e52207458c9725978f99c51bcb618a4bf6e7a250fe5c827b726e358cedcef",
+        "CharacterSaves.gd": "beef905c20ecf9ab39d78ff6c200dfee334e210362408858d6e4266a7c54f670",
+        "CanonTests.gd": "26f22d8d0bf7e92029c33ffb8fd645fcc97de290599d267b1d7a640e37f31545"
+      }
+    },
+    {
+      "run": ".test-runs\\person-exchange-character-scope-20261118\\.test-runs\\20261118-221224-90710a",
+      "check": "inspecttest",
+      "result": {
+        "check": "inspecttest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\person-exchange-character-scope-20261118\\.test-runs\\20261118-221224-90710a\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--inspecttest"
+        ]
+      },
+      "log": "person-exchange-character-inspect-1280.txt",
+      "sha256": {
+        "Main.gd": "f10f440e7a00cb7a55763fc64f7b701e3b06862d0703eca322712da78d0bb871",
+        "Npc.gd": "cca304a6daab0bf7393bcce10770c0e28e152f309a9f928f4de162009675905d",
+        "WorldPerson.gd": "607f0ef37e220c56f674dffc9450e7002479e5397816645378be48e947306cf3",
+        "NpcInspectUI.gd": "c6528cea11cdd4687070660c0c8feb66c3c39708afb48a1b1889d1952f16bbd4",
+        "PersonExchange.gd": "82b655a3aeaca420e7713189251fdad369ada9d8889de164aec42f77cf11a768",
+        "PopulationSystem.gd": "9b580180b72dc4cf2bd901eb13c04cea6ed424280c20a7b55a05522e15cb1e4d",
+        "VillageUI.gd": "d6bcf3ffc0214614ec2d846d40fa6cc3f3e8ce5da06f949030dc4e6cf8eeb361",
+        "NpcInspectionTests.gd": "81f059a035ef4faaa771d62cafd58774c30ca0a7ff36d78eabb25ffff5abaa03",
+        "Inventory.gd": "eb6e52207458c9725978f99c51bcb618a4bf6e7a250fe5c827b726e358cedcef",
+        "CharacterSaves.gd": "8efc26633bcb94b88935d7afdc85e37e08365f4ccc075ec4b117fddb8e78f93a",
+        "CanonTests.gd": "92ea3030b24af919e29180447e2aee897e85d835875e95b8e67937164f4f7103"
+      }
+    },
+    {
+      "run": ".test-runs\\person-exchange-character-scope-20261118\\.test-runs\\20261118-221224-90710a",
+      "check": "populationtest",
+      "result": {
+        "check": "populationtest",
+        "passed": true,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\person-exchange-character-scope-20261118\\.test-runs\\20261118-221224-90710a\\project",
+          "--resolution",
+          "1280x720",
+          "--",
+          "--populationtest"
+        ]
+      },
+      "log": "person-exchange-character-population-1280.txt",
+      "sha256": {
+        "Main.gd": "f10f440e7a00cb7a55763fc64f7b701e3b06862d0703eca322712da78d0bb871",
+        "Npc.gd": "cca304a6daab0bf7393bcce10770c0e28e152f309a9f928f4de162009675905d",
+        "WorldPerson.gd": "607f0ef37e220c56f674dffc9450e7002479e5397816645378be48e947306cf3",
+        "NpcInspectUI.gd": "c6528cea11cdd4687070660c0c8feb66c3c39708afb48a1b1889d1952f16bbd4",
+        "PersonExchange.gd": "82b655a3aeaca420e7713189251fdad369ada9d8889de164aec42f77cf11a768",
+        "PopulationSystem.gd": "9b580180b72dc4cf2bd901eb13c04cea6ed424280c20a7b55a05522e15cb1e4d",
+        "VillageUI.gd": "d6bcf3ffc0214614ec2d846d40fa6cc3f3e8ce5da06f949030dc4e6cf8eeb361",
+        "NpcInspectionTests.gd": "81f059a035ef4faaa771d62cafd58774c30ca0a7ff36d78eabb25ffff5abaa03",
+        "Inventory.gd": "eb6e52207458c9725978f99c51bcb618a4bf6e7a250fe5c827b726e358cedcef",
+        "CharacterSaves.gd": "8efc26633bcb94b88935d7afdc85e37e08365f4ccc075ec4b117fddb8e78f93a",
+        "CanonTests.gd": "92ea3030b24af919e29180447e2aee897e85d835875e95b8e67937164f4f7103"
+      }
+    }
+  ],
+  "latest_full_workspace_attempt": {
+    "run": ".test-runs\\20261118-221621-603df0",
+    "report": [
+      {
+        "check": "import",
+        "passed": false,
+        "command": [
+          "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+          "--path",
+          "G:\\g\\.test-runs\\20261118-221621-603df0\\project",
+          "--headless",
+          "--import"
+        ]
+      }
+    ],
+    "log": "person-exchange-integration-import.txt",
+    "status": "Import blocked by concurrent HUD type inference and pending TerrainTests; no gameplay checks executed in this run."
+  }
+}

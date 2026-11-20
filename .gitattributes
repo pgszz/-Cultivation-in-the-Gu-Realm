@@ -7,3 +7,6 @@
 *.godot text eol=lf
 *.svg text eol=lf
 *.png binary
+
+# Preserve whitespace in captured engine output; these are evidence, not authored text.
+docs/validation/*.txt -whitespace

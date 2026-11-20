@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-18",
+  "engine": "Godot 4.3.stable.official.77dcf97d8",
+  "renderer": "GL Compatibility / NVIDIA GeForce GTX 1050 Ti, OpenGL 3.3, driver 560.94",
+  "gu_vfx_assertions": 135,
+  "behavior_assertions": 61,
+  "image_save_assertions": 74,
+  "snapshots": [
+    {
+      "snapshot": ".test-runs\\20261118-182034-1942a7",
+      "resolution": "1280x720",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182034-1942a7\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "guvfxtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-182034-1942a7\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--guvfxtest"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "GuVfx.gd": "71d3389b56ea3e0147a6353b2127354fbd3eafaf35273531b462015bdbe84a9c",
+        "GuVfxTests.gd": "b7a5af51671b86554d5934257a41bba12e9f55f770c683f17938762bf651b705",
+        "GuEffects.gd": "164a515706eafbb11b66f6338801b58a8d2da6bd56467faae1a1633cfc15c301",
+        "Fx.gd": "af77b0a275042e75c862d7d88174c3943808b808629fdc8c0457bbf36fcf975e",
+        "Player.gd": "64c8713ef4c23e9bf622fdcf57690f06b50aa2b1458f06d7a82a3d6c4008fa93",
+        "TopLayer.gd": "ff0e6dabe5f075c8ee29307414d940ece00a34702373adc9b64c2fbfe05292f1",
+        "Main.gd": "8e94a3d256684cd818ecdcd5ce216de87c54cac63d1a279c9200a48c0492cd37"
+      }
+    },
+    {
+      "snapshot": ".test-runs\\20261118-181830-994237",
+      "resolution": "960x540",
+      "checks": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181830-994237\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "guvfxtest",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181830-994237\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--guvfxtest"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-181830-994237\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--canontest"
+          ]
+        }
+      ],
+      "source_sha256": {
+        "GuVfx.gd": "71d3389b56ea3e0147a6353b2127354fbd3eafaf35273531b462015bdbe84a9c",
+        "GuVfxTests.gd": "b7a5af51671b86554d5934257a41bba12e9f55f770c683f17938762bf651b705",
+        "GuEffects.gd": "164a515706eafbb11b66f6338801b58a8d2da6bd56467faae1a1633cfc15c301",
+        "Fx.gd": "af77b0a275042e75c862d7d88174c3943808b808629fdc8c0457bbf36fcf975e",
+        "Player.gd": "64c8713ef4c23e9bf622fdcf57690f06b50aa2b1458f06d7a82a3d6c4008fa93",
+        "TopLayer.gd": "ff0e6dabe5f075c8ee29307414d940ece00a34702373adc9b64c2fbfe05292f1",
+        "Main.gd": "474317cc14ebef330264e98531d54f3d8ed9006599396f8fa170632e32325848"
+      }
+    }
+  ],
+  "scope": "13 playable Gu: real casts, impacts, guard feedback, auxiliary states and presentation lifecycle. No long-duration performance benchmark or manual desktop playthrough.",
+  "full_regression_limit": "960 merged snapshot: 760 checks; 4 SettlementTests street-NPC failures and missing xiong_spring key. NewGuTests=45 failures=0, GuExpansionTests=107 failures=0. Earlier pre-settlement snapshot had 557 checks passing.",
+  "development_runs": [
+    "20261118-175737-b50b39: blocked-leap aim was outside window; assertion failed",
+    "20261118-175952-285a58: leap accumulation precision failure; motion capture timed out; canontest 557 passed",
+    "20261118-180406-f6a2d5: concurrent World.HOUSE_DATA constant-expression import error",
+    "gu-vfx-scope-20261118/20261118-180812-983859: fixture omitted player.owned, load removed Gu and low-quality test accessed empty projectile list; canontest 557 passed",
+    "gu-vfx-scope-20261118/20261118-181333-c571a1: low-quality fixture failures exposed missing owned list",
+    "gu-vfx-scope-20261118/20261118-181628-6e1671: 134 assertions passed before adding upkeep-expiry assertion"
+  ]
+}

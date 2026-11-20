@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-18",
+  "scope": "Seven meat illustrations; import and screenshots passed. Full shared gameplay regression has failures as recorded, not a complete pass.",
+  "assets": [
+    {
+      "id": "rabbit_meat",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    },
+    {
+      "id": "deer_meat",
+      "size": [
+        1261,
+        1247
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    },
+    {
+      "id": "wolf_meat",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    },
+    {
+      "id": "bear_meat",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    },
+    {
+      "id": "boar_meat",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    },
+    {
+      "id": "pheasant_meat",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    },
+    {
+      "id": "pork_ration",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "matches_source": true
+    }
+  ],
+  "runs": {
+    "1280": {
+      "run": "20261118-162639-733b98",
+      "canontest": "CANONTEST checked=553 failures=[\"actual supply button delivers dedicated ration: brute_longhorn\", \"matching ration consumed exactly once for brute_longhorn\", \"actual supply button delivers dedicated ration: yellow_camel\", \"matching ration consumed exactly once for yellow_camel\", \"actual supply button delivers dedicated ration: dragon_cricket\", \"matching ration consumed exactly once for dragon_cricket\"]",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-162639-733b98\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-162639-733b98\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotitemrabbit_meat",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-162639-733b98\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotitemrabbit_meat"
+          ]
+        },
+        {
+          "check": "shotitempork_ration",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-162639-733b98\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotitempork_ration"
+          ]
+        },
+        {
+          "check": "shotitembear_meat",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-162639-733b98\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotitembear_meat"
+          ]
+        },
+        {
+          "check": "shotshop",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-162639-733b98\\project",
+            "--resolution",
+            "1280x720",
+            "--",
+            "--shotshop"
+          ]
+        }
+      ],
+      "item_art_sha256": "7c6db34022a5d9a00f74e65c21873d255fb490549c6a432ebafc4317e0c36bfd"
+    },
+    "960": {
+      "run": "20261118-170510-bceef5",
+      "canontest": "CANONTEST checked=561 failures=[\"cricket rejects blocked wall leap before charging resources\", \"save restores physical resources but not active Gu effects\"]",
+      "report": [
+        {
+          "check": "import",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-170510-bceef5\\project",
+            "--headless",
+            "--import"
+          ]
+        },
+        {
+          "check": "canontest",
+          "passed": false,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-170510-bceef5\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--canontest"
+          ]
+        },
+        {
+          "check": "shotitemrabbit_meat",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-170510-bceef5\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotitemrabbit_meat"
+          ]
+        },
+        {
+          "check": "shotitempork_ration",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-170510-bceef5\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotitempork_ration"
+          ]
+        },
+        {
+          "check": "shotshop",
+          "passed": true,
+          "command": [
+            "C:\\Users\\ASD\\AppData\\Local\\Microsoft\\WinGet\\Packages\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\Godot_v4.3-stable_win64_console.exe",
+            "--path",
+            "G:\\g\\.test-runs\\20261118-170510-bceef5\\project",
+            "--resolution",
+            "960x540",
+            "--",
+            "--shotshop"
+          ]
+        }
+      ],
+      "item_art_sha256": "7c6db34022a5d9a00f74e65c21873d255fb490549c6a432ebafc4317e0c36bfd"
+    }
+  }
+}
