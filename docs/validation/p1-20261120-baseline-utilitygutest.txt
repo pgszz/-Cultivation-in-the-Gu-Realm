@@ -1,0 +1,22 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=652; terrain cache limit=24
+WORLD minimap ms=573; terrain cache limit=24
+UTILITYGUTEST FAIL all new food replenishable at shop nerve_lantern_care
+UTILITYGUTEST FAIL all new food replenishable at shop clear_cornea_care
+UTILITYGUTEST FAIL all new food replenishable at shop ear_suture_care
+UTILITYGUTEST FAIL all new food replenishable at shop joint_mender_care
+UTILITYGUTEST FAIL all new food replenishable at bai_shop nerve_lantern_care
+UTILITYGUTEST FAIL all new food replenishable at bai_shop clear_cornea_care
+UTILITYGUTEST FAIL all new food replenishable at bai_shop ear_suture_care
+UTILITYGUTEST FAIL all new food replenishable at bai_shop joint_mender_care
+UTILITYGUTEST FAIL all new food replenishable at xiong_shop nerve_lantern_care
+UTILITYGUTEST FAIL all new food replenishable at xiong_shop clear_cornea_care
+UTILITYGUTEST FAIL all new food replenishable at xiong_shop ear_suture_care
+UTILITYGUTEST FAIL all new food replenishable at xiong_shop joint_mender_care
+WORLD minimap ms=587; terrain cache limit=24
+WORLD minimap ms=627; terrain cache limit=24
+WORLD minimap ms=578; terrain cache limit=24
+WORLD minimap ms=585; terrain cache limit=24
+UTILITYGUTEST checked=508 failures=["all new food replenishable at shop nerve_lantern_care", "all new food replenishable at shop clear_cornea_care", "all new food replenishable at shop ear_suture_care", "all new food replenishable at shop joint_mender_care", "all new food replenishable at bai_shop nerve_lantern_care", "all new food replenishable at bai_shop clear_cornea_care", "all new food replenishable at bai_shop ear_suture_care", "all new food replenishable at bai_shop joint_mender_care", "all new food replenishable at xiong_shop nerve_lantern_care", "all new food replenishable at xiong_shop clear_cornea_care", "all new food replenishable at xiong_shop ear_suture_care", "all new food replenishable at xiong_shop joint_mender_care"]

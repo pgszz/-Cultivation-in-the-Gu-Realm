@@ -14,9 +14,10 @@ func aim(point: Vector2) -> void:
 	game.get_viewport().warp_mouse(screen)
 	await game.get_tree().process_frame
 	var motion:=InputEventMouseMotion.new()
-	motion.position=screen
+	motion.position=game.get_viewport().get_canvas_transform()*point
+	game.get_viewport().warp_mouse(motion.position)
 	game.get_viewport().push_input(motion,true)
-	await RenderingServer.frame_post_draw
+	# Leave the injected aim as the last event before the caller casts.
 
 func cast(id: String, point: Vector2) -> void:
 	game.player.yuan=44
@@ -26,6 +27,8 @@ func cast(id: String, point: Vector2) -> void:
 	game.player.cast_cds[0]=0
 	game.projectiles.clear()
 	await aim(point)
+	var screen:Vector2=game.get_viewport().get_canvas_transform()*point
+	test.expect(game.get_viewport().get_mouse_position().distance_to(screen)<=2,"actual cast aims at requested world point: "+id)
 	game.cast_skill(0)
 	if not game.projectiles.is_empty() and absf(game.projectiles[0].ground_range-game.player.position.distance_to(point))>3: print("AIM DEBUG expected=%s mouse=%s pr=%s" % [point,game.get_global_mouse_position(),game.projectiles[0]])
 	test.expect(game.projectiles.size()==1 and game.player.yuan<44,"actual cast consumes essence and launches "+id)
@@ -105,9 +108,17 @@ func run(main: Node) -> void:
 	await swimming()
 	await conversation()
 	game.village_ui.close()
-	game.player.aperture.rank=1
+	# Use explicit awakened capacities; creation randomness must not affect UI fixtures.
+	for capacity in [20,84,99,44]:
+		var aperture:=ApertureState.new()
+		aperture.potential=capacity
+		test.expect(aperture.awaken() and aperture.capacity==capacity,"display fixture awakens at capacity %d" % capacity)
+		game.player.aperture=aperture
+		test.expect(aperture.fill_ratio()==1,"full essence fills capacity %d" % capacity)
+		game.player.yuan=capacity*0.5
+		test.expect(aperture.fill_ratio()==0.5,"half essence fills half of capacity %d" % capacity)
 	game.player.yuan=44
-	test.expect(game.player.aperture.fill_ratio()==1 and game.player.aperture.amount_text()=="44.0 / 44","full essence is 44/44 at 100 percent of capacity")
+	test.expect(game.player.aperture.fill_ratio()==1 and game.player.aperture.amount_text()=="44.0 / 44.0","full essence is 44/44 at 100 percent of capacity")
 	game.player.yuan=22
 	test.expect(game.player.aperture.fill_ratio()==0.5,"half essence is half of the blue bar")
 	game.player.yuan=44

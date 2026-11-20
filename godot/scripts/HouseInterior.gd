@@ -17,6 +17,7 @@ var house_id := ""
 var house_name := ""
 var game: Node
 var fixture_effects: Dictionary = {}
+var visual_revision := 0
 
 func _ready() -> void:
 	position = ORIGIN
@@ -30,6 +31,7 @@ func _ready() -> void:
 
 func sync_fixture(id: String, health: float, animate: bool) -> void:
 	if not id.begins_with("interior:"): return
+	visual_revision+=1
 	if not animate:
 		fixture_effects.erase(id)
 	else:
@@ -41,6 +43,7 @@ func _process(delta: float) -> void:
 	for id in fixture_effects.keys():
 		fixture_effects[id].elapsed+=delta
 		if fixture_effects[id].elapsed>=CollapseAnimation.DURATION: fixture_effects.erase(id)
+	visual_revision+=1
 	queue_redraw()
 
 func _draw() -> void:

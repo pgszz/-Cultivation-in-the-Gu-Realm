@@ -1,0 +1,12 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=653; terrain cache limit=24
+WORLD minimap ms=575; terrain cache limit=24
+PERF_CONFIG {"device":"NVIDIA GeForce GTX 1050 Ti","engine":"4.3-stable (official)","max_fps":0,"maximum_p95_ms":22,"minimum_fps":55,"renderer":"gl_compatibility","sample_seconds":5,"viewport":"(1280, 720)","vsync":1,"warmup_seconds":3,"window":"(1280, 720)"}
+PERF fps=60 draws=332 objects=10552 nodes=2228 scene=opening
+PERF fps=60 draws=332 objects=10552 nodes=2228 scene=opening
+PERF fps=60 draws=332 objects=10552 nodes=2228 scene=opening
+PERF fps=60 draws=330 objects=10556 nodes=2228 scene=opening
+PERF fps=60 draws=330 objects=10556 nodes=2228 scene=opening
+PERF_SUMMARY {"block_chunks":9,"block_rebuilds":4,"cold_max_ms":518.152,"distance":0,"draws_median":332,"fps_mean":60,"frames":301,"full_quality":true,"ground_chunks":4,"max_ms":21.342,"nodes":2228,"objects":10556,"p95_ms":17.44,"passed":true,"prop_visuals":36,"sample_seconds":5.02,"scene":"opening"}

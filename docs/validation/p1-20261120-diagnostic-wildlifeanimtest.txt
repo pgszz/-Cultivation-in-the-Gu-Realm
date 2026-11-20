@@ -1,0 +1,8 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=647; terrain cache limit=24
+WORLD minimap ms=567; terrain cache limit=24
+PURSUIT DEBUG start=(3982.667, 784) end=(3982.667, 784) state=chase action=idle motion=0 phase=3.54202931485094 speed=92 status={ "burn": 0, "poison": 0, "wet": 0, "shock": 0, "slow": 0, "bleed": 0, "bind": 0, "frozen": 0, "poison_tick": 0 } stun=0 blocked=false player_safe=false
+WILDLIFEANIMTEST FAIL actual pursuit advances the running gait
+WILDLIFEANIMTEST checked=119 failures=["actual pursuit advances the running gait"]

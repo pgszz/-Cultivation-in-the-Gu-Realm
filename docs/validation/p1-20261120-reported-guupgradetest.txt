@@ -1,0 +1,12 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=648; terrain cache limit=24
+WORLD minimap ms=570; terrain cache limit=24
+WARD AIM DEBUG cursor=(845, 1292) target=(720, 1264) player=(740, 1264) guard=moon_raiment_1795154386_11 ward= picked=<null> slot=moon_raiment_1795154386_11 expected=moon_raiment_1795154386_11 rank=2 cd=0.3 dead=false viewport=[P: (0, 0), S: (1280, 720)] screen=(620, 360)
+GUUPGRADETEST FAIL actual mouse aim selects nearby neutral NPC for ward
+GUUPGRADETEST FAIL allied ward keeps redrawing after transient particles expire
+GUUPGRADETEST FAIL real NPC damage entry receives allied protection
+WORLD minimap ms=605; terrain cache limit=24
+WORLD minimap ms=579; terrain cache limit=24
+GUUPGRADETEST checked=70 failures=["actual mouse aim selects nearby neutral NPC for ward", "allied ward keeps redrawing after transient particles expire", "real NPC damage entry receives allied protection"]

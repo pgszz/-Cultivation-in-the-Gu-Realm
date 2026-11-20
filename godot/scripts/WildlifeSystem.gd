@@ -205,7 +205,9 @@ func animate_actor(actor: Enemy, delta: float) -> void:
 	if animation.advance(delta): resolve_attack(actor)
 	if not animation.locked() and actor.stun<=0: update_ai(actor,delta)
 	animation.locomotion(delta,actor.position-old_position,actor.radius,actor.spd,actor.dir,actor.cultivating)
-	animation.sync_pose(actor.radius)
+	# Action clocks, AI and hit resolution keep running outside sight. Only
+	# uploading the visual pose is unnecessary while the creature is hidden.
+	if actor.is_visible_in_tree(): animation.sync_pose(actor.radius)
 
 func tick_life(actor: Enemy, delta: float) -> void:
 	if actor.dead or not SPECIES.has(actor.kind): return

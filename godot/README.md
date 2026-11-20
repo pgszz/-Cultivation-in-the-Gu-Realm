@@ -116,3 +116,7 @@ M → 动物图鉴 / 妖兽图鉴可查看七种动物和两种妖兽、标记�
 ## 开发与验证
 
 实现导航见 [技术方案](../技术方案.md)，任务验收见 [开发检查清单](../开发检查清单.md)，专项参数见 [检查入口](../.agents/skills/gudao-godot-check/references/checks.md)。游戏自测使用隔离运行器；各轮实际日志与限制见 [VALIDATION](VALIDATION.md)。
+
+地图已接入树石按镜头加载、山体与洞层图像缓存、邻近地面的分帧预加载。性能检查可用 `python -X utf8 tools/check_game.py --checks perftest perfscenes --timeout 240`；现在同时检查实际帧率和 P95 帧耗时，具体设备、结果及冷加载限制见 [性能验证](VALIDATION.md#地图绘制与性能优化--2026-11-20)。
+
+供养购买、行人庇护、追击步态与真元显示的失败复现、夹具修正及窗口验证见 [四组专项复核](VALIDATION.md#四组专项复核与夹具修正--2026-11-20)。

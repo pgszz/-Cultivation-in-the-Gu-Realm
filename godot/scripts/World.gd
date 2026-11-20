@@ -16,6 +16,8 @@ var terrain_chunks: Dictionary = {}
 var dirty_chunks: Dictionary = {}
 var minimap_dirty := false
 var terrain_use := 0
+var terrain_prefetch: Dictionary = {}
+var _terrain_visible: Array[Vector2i] = []
 var minimap_image: Image
 var destruction: DestructionSystem
 var minimap_texture: ImageTexture
@@ -35,6 +37,10 @@ var blocks: TerrainLayers
 var floor_image: Image
 var ground_tiles: Dictionary = {}
 var terrain_edges: Dictionary = {}
+var prop_regions: Dictionary = {}
+var active_props: Dictionary = {}
+var _prop_view := Rect2()
+const PROP_REGION_TILES := 16
 
 static var HOUSE_DATA: Array = [
 	{"id":"clinic","name":"古月药堂","pos":Vector2(320,896),"hint":"包扎 / 检查伤势"},
@@ -130,6 +136,7 @@ const ZONE_DIRT := {
 
 var _rng := RandomNumberGenerator.new()
 var _last_camera := Vector2(-99999, -99999)
+var _last_view_size := Vector2.ZERO
 
 
 func _ready() -> void:
@@ -153,9 +160,13 @@ func _process(_delta: float) -> void:
 	var inverse:=get_viewport().get_canvas_transform().affine_inverse()
 	camera_pos=inverse*Vector2.ZERO
 	view_size=inverse*get_viewport_rect().size-camera_pos
+	_sync_prop_views(Rect2(camera_pos,view_size))
+	if on_surface() and visible and not terrain_chunks.is_empty():
+		_prefetch_terrain(Rect2(camera_pos,view_size))
 	if not environment.cells.is_empty(): queue_redraw()
-	if camera_pos.distance_squared_to(_last_camera) > 0.25:
+	if camera_pos.distance_squared_to(_last_camera) > 0.25 or view_size!=_last_view_size:
 		_last_camera = camera_pos
+		_last_view_size = view_size
 		queue_redraw()
 	elif player_pos.distance_to(GameData.BONFIRE) < 700.0 or player_pos.distance_to(GameData.FURNACE) < 700.0 or player_pos.distance_to(Vector2(992,320))<700:
 		queue_redraw()
@@ -827,6 +838,8 @@ func _bake_textures() -> void:
 			surface.resize(256,256,Image.INTERPOLATE_LANCZOS)
 			ground_tiles[6+i]=surface
 	terrain_chunks.clear()
+	terrain_prefetch.clear()
+	_terrain_visible.clear()
 	dirty_chunks.clear()
 	minimap_dirty=false
 	var mini := Image.create(MW, MH, false, Image.FORMAT_RGBA8)
@@ -850,6 +863,11 @@ func _ensure_terrain(view: Rect2) -> Array[Vector2i]:
 			if not terrain_chunks.has(key): _bake_chunk(key)
 			terrain_use+=1
 			terrain_chunks[key].used=terrain_use
+	_terrain_visible=visible_keys
+	_trim_terrain(visible_keys)
+	return visible_keys
+
+func _trim_terrain(visible_keys: Array[Vector2i]) -> void:
 	# Keep the current viewport and a bounded number of recently visited chunks.
 	while terrain_chunks.size()>maxi(MAX_TERRAIN_CHUNKS,visible_keys.size()):
 		var oldest:=Vector2i(-1,-1)
@@ -861,15 +879,55 @@ func _ensure_terrain(view: Rect2) -> Array[Vector2i]:
 		if oldest.x<0: break
 		terrain_chunks.erase(oldest)
 		dirty_chunks.erase(oldest)
-	return visible_keys
 
 func _bake_chunk(key: Vector2i) -> void:
+	var job:Dictionary=terrain_prefetch.get(key,{})
+	if job.is_empty(): job=_terrain_job(key)
+	while job.next<job.count: _paint_chunk_step(job)
+	_finish_chunk(key,job)
+
+func _terrain_job(key: Vector2i) -> Dictionary:
 	var origin:=key*CHUNK_TILES
 	var dimensions:=Vector2i(mini(CHUNK_TILES,MW-origin.x),mini(CHUNK_TILES,MH-origin.y))
 	var image:=Image.create(dimensions.x*TILE,dimensions.y*TILE,false,Image.FORMAT_RGBA8)
-	for y in range(origin.y,origin.y+dimensions.y):
-		for x in range(origin.x,origin.x+dimensions.x): _paint_tile(image,x,y,origin*TILE)
-	terrain_chunks[key]={"image":image,"texture":ImageTexture.create_from_image(image),"rect":Rect2(Vector2(origin)*TILE,Vector2(dimensions)*TILE),"used":terrain_use}
+	return {"origin":origin,"dimensions":dimensions,"image":image,"next":0,"count":dimensions.x*dimensions.y}
+
+func _paint_chunk_step(job: Dictionary) -> void:
+	var index:int=job.next
+	_paint_tile(job.image,job.origin.x+index%job.dimensions.x,job.origin.y+index/job.dimensions.x,job.origin*TILE)
+	job.next+=1
+
+func _finish_chunk(key: Vector2i, job: Dictionary) -> void:
+	terrain_use+=1
+	terrain_chunks[key]={"image":job.image,"texture":ImageTexture.create_from_image(job.image),"rect":Rect2(Vector2(job.origin)*TILE,Vector2(job.dimensions)*TILE),"used":terrain_use}
+	terrain_prefetch.erase(key)
+
+func _prefetch_terrain(view: Rect2) -> void:
+	# Idle time prepares the next 512 px of travel. Do at most ~2 ms of tile
+	# painting per frame; a newly visible chunk can finish its partial job.
+	var ahead:=view.grow(512)
+	var span:=CHUNK_TILES*TILE
+	var wanted:Array[Vector2i]=[]
+	for y in range(maxi(0,floori(ahead.position.y/span)),mini(ceili(float(MH)/CHUNK_TILES),ceili(ahead.end.y/span))):
+		for x in range(maxi(0,floori(ahead.position.x/span)),mini(ceili(float(MW)/CHUNK_TILES),ceili(ahead.end.x/span))):
+			var key:=Vector2i(x,y)
+			if not _terrain_visible.has(key): wanted.append(key)
+	wanted.sort_custom(func(a:Vector2i,b:Vector2i): return (Vector2(a)*span+Vector2.ONE*span*0.5).distance_squared_to(view.get_center())<(Vector2(b)*span+Vector2.ONE*span*0.5).distance_squared_to(view.get_center()))
+	# Wide/high-resolution views must not continually prefetch and evict the
+	# same neighbours when all slots are occupied by the visible ground.
+	wanted.resize(mini(wanted.size(),maxi(0,MAX_TERRAIN_CHUNKS-_terrain_visible.size())))
+	wanted=wanted.filter(func(key:Vector2i): return not terrain_chunks.has(key))
+	for key:Vector2i in terrain_prefetch.keys():
+		if not wanted.has(key): terrain_prefetch.erase(key)
+	if wanted.is_empty(): return
+	var key:Vector2i=wanted[0]
+	if not terrain_prefetch.has(key): terrain_prefetch[key]=_terrain_job(key)
+	var job:Dictionary=terrain_prefetch[key]
+	var deadline:=Time.get_ticks_usec()+2000
+	while job.next<job.count and Time.get_ticks_usec()<deadline: _paint_chunk_step(job)
+	if job.next==job.count:
+		_finish_chunk(key,job)
+		_trim_terrain(_terrain_visible)
 
 
 func _tile_color(x: int, y: int) -> Color:
@@ -995,7 +1053,8 @@ func _minimap_color(x: int, y: int) -> Color:
 
 
 func _draw_stations(tsec: float) -> void:
-	if not destruction.broken("furnace"):
+	var view:=Rect2(camera_pos,view_size).grow(100)
+	if view.has_point(GameData.FURNACE) and not destruction.broken("furnace"):
 		# 蛊炉
 		var fx := GameData.FURNACE.x
 		var fy := GameData.FURNACE.y
@@ -1007,7 +1066,7 @@ func _draw_stations(tsec: float) -> void:
 		if player_pos.distance_to(GameData.FURNACE) < 90.0:
 			draw_string(font, Vector2(fx - 60, fy - 30), "火盆 · 取暖照明", HORIZONTAL_ALIGNMENT_CENTER, 120, 12, Color("#f0e8d0"))
 
-	if not destruction.broken("bonfire"):
+	if view.has_point(GameData.BONFIRE) and not destruction.broken("bonfire"):
 		# 篝火
 		var bx := GameData.BONFIRE.x
 		var by := GameData.BONFIRE.y
@@ -1106,22 +1165,13 @@ func _build_props() -> void:
 			var t := tile_at(x,y)
 			var v := tile_var[_idx(x,y)]
 			if t != GameData.T_TREE and t != GameData.T_ROCK: continue
-			var prop := WorldProp.new()
-			prop.world = self
-			prop.position = Vector2(x*TILE+16,y*TILE+26)
-			if t == GameData.T_TREE:
-				prop.source = Rect2(0,96 if v>0.45 else 144,64,48)
-				prop.draw_size = Vector2(112,96) if v>0.45 else Vector2(96,88)
-				prop.tint = Color("d3e1bc")
-				if v>0.35:
-					prop.kind="bamboo"
-					prop.draw_size=Vector2(90,128)
-			else:
-				prop.kind = "rock"
-				prop.source = Rect2(144,80,32,32)
-				prop.draw_size = Vector2(42,42)
-			props.add_child(prop)
-			destruction.register("tile:%d:%d"%[x,y],prop.kind,Rect2(x*TILE,y*TILE,TILE,TILE),45.0 if t==GameData.T_TREE else 100.0,1.0 if t==GameData.T_TREE else 2.5,prop,Vector2i(x,y))
+			var kind:="rock" if t==GameData.T_ROCK else ("bamboo" if v>0.35 else "tree")
+			var id:="tile:%d:%d"%[x,y]
+			# Collision and durability stay resident; only the visual is streamed.
+			destruction.register(id,kind,Rect2(x*TILE,y*TILE,TILE,TILE),45.0 if t==GameData.T_TREE else 100.0,1.0 if t==GameData.T_TREE else 2.5,null,Vector2i(x,y))
+			var region:=Vector2i(x/PROP_REGION_TILES,y/PROP_REGION_TILES)
+			if not prop_regions.has(region): prop_regions[region]=[]
+			prop_regions[region].append(id)
 	for h in HOUSE_DATA:
 		var house := WorldProp.new()
 		house.world = self
@@ -1133,6 +1183,45 @@ func _build_props() -> void:
 		props.add_child(house)
 		houses.append(house)
 		destruction.register("house:"+h.id,house.kind,Rect2(h.pos+Vector2(-64,-42),Vector2(128,48)),320,1.8,house)
+
+
+func _sync_prop_views(view: Rect2) -> void:
+	# The outer margin covers tall bamboo, shadows and falling debris. Refresh
+	# before the camera reaches it; stationary frames do no registry traversal.
+	var wanted:=view.grow(192) if on_surface() else Rect2()
+	if _prop_view==wanted: return
+	if wanted.has_area() and _prop_view.encloses(view.grow(144)) and _prop_view.size.is_equal_approx(wanted.size): return
+	_prop_view=wanted
+	var keep:Dictionary={}
+	if wanted.has_area():
+		var span:=PROP_REGION_TILES*TILE
+		for y in range(maxi(0,floori(wanted.position.y/span)),mini(ceili(float(MH)/PROP_REGION_TILES),ceili(wanted.end.y/span))):
+			for x in range(maxi(0,floori(wanted.position.x/span)),mini(ceili(float(MW)/PROP_REGION_TILES),ceili(wanted.end.x/span))):
+				for id:String in prop_regions.get(Vector2i(x,y),[]):
+					var obj:Dictionary=destruction.objects[id]
+					var pos:=Vector2(obj.tile)*TILE+Vector2(16,26)
+					if not wanted.has_point(pos): continue
+					keep[id]=true
+					if not active_props.has(id): _create_prop_visual(obj,pos)
+	for id:String in active_props.keys():
+		if keep.has(id): continue
+		destruction.objects[id].visual=null
+		active_props[id].queue_free()
+		active_props.erase(id)
+
+func _create_prop_visual(obj: Dictionary, pos: Vector2) -> void:
+	var prop:=WorldProp.new()
+	prop.world=self
+	prop.object_id=obj.id
+	prop.kind=obj.kind
+	prop.position=pos
+	var v:float=tile_var[_idx(obj.tile.x,obj.tile.y)]
+	prop.draw_size=Vector2(42,42) if obj.kind=="rock" else (Vector2(90,128) if obj.kind=="bamboo" else (Vector2(112,96) if v>0.45 else Vector2(96,88)))
+	prop.max_hp=obj.max_hp
+	prop.sync_damage(obj.hp)
+	props.add_child(prop)
+	obj.visual=prop
+	active_props[obj.id]=prop
 
 
 func house_at(pos: Vector2) -> Dictionary:
@@ -1167,7 +1256,7 @@ func _draw_landmarks() -> void:
 		if destruction.broken("landmark:"+lm.type): continue
 		var tile: Vector2i = lm["pos"]
 		var p := Vector2(tile.x, tile.y) * TILE
-		if p.distance_to(camera_pos + view_size * 0.5) > 900.0:
+		if not Rect2(camera_pos,view_size).grow(190).has_point(p):
 			continue
 		var kind: String = lm["type"]
 		if player_pos.distance_to(p) < 110.0:
@@ -1266,6 +1355,8 @@ func refresh_terrain_tile(tile: Vector2i) -> void:
 		var p:Vector2i=tile+offset
 		if not _in_map(p.x,p.y): continue
 		var key:=Vector2i(p.x/CHUNK_TILES,p.y/CHUNK_TILES)
+		# A partially painted neighbour must never publish pre-damage pixels.
+		terrain_prefetch.erase(key)
 		if not terrain_chunks.has(key): continue
 		_paint_tile(terrain_chunks[key].image,p.x,p.y,key*CHUNK_TILES*TILE)
 		dirty_chunks[key]=true

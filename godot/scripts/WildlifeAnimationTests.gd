@@ -11,6 +11,21 @@ func expect(value: bool, label: String) -> void:
 		failures.append(label)
 		print("WILDLIFEANIMTEST FAIL "+label)
 
+func pursuit_lane(actor: Enemy) -> Dictionary:
+	var home:=WildlifeSystem.center(WildlifeSystem.habitat_for(actor.habitat_id))
+	for y in range(-4,5):
+		for x in range(-4,5):
+			var origin:=home+Vector2(x,y)*GameData.TILE
+			for direction in [Vector2.RIGHT,Vector2.DOWN,Vector2.LEFT,Vector2.UP]:
+				var clear:=true
+				for step in 23:
+					var point:Vector2=origin+direction*step*8
+					if game.world.collides(point.x,point.y,actor.radius) or game.wildlife.is_safe_area(point):
+						clear=false
+						break
+				if clear: return {"origin":origin,"direction":direction}
+	return {}
+
 func run(main: Node) -> void:
 	game=main
 	game.set_process(false)
@@ -97,14 +112,44 @@ func run(main: Node) -> void:
 	game.exit_house(false)
 	game.paused=false
 	animation.action="idle"
-	game.player.position=wolf.position+Vector2(170,0)
-	game.update_enemy(wolf,0.1)
-	expect(animation.action=="run" and animation.motion>0 and animation.phase>0,"actual pursuit advances the running gait")
-	var blocked_start:=Vector2(512,1040)
-	game.wildlife.move_actor(wolf,(blocked_start-wolf.position)/0.1,0.1)
-	var phase:=animation.phase
-	animation.locomotion(1,Vector2.ZERO,wolf.radius,wolf.spd,wolf.dir,false)
-	expect(animation.phase==phase and animation.motion==0 and animation.action=="idle","no displacement stops footsteps instead of running in place")
+	# Earlier attack checks may leave the wolf against a rock; find a real clear lane.
+	var lane:=pursuit_lane(wolf)
+	expect(not lane.is_empty(),"found unobstructed pursuit lane within wolf habitat")
+	if not lane.is_empty():
+		wolf.position=lane.origin
+		game.player.position=wolf.position+lane.direction*170
+		var pursuit_start:=wolf.position
+		var phase:=animation.phase
+		game.update_enemy(wolf,0.1)
+		expect(wolf.state=="chase" and wolf.position.distance_to(pursuit_start)>0 and animation.action=="run" and animation.motion>0 and not is_equal_approx(animation.phase,phase),"actual pursuit advances the running gait")
+		# Keep the zero-displacement rule under the real AI/collision/animation path.
+		var block_cell:=Vector2i((lane.origin+lane.direction*GameData.TILE)/GameData.TILE)
+		var block_index:int=game.world._idx(block_cell.x,block_cell.y)
+		var block_tile:int=game.world.map[block_index]
+		game.world.map[block_index]=GameData.T_ROCK
+		wolf.position=lane.origin+lane.direction*(GameData.TILE*0.5-wolf.radius-1)
+		game.player.position=wolf.position+lane.direction*170
+		var blocked_start:=wolf.position
+		phase=animation.phase
+		game.update_enemy(wolf,0.1)
+		expect(wolf.position==blocked_start and animation.phase==phase and animation.motion==0 and animation.action=="idle","no displacement stops footsteps instead of running in place")
+		game.world.map[block_index]=block_tile
+	for key in ["spirit_wolf:0","iron_den:0"]:
+		var monster:Enemy=game.wildlife.actors[key]
+		monster.age_seconds=float(monster.data.mature)
+		monster.refresh_growth()
+		var monster_lane:=pursuit_lane(monster)
+		expect(not monster_lane.is_empty(),"found unobstructed monster pursuit lane "+monster.kind)
+		if monster_lane.is_empty(): continue
+		monster.position=monster_lane.origin
+		monster.threat_time=2.0
+		monster.atk_cd=10
+		monster.wildlife_animation.action="idle"
+		game.player.position=monster.position+monster_lane.direction*170
+		var before:=monster.position
+		var phase:=monster.wildlife_animation.phase
+		game.update_enemy(monster,0.1)
+		expect(monster.is_monster and monster.state=="chase" and monster.position.distance_to(before)>0 and monster.wildlife_animation.action=="run" and monster.wildlife_animation.motion>0 and not is_equal_approx(monster.wildlife_animation.phase,phase),"actual monster pursuit advances the running gait "+monster.kind)
 	for id in WildlifeAnimation.PROFILES:
 		var actor:Enemy=game._make_host(id,Vector2.ZERO)
 		actor.age_seconds=float(actor.data.mature)

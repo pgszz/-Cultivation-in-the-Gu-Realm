@@ -1,0 +1,10 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=662; terrain cache limit=24
+WORLD minimap ms=622; terrain cache limit=24
+PERF fps=15 draws=749 objects=19764 nodes=11458
+PERF fps=31 draws=731 objects=19765 nodes=11458
+PERF fps=30 draws=745 objects=19765 nodes=11458
+PERF fps=33 draws=745 objects=19765 nodes=11458
+PERF fps=32 draws=745 objects=19765 nodes=11458

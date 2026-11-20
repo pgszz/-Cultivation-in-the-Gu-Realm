@@ -35,10 +35,27 @@ CHECKS["bodygutest"]="BODYGUTEST checked="
 CHECKS["guupgradetest"]="GUUPGRADETEST checked="
 CHECKS["wildlifeanimtest"]="WILDLIFEANIMTEST checked="
 CHECKS["populationtest"]="POPULATIONTEST checked="
+CHECKS["perfscenes"]="PERF_SUMMARY "
+CHECKS["rendertest"]="RENDERTEST checked="
 SHOTS.update({"population","caravan","bandits","caravantrade","populationmotion"})
 SHOTS.add("wildlifemotion")
 SHOTS.update({"baivillage","xiongvillage"})
 SHOTS.update({"baidistrict","xiongdistrict","baishop","xiongclinic","villagedirections","clanspring","villagemap"})
+
+def assess_performance(output, label):
+    """Require measured budgets; a successful run is not a performance pass."""
+    required={"opening"}
+    if label=="perfscenes": required.update({"walk","frontier_travel","wide_view","underground","deep_cave","interior","wildlife_combat"})
+    samples=[]
+    try:
+        samples=[json.loads(line.removeprefix("PERF_SUMMARY ")) for line in output.splitlines() if line.startswith("PERF_SUMMARY ")]
+        passed=required=={s["scene"] for s in samples} and len(samples)==len(required)
+        for s in samples:
+            passed=passed and s["passed"] is True and s["full_quality"] is True and s["frames"]>0 and s["sample_seconds"]>=4.5 and s["fps_mean"]>=55 and 0<s["p95_ms"]<=22
+    except (ValueError, KeyError, TypeError):
+        passed=False
+        samples=[]
+    return bool(passed),samples
 
 def main():
     parser=argparse.ArgumentParser()
@@ -61,22 +78,32 @@ def main():
         (project/"project.godot").write_text(config,encoding="utf-8")
     def execute(label,extra,expected=None):
         command=[str(args.godot),"--path",str(project),*extra]
+        performance=None
         try:
             result=subprocess.run(command,capture_output=True,text=True,encoding="utf-8",errors="replace",timeout=args.timeout,creationflags=getattr(subprocess,"CREATE_NO_WINDOW",0))
             output=result.stdout+result.stderr
             passed=result.returncode==0 and not re.search(r"SCRIPT ERROR|(^|\n)ERROR:",output)
             if expected: passed=passed and expected in output
             if label=="skilltest": passed=passed and "fails=[]" in output
-            if label in ("shangtest","awakeningtest","polishtest","featuretest","canontest","wildlifetest","maptest","terraintest","adventuretest","villagetest","wildlifeanimtest","populationtest","arttest","appearancetest","canonpeopletest","guvfxtest","utilitygutest","sixtygutest","hundredgutest","bodygutest","guupgradetest","inspecttest","socialtest","exchangetest","controltest","charactertest","characterrestart","customizetest","customizerestart","statustest"): passed=passed and "failures=[]" in output
+            if label in ("rendertest","shangtest","awakeningtest","polishtest","featuretest","canontest","wildlifetest","maptest","terraintest","adventuretest","villagetest","wildlifeanimtest","populationtest","arttest","appearancetest","canonpeopletest","guvfxtest","utilitygutest","sixtygutest","hundredgutest","bodygutest","guupgradetest","inspecttest","socialtest","exchangetest","controltest","charactertest","characterrestart","customizetest","customizerestart","statustest"): passed=passed and "failures=[]" in output
             if label in ("hosttest","animaltest"): passed=passed and "TEST none" not in output
+            execution_passed=bool(passed)
+            if label in ("perftest","perfscenes"):
+                budget_passed,samples=assess_performance(output,label)
+                performance={"execution_passed":execution_passed,"budget_passed":budget_passed,"samples":samples,"minimum_fps":55,"maximum_p95_ms":22}
+                passed=passed and budget_passed
         except subprocess.TimeoutExpired as e:
             def decoded(value):
                 return value.decode("utf-8",errors="replace") if isinstance(value,bytes) else (value or "")
             output="TIMEOUT\n"+decoded(e.stdout)+decoded(e.stderr)
             passed=False
         (run/(label+".log")).write_text(output,encoding="utf-8")
-        report.append({"check":label,"passed":bool(passed),"command":command,"source_project":str(args.source_project.resolve())})
+        report.append({"check":label,"passed":bool(passed),"command":command,"source_project":str(args.source_project.resolve()),**({"performance":performance} if performance is not None else {})})
         print(("PASS " if passed else "FAIL ")+label,flush=True)
+        if performance is not None:
+            print("  execution="+("ok" if performance["execution_passed"] else "failed")+" budget="+("met" if performance["budget_passed"] else "not met / missing measurements"),flush=True)
+            for s in performance["samples"]:
+                print(f"  {s.get('scene')}: fps={s.get('fps_mean')} p95_ms={s.get('p95_ms')} draws={s.get('draws_median')} nodes={s.get('nodes')}",flush=True)
         if not passed: print(output[-6000:],flush=True)
         return passed
     namespace("import")
@@ -84,7 +111,7 @@ def main():
     if execute("import",["--headless","--import"]):
         for check in args.checks:
             namespace(check)
-            extra=["--resolution",args.resolution] if check in ("shangtest","awakeningtest","featuretest","perftest","canontest","wildlifetest","maptest","terraintest","adventuretest","villagetest","wildlifeanimtest","populationtest","arttest","appearancetest","canonpeopletest","guvfxtest","utilitygutest","sixtygutest","hundredgutest","bodygutest","guupgradetest","inspecttest","socialtest","exchangetest","controltest","charactertest","customizetest","statustest") else ["--headless"]
+            extra=["--resolution",args.resolution] if check in ("rendertest","perfscenes","shangtest","awakeningtest","featuretest","perftest","canontest","wildlifetest","maptest","terraintest","adventuretest","villagetest","wildlifeanimtest","populationtest","arttest","appearancetest","canonpeopletest","guvfxtest","utilitygutest","sixtygutest","hundredgutest","bodygutest","guupgradetest","inspecttest","socialtest","exchangetest","controltest","charactertest","customizetest","statustest") else ["--headless"]
             if check=="hunger": extra+=["res://test_hunger.tscn","--","--autotest"]
             else: extra+=["--","--"+check]
             passed=execute(check,extra,CHECKS[check])

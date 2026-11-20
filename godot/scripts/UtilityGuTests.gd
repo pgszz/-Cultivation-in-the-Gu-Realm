@@ -119,8 +119,30 @@ func run(main: Node) -> void:
 			reset()
 		p.crystals=100
 		expect(not game.buy_gu("stream_gu" if shop!="bai_shop" else "wind_moth"),"shop rejects another clan stock "+shop)
-		for food in GameData.utility_food_stock(): expect(game.buy_supply(food,1),"all new food replenishable at "+shop+" "+food)
-		expect(not game.buy_supply("wind_moth_care",0),"food price cannot be forged "+shop)
+		var food_stock:=GameData.utility_food_stock()
+		p.crystals=0
+		for price in food_stock.values(): p.crystals+=int(price)
+		for food in food_stock:
+			var before:=inv.get_item_count(food)
+			var money:=p.crystals
+			expect(game.buy_supply(food,int(food_stock[food])) and inv.get_item_count(food)==before+1 and p.crystals==money-int(food_stock[food]),"all new food replenishable at "+shop+" "+food)
+		expect(p.crystals==0,"complete food stock consumes its exact budget "+shop)
+		# The final four entries previously exhausted the fixed 100-stone fixture.
+		# Also exercise their real buttons, exact-price payment and no-funds rejection.
+		ui.show_service(shop)
+		ui.shop_filter.select(2)
+		ui._filter_shop()
+		for food in ["nerve_lantern_care","clear_cornea_care","ear_suture_care","joint_mender_care"]:
+			var before:=inv.get_item_count(food)
+			p.crystals=int(food_stock[food])
+			await game.get_tree().process_frame
+			ui.action_scroll.ensure_control_visible(ui.supply_buttons[food])
+			await click(ui.supply_buttons[food])
+			expect(inv.get_item_count(food)==before+1 and p.crystals==0,"real body food button purchases at "+shop+" "+food)
+			expect(not game.buy_supply(food,int(food_stock[food])) and inv.get_item_count(food)==before+1 and p.crystals==0,"no funds cannot purchase body food at "+shop+" "+food)
+		var food_before:=inv.get_item_count("wind_moth_care")
+		p.crystals=5
+		expect(not game.buy_supply("wind_moth_care",0) and p.crystals==5 and inv.get_item_count("wind_moth_care")==food_before,"food price cannot be forged "+shop)
 		ui.show_service(shop)
 		ui.shop_filter.select(1)
 		ui._filter_shop()

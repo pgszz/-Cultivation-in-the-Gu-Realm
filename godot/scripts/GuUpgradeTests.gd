@@ -38,6 +38,25 @@ func click(button: Control) -> void:
 	suite.game=game
 	await suite.click(button)
 
+func cast_ward_at(target: WorldPerson, zoom: float) -> void:
+	game.set_camera_zoom(zoom)
+	game._update_camera(0)
+	game.camera.reset_smoothing()
+	game.camera.force_update_scroll()
+	await game.get_tree().process_frame
+	var viewport:=game.get_viewport()
+	viewport.warp_mouse(viewport.get_canvas_transform()*target.position)
+	await game.get_tree().process_frame
+	var motion:=InputEventMouseMotion.new()
+	motion.position=viewport.get_canvas_transform()*target.position
+	viewport.warp_mouse(motion.position)
+	viewport.push_input(motion,true)
+	# Cast in this input dispatch; a frame wait lets desktop mouse events replace the aim.
+	# Native mouse coordinates are whole screen pixels, including under zoom/stretch.
+	expect(viewport.get_mouse_position().distance_to(motion.position)<=2,"ward input points at recipient at zoom %.2f" % zoom)
+	game.player.cast_cds[1]=0
+	game.cast_skill(1)
+
 func shot(name: String) -> void:
 	game.fx.queue_redraw()
 	game.player.queue_redraw()
@@ -210,21 +229,13 @@ func run(main: Node) -> void:
 	target.hostile=false
 	target.hp=target.max_hp
 	game.shake=0
-	game.set_camera_zoom(1.0)
-	game._update_camera(0)
-	game.camera.reset_smoothing()
-	game.camera.force_update_scroll()
-	await game.get_tree().process_frame
-	game.get_viewport().warp_mouse(game.get_viewport().get_canvas_transform()*target.position)
-	await game.get_tree().process_frame
-	var motion:=InputEventMouseMotion.new()
-	motion.position=game.get_viewport().get_canvas_transform()*target.position
-	game.get_viewport().push_input(motion,true)
-	await RenderingServer.frame_post_draw
-	p.cast_cds[1]=0
-	game.cast_skill(1)
+	for zoom in [0.65,1.75]:
+		await cast_ward_at(target,zoom)
+		expect(p.gu_effects.ward_target==target and p.gu_effects.ward_valid(game),"neutral NPC receives a valid ward at zoom %.2f" % zoom)
+		p.gu_effects.cancel(raiment.id)
+	await cast_ward_at(target,1.0)
 	if p.gu_effects.ward_target!=target:
-		print("WARD AIM DEBUG cursor=",game.get_global_mouse_position()," target=",target.position," player=",p.position," guard=",p.gu_effects.guard_id," ward=",p.gu_effects.ward_id," picked=",p.gu_effects.ward_target," slot=",p.skill_slots[1]," expected=",raiment.id," rank=",p.aperture.rank," cd=",p.cast_cds[1]," dead=",target.dead," viewport=",game.get_viewport_rect()," screen=",motion.position)
+		print("WARD AIM DEBUG cursor=",game.get_global_mouse_position()," target=",target.position," player=",p.position," guard=",p.gu_effects.guard_id," ward=",p.gu_effects.ward_id," picked=",p.gu_effects.ward_target," slot=",p.skill_slots[1]," expected=",raiment.id," rank=",p.aperture.rank," cd=",p.cast_cds[1]," dead=",target.dead," viewport=",game.get_viewport_rect())
 	expect(p.gu_effects.ward_target==target and p.gu_effects.ward_id==raiment.id and p.gu_effects.guard_id=="","actual mouse aim selects nearby neutral NPC for ward")
 	game.fx.clear_transients()
 	game.fx._process(1.0)

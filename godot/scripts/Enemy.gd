@@ -166,12 +166,12 @@ func life_description() -> String:
 
 func _process(delta: float) -> void:
 	if wildlife_animation==null: _t += delta
-	queue_redraw()
+	if is_visible_in_tree(): queue_redraw()
 
 
 func _draw() -> void:
 	var bob := sin(_t * 4.0) * 1.5
-	var near := player_pos.distance_to(position) < 520.0 and not low_detail and not low_detail
+	var near := player_pos.distance_to(position) < 520.0 and not low_detail and not low_detail and not low_detail
 	# 影子
 	if wildlife_animation==null:
 		draw_circle(Vector2(0, radius * 0.9), radius * 0.9, Color(0, 0, 0, 0.35))

@@ -4,6 +4,8 @@ extends Node2D
 ## Furniture shares the actors' Y sort so residents stand behind their desk.
 var interior: HouseInterior
 var fixture_id := ""
+var _revision := -1
+var _house := ""
 
 func _ready() -> void:
 	texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
@@ -14,7 +16,10 @@ func _process(_delta: float) -> void:
 		queue_free()
 		return
 	visible=interior.visible and not SettlementData.is_cave(interior.house_id)
-	if visible: queue_redraw()
+	if visible and (_revision!=interior.visual_revision or _house!=interior.house_id):
+		_revision=interior.visual_revision
+		_house=interior.house_id
+		queue_redraw()
 
 func _draw() -> void:
 	interior.draw_fixture(fixture_id,self,position-HouseInterior.ORIGIN)

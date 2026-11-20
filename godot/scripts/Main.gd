@@ -84,6 +84,7 @@ var play_time := 0.0
 var social_time := 0.0
 var low_fps_timer := 0.0
 var fps_cap_30 := false
+var performance_testing := false
 var dialogue_layer: CanvasLayer
 var dialogue_label: Label
 var dialogue_btn: Button
@@ -235,6 +236,10 @@ func _ready() -> void:
 		_poitest.call_deferred()
 	if "--perftest" in args:
 		_perftest.call_deferred()
+	if "--perfscenes" in args:
+		_perfscenes.call_deferred()
+	if "--rendertest" in args:
+		_run_render_tests.call_deferred()
 	if "--bench" in args:
 		_bench.call_deferred()
 	if "--shot" in args:
@@ -1009,7 +1014,7 @@ func _process(delta: float) -> void:
 	fps_smooth = lerpf(fps_smooth, float(Engine.get_frames_per_second()), 0.06)
 	if running and not player.dead:
 		play_time += delta
-		if play_time > 6.0 and not low_quality and fps_smooth < 45.0:
+		if not performance_testing and play_time > 6.0 and not low_quality and fps_smooth < 45.0:
 			low_fps_timer += delta
 			if low_fps_timer > 2.5:
 				low_fps_timer = 0.0
@@ -2704,16 +2709,13 @@ func _bench() -> void:
 
 
 func _perftest() -> void:
-	start_game()
-	for i in 5:
-		await get_tree().create_timer(1.0).timeout
-		print("PERF fps=%d draws=%d objects=%d nodes=%d" % [
-			Engine.get_frames_per_second(),
-			int(Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME)),
-			int(Performance.get_monitor(Performance.OBJECT_COUNT)),
-			int(Performance.get_monitor(Performance.OBJECT_NODE_COUNT)),
-		])
-	get_tree().quit()
+	await PerformanceTests.new().run(self)
+
+func _perfscenes() -> void:
+	await PerformanceTests.new().run(self,true)
+
+func _run_render_tests() -> void:
+	await RenderTests.new().run(self)
 
 
 func _poitest() -> void:

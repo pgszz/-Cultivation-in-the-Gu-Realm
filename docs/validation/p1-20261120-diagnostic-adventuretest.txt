@@ -1,0 +1,18 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=686; terrain cache limit=24
+WORLD minimap ms=569; terrain cache limit=24
+AIM DEBUG expected=(1424, 592) mouse=(1353.389, 564.5358) pr={ "pos": (1424, 528), "vel": (-346.3787, 179.2256), "dmg": 18, "el": "water", "owner": "player", "life": 1.2, "max_life": 1.2, "r": 6, "color": (0.3843, 0.7882, 0.8667, 1), "pierce": 0, "hit_set": [], "poison": 0, "burn": 0, "slow": 3, "bind": 0, "reaction": "", "terrain_damage": 18, "gu_id": "stream_gu", "trail": [(1424, 528)], "travel": 0, "ground_range": 79.5029754638672, "height": 0 }
+CANONTEST FAIL Gu damages same-height floor aimed down: stream_gu
+WORLD minimap ms=568; terrain cache limit=24
+WORLD minimap ms=586; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+WORLD minimap ms=577; terrain cache limit=24
+WORLD minimap ms=639; terrain cache limit=24
+WORLD minimap ms=609; terrain cache limit=24
+WORLD minimap ms=588; terrain cache limit=24
+WORLD minimap ms=587; terrain cache limit=24
+ESSENCE DEBUG capacity=44 potential=44 ratio=1 text=44.0 / 44.0
+CANONTEST FAIL full essence is 44/44 at 100 percent of capacity
+ADVENTURETEST checked=80 failures=["Gu damages same-height floor aimed down: stream_gu", "full essence is 44/44 at 100 percent of capacity"]

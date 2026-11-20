@@ -32,6 +32,7 @@ var visited: Dictionary = {}
 var minimaps: Dictionary = {}
 var minimap_images: Dictionary = {}
 var mountain_cells: Dictionary = {}
+var render_cache := TerrainRenderCache.new()
 
 static func size_for(layer: int) -> Vector2i:
 	return Vector2i(GameData.MAP_W,GameData.MAP_H) if layer==0 else UNDER_SIZE
@@ -154,6 +155,7 @@ func hit(cell: Vector2i, layer: int, amount: float) -> Dictionary:
 	dealt=minf(dealt,float(data.hp))
 	data.hp=maxf(0,float(data.hp)-dealt)
 	damage[data.id]=data.hp
+	render_cache.invalidate(cell,layer)
 	data["destroyed"]=data.hp<=0
 	data["blocked"]=dealt<=0
 	data["damage"]=dealt
@@ -219,9 +221,12 @@ func bake_minimap(layer: int) -> void:
 	else: minimaps[layer]=ImageTexture.create_from_image(img)
 
 func draw(canvas: Node2D, view: Rect2, layer: int) -> void:
-	var size:=size_for(layer)
-	for y in range(maxi(0,floori(view.position.y/32)-1),mini(size.y,ceili(view.end.y/32)+1)):
-		for x in range(maxi(0,floori(view.position.x/32)-1),mini(size.x,ceili(view.end.x/32)+1)):
+	render_cache.draw(canvas,view,layer,self)
+	draw_markers(canvas,view,layer)
+
+func draw_cells(canvas: Node2D, cells: Rect2i, layer: int) -> void:
+	for y in range(cells.position.y,cells.end.y):
+		for x in range(cells.position.x,cells.end.x):
 			var cell:=Vector2i(x,y)
 			var h:=height_at(cell) if layer==0 else 0
 			if layer==0 and h==0: continue
@@ -234,6 +239,7 @@ func draw(canvas: Node2D, view: Rect2, layer: int) -> void:
 			if layer>0 and float(damage.get(floor_key,1))<=0: color=color.darkened(0.35)
 			_draw_block_model(canvas,rect,cell,layer,h,kind,color)
 
+func draw_markers(canvas: Node2D, view: Rect2, layer: int) -> void:
 	for portal in portals(layer):
 		if not view.grow(90).has_point(portal.pos): continue
 		var p:Vector2=portal.pos
@@ -317,6 +323,7 @@ func save_data() -> Dictionary:
 	return {"damage":damage,"claimed":claimed,"visited":visited}
 
 func load_data(data: Dictionary, legacy_damage: Dictionary = {}) -> void:
+	render_cache.clear()
 	damage.clear()
 	for id in data.get("damage",{}):
 		var parts:=String(id).split(":")

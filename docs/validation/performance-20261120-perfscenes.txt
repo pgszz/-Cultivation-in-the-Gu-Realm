@@ -1,0 +1,54 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 560.94 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce GTX 1050 Ti
+
+WORLD minimap ms=673; terrain cache limit=24
+WORLD minimap ms=580; terrain cache limit=24
+PERF_CONFIG {"device":"NVIDIA GeForce GTX 1050 Ti","engine":"4.3-stable (official)","max_fps":0,"maximum_p95_ms":22,"minimum_fps":55,"renderer":"gl_compatibility","sample_seconds":5,"viewport":"(1280, 720)","vsync":1,"warmup_seconds":3,"window":"(1280, 720)"}
+PERF fps=60 draws=332 objects=10553 nodes=2229 scene=opening
+PERF fps=60 draws=332 objects=10553 nodes=2229 scene=opening
+PERF fps=60 draws=332 objects=10553 nodes=2229 scene=opening
+PERF fps=60 draws=330 objects=10557 nodes=2229 scene=opening
+PERF fps=60 draws=330 objects=10557 nodes=2229 scene=opening
+PERF_SUMMARY {"block_chunks":9,"block_rebuilds":4,"cold_max_ms":511.481,"distance":0,"draws_median":332,"fps_mean":60.01,"frames":301,"full_quality":true,"ground_chunks":4,"max_ms":19.647,"nodes":2229,"objects":10557,"p95_ms":17.4,"passed":true,"prop_visuals":37,"sample_seconds":5.02,"scene":"opening"}
+PERF fps=61 draws=367 objects=10563 nodes=2232 scene=walk
+PERF fps=58 draws=346 objects=10560 nodes=2229 scene=walk
+PERF fps=61 draws=365 objects=10563 nodes=2230 scene=walk
+PERF fps=59 draws=378 objects=10563 nodes=2230 scene=walk
+PERF fps=59 draws=370 objects=10563 nodes=2230 scene=walk
+PERF_SUMMARY {"block_chunks":9,"block_rebuilds":4,"cold_max_ms":19.82,"distance":84.2610473632813,"draws_median":367,"fps_mean":59.29,"frames":297,"full_quality":true,"ground_chunks":4,"max_ms":30.988,"nodes":2230,"objects":10563,"p95_ms":17.91,"passed":true,"prop_visuals":38,"sample_seconds":5.01,"scene":"walk"}
+PERF fps=60 draws=241 objects=11417 nodes=2283 scene=frontier_travel
+PERF fps=60 draws=237 objects=11415 nodes=2281 scene=frontier_travel
+PERF fps=60 draws=221 objects=11405 nodes=2271 scene=frontier_travel
+PERF fps=60 draws=257 objects=11462 nodes=2299 scene=frontier_travel
+PERF fps=60 draws=312 objects=11605 nodes=2308 scene=frontier_travel
+PERF_SUMMARY {"block_chunks":27,"block_rebuilds":10,"cold_max_ms":385.356,"distance":1442.083984375,"draws_median":243,"fps_mean":59.95,"frames":300,"full_quality":true,"ground_chunks":16,"max_ms":24.765,"nodes":2308,"objects":11607,"p95_ms":17.67,"passed":true,"prop_visuals":110,"sample_seconds":5,"scene":"frontier_travel"}
+PERF fps=59 draws=458 objects=11981 nodes=2345 scene=wide_view
+PERF fps=61 draws=454 objects=11981 nodes=2345 scene=wide_view
+PERF fps=60 draws=454 objects=11981 nodes=2345 scene=wide_view
+PERF fps=60 draws=444 objects=11981 nodes=2345 scene=wide_view
+PERF fps=60 draws=442 objects=11981 nodes=2345 scene=wide_view
+PERF_SUMMARY {"block_chunks":34,"block_rebuilds":12,"cold_max_ms":45.425,"distance":0,"draws_median":454,"fps_mean":60.12,"frames":301,"full_quality":true,"ground_chunks":21,"max_ms":21.729,"nodes":2345,"objects":11981,"p95_ms":17.55,"passed":true,"prop_visuals":137,"sample_seconds":5.01,"scene":"wide_view"}
+PERF fps=60 draws=127 objects=11634 nodes=2206 scene=underground
+PERF fps=60 draws=127 objects=11634 nodes=2206 scene=underground
+PERF fps=60 draws=127 objects=11634 nodes=2206 scene=underground
+PERF fps=60 draws=121 objects=11634 nodes=2206 scene=underground
+PERF fps=60 draws=121 objects=11634 nodes=2206 scene=underground
+PERF_SUMMARY {"block_chunks":46,"block_rebuilds":24,"cold_max_ms":150.141,"distance":0,"draws_median":127,"fps_mean":60,"frames":300,"full_quality":true,"ground_chunks":21,"max_ms":18.53,"nodes":2206,"objects":11634,"p95_ms":17.25,"passed":true,"prop_visuals":0,"sample_seconds":5,"scene":"underground"}
+PERF fps=60 draws=129 objects=11634 nodes=2215 scene=deep_cave
+PERF fps=60 draws=129 objects=11634 nodes=2215 scene=deep_cave
+PERF fps=60 draws=129 objects=11634 nodes=2215 scene=deep_cave
+PERF fps=60 draws=124 objects=11634 nodes=2215 scene=deep_cave
+PERF fps=60 draws=124 objects=11634 nodes=2215 scene=deep_cave
+PERF_SUMMARY {"block_chunks":48,"block_rebuilds":32,"cold_max_ms":119.592,"distance":0,"draws_median":129,"fps_mean":60,"frames":300,"full_quality":true,"ground_chunks":21,"max_ms":18.806,"nodes":2215,"objects":11634,"p95_ms":17.31,"passed":true,"prop_visuals":0,"sample_seconds":5,"scene":"deep_cave"}
+PERF fps=60 draws=126 objects=11884 nodes=2242 scene=interior
+PERF fps=60 draws=126 objects=11884 nodes=2242 scene=interior
+PERF fps=60 draws=126 objects=11884 nodes=2242 scene=interior
+PERF fps=60 draws=117 objects=11884 nodes=2242 scene=interior
+PERF fps=60 draws=117 objects=11884 nodes=2242 scene=interior
+PERF_SUMMARY {"block_chunks":48,"block_rebuilds":32,"cold_max_ms":17.635,"distance":0,"draws_median":126,"fps_mean":59.98,"frames":300,"full_quality":true,"ground_chunks":21,"max_ms":18.611,"nodes":2242,"objects":11884,"p95_ms":17.34,"passed":true,"prop_visuals":0,"sample_seconds":5,"scene":"interior"}
+PERF fps=60 draws=429 objects=12370 nodes=2420 scene=wildlife_combat
+PERF fps=60 draws=414 objects=12364 nodes=2420 scene=wildlife_combat
+PERF fps=60 draws=419 objects=12370 nodes=2420 scene=wildlife_combat
+PERF fps=60 draws=412 objects=12364 nodes=2420 scene=wildlife_combat
+PERF fps=60 draws=416 objects=12364 nodes=2420 scene=wildlife_combat
+PERF_SUMMARY {"block_chunks":48,"block_rebuilds":42,"cold_max_ms":411.554,"distance":0,"draws_median":416,"fps_mean":60,"frames":300,"full_quality":true,"ground_chunks":24,"max_ms":25.831,"nodes":2420,"objects":12364,"p95_ms":17.29,"passed":true,"prop_visuals":165,"sample_seconds":5,"scene":"wildlife_combat"}
